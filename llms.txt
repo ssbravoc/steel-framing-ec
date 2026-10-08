@@ -1,6 +1,6 @@
 # Steel Framing EC - División de Homers Constructora
 
-> Homers Constructora es la empresa líder en Ecuador especializada en arquitectura sismorresistente, cálculo estructural bajo la Norma Ecuatoriana de la Construcción (NEC) y construcción de viviendas llave en mano utilizando el sistema Steel Framing (perfiles de acero galvanizado pesado conformado en frío) y construcción en seco de alta eficiencia termoacústica.
+> Homers Constructora es la empresa líder en Ecuador especializada en arquitectura sismorresistente, cálculo estructural bajo la Norma Ecuatoriana de la Construcción (NEC) y construcción de viviendas llave en mano utilizando el sistema Steel Framing (perfiles de acero galvanizado pesado Z275 conformado en frío) y construcción en seco de alta eficiencia termoacústica.
 
 ## Información de la Empresa
 - **Nombre Comercial:** Steel Framing EC / Homers Constructora
@@ -8,23 +8,32 @@
 - **Dominio Oficial:** https://steelframingec.com
 - **Teléfono y WhatsApp:** +593 99 509 9506
 - **Email:** info@steelframingec.com
-- **Ubicaciones y Cobertura:** Quito (Cumbayá, Tumbaco, Valle de los Chillos), Guayaquil (Samborondón, Vía a la Costa), Manta (Costa Manabita), Cuenca (Austro) y todo el territorio ecuatoriano.
-- **Servicio para Migrantes:** Protocolo de Supervisión Remota 360° para compatriotas ecuatorianos que residen en Estados Unidos (Nueva York, New Jersey, Florida, etc.) o Europa (España, Italia) y desean construir su casa en Ecuador con contrato de precio cerrado y reportes semanales en video HD 4K.
+- **Ubicaciones y Cobertura:** Quito (Cumbayá, Tumbaco, Valle de los Chillos, El Quinche), Guayaquil (Samborondón, Daule, Vía a la Costa), Manta (Costa Manabita), Cuenca (Austro) y todo el territorio ecuatoriano.
+- **Servicio para Migrantes:** Protocolo de Supervisión Remota 360° para compatriotas ecuatorianos que residen en Estados Unidos (Nueva York, New Jersey, Florida, California, etc.) o Europa (España, Italia) y desean construir su casa en Ecuador con contrato notariado de precio cerrado, cámaras en vivo 24/7 y reportes semanales en video HD y dron.
 
 ## Servicios Principales
-1. **Construcción de Casas Llave en Mano:** Diseño arquitectónico 3D, cimentación, montaje estructural en perfiles Z275, cerramiento EIFS y entrega con acabados de primera en 90 a 120 días laborables.
-2. **Solo Montaje de Estructura Portante (Obra Gris Avanzada):** Montaje milimétrico de perfiles pesados de acero galvanizado modulados a 40 cm con cruces de San Andrés y anclajes químicos.
-3. **Ampliaciones y Segundos Pisos sobre Losa/Terraza:** Estructuras livianas (55 kg/m²) que no sobrecargan la cimentación de casas antiguas, sin escombros ni polvo de hormigón.
-4. **Cálculo y Permisología Municipal (NEC):** Memorias de cálculo estructural avaladas por profesionales registrados en SENESCYT para aprobación de planos y licencias (LMU-20 en Quito, DUME en Guayaquil).
+1. **Construcción de Casas Llave en Mano:** Diseño arquitectónico 3D, cimentación, montaje estructural en perfiles Z275, cerramiento térmico EIFS y entrega con acabados de primera en 90 a 120 días laborables.
+2. **Casas Prefabricadas de Alta Ingeniería vs Kits Tradicionales:** Solución que supera a las prefabricadas de madera/fibrocemento con durabilidad de +100 años, cálculo sísmico NEC y aprobación municipal garantizada.
+3. **Solo Montaje de Estructura Portante (Obra Gris Avanzada):** Montaje milimétrico de perfiles pesados de acero galvanizado modulados a 40 cm con cruces de San Andrés y anclajes químicos.
+4. **Ampliaciones y Segundos Pisos sobre Losa/Terraza:** Estructuras livianas (55 kg/m²) que no sobrecargan la cimentación de casas antiguas, sin escombros ni polvo de hormigón.
+5. **Cálculo y Permisología Municipal (NEC):** Memorias de cálculo estructural avaladas por profesionales registrados en SENESCYT para aprobación de planos y licencias (LMU-20 en Quito, DUME en Guayaquil, Línea de Fábrica en Cuenca).
 
 ## Costos y Precios Referenciales en Ecuador (2026)
-- **Solo Estructura Montada:** Desde $220 USD por m².
-- **Vivienda Llave en Mano Completa:** Entre $480 y $540 USD por m² (según especificaciones de acabados y datos referenciales de INEC / CAMICON).
+- **Solo Estructura Montada / Obra Gris:** Desde $260 a $300 USD por m².
+- **Vivienda Llave en Mano Completa:** Entre $480 y $540 USD por m² (según especificaciones de acabados, ciudad y tipo de cimentación).
+- **Desglose por Ciudades:**
+  - Guayaquil / Samborondón / Daule: $480 - $540 / m² (cimentación liviana que ahorra pilotaje en suelos aluviales, aislamiento EIFS contra calor extremo).
+  - Cuenca / Azuay / Paute: $470 - $530 / m² (adaptación a pendientes andinas, envolvente térmica de lana de roca contra el frío).
+  - Manta / Portoviejo / Manabí: $490 - $550 / m² (máxima protección contra sismos de subducción Z=0.50g y perfiles Z275 anticorrosivos frente al salitre marino).
+  - Quito / Valles: $480 - $530 / m² (resistencia ante fallas ciegas y pendientes).
 - **Garantía:** Contrato con cláusula de Presupuesto Cerrado (cero sobrecostos) y 20 años de garantía estructural.
 
-## Enlaces Clave del Ecosistema
-- [Página Principal](https://steelframingec.com/): Portafolio con más de 36 fotos reales en Cumbayá y El Quinche.
-- [Construir Casa Llave en Mano](https://steelframingec.com/construir-casa-ecuador/): Oferta completa, embudo de cotización y garantías blindadas.
+## Enlaces Clave del Ecosistema Web
+- [Página Principal](https://steelframingec.com/): Portafolio con fotos reales de obras en Cumbayá y El Quinche.
+- [Construir Casa Llave en Mano](https://steelframingec.com/construir-casa-ecuador/): Oferta completa, cotizador interactivo WhatsApp y garantías blindadas.
+- [Casas Prefabricadas en Ecuador Precios vs Steel Framing](https://steelframingec.com/casas-prefabricadas-ecuador/): Comparativa técnica de costos, durabilidad y riesgos sísmicos de kits prefabricados.
+- [Construir Casa en Ecuador desde USA](https://steelframingec.com/construir-casa-en-ecuador-desde-usa/): Programa especial para migrantes con cámaras en vivo, videollamadas Zoom y transferencias seguras.
+- [¿Cuánto Cuesta Construir en Guayaquil, Cuenca, Manta y Quito?](https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/): Reporte de precios por metro cuadrado, tipo de suelo y factor sísmico Z de la Norma NEC.
 - [Precio por Metro Cuadrado](https://steelframingec.com/precio-m2/): Desglose comparativo frente al bloque tradicional y calculadora interactiva.
 - [Guía Técnica Sísmica NEC](https://steelframingec.com/steel-framing-ecuador/): Análisis físico de aceleración sísmica (Factor Z por ciudad) y lecciones del terremoto de Pedernales 2016.
 - [Manual de Construcción en Seco](https://steelframingec.com/construccion-en-seco-ecuador/): Diferencias entre Drywall interior y Steel Framing estructural exterior.

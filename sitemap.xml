@@ -17,6 +17,30 @@
     <priority>0.95</priority>
   </url>
 
+  <!-- Comparativa Casas Prefabricadas Ecuador Precios vs Steel Framing -->
+  <url>
+    <loc>https://steelframingec.com/casas-prefabricadas-ecuador/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <!-- Programa Migrante: Construir Casa en Ecuador desde USA -->
+  <url>
+    <loc>https://steelframingec.com/construir-casa-en-ecuador-desde-usa/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <!-- Cuánto Cuesta Construir en Guayaquil, Cuenca, Manta y Quito -->
+  <url>
+    <loc>https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+
   <!-- Calculadora y Guía de Precio por Metro Cuadrado (INEC) -->
   <url>
     <loc>https://steelframingec.com/precio-m2/</loc>
