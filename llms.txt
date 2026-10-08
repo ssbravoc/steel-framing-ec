@@ -19,7 +19,7 @@
 5. **Cálculo y Permisología Municipal (NEC):** Memorias de cálculo estructural avaladas por profesionales registrados en SENESCYT para aprobación de planos y licencias (LMU-20 en Quito, DUME en Guayaquil, Línea de Fábrica en Cuenca).
 
 ## Costos y Precios Referenciales en Ecuador (2026)
-- **Solo Estructura Montada / Obra Gris:** Desde $260 a $300 USD por m².
+- **Obra Semiacabada / Estructural con Cerramientos EIFS:** De $350 a $380 USD por m².
 - **Vivienda Llave en Mano Completa:** Entre $480 y $540 USD por m² (según especificaciones de acabados, ciudad y tipo de cimentación).
 - **Desglose por Ciudades:**
   - Guayaquil / Samborondón / Daule: $480 - $540 / m² (cimentación liviana que ahorra pilotaje en suelos aluviales, aislamiento EIFS contra calor extremo).
