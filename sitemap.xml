@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Página Principal / Landing de Marca -->
+  <url>
+    <loc>https://steelframingec.com/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Página de Ventas & Cotización de Casas Llave en Mano -->
+  <url>
+    <loc>https://steelframingec.com/construir-casa-ecuador/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Calculadora y Guía de Precio por Metro Cuadrado (INEC) -->
+  <url>
+    <loc>https://steelframingec.com/precio-m2/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Guía Técnica y Sismorresistente NEC (Factor Z por Ciudad) -->
+  <url>
+    <loc>https://steelframingec.com/steel-framing-ecuador/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Manual Maestro de Construcción en Seco y Comparativas -->
+  <url>
+    <loc>https://steelframingec.com/construccion-en-seco-ecuador/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+</urlset>
