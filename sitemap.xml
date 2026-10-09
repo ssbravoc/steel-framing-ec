@@ -121,4 +121,28 @@
     <priority>0.92</priority>
   </url>
 
+  <!-- Steel Framing en Guayaquil, Samborondón y Vía a la Costa -->
+  <url>
+    <loc>https://steelframingec.com/steel-framing-guayaquil/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <!-- Steel Framing en Cuenca, Azuay y el Austro -->
+  <url>
+    <loc>https://steelframingec.com/steel-framing-cuenca/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Steel Framing en Manta, Portoviejo y Manabí -->
+  <url>
+    <loc>https://steelframingec.com/steel-framing-manta/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
 </urlset>
