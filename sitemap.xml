@@ -113,4 +113,12 @@
     <priority>0.92</priority>
   </url>
 
+  <!-- ¿Qué es el Steel Framing? Guía Técnica Completa, Capas y Normativa -->
+  <url>
+    <loc>https://steelframingec.com/que-es-steel-framing/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+
 </urlset>
