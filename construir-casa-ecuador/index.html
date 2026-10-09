@@ -644,19 +644,19 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <!-- Video 1: Cumbayá Explicativo 10 min -->
+          <!-- Video 1: Cumbayá Explicativo 10 min (Facade Web Vitals) -->
           <div class="bg-slate-800/80 rounded-2xl p-4 border border-slate-700 shadow-md flex flex-col justify-between">
             <div>
-              <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-950 mb-4">
-                <iframe 
-                  class="w-full h-full" 
-                  src="https://www.youtube-nocookie.com/embed/GvatX8B9t48?start=2" 
-                  title="Estructura Steel Framing Cumbayá Quito - Arq. Sergio Bravo" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowfullscreen 
-                  loading="lazy">
-                </iframe>
+              <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-950 mb-4 group cursor-pointer video-facade" data-video-id="GvatX8B9t48?start=2" onclick="playVideoFacade(this)">
+                <img src="https://img.youtube.com/vi/GvatX8B9t48/hqdefault.jpg" alt="Video Estructura Steel Framing Cumbayá" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300" loading="lazy">
+                <div class="absolute inset-0 bg-slate-950/40 group-hover:bg-slate-950/10 transition-colors flex items-center justify-center">
+                  <div class="w-16 h-16 rounded-full bg-red-600/90 group-hover:bg-red-600 text-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                    <svg class="w-7 h-7 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </div>
+                </div>
+                <div class="absolute bottom-2 left-2 bg-slate-900/90 text-white text-[11px] font-bold px-2 py-0.5 rounded backdrop-blur-sm">
+                  10:14 • Explicación Técnica
+                </div>
               </div>
               <span class="text-[11px] font-extrabold uppercase tracking-wider text-amber-400 block mb-1">
                 <i class="fa-solid fa-graduation-cap mr-1"></i> Video T&eacute;cnico (10 min) &bull; Cumbay&aacute;
@@ -674,19 +674,19 @@
             </div>
           </div>
 
-          <!-- Video 2: Recorrido de Obra con Música -->
+          <!-- Video 2: Recorrido de Obra con Música (Facade Web Vitals) -->
           <div class="bg-slate-800/80 rounded-2xl p-4 border border-slate-700 shadow-md flex flex-col justify-between">
             <div>
-              <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-950 mb-4">
-                <iframe 
-                  class="w-full h-full" 
-                  src="https://www.youtube-nocookie.com/embed/oJYK8D8AeYo" 
-                  title="Recorrido Obra en Construcción Steel Framing Ecuador" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowfullscreen 
-                  loading="lazy">
-                </iframe>
+              <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-950 mb-4 group cursor-pointer video-facade" data-video-id="oJYK8D8AeYo" onclick="playVideoFacade(this)">
+                <img src="https://img.youtube.com/vi/oJYK8D8AeYo/hqdefault.jpg" alt="Video Recorrido de Obra Steel Framing Ecuador" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300" loading="lazy">
+                <div class="absolute inset-0 bg-slate-950/40 group-hover:bg-slate-950/10 transition-colors flex items-center justify-center">
+                  <div class="w-16 h-16 rounded-full bg-red-600/90 group-hover:bg-red-600 text-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                    <svg class="w-7 h-7 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </div>
+                </div>
+                <div class="absolute bottom-2 left-2 bg-slate-900/90 text-white text-[11px] font-bold px-2 py-0.5 rounded backdrop-blur-sm">
+                  Recorrido • Visual
+                </div>
               </div>
               <span class="text-[11px] font-extrabold uppercase tracking-wider text-blue-400 block mb-1">
                 <i class="fa-solid fa-video mr-1"></i> Recorrido de Obra &bull; Valles de Quito
@@ -1186,6 +1186,21 @@
 
       const url = `https://wa.me/593995099506?text=${texto}`;
       window.open(url, '_blank');
+    }
+
+    // Facade de YouTube de Alto Rendimiento para Core Web Vitals (LCP / INP)
+    function playVideoFacade(element) {
+      const videoId = element.getAttribute('data-video-id');
+      if (!videoId) return;
+      const iframe = document.createElement('iframe');
+      iframe.setAttribute('src', `https://www.youtube-nocookie.com/embed/${videoId}${videoId.includes('?') ? '&' : '?'}autoplay=1`);
+      iframe.setAttribute('class', 'w-full h-full');
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      iframe.setAttribute('allowfullscreen', '1');
+      element.innerHTML = '';
+      element.appendChild(iframe);
+      element.onclick = null;
     }
   </script>
 

@@ -386,18 +386,18 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-                <!-- Video 1: Explicación Técnica Cumbayá (10 min) -->
+                <!-- Video 1: Explicación Técnica Cumbayá (10 min) (Facade) -->
                 <div class="bg-slate-800/80 rounded-2xl p-4 sm:p-5 border border-slate-700 shadow-2xl">
-                    <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-950 mb-4 shadow-inner">
-                        <iframe 
-                            class="w-full h-full" 
-                            src="https://www.youtube-nocookie.com/embed/GvatX8B9t48?start=2" 
-                            title="Estructura de Casa en Steel Framing en Cumbayá Quito - Arq. Sergio Bravo" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen 
-                            loading="lazy">
-                        </iframe>
+                    <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-950 mb-4 shadow-inner group cursor-pointer video-facade" data-video-id="GvatX8B9t48?start=2" onclick="playVideoFacade(this)">
+                        <img src="https://img.youtube.com/vi/GvatX8B9t48/hqdefault.jpg" alt="Video Estructura Steel Framing Cumbayá Quito" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300" loading="lazy">
+                        <div class="absolute inset-0 bg-slate-950/40 group-hover:bg-slate-950/10 transition-colors flex items-center justify-center">
+                            <div class="w-16 h-16 rounded-full bg-red-600/90 group-hover:bg-red-600 text-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                                <svg class="w-7 h-7 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-2 left-2 bg-slate-900/90 text-white text-[11px] font-bold px-2 py-0.5 rounded backdrop-blur-sm">
+                            10:14 • Explicación Técnica
+                        </div>
                     </div>
                     <div class="flex items-center gap-2 mb-2">
                         <span class="bg-amber-500 text-slate-900 text-[11px] font-black uppercase px-2 py-0.5 rounded">Explicaci&oacute;n T&eacute;cnica (10 min)</span>
@@ -411,18 +411,18 @@
                     </p>
                 </div>
 
-                <!-- Video 2: Recorrido de Obra en Construcción -->
+                <!-- Video 2: Recorrido de Obra en Construcción (Facade) -->
                 <div class="bg-slate-800/80 rounded-2xl p-4 sm:p-5 border border-slate-700 shadow-2xl">
-                    <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-950 mb-4 shadow-inner">
-                        <iframe 
-                            class="w-full h-full" 
-                            src="https://www.youtube-nocookie.com/embed/k1jMxedQR_I?start=11" 
-                            title="Recorrido de Obra en Construcción Steel Framing Quito" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen 
-                            loading="lazy">
-                        </iframe>
+                    <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-950 mb-4 shadow-inner group cursor-pointer video-facade" data-video-id="k1jMxedQR_I?start=11" onclick="playVideoFacade(this)">
+                        <img src="https://img.youtube.com/vi/k1jMxedQR_I/hqdefault.jpg" alt="Video Recorrido Obra Steel Framing Quito" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300" loading="lazy">
+                        <div class="absolute inset-0 bg-slate-950/40 group-hover:bg-slate-950/10 transition-colors flex items-center justify-center">
+                            <div class="w-16 h-16 rounded-full bg-red-600/90 group-hover:bg-red-600 text-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                                <svg class="w-7 h-7 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-2 left-2 bg-slate-900/90 text-white text-[11px] font-bold px-2 py-0.5 rounded backdrop-blur-sm">
+                            Recorrido • Visual
+                        </div>
                     </div>
                     <div class="flex items-center gap-2 mb-2">
                         <span class="bg-blue-600 text-white text-[11px] font-black uppercase px-2 py-0.5 rounded">Recorrido de Obra</span>
@@ -805,6 +805,21 @@
     <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20estoy%20interesado%20en%20construir%20con%20Steel%20Framing%20en%20Quito" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition duration-300" aria-label="Contactar por WhatsApp">
         <i class="fa-brands fa-whatsapp text-3xl"></i>
     </a>
-
+    <!-- Script Facade YouTube para Core Web Vitals -->
+    <script>
+      function playVideoFacade(element) {
+        const videoId = element.getAttribute('data-video-id');
+        if (!videoId) return;
+        const iframe = document.createElement('iframe');
+        iframe.setAttribute('src', `https://www.youtube-nocookie.com/embed/${videoId}${videoId.includes('?') ? '&' : '?'}autoplay=1`);
+        iframe.setAttribute('class', 'w-full h-full');
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+        iframe.setAttribute('allowfullscreen', '1');
+        element.innerHTML = '';
+        element.appendChild(iframe);
+        element.onclick = null;
+      }
+    </script>
 </body>
 </html>
