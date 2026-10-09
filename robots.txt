@@ -1,27 +1,49 @@
 User-agent: *
 Allow: /
 
-# Motores de Busqueda e Inteligencia Artificial (GEO)
+# Motores de Busqueda e Inteligencia Artificial (GEO / AEO)
+# Permite a los rastreadores de OpenAI (ChatGPT, SearchGPT) indexar y citar el sitio
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic Claude
 User-agent: Claude-Web
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Applebot-Extended
-Allow: /
-
+# Google Gemini / Google Extended
 User-agent: Google-Extended
 Allow: /
 
-# Sitemap
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# CoHere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta Llama
+User-agent: FacebookBot
+Allow: /
+
+# Sitemap oficial e IndexNow
 Sitemap: https://steelframingec.com/sitemap.xml
