@@ -500,3 +500,28 @@
 - URL: https://steelframingec.com/blog/ensayos-laboratorio-traccion-acero-galvanizado-inen/
 - Resumen Ejecutivo: Ensayos de tracciÃ³n uniaxial, lÃ­mite de fluencia Fy 230 MPa, doblado a 180Â° y masa de recubrimiento Z275 (275 g/mÂ²) bajo NTE INEN y ASTM A653.
 - Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SE-AC e INEN.
+
+### Lana de Vidrio vs Lana de Roca en Steel Framing (Ecuador)
+- URL: https://steelframingec.com/blog/aislamiento-lana-vidrio-vs-lana-roca-ecuador-acustica/
+- Resumen Ejecutivo: Comparativa tÃ©cnica de conductividad tÃ©rmica, densidad acÃºstica (12 vs 100 kg/mÂ³) y resistencia al fuego hasta 1000 Â°C segÃºn ASTM E119.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SB-IE y ASTM.
+
+### Placas de Fibrocemento vs Yeso RH: Zonas HÃºmedas y Fachadas
+- URL: https://steelframingec.com/blog/placas-fibrocemento-vs-yeso-rh-zonas-humedas-exteriores/
+- Resumen Ejecutivo: Criterios periciales para especificar yeso hidrÃ³fugo vs fibrocemento autoclavado Superboard en duchas, aleros y fachadas expuestas.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SB-IE y ASTM.
+
+### CÃ³mo Eliminar los Puentes TÃ©rmicos en Steel Framing con EIFS
+- URL: https://steelframingec.com/blog/puentes-termicos-steel-framing-aislamiento-eifs-continuo/
+- Resumen Ejecutivo: La fÃ­sica de la envolvente continua exterior de EPS de alta densidad que evita el ghosting interior y reduce 30% la pÃ©rdida de climatizaciÃ³n.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SB-IE y ASTM.
+
+### Barrera de Viento y Agua (Weather Barrier) tipo Tyvek
+- URL: https://steelframingec.com/blog/barrera-viento-agua-membrana-hidrofuga-tyvek-ventilacion/
+- Resumen Ejecutivo: Membranas microporosas de polietileno spunbonded que permiten evacuar el vapor interior bloqueando la lluvia impulsada por viento.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SB-IE y ASTM.
+
+### Instalaciones ElÃ©ctricas y Corrientes DÃ©biles en Steel Framing
+- URL: https://steelframingec.com/blog/instalaciones-electricas-corriente-debil-steel-framing-normas/
+- Resumen Ejecutivo: Seguridad elÃ©ctrica bajo NEC-SB-IE, pasacables grommets en troqueles de acero Z275, jaula de Faraday equipotencial y cableado estructurado.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SB-IE y ASTM.
