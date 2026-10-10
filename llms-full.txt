@@ -151,7 +151,7 @@ Una gran porción de clientes de Homers Constructora son ciudadanos ecuatorianos
 - **Problema que Resuelve:** Evita la estafa común donde el migrante envía dinero a familiares o maestros mayores informales, quienes desvían los fondos o construyen estructuras de bloque sin planos ni permisos que luego son clausuradas por el municipio.
 - **Protocolo de Transparencia Homers:**
   1. Contrato legal de construcción con precio fijo notariado o gestionado mediante poder especial otorgado en el consulado del Ecuador.
-  2. Informes audiovisuales semanales con dron y video HD donde el Arq. Sergio Bravo explica el avance técnico de cada hito constructivo.
+  2. Informes semanales de avance con videos explicativos y fotografías en obra donde el Arq. Sergio Bravo explica el avance técnico de cada hito constructivo.
   3. Cámara de monitoreo en obra y reuniones quincenales por videollamada para toma de decisiones y selección de acabados.
   4. Canal de pago transparente mediante transferencias bancarias internacionales directas a la cuenta de la empresa en Ecuador, con emisión de facturas electrónicas autorizadas por el SRI.
 
