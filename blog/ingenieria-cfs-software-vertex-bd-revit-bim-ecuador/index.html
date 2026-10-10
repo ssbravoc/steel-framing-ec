@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TMF2MKZ3');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Arq. Sergio Bravo - Homers Constructora">
+
+    <!-- SEO On-Page de Alta Jerarquía -->
+    <title>Software BIM y Modelado 3D en Steel Framing: De Vertex BD y Revit a la Fabricación Milimétrica en Ecuador | Homers Constructora</title>
+    <meta name="description" content="Descubre cómo el modelado BIM Nivel 3 con Vertex BD y Autodesk Revit transforma el diseño y la fabricación milimétrica de perfiles de acero galvanizado estructural Z275 en Ecuador. Cero colisiones en obra, archivos CNC directos y planos de taller suscritos por el Arq. Sergio Bravo.">
+    <meta name="keywords" content="software bim steel framing ecuador, vertex bd revit strucsoft mwf cfs, fabricacion cnc acero galvanizado estructural z275, clash detection instalaciones hidrosanitarias ecuador, planos de taller shop drawings sismorresistente nec, homers constructora">
+    <link rel="canonical" href="https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/">
+
+    <!-- Open Graph & Twitter Cards -->
+    <meta property="og:title" content="Software BIM y Modelado 3D en Steel Framing: De Vertex BD y Revit a la Fabricación Milimétrica en Ecuador">
+    <meta property="og:description" content="Ingeniería BIM avanzada para construcción en seco: modelado paramétrico de perfiles PGC/PGU Z275, detección automática de colisiones y exportación CNC en Ecuador.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/">
+    <meta property="og:image" content="https://steelframingec.com/img/cumbaya/12%20casa-steel-framing-quito-cumbaya.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../img/homers-logo.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0B192C',
+                            dark: '#1E3E62',
+                            primary: '#0056B3',
+                            accent: '#FF6500',
+                            accentHover: '#E05A00',
+                            light: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org Rich Snippets JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://steelframingec.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog Técnico",
+              "item": "https://steelframingec.com/blog-y-recursos.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Software BIM en Steel Framing: Vertex BD y Revit",
+              "item": "https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/#article",
+          "headline": "Software BIM y Modelado 3D en Steel Framing: De Vertex BD y Revit a la Fabricación Milimétrica en Ecuador",
+          "description": "Análisis pericial del modelado BIM Nivel 3 (DfMA) en construcción en seco con perfiles PGC/PGU de acero galvanizado estructural Z275 mediante Vertex BD y Revit. Cero colisiones y automatización CNC.",
+          "image": "https://steelframingec.com/img/cumbaya/12%20casa-steel-framing-quito-cumbaya.jpg",
+          "datePublished": "2026-10-10",
+          "dateModified": "2026-10-10",
+          "author": {
+            "@type": "Person",
+            "name": "Arq. Sergio Bravo",
+            "jobTitle": "Director Técnico de Homers Constructora",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Homers Constructora"
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Homers Constructora",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://steelframingec.com/img/homers-logo.png"
+            }
+          },
+          "mainEntityOfPage": "https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/"
+        },
+        {
+          "@type": "GeneralContractor",
+          "name": "Homers Constructora - Steel Framing EC",
+          "description": "Empresa constructora líder en Ecuador especializada in ingeniería BIM, diseño paramétrico de perfiles de acero galvanizado estructural Z275 y ejecución de proyectos llave en mano.",
+          "url": "https://steelframingec.com/",
+          "telephone": "+593995099506",
+          "email": "homersarquitectura@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Quito",
+            "addressRegion": "Pichincha",
+            "addressCountry": "EC"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Por qué es fundamental el software especializado como Vertex BD o Revit en Steel Framing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A diferencia de la construcción tradicional de hormigón donde los errores se corrigen en obra picando paredes, el Steel Framing requiere ingeniería DfMA (Diseño para Fabricación y Ensamblaje). Programas como Vertex BD y Autodesk Revit modelan cada montante PGC, canal PGU, cartela y tornillo en 3D, garantizando tolerancias milimétricas antes de fabricar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo se realiza la detección de colisiones (Clash Detection) en instalaciones?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El modelo BIM integra los perfiles estructurales de acero galvanizado estructural Z275 con las redes hidrosanitarias, ductos de climatización y tuberías eléctricas. El software detecta intersecciones físicas antes de cortar el acero, permitiendo resolver interferencias en la pantalla y evitando costosas demoras en obra."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo se vincula el modelo BIM con las perfiladoras automáticas (CNC)?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Una vez validado el modelo paramétrico, el software exporta archivos de control numérico (CSV / G-code / formatos nativos de perfiladoras Rollformer) que contienen las longitudes exactas de corte, la ubicación milimétrica de perforaciones (punchouts) para paso de tuberías y la impresión de etiquetas de ensamblaje en cada pieza."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué documentación técnica se entrega para la aprobación municipal y construcción?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Se entregan planos arquitectónicos, planos de taller (Shop Drawings) detallados por panel, despiece milimétrico para montaje y memorias de cálculo sismorresistente bajo norma NEC-SE-AC y AISI S100, firmadas y suscritas por el Arq. Sergio Bravo."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-slate-700/50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                <span><strong>Ingeniería BIM Nivel 3 (DfMA):</strong> Software Vertex BD y Revit para Steel Framing de alta precisión en Ecuador.</span>
+            </span>
+            <div class="flex items-center space-x-4">
+                <a href="tel:+593995099506" class="hover:text-amber-400 transition flex items-center gap-1.5 font-medium"><i class="fa-solid fa-phone text-[10px]"></i> +593 99 509 9506</a>
+                <span class="text-slate-500">|</span>
+                <span class="text-slate-300">Dirección Técnica: Arq. Sergio Bravo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="../../index.html" class="flex items-center gap-3 group">
+                    <img src="../../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">División Técnica de Homers Constructora</span>
+                    </div>
+                </a>
+
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="../../index.html" class="hover:text-blue-900 transition">&larr; Inicio</a>
+                    <a href="#digitalizacion-bim" class="hover:text-blue-900 transition">BIM Nivel 3</a>
+                    <a href="#vertex-revit" class="hover:text-blue-900 transition">Vertex BD &amp; Revit</a>
+                    <a href="#clash-detection" class="hover:text-blue-900 transition">Clash Detection</a>
+                    <a href="#cnc-fabricacion" class="hover:text-blue-900 transition">Control CNC</a>
+                    <a href="../../construir-casa-ecuador/index.html" class="bg-amber-500 hover:bg-amber-600 text-slate-900 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Proyecto</a>
+                </nav>
+
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20asesoria%20sobre%20modelado%20BIM%20y%20fabricacion%20CNC%20en%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <div class="bg-slate-100 py-3 border-b border-slate-200 text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2">
+            <a href="../../index.html" class="hover:text-blue-900 transition">Inicio</a>
+            <span class="text-slate-400">/</span>
+            <a href="../../blog-y-recursos.html" class="hover:text-blue-900 transition">Blog Técnico</a>
+            <span class="text-slate-400">/</span>
+            <span class="text-brand-navy font-semibold">Software BIM en Steel Framing: Vertex BD y Revit</span>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-gradient-to-b from-slate-900 via-brand-navy to-slate-900 text-white pt-16 pb-20 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#06b6d4_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 mb-6">
+                <i class="fa-solid fa-cube"></i> Artículo 46 &bull; Enjambre B2B y Construcción Industrializada
+            </div>
+            
+            <h1 class="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight mb-6">
+                Software BIM y Modelado 3D en Steel Framing: De Vertex BD y Revit a la Fabricación Milimétrica en Ecuador
+            </h1>
+            
+            <p class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto mb-8 font-normal leading-relaxed">
+                Descubra cómo la digitalización paramétrica de la construcción en seco (BIM Nivel 3 - DfMA) con <strong>Vertex BD</strong> y <strong>Autodesk Revit</strong> elimina la improvisación en obra, automatiza el corte CNC y garantiza viviendas sismorresistentes con perfiles de <strong>acero galvanizado estructural Z275</strong> en todo el Ecuador.
+            </p>
+
+            <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-300 border-t border-slate-800 pt-6">
+                <div class="flex items-center gap-2">
+                    <img src="../../img/homers-logo.png" alt="Arq. Sergio Bravo" class="w-8 h-8 rounded-full bg-white p-0.5 object-contain">
+                    <span class="font-bold text-white">Por Arq. Sergio Bravo</span>
+                </div>
+                <span>&bull;</span>
+                <div class="flex items-center gap-1.5">
+                    <i class="fa-regular fa-calendar text-amber-400"></i> Actualizado: Octubre 2026
+                </div>
+                <span>&bull;</span>
+                <div class="flex items-center gap-1.5">
+                    <i class="fa-regular fa-clock text-amber-400"></i> Lectura técnica: 10 min
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT & SIDEBAR CONTAINER -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+
+            <!-- ARTICLE BODY (8 COLUMNS) -->
+            <article class="lg:col-span-8 space-y-10 text-slate-700 leading-relaxed text-base">
+
+                <!-- Introduction Banner -->
+                <div class="bg-blue-50 border-l-4 border-blue-900 p-6 rounded-r-2xl shadow-sm space-y-3">
+                    <h2 class="font-heading font-bold text-lg text-blue-950 flex items-center gap-2">
+                        <i class="fa-solid fa-triangle-exclamation text-amber-500"></i> El Mito de la Obra Artesanal vs. la Ingeniería DfMA
+                    </h2>
+                    <p class="text-sm text-slate-700 leading-relaxed">
+                        Construir una estructura de acero conformado en frío (CFS) basándose en planos 2D tradicionales en CAD es inviable en el siglo XXI. En <strong>Homers Constructora</strong> implementamos la metodología <strong>DfMA (Design for Manufacturing and Assembly)</strong>, donde cada montante, viga y tornillo es simulado paramétricamente en entornos BIM antes de tocar el sitio de construcción en Ecuador.
+                    </p>
+                </div>
+
+                <!-- Section 1 -->
+                <section id="digitalizacion-bim" class="space-y-4">
+                    <h2 class="font-heading font-black text-2xl text-slate-900 tracking-tight pt-4">
+                        1. La Revolución del BIM Nivel 3 en la Construcción en Seco
+                    </h2>
+                    <p>
+                        La evolución tecnológica del sector inmobiliario en Ecuador exige abandonar los métodos empíricos. El modelado BIM Nivel 3 aplicado al Steel Framing permite centralizar toda la información del ciclo de vida del proyecto en un único entorno de datos coordinados (CDE). Los perfiles de <strong>acero galvanizado estructural Z275</strong> no son tratados como simples líneas geométricas, sino como objetos paramétricos inteligentes dotados de propiedades mecánicas, espesores, inercias y comportamiento ante cargas gravitacionales y sismorresistentes.
+                    </p>
+                    <p>
+                        Bajo los lineamientos de la norma ecuatoriana <strong>NEC-SE-AC</strong> y los estándares internacionales de la AISI (American Iron and Steel Institute), la ingeniería paramétrica optimiza la cantidad de metal necesario, reduciendo desperdicios en planta y asegurando que cada perfil cumpla con los coeficientes de seguridad exigidos.
+                    </p>
+                </section>
+
+                <!-- Section 2 -->
+                <section id="vertex-revit" class="space-y-4">
+                    <h2 class="font-heading font-black text-2xl text-slate-900 tracking-tight pt-4">
+                        2. Vertex BD vs. Autodesk Revit + StrucSoft MWF: Elección de Software Specialist
+                    </h2>
+                    <p>
+                        Para lograr una precisión milimétrica, en nuestra división técnica evaluamos y operamos las dos plataformas de referencia mundial:
+                    </p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-900 flex items-center justify-center font-bold text-lg">V</div>
+                                <h3 class="font-heading font-bold text-lg text-slate-900">Vertex BD</h3>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Software nativo de origen finlandés especializado en Steel Framing y entramados de madera. Es el estándar de oro para la automatización industrial: genera de manera automática paneles, paneles compuestos, cerchas (trusses) y losas colaborantes, exportando código CNC directo a perfiladoras automáticas.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-900 flex items-center justify-center font-bold text-lg">R</div>
+                                <h3 class="font-heading font-bold text-lg text-slate-900">Revit + StrucSoft MWF</h3>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Combinación ideal para proyectos arquitectónicos complejos donde convergen hormigón, estructuras metálicas pesadas y Steel Framing. StrucSoft Metal Wood Framer (MWF) doma Revit para convertir muros arquitectónicos en paneles detallados de acero conformado en frío con total control de aberturas y uniones.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 3 -->
+                <section id="clash-detection" class="space-y-4">
+                    <h2 class="font-heading font-black text-2xl text-slate-900 tracking-tight pt-4">
+                        3. Detección Automática de Colisiones (Clash Detection): Cero Improvisaciones en Sitio
+                    </h2>
+                    <p>
+                        Uno de los mayores dolores de cabeza en la construcción convencional en Ecuador es descubrir interferencias entre la estructura y las instalaciones durante el levantamiento de paredes (por ejemplo, romper montantes estructurales para pasar tuberías de desagüe de 110 mm).
+                    </p>
+                    <p>
+                        Con el modelado BIM, ejecutamos rutinas automatizadas de <strong>Clash Detection</strong> cruzando el modelo estructural de perfiles PGC/PGU con:
+                    </p>
+                    <ul class="list-disc pl-6 space-y-2 text-slate-700">
+                        <li><strong>Instalaciones Hidrosanitarias:</strong> Tuberías de agua potable y desagües pluviales y servidas, previendo cartelas de refuerzo y pasos (punchouts) milimétricos en el alma del perfil.</li>
+                        <li><strong>Climatización y Ventilación:</strong> Ductos de aire acondicionado y extracción mecánica en edificaciones comerciales y residenciales de alta gama.</li>
+                        <li><strong>Circuitos Eléctricos y Datos:</strong> Bandejas portacables, cajas de registro y pasos de tubería flexible corrugada sin debilitar la capacidad portante del panel.</li>
+                    </ul>
+                </section>
+
+                <!-- Section 4 -->
+                <section id="cnc-fabricacion" class="space-y-4">
+                    <h2 class="font-heading font-black text-2xl text-slate-900 tracking-tight pt-4">
+                        4. Generación de Archivos CNC y Fabricación Milimétrica
+                    </h2>
+                    <p>
+                        La magia de la industrialización radica en la transición directa del archivo digital a la máquina perfiladora (Rollformer). El software BIM exporta archivos de control numérico (CSV / G-code) que alimentan la línea de producción:
+                    </p>
+                    <div class="bg-slate-900 text-slate-100 p-6 rounded-2xl shadow-md space-y-3">
+                        <h4 class="font-heading font-bold text-amber-400 text-sm uppercase tracking-wider">Proceso Automatizado Rollformer</h4>
+                        <ol class="list-decimal pl-5 space-y-2 text-xs text-slate-300">
+                            <li><strong>Corte Longitudinal Exacto:</strong> La bobina de acero galvanizado estructural Z275 es cortada milimétricamente a la longitud precisa de cada montante PGC.</li>
+                            <li><strong>Troquelado de Perforaciones (Punchouts):</strong> Se ejecutan los agujeros circulares u ovalados en el alma para el paso de instalaciones eléctricas e hidrosanitarias exactamente donde el modelo BIM lo dictó.</li>
+                            <li><strong>Impresión de Etiquetas (Inkjet Stamping):</strong> Cada perfil sale de la máquina con una etiqueta adhesiva o impresión directa que indica su código de panel, posición y secuencia de montaje, facilitando un armado tipo LEGO en obra.</li>
+                        </ol>
+                    </div>
+                </section>
+
+                <!-- Contextual Links Box -->
+                <div class="bg-amber-50 border border-amber-200 p-6 rounded-2xl space-y-3">
+                    <h3 class="font-heading font-bold text-amber-900 text-base">¿Desea evaluar la factibilidad técnica y económica de su próximo proyecto?</h3>
+                    <p class="text-xs text-amber-800 leading-relaxed">
+                        En Homers Constructora combinamos ingeniería de vanguardia con contratos de precio fijo. Lo invitamos a revisar nuestros protocolos y opciones de contratación:
+                    </p>
+                    <div class="flex flex-wrap gap-4 pt-1">
+                        <a href="../../diagnostico-proyecto/index.html" class="inline-flex items-center gap-1.5 text-xs font-bold bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-xl transition">
+                            <i class="fa-solid fa-stethoscope"></i> Diagnóstico de Proyecto &rarr;
+                        </a>
+                        <a href="../../precio-m2/index.html" class="inline-flex items-center gap-1.5 text-xs font-bold bg-blue-900 hover:bg-blue-950 text-white px-4 py-2 rounded-xl transition">
+                            <i class="fa-solid fa-calculator"></i> Ver Precios por m² (Semiacabada y Llave en Mano) &rarr;
+                        </a>
+                        <a href="../../zonas-de-cobertura.html" class="inline-flex items-center gap-1.5 text-xs font-bold bg-slate-800 hover:bg-slate-900 text-white px-4 py-2 rounded-xl transition">
+                            <i class="fa-solid fa-map-location-dot"></i> Zonas de Cobertura en Ecuador &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Section 5 -->
+                <section class="space-y-4">
+                    <h2 class="font-heading font-black text-2xl text-slate-900 tracking-tight pt-4">
+                        5. Documentación Técnica Entregada: Planos de Taller y Sismorresistencia
+                    </h2>
+                    <p>
+                        A diferencia de constructores empíricos que entregan bocetos superficiales, cada proyecto ejecutado por Homers Constructora bajo dirección del Arq. Sergio Bravo incluye un dossier técnico completo exigido por los municipios y entidades financieras (BIESS y banca privada):
+                    </p>
+                    <ul class="list-disc pl-6 space-y-2 text-slate-700">
+                        <li><strong>Planos Arquitectónicos y de Distribución:</strong> Optimizados para la modulatura estricta de 40 cm o 60 cm del Steel Framing.</li>
+                        <li><strong>Shop Drawings (Planos de Taller):</strong> Despiece milimétrico panel por panel, indicando ubicación de tornillería T2/T3, cartelas de arriostramiento y anclajes químicos a la losa de cimentación.</li>
+                        <li><strong>Memoria de Cálculo Sismorresistente:</strong> Análisis espectral bajo la Norma Ecuatoriana de la Construcción (<strong>NEC-SE-AC</strong> y <strong>NEC-SE-DS</strong>) y el manual internacional AISI S100, garantizando un comportamiento óptimo ante sismos severos.</li>
+                    </ul>
+                </section>
+
+                <!-- FAQ Section -->
+                <section class="space-y-6 pt-6 border-t border-slate-200">
+                    <h2 class="font-heading font-black text-2xl text-slate-900 tracking-tight">
+                        Preguntas Frecuentes sobre Software BIM en Steel Framing
+                    </h2>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                            <h3 class="font-heading font-bold text-slate-900 text-sm">¿Por qué es fundamental el software especializado como Vertex BD o Revit en Steel Framing?</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                A diferencia de la construcción tradicional de hormigón donde los errores se corrigen en obra picando paredes, el Steel Framing requiere ingeniería DfMA (Diseño para Fabricación y Ensamblaje). Programas como Vertex BD y Autodesk Revit modelan cada montante PGC, canal PGU, cartela y tornillo en 3D, garantizando tolerancias milimétricas antes de fabricar.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                            <h3 class="font-heading font-bold text-slate-900 text-sm">¿Cómo se realiza la detección de colisiones (Clash Detection) en instalaciones?</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                El modelo BIM integra los perfiles estructurales de acero galvanizado estructural Z275 con las redes hidrosanitarias, ductos de climatización y tuberías eléctricas. El software detecta intersecciones físicas antes de cortar el acero, permitiendo resolver interferencias en la pantalla y evitando costosas demoras en obra.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                            <h3 class="font-heading font-bold text-slate-900 text-sm">¿Cómo se vincula el modelo BIM con las perfiladoras automáticas (CNC)?</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Una vez validado el modelo paramétrico, el software exporta archivos de control numérico (CSV / G-code / formatos nativos de perfiladoras Rollformer) que contienen las longitudes exactas de corte, la ubicación milimétrica de perforaciones (punchouts) para paso de tuberías y la impresión de etiquetas de ensamblaje en cada pieza.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+                            <h3 class="font-heading font-bold text-slate-900 text-sm">¿Qué documentación técnica se entrega para la aprobación municipal y construcción?</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Se entregan planos arquitectónicos, planos de taller (Shop Drawings) detallados por panel, despiece milimétrico para montaje y memorias de cálculo sismorresistente bajo norma NEC-SE-AC y AISI S100, firmadas y suscritas por el Arq. Sergio Bravo.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Target Autor Exacto -->
+                <div class="bg-slate-900 text-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center gap-6 mt-12 mb-8 border border-slate-800">
+                    <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-amber-500 to-amber-300 p-1 flex-shrink-0 shadow-lg">
+                        <div class="w-full h-full rounded-full bg-slate-950 flex items-center justify-center text-3xl font-heading font-black text-amber-400">SB</div>
+                    </div>
+                    <div class="space-y-2 text-center sm:text-left">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Especialista en construcción en steel framing</span>
+                        <h3 class="font-heading font-black text-xl text-white">Arq. Sergio Bravo</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Especialista en construcción en steel framing, director técnico de <strong>Homers Constructora</strong>.
+                        </p>
+                        <div class="pt-2 flex flex-wrap gap-3 justify-center sm:justify-start">
+                            <a href="../../construir-casa-ecuador/index.html" class="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1">Ver proyectos llave en mano &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- SIDEBAR (4 COLUMNS) -->
+            <aside class="lg:col-span-4 space-y-8">
+
+                <!-- Sticky Sidebar Card -->
+                <div class="sticky top-28 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                    
+                    <!-- Precios Oficiales Banner -->
+                    <div class="bg-gradient-to-br from-blue-950 to-brand-navy text-white p-5 rounded-xl space-y-3">
+                        <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-500 text-slate-950 px-2.5 py-1 rounded-full">Tarifas Oficiales 2026</span>
+                        <h4 class="font-heading font-bold text-base">Inversión Steel Framing Ecuador</h4>
+                        <div class="space-y-2 text-xs pt-1 border-t border-slate-800">
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-300">Obra Semiacabada:</span>
+                                <strong class="text-amber-400 font-bold">$360 - $380 / m²</strong>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-300">Llave en Mano:</span>
+                                <strong class="text-amber-400 font-bold">$480 - $550 / m²</strong>
+                            </div>
+                        </div>
+                        <div class="pt-2">
+                            <a href="../../precio-m2/index.html" class="block w-full text-center bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold py-2 rounded-lg text-xs transition">
+                                Calcular Presupuesto Detallado &rarr;
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contacto Directo -->
+                    <div class="space-y-3 border-t border-slate-100 pt-5">
+                        <span class="font-heading font-bold text-xs uppercase tracking-wider text-slate-900 block">Contacto Directo</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Consulte directamente con nuestro director técnico para su proyecto inmobiliario en Quito, Cumbayá, Guayaquil o Cuenca.
+                        </p>
+                        <div class="space-y-2 text-xs">
+                            <a href="tel:+593995099506" class="flex items-center gap-2 text-slate-700 hover:text-amber-600 font-medium transition">
+                                <i class="fa-solid fa-phone text-amber-500"></i> +593 99 509 9506
+                            </a>
+                            <a href="mailto:homersarquitectura@gmail.com" class="flex items-center gap-2 text-slate-700 hover:text-amber-600 font-medium transition">
+                                <i class="fa-solid fa-envelope text-amber-500"></i> homersarquitectura@gmail.com
+                            </a>
+                        </div>
+                        <div class="pt-2">
+                            <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20asesoria%20sobre%20modelado%20BIM%20y%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-xs transition shadow-sm">
+                                <i class="fa-brands fa-whatsapp text-sm mr-1"></i> Chat con Arq. Sergio Bravo
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Articulos de Consultoria -->
+                    <div class="border-t border-slate-100 pt-5 space-y-3">
+                        <span class="font-heading font-bold text-xs uppercase tracking-wider text-slate-900 block">Artículos de Consultoría</span>
+                        
+                        <a href="../cirsoc-303-vs-norma-nec-ecuador-acero-conformado-frio/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Normativa Sísmica</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">CIRSOC 303 vs Norma NEC en Acero Conformado</h4>
+                        </a>
+
+                        <a href="../guia-paso-a-paso-construir-casa-ecuador/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Hoja de Ruta</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Guía Paso a Paso para Construir tu Casa en Ecuador</h4>
+                        </a>
+
+                        <a href="../construccion-industrializada-bim-vs-obra-artesanal/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Industrialización</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Construcción Industrializada BIM vs Obra Artesanal</h4>
+                        </a>
+                    </div>
+
+                    <!-- Enlaces de Jerarquia Web -->
+                    <div class="border-t border-slate-100 pt-5 space-y-2 text-xs">
+                        <span class="font-heading font-bold text-[11px] uppercase tracking-wider text-slate-400 block mb-2">Páginas Pilares de Homers</span>
+                        <div><a href="../../construir-casa-ecuador/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Construir Casa en Ecuador (Llave en Mano)</a></div>
+                        <div><a href="../../precio-m2/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Precio por m² Steel Framing Ecuador 2026</a></div>
+                        <div><a href="../../que-is-steel-framing/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> ¿Qué es el Steel Framing? Manual Completo</a></div>
+                        <div><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Steel Framing vs Hormigón y Bloque</a></div>
+                    </div>
+
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- FOOTER ESTANDARIZADO 4 COLUMNAS -->
+    <footer class="bg-slate-950 text-slate-400 py-14 border-t border-slate-800 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10">
+
+                <!-- Col 1: Empresa & Autoridad -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <img src="../../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
+                        <div>
+                            <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
+                            <span class="text-[10px] text-slate-400 block">División de Homers Constructora</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Arq. Sergio Bravo (SENESCYT) &bull; Construcción sismorresistente con contrato de precio fijo y dirección técnica diaria. Proyectos llave en mano en Ecuador.
+                    </p>
+                    <div class="space-y-1.5 text-xs text-slate-400 pt-1">
+                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garantía Estructural 20 Años</p>
+                        <p class="flex items-center gap-2"><a href="tel:+593995099506" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-phone text-amber-400"></i> +593 99 509 9506</a></p>
+                        <p class="flex items-center gap-2"><a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope text-amber-400"></i> homersarquitectura@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../construir-casa-ecuador/index.html" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Casa Llave en Mano</a></li>
+                        <li><a href="../../precio-m2/index.html" class="hover:text-white transition">Calculadora de Precio por m²</a></li>
+                        <li><a href="../../ampliacion-segundo-piso-ecuador/index.html" class="hover:text-white transition">Ampliación de Segundo Piso sobre Losa</a></li>
+                        <li><a href="../../construir-casa-en-ecuador-desde-usa/index.html" class="hover:text-white transition">Programa Construcción desde USA 🇺🇸</a></li>
+                        <li><a href="../../modelos-casas-steel-framing-ecuador/index.html" class="hover:text-white transition">Catálogo de Modelos y Diseños</a></li>
+                        <li><a href="../../credito-hipotecario-biess-steel-framing/index.html" class="hover:text-white transition">Crédito Hipotecario BIESS y Bancos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Guías Técnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Guías Técnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../que-es-steel-framing/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">¿Qué es Steel Framing? (Guía)</a></li>
+                        <li><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Hormigón y Bloque</a></li>
+                        <li><a href="../../steel-framing-ecuador/index.html" class="hover:text-white transition">Guía Técnica NEC Steel Framing</a></li>
+                        <li><a href="../../construccion-en-seco-ecuador/index.html" class="hover:text-white transition">Manual de Construcción en Seco</a></li>
+                        <li><a href="../../permisos-construccion-steel-framing-ecuador/index.html" class="hover:text-white transition">Permisos Municipales y Planos</a></li>
+                        <li><a href="../../casas-prefabricadas-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Casas Prefabricadas</a></li>
+                        <li class="pt-1"><a href="../../blog-y-recursos.html" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos Técnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Costos por Ciudad en Ecuador -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Costos por Ciudad en Ecuador</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../cuanto-cuesta-construir-en-ecuador/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">Costos por Ciudad en Ecuador</a></li>
+                        <li><a href="../../steel-framing-quito-ecuador/index.html" class="hover:text-white transition">Quito y Valles (Cumbayá / Puembo)</a></li>
+                        <li><a href="../../steel-framing-guayaquil/index.html" class="hover:text-white transition">Guayaquil y Samborondón</a></li>
+                        <li><a href="../../steel-framing-cuenca/index.html" class="hover:text-white transition">Cuenca y Azuay</a></li>
+                        <li><a href="../../steel-framing-manta/index.html" class="hover:text-white transition">Manta y Costa Manabita</a></li>
+                        <li><a href="../../steel-framing-loja/index.html" class="hover:text-white transition">Loja y Sierra Sur</a></li>
+                        <li class="pt-1"><a href="../../zonas-de-cobertura.html" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                    </ul>
+                    <div class="pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 text-white font-bold hover:bg-emerald-500 transition text-xs gap-1.5 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-8 border-t border-slate-900 text-center text-slate-400 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div>
+                    &copy; 2026 Homers Constructora Ecuador. Todos los derechos reservados.
+                </div>
+                <div class="text-[11px] text-slate-500">
+                    Cálculo estructural sismorresistente bajo norma NEC-SE-AC y perfiles de acero galvanizado estructural Z275.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Action Button -->
+    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20asesoria%20sobre%20modelado%20BIM%20y%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-transform duration-300" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+</html>

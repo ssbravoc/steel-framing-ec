@@ -550,3 +550,28 @@
 - URL: https://steelframingec.com/blog/centros-comerciales-locales-strip-malls-steel-framing/
 - Resumen Ejecutivo: Time-to-market comercial rÃ©cord en 60-75 dÃ­as, grandes luces libres sin columnas intermedias y redistribuciÃ³n rÃ¡pida de locales.
 - Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SE-AC y estÃ¡ndares B2B/EDGE.
+
+### Software BIM y Modelado 3D en Steel Framing: Vertex BD y Revit
+- URL: https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/
+- Resumen Ejecutivo: DiseÃ±o DfMA, detecciÃ³n de colisiones clash detection y exportaciÃ³n de archivos CNC para conformado milimÃ©trico de perfiles Z275.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SE-AC y estÃ¡ndares B2B e InversiÃ³n Inmobiliaria.
+
+### Paneles Industrializados Off-Site vs Montaje In-Situ en Ecuador
+- URL: https://steelframingec.com/blog/paneles-industrializados-offsite-taller-vs-ensamblaje-in-situ/
+- Resumen Ejecutivo: Criterios para elegir prefabricaciÃ³n en planta 2D/3D con grÃºa vs ensamblaje stick-framing en lotes de ladera y difÃ­cil acceso.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SE-AC y estÃ¡ndares B2B e InversiÃ³n Inmobiliaria.
+
+### Campamentos Mineros y Petroleros en Steel Framing (AmazonÃ­a y Sierra)
+- URL: https://steelframingec.com/blog/campamentos-mineros-petroleros-steel-framing-amazonia/
+- Resumen Ejecutivo: Viviendas modulares para operaciÃ³n continua inmunes al 95% de humedad relativa, hongos y salinidad con acero estructural Z275.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SE-AC y estÃ¡ndares B2B e InversiÃ³n Inmobiliaria.
+
+### Entrepisos Secos de Altas Cargas: Vigas Reticuladas segÃºn NEC
+- URL: https://steelframingec.com/blog/entrepisos-secos-vigas-reticuladas-cargas-vivas-comerciales/
+- Resumen Ejecutivo: Vigas reticuladas open-web steel joists para luces de 6 a 9 m, sobrecargas comerciales de 300-500 kg/mÂ² y paso de ductos sin perforaciones.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SE-AC y estÃ¡ndares B2B e InversiÃ³n Inmobiliaria.
+
+### GuÃ­a Definitiva para Inversionistas Inmobiliarios en Steel Framing Ecuador (2026)
+- URL: https://steelframingec.com/blog/guia-definitiva-inversionistas-inmobiliarios-steel-framing-ecuador/
+- Resumen Ejecutivo: Modelado financiero, reducciÃ³n del 60% en plazos de obra, maximizaciÃ³n de la TIR, contratos de precio cerrado y avalÃºos bancarios de primera clase.
+- Cobertura TÃ©cnica: Homers Constructora, Arq. Sergio Bravo, Acero Galvanizado Estructural Z275, sismorresistente bajo norma NEC-SE-DS, NEC-SE-AC y estÃ¡ndares B2B e InversiÃ³n Inmobiliaria.

@@ -869,5 +869,36 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/paneles-industrializados-offsite-taller-vs-ensamblaje-in-situ/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/campamentos-mineros-petroleros-steel-framing-amazonia/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/entrepisos-secos-vigas-reticuladas-cargas-vivas-comerciales/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/guia-definitiva-inversionistas-inmobiliarios-steel-framing-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
 
