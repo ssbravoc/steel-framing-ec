@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TMF2MKZ3');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Arq. Sergio Bravo - Homers Constructora">
+
+    <!-- SEO On-Page de Alta Jerarquía -->
+    <title>Cálculo de Derivas de Piso, Factor Z y NEC-SE-DS en Steel Framing Ecuador | Homers Constructora</title>
+    <meta name="description" content="Memoria de cálculo estructural para Steel Framing en Ecuador bajo la norma NEC-SE-DS. Análisis de derivas de piso (≤ 0.020), factor de zona Z por ciudades, coeficiente de importancia I y ductilidad R en construcciones sismorresistentes con acero galvanizado estructural Z275.">
+    <meta name="keywords" content="calculo derivas de piso steel framing nec se ds ecuador, factor z sismo ecuador, coeficiente importancia estructura sismorresistente, ingenieria structural steel framing quito guayaquil cuenca">
+    <link rel="canonical" href="https://steelframingec.com/blog/calculo-derivas-piso-factor-z-nec-se-ds/">
+
+    <!-- Open Graph & Twitter Cards -->
+    <meta property="og:title" content="Cálculo de Derivas de Piso, Factor Z y NEC-SE-DS en Steel Framing Ecuador">
+    <meta property="og:description" content="Análisis ingenieril detallado del cálculo de derivas de piso, factor de zona Z y parámetros sísmicos bajo la NEC-SE-DS aplicados al Steel Framing en Ecuador con acero galvanizado estructural Z275.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://steelframingec.com/blog/calculo-derivas-piso-factor-z-nec-se-ds/">
+    <meta property="og:image" content="https://steelframingec.com/img/cumbaya/10%20casa-steel-framing-quito-cumbaya.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../img/homers-logo.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0B192C',
+                            dark: '#1E3E62',
+                            primary: '#0056B3',
+                            accent: '#FF6500',
+                            accentHover: '#E05A00',
+                            light: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org Rich Snippets JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://steelframingec.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog Técnico",
+              "item": "https://steelframingec.com/blog-y-recursos.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Cálculo de Derivas de Piso y Factor Z en Steel Framing",
+              "item": "https://steelframingec.com/blog/calculo-derivas-piso-factor-z-nec-se-ds/"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://steelframingec.com/blog/calculo-derivas-piso-factor-z-nec-se-ds/#article",
+          "headline": "Cálculo de Derivas de Piso, Factor Z y NEC-SE-DS en Steel Framing Ecuador",
+          "description": "Estudio técnico de ingeniería estructural sobre el cumplimiento de la norma NEC-SE-DS en Steel Framing. Análisis de derivas de piso, factor de zona Z, coeficiente de importancia y ductilidad con acero galvanizado estructural Z275.",
+          "image": "https://steelframingec.com/img/cumbaya/10%20casa-steel-framing-quito-cumbaya.jpg",
+          "datePublished": "2026-10-10",
+          "dateModified": "2026-10-10",
+          "author": {
+            "@type": "Person",
+            "name": "Arq. Sergio Bravo",
+            "jobTitle": "Director Técnico de Homers Constructora",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Homers Constructora"
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Homers Constructora",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://steelframingec.com/img/homers-logo.png"
+            }
+          },
+          "mainEntityOfPage": "https://steelframingec.com/blog/calculo-derivas-piso-factor-z-nec-se-ds/"
+        },
+        {
+          "@type": "GeneralContractor",
+          "name": "Homers Constructora - Steel Framing EC",
+          "description": "Constructora líder en cálculo estructural sismorresistente bajo normativa NEC en Ecuador.",
+          "url": "https://steelframingec.com/",
+          "telephone": "+593995099506",
+          "email": "homersarquitectura@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Quito",
+            "addressRegion": "Pichincha",
+            "addressCountry": "EC"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://steelframingec.com/blog/calculo-derivas-piso-factor-z-nec-se-ds/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Cuál es el límite máximo permitido para la deriva de piso en Steel Framing según la NEC-SE-DS?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Para estructuras de acero formado en frío, la deriva de piso máxima permitida según la Norma Ecuatoriana de la Construcción (NEC-SE-DS) es del 2.0% (0.020) de la altura de piso para edificaciones residenciales, garantizando que los elementos no estructurales no sufran daños severos durante un sismo de diseño."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo influye el factor de zona Z en el cálculo sísmico de una casa en Ecuador?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El factor Z representa la aceleración máxima del terreno en roca para un sismo con 10% de probabilidad de excedencia en 50 años. Ciudades como Quito, Guayaquil y Manta poseen factores Z elevados (0.40g), lo que exige diseñar sistemas sismorresistentes livianos como el Steel Framing para minimizar la fuerza cortante basal."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué coeficiente de ductilidad R se utiliza en estructuras de Steel Framing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Para sistemas de muros portantes de entrampado de acero liviano arriostrados con cruces de San Andrés o tableros estructurales, la NEC y normas de referencia permiten adoptar coeficientes de reducción de respuesta sísmica (R) adecuados que reflejan la alta capacidad de disipación de energía por deformación plástica del acero galvanizado estructural Z275."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-slate-700/50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                <span><strong>Ingeniería Sísmica 2026:</strong> Memoria de cálculo bajo norma NEC-SE-DS para Steel Framing.</span>
+            </span>
+            <div class="flex items-center space-x-4">
+                <a href="tel:+593995099506" class="hover:text-amber-400 transition flex items-center gap-1.5 font-medium"><i class="fa-solid fa-phone text-[10px]"></i> +593 99 509 9506</a>
+                <span class="text-slate-500">|</span>
+                <span class="text-slate-300">Dirección Técnica: Arq. Sergio Bravo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="../../index.html" class="flex items-center gap-3 group">
+                    <img src="../../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">División Técnica de Homers Constructora</span>
+                    </div>
+                </a>
+
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="../../index.html" class="hover:text-blue-900 transition">&larr; Inicio</a>
+                    <a href="#nec-se-ds" class="hover:text-blue-900 transition">Norma NEC-SE-DS</a>
+                    <a href="#factor-z" class="hover:text-blue-900 transition">Factor Z y Sismo</a>
+                    <a href="#derivas-piso" class="hover:text-blue-900 transition">Derivas de Piso</a>
+                    <a href="#diagnostico" class="hover:text-blue-900 transition">Diagnóstico</a>
+                    <a href="../../construir-casa-ecuador/index.html" class="bg-amber-500 hover:bg-amber-600 text-slate-900 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Proyecto</a>
+                </nav>
+
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20asesoria%20sobre%20calculo%20estructural%20NEC" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <div class="bg-slate-100 py-3 border-b border-slate-200 text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2">
+            <a href="../../index.html" class="hover:text-blue-900 transition">Inicio</a>
+            <span class="text-slate-400">/</span>
+            <a href="../../blog-y-recursos.html" class="hover:text-blue-900 transition">Blog Técnico</a>
+            <span class="text-slate-400">/</span>
+            <span class="text-brand-navy font-semibold">Cálculo de Derivas de Piso y Factor Z en Steel Framing</span>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-gradient-to-b from-slate-900 via-brand-navy to-slate-900 text-white pt-16 pb-20 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/30 mb-6">
+                <i class="fa-solid fa-calculator"></i> Ingeniería Estructural Avanzada
+            </div>
+            
+            <h1 class="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight mb-6">
+                Cálculo de Derivas de Piso, Factor Z y NEC-SE-DS en Steel Framing Ecuador
+            </h1>
+            
+            <p class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto mb-8 font-normal leading-relaxed">
+                Memoria técnica y verificación de desplazamientos laterales relativas bajo la Norma Ecuatoriana de la Construcción (NEC-SE-DS) para edificaciones sismorresistentes ejecutadas con <strong>acero galvanizado estructural Z275</strong>.
+            </p>
+
+            <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs text-slate-400 border-t border-slate-800 pt-6">
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-user-tie text-amber-400"></i> Autor: <strong>Arq. Sergio Bravo</strong> (Director Técnico)
+                </span>
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-file-contract text-amber-400"></i> Norma: NEC-SE-DS / NEC-SE-AC
+                </span>
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-clock text-slate-400"></i> Lectura técnica: 15 min
+                </span>
+                <span class="flex items-center gap-2 text-amber-400">
+                    <i class="fa-solid fa-wave-square"></i> Deriva Máxima ≤ 2.0%
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+
+            <!-- ARTICLE COLUMN -->
+            <article class="lg:col-span-8 space-y-10">
+
+                <!-- QUICK ANSWER BOX -->
+                <div class="bg-gradient-to-br from-amber-50 via-white to-blue-50 border-2 border-amber-300 rounded-2xl p-6 sm:p-7 shadow-md">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-slate-900 text-amber-400 flex items-center justify-center text-2xl flex-shrink-0 shadow">
+                            <i class="fa-solid fa-square-root-variable"></i>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-amber-700 block">Dictamen de Ingeniería Sísmica</span>
+                            <h2 class="text-xl font-heading font-extrabold text-slate-900">¿Cómo cumple el Steel Framing los requisitos de derivas y factor Z en la normativa ecuatoriana?</h2>
+                            <p class="text-sm text-slate-700 leading-relaxed">
+                                Toda edificación en Ecuador debe cumplir rigurosamente con el capítulo <strong>NEC-SE-DS (Peligro Sísmico)</strong>. En las estructuras de Steel Framing diseñadas por <strong>Homers Constructora</strong>, el análisis por elementos finitos verifica que las derivas de piso (desplazamientos laterales relativas entre niveles consecutivos) no superen el límite normativo del <strong>2.0% (0.020)</strong>. Gracias a la flexibilidad controlada del <strong>acero galvanizado estructural Z275</strong> y la distribución eficiente de paneles arriostrados, la estructura absorbe la energía sísmica reduciendo la cortante basal en comparación con la mampostería tradicional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TABLE OF CONTENTS -->
+                <nav class="bg-slate-100 rounded-2xl p-6 border border-slate-200">
+                    <h3 class="font-heading font-bold text-slate-900 text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-list-check text-blue-900"></i> Tabla de Contenidos de la Memoria de Cálculo
+                    </h3>
+                    <ol class="space-y-2 text-sm text-slate-700 font-medium">
+                        <li><a href="#nec-se-ds" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">1</span> Marco Regulatorio de la NEC-SE-DS para Estructuras Livianas</a></li>
+                        <li><a href="#factor-z" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">2</span> Factor de Zona (Z) y Aceleraciones Espectrales en Ecuador</a></li>
+                        <li><a href="#coeficiente-importancia" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">3</span> Coeficiente de Importancia (I) y Categoría de Edificación</a></li>
+                        <li><a href="#derivas-piso" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">4</span> Cálculo Técnico de Derivas de Piso (Story Drift) y Límites</a></li>
+                        <li><a href="#ductilidad-acero" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">5</span> Ductilidad (R) y Comportamiento del Acero Galvanizado Z275</a></li>
+                    </ol>
+                </nav>
+
+                <!-- SECTION 1 -->
+                <section id="nec-se-ds" class="space-y-4">
+                    <h2 class="text-2xl font-heading font-bold text-slate-900 border-l-4 border-blue-900 pl-4">
+                        1. Marco Regulatorio de la NEC-SE-DS para Estructuras Livianas
+                    </h2>
+                    <p class="text-slate-700 leading-relaxed">
+                        La Norma Ecuatoriana de la Construcción establece en su sección <strong>NEC-SE-DS (Peligro Sísmico y Requisitos de Diseño Sismorresistente)</strong> y <strong>NEC-SE-AC (Acero)</strong> los parámetros obligatorios para el diseño de edificaciones seguras. Aunque la norma tradicionalmente se ha enfocado en hormigón armado, contempla explícitamente el uso de sistemas constructivos industrializados en seco y perfiles formados en frío.
+                    </p>
+                    <p class="text-slate-700 leading-relaxed">
+                        El Steel Framing no es una estructura prefabricada convencional; es un sistema de ingeniería rigurosa donde cada montante, solera y diagonal se calcula mediante software de elementos finitos bajo cargas gravitacionales y sísmicas combinadas, garantizando que el comportamiento ante sismos severos sea dúctil y predecible.
+                    </p>
+                </section>
+
+                <!-- SECTION 2 -->
+                <section id="factor-z" class="space-y-4">
+                    <h2 class="text-2xl font-heading font-bold text-slate-900 border-l-4 border-blue-900 pl-4">
+                        2. Factor de Zona (Z) y Aceleraciones Espectrales en Ecuador
+                    </h2>
+                    <p class="text-slate-700 leading-relaxed">
+                        El primer parámetro fundamental en el espectro de diseño elástico de la NEC es el <strong>Factor de Zona (Z)</strong>, el cual representa la aceleración horizontal máxima del terreno en roca expresada como fracción de la gravedad ($g$), asociada a un sismo con 10% de probabilidad de excedencia en 50 años (período de retorno de 475 años).
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+                        <div class="bg-slate-100 p-4 rounded-xl border border-slate-200 text-center space-y-1">
+                            <span class="text-xs font-bold uppercase text-slate-500 block">Costa (Guayaquil / Manta)</span>
+                            <span class="text-xl font-heading font-black text-blue-900 block">Z = 0.40g - 0.50g</span>
+                            <span class="text-[11px] text-slate-600 block">Alta sismicidad costera</span>
+                        </div>
+                        <div class="bg-slate-100 p-4 rounded-xl border border-slate-200 text-center space-y-1">
+                            <span class="text-xs font-bold uppercase text-slate-500 block">Sierra (Quito / Loja)</span>
+                            <span class="text-xl font-heading font-black text-blue-900 block">Z = 0.35g - 0.40g</span>
+                            <span class="text-[11px] text-slate-600 block">Amenaza sísmica interandina</span>
+                        </div>
+                        <div class="bg-slate-100 p-4 rounded-xl border border-slate-200 text-center space-y-1">
+                            <span class="text-xs font-bold uppercase text-slate-500 block">Amazonía (Oriente)</span>
+                            <span class="text-xl font-heading font-black text-blue-900 block">Z = 0.15g - 0.25g</span>
+                            <span class="text-[11px] text-slate-600 block">Sismicidad moderada</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        En zonas con Z elevado ($0.40g$), el peso propio de la edificación se convierte en el factor crítico que determina la fuerza cortante basal ($V = C_e \cdot W$). Al ser una construcción liviana, el peso total $W$ de una casa en Steel Framing es hasta un 65% menor que una de mampostería tradicional, reduciendo exponencialmente la fuerza sísmica que recibe la cimentación.
+                    </p>
+                </section>
+
+                <!-- SECTION 3 -->
+                <section id="coeficiente-importancia" class="space-y-4">
+                    <h2 class="text-2xl font-heading font-bold text-slate-900 border-l-4 border-blue-900 pl-4">
+                        3. Coeficiente de Importancia (I) y Categoría de Edificación
+                    </h2>
+                    <p class="text-slate-700 leading-relaxed">
+                        El coeficiente de importancia ($I$) amplifica las fuerzas de diseño según el destino de la edificación para garantizar niveles superiores de seguridad en estructuras esenciales:
+                    </p>
+                    <ul class="space-y-2 text-slate-700 text-sm">
+                        <li><strong>Edificaciones Esenciales ($I = 1.5$):</strong> Hospitales, centros de salud, cuarteles de bomberos y centrales de emergencia.</li>
+                        <li><strong>Estructuras de Ocupación Especial ($I = 1.25$):</strong> Centros educativos, auditorios y grandes centros de reunión pública.</li>
+                        <li><strong>Edificaciones de Ocupación Normal ($I = 1.0$):</strong> Viviendas unifamiliares, conjuntos residenciales y edificios habitacionales de Steel Framing desarrollados por Homers Constructora.</li>
+                    </ul>
+                </section>
+
+                <!-- SECTION 4 -->
+                <section id="derivas-piso" class="space-y-4">
+                    <h2 class="text-2xl font-heading font-bold text-slate-900 border-l-4 border-blue-900 pl-4">
+                        4. Cálculo Técnico de Derivas de Piso (Story Drift) y Límites
+                    </h2>
+                    <p class="text-slate-700 leading-relaxed">
+                        La deriva de piso es el desplazamiento lateral relativo entre dos pisos consecutivos dividido para la altura de entrepiso ($\Delta = (d_i - d_{i-1}) / h_i$). La NEC-SE-DS establece límites estrictos para evitar el colapso estructural y proteger los elementos no estructurales (tabiques, vidrios y fachadas).
+                    </p>
+                    <p class="text-slate-700 leading-relaxed">
+                        Para estructuras de acero, la deriva máxima permitida es del <strong>2.0% (0.020)</strong>. En los proyectos de Steel Framing, el análisis matricial verifica que los desplazamientos bajo el sismo de diseño amplificado por el factor de reducción de respuesta ($R$) cumplan holgadamente este umbral, asegurando que los paneles rigidizados con tableros OSB y cruces metálicas absorban el desplazamiento sin deformaciones permanentes.
+                    </p>
+                </section>
+
+                <!-- SECTION 5 -->
+                <section id="ductilidad-acero" class="space-y-4">
+                    <h2 class="text-2xl font-heading font-bold text-slate-900 border-l-4 border-blue-900 pl-4">
+                        5. Ductilidad (R) y Comportamiento del Acero Galvanizado Z275
+                    </h2>
+                    <p class="text-slate-700 leading-relaxed">
+                        La capacidad de una estructura para disipar energía sísmica a través de deformaciones inelásticas sin colapsar se define mediante el coeficiente de reducción de respuesta ($R$). El <strong>acero galvanizado estructural Z275</strong> posee una excelente ductilidad intrínseca, permitiendo que las uniones atornilladas y los perfiles formados en frío fluyan controladamente durante un evento sísmico extremo.
+                    </p>
+                    <p class="text-slate-700 leading-relaxed">
+                        A diferencia de los materiales frágiles como el bloque de arcilla o el hormigón simple que fallan de forma explosiva, el Steel Framing transfiere y disipa la energía sismorresistente a lo largo de cientos de uniones mecánicas, protegiendo la integridad de la familia y el patrimonio inmobiliario.
+                    </p>
+                </section>
+
+                <!-- CALL TO ACTION BOX -->
+                <div class="bg-gradient-to-r from-brand-navy to-blue-900 text-white rounded-2xl p-7 shadow-xl my-8 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500 text-slate-900 flex items-center justify-center font-bold text-lg">
+                            <i class="fa-solid fa-file-shield"></i>
+                        </div>
+                        <h3 class="font-heading font-extrabold text-xl">¿Necesitas memoria de cálculo estructural bajo norma NEC?</h3>
+                    </div>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        En <strong>Homers Constructora</strong> entregamos proyectos con ingeniería estructural certificada, planos aprobados y cumplimiento estricto de la NEC-SE-DS. Solicita una evaluación preliminar en nuestro <a href="../../diagnostico-proyecto/index.html" class="text-amber-400 font-bold underline hover:text-amber-300">Diagnóstico de Proyecto</a> o inicia el proceso para <a href="../../construir-casa-ecuador/index.html" class="text-amber-400 font-bold underline hover:text-amber-300">Construir Casa en Ecuador</a> con total respaldo técnico y garantía de 20 años.
+                    </p>
+                    <div class="pt-2 flex flex-wrap gap-4">
+                        <a href="../../diagnostico-proyecto/index.html" class="inline-flex items-center px-5 py-2.5 rounded-xl bg-amber-500 text-slate-900 font-heading font-bold text-xs uppercase tracking-wider hover:bg-amber-400 transition shadow">
+                            <i class="fa-solid fa-clipboard-check mr-2"></i> Solicitar Diagnóstico
+                        </a>
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20necesito%20calculo%20estructural%20NEC" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-5 py-2.5 rounded-xl bg-emerald-600 text-white font-heading font-bold text-xs uppercase tracking-wider hover:bg-emerald-500 transition shadow">
+                            <i class="fa-brands fa-whatsapp mr-2 text-sm"></i> WhatsApp Directo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- FAQ SECTION -->
+                <section class="space-y-6 pt-6 border-t border-slate-200">
+                    <h2 class="text-2xl font-heading font-bold text-slate-900">Preguntas Frecuentes sobre Derivas y Normativa NEC en Steel Framing</h2>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-slate-100 p-5 rounded-xl border border-slate-200 space-y-2">
+                            <h3 class="font-heading font-bold text-slate-900 text-base">¿Cuál es el límite máximo permitido para la deriva de piso en Steel Framing según la NEC-SE-DS?</h3>
+                            <p class="text-sm text-slate-700 leading-relaxed">
+                                Para estructuras de acero formado en frío, la deriva de piso máxima permitida según la Norma Ecuatoriana de la Construcción (NEC-SE-DS) es del 2.0% (0.020) de la altura de piso para edificaciones residenciales, garantizando que los elementos no estructurales no sufran daños severos durante un sismo de diseño.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-100 p-5 rounded-xl border border-slate-200 space-y-2">
+                            <h3 class="font-heading font-bold text-slate-900 text-base">¿Cómo influye el factor de zona Z en el cálculo sísmico de una casa en Ecuador?</h3>
+                            <p class="text-sm text-slate-700 leading-relaxed">
+                                El factor Z representa la aceleración máxima del terreno en roca para un sismo con 10% de probabilidad de excedencia en 50 años. Ciudades como Quito, Guayaquil y Manta poseen factores Z elevados (0.40g), lo que exige diseñar sistemas sismorresistentes livianos como el Steel Framing para minimizar la fuerza cortante basal.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-100 p-5 rounded-xl border border-slate-200 space-y-2">
+                            <h3 class="font-heading font-bold text-slate-900 text-base">¿Qué coeficiente de ductilidad R se utiliza en estructuras de Steel Framing?</h3>
+                            <p class="text-sm text-slate-700 leading-relaxed">
+                                Para sistemas de muros portantes de entrampado de acero liviano arriostrados con cruces de San Andrés o tableros estructurales, la NEC y normas de referencia permiten adoptar coeficientes de reducción de respuesta sísmica (R) adecuados que reflejan la alta capacidad de disipación de energía por deformación plástica del acero galvanizado estructural Z275.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+            </article>
+
+            <!-- SIDEBAR COLUMN -->
+            <aside class="lg:col-span-4 space-y-6">
+                <!-- Author Box -->
+                <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 text-white font-heading font-bold flex items-center justify-center text-lg">
+                            SB
+                        </div>
+                        <div>
+                            <span class="font-heading font-bold text-slate-900 block">Arq. Sergio Bravo</span>
+                            <span class="text-xs text-slate-500 block">Director Técnico - Homers Constructora</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Especialista en estructuración en seco, cálculo sismorresistente y memorias de cálculo bajo normativa NEC en Ecuador.
+                    </p>
+                    <div class="pt-2 border-t border-slate-100 text-xs space-y-2 text-slate-600">
+                        <p><i class="fa-solid fa-location-dot text-amber-500 mr-2"></i> Cobertura Nacional Ecuador</p>
+                        <p><i class="fa-solid fa-shield-halved text-emerald-600 mr-2"></i> Norma NEC-SE-DS / NEC-SE-AC</p>
+                    </div>
+                </div>
+
+                <!-- Quick Links Box -->
+                <div class="bg-slate-900 text-white rounded-2xl p-6 space-y-4 shadow-md">
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider border-b border-slate-800 pb-2">Guías y Normativa Relacionada</h3>
+                    <ul class="space-y-3 text-xs">
+                        <li>
+                            <a href="../../diagnostico-proyecto/index.html" class="hover:text-amber-400 transition flex items-center gap-2">
+                                <i class="fa-solid fa-chevron-right text-[10px] text-amber-400"></i> Diagnóstico y Viabilidad de Proyecto
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../construir-casa-ecuador/index.html" class="hover:text-amber-400 transition flex items-center gap-2">
+                                <i class="fa-solid fa-chevron-right text-[10px] text-amber-400"></i> Construir Casa Llave en Mano
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../steel-framing-ecuador/index.html" class="hover:text-amber-400 transition flex items-center gap-2">
+                                <i class="fa-solid fa-chevron-right text-[10px] text-amber-400"></i> Guía Técnica NEC Steel Framing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../permisos-construccion-steel-framing-ecuador/index.html" class="hover:text-amber-400 transition flex items-center gap-2">
+                                <i class="fa-solid fa-chevron-right text-[10px] text-amber-400"></i> Permisos Municipales y Planos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- WhatsApp Banner -->
+                <div class="bg-gradient-to-br from-emerald-600 to-emerald-800 text-white rounded-2xl p-6 text-center space-y-4 shadow-lg">
+                    <div class="w-12 h-12 rounded-full bg-white/20 mx-auto flex items-center justify-center text-2xl">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-base">¿Consultas sobre cálculo estructural?</h3>
+                    <p class="text-xs text-emerald-100 leading-relaxed">
+                        Habla directamente con el Arq. Sergio Bravo y revisa la memoria de cálculo para tu proyecto.
+                    </p>
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20necesito%20asesoria%20sobre%20calculo%20estructural" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full px-4 py-2.5 rounded-xl bg-white text-emerald-900 font-heading font-bold text-xs uppercase tracking-wider hover:bg-emerald-50 transition shadow">
+                        <i class="fa-brands fa-whatsapp mr-2 text-sm text-emerald-600"></i> Escribir por WhatsApp
+                    </a>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-white pt-16 pb-12 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Col 1: Brand Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="../../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white/10 p-1.5 rounded-xl">
+                        <div>
+                            <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
+                            <span class="text-[10px] text-slate-400 block">División de Homers Constructora</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Arq. Sergio Bravo (SENESCYT) – Construcción sismorresistente con contrato de precio fijo y dirección técnica diaria. Proyectos llave en mano en Ecuador.
+                    </p>
+                    <div class="space-y-1.5 text-xs text-slate-400 pt-1">
+                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garantía Estructural 20 Años</p>
+                        <p class="flex items-center gap-2"><a href="tel:+593995099506" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-phone text-amber-400"></i> +593 99 509 9506</a></p>
+                        <p class="flex items-center gap-2"><a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope text-amber-400"></i> homersarquitectura@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../construir-casa-ecuador/index.html" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Casa Llave en Mano</a></li>
+                        <li><a href="../../precio-m2/index.html" class="hover:text-white transition">Calculadora de Precio por m²</a></li>
+                        <li><a href="../../ampliacion-segundo-piso-ecuador/index.html" class="hover:text-white transition">Ampliación de Segundo Piso sobre Losa</a></li>
+                        <li><a href="../../construir-casa-en-ecuador-desde-usa/index.html" class="hover:text-white transition">Programa Construcción desde USA 🇺🇸🇪🇨</a></li>
+                        <li><a href="../../modelos-casas-steel-framing-ecuador/index.html" class="hover:text-white transition">Catálogo de Modelos y Diseños</a></li>
+                        <li><a href="../../credito-hipotecario-biess-steel-framing/index.html" class="hover:text-white transition">Crédito Hipotecario BIESS y Bancos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Guías Técnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Guías Técnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../que-es-steel-framing/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">¿Qué es Steel Framing? (Guía)</a></li>
+                        <li><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Hormigón y Bloque</a></li>
+                        <li><a href="../../steel-framing-ecuador/index.html" class="hover:text-white transition">Guía Técnica NEC Steel Framing</a></li>
+                        <li><a href="../../construccion-en-seco-ecuador/index.html" class="hover:text-white transition">Manual de Construcción en Seco</a></li>
+                        <li><a href="../../permisos-construccion-steel-framing-ecuador/index.html" class="hover:text-white transition">Permisos Municipales y Planos</a></li>
+                        <li><a href="../../casas-prefabricadas-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Casas Prefabricadas</a></li>
+                        <li class="pt-1"><a href="../../blog-y-recursos.html" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos Técnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Costos por Ciudad en Ecuador -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Costos por Ciudad en Ecuador</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../cuanto-cuesta-construir-en-ecuador/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">Costos por Ciudad en Ecuador</a></li>
+                        <li><a href="../../steel-framing-quito-ecuador/index.html" class="hover:text-white transition">Quito y Valles (Cumbayá / Puembo)</a></li>
+                        <li><a href="../../steel-framing-guayaquil/index.html" class="hover:text-white transition">Guayaquil y Samborondón</a></li>
+                        <li><a href="../../steel-framing-cuenca/index.html" class="hover:text-white transition">Cuenca y Azuay</a></li>
+                        <li><a href="../../steel-framing-manta/index.html" class="hover:text-white transition">Manta y Costa Manabita</a></li>
+                        <li><a href="../../steel-framing-loja/index.html" class="hover:text-white transition">Loja y Sierra Sur</a></li>
+                        <li class="pt-1"><a href="../../zonas-de-cobertura.html" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                    </ul>
+                    <div class="pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 text-white font-bold hover:bg-emerald-500 transition text-xs gap-1.5 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-8 border-t border-slate-900 text-center text-slate-400 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div>
+                    &copy; 2026 Homers Constructora Ecuador. Todos los derechos reservados.
+                </div>
+                <div class="text-[11px] text-slate-500">
+                    Cálculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC y perfiles de acero galvanizado estructural Z275.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Action Button -->
+    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20asesoria%20sobre%20calculo%20estructural%20NEC" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-transform duration-300" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+</html>
