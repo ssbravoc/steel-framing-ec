@@ -894,19 +894,22 @@
     </div>
   </section>
 
-  <!-- 9. EL COTIZADOR INTERACTIVO / EMBUDO DE CAPTACIÓN -->
+  <!-- 9. EL FILTRO CALIFICADOR DE PROYECTOS / EVALUACIÓN DE FACTIBILIDAD -->
   <section id="cotizador" class="py-20 bg-gradient-to-b from-slate-900 via-brand-navy to-slate-950 text-white relative">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       
       <div class="text-center space-y-4 mb-12">
         <span class="text-xs font-bold uppercase tracking-widest text-amber-400 bg-amber-950/80 py-1.5 px-4 rounded-full border border-amber-400/40">
-          Paso a Paso Directo a WhatsApp
+          Filtro de Factibilidad & Calificación 2026
         </span>
         <h2 class="font-heading font-black text-3xl sm:text-5xl">
-          Cotiza tu Casa con el Arq. Sergio Bravo en 2 Minutos
+          Evaluación de Factibilidad de tu Proyecto
         </h2>
         <p class="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-          Completa los datos de tu terreno o proyecto a continuación para calcular tu estimación y abrir una consulta técnica prioritaria:
+          Debido a que cada obra es dirigida y supervisada directamente por el <strong class="text-white">Arq. Sergio Bravo</strong>, mantenemos un cupo operativo limitado a <strong class="text-amber-400">máximo 3 proyectos simultáneos por zona</strong> para garantizar exactitud milimétrica, cumplimiento riguroso de cronograma y precio cerrado sin sobrecostos.
+        </p>
+        <p class="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto">
+          Por favor responde las siguientes condiciones clave para evaluar la viabilidad técnica y financiera de tu caso antes de agendar tu sesión técnica:
         </p>
       </div>
 
@@ -914,10 +917,65 @@
       <div class="bg-slate-800/90 border border-slate-700 rounded-3xl p-6 sm:p-10 shadow-2xl backdrop-blur">
         <form id="sales-lead-form" onsubmit="enviarCotizacionWhatsApp(event)" class="space-y-8">
           
-          <!-- Step 1: Ubicación del Terreno -->
+          <!-- Condición 1: Estado del Terreno (Filtro Crítico) -->
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <label class="block text-sm font-bold text-white uppercase tracking-wider">
+                1. ¿Cuál es el estado actual de tu terreno o lote? <span class="text-amber-400">*</span>
+              </label>
+              <span class="text-[11px] text-amber-400 font-semibold hidden sm:inline">Condición indispensable</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              <label class="cursor-pointer">
+                <input type="radio" name="terreno" value="Terreno propio con escrituras en regla" checked class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-left font-medium transition flex items-start gap-2.5">
+                  <span class="text-lg">📜</span>
+                  <div>
+                    <span class="font-bold block text-white peer-checked:text-emerald-300">Terreno propio con escrituras</span>
+                    <span class="text-[11px] text-slate-400 block mt-0.5">Listo para levantamiento y diseño inmediato</span>
+                  </div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="terreno" value="Terreno familiar o privado listo para construir" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-left font-medium transition flex items-start gap-2.5">
+                  <span class="text-lg">🏡</span>
+                  <div>
+                    <span class="font-bold block text-white peer-checked:text-emerald-300">Terreno familiar / privado</span>
+                    <span class="text-[11px] text-slate-400 block mt-0.5">Predio definido con autorización para edificar</span>
+                  </div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="terreno" value="En proceso de compraventa (menos de 60 días)" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-left font-medium transition flex items-start gap-2.5">
+                  <span class="text-lg">✍️</span>
+                  <div>
+                    <span class="font-bold block text-white peer-checked:text-emerald-300">En compraventa (&lt; 60 días)</span>
+                    <span class="text-[11px] text-slate-400 block mt-0.5">Lote seleccionado, cerrando firma legal</span>
+                  </div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="terreno" value="Aún no tengo terreno (En búsqueda a futuro)" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-500/10 peer-checked:text-amber-300 text-left font-medium transition flex items-start gap-2.5">
+                  <span class="text-lg">⏳</span>
+                  <div>
+                    <span class="font-bold block text-white peer-checked:text-amber-300">Aún no tengo terreno</span>
+                    <span class="text-[11px] text-slate-400 block mt-0.5">Nota: Homers no busca ni comercializa lotes</span>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Condición 2: Ubicación del Terreno -->
           <div>
             <label class="block text-sm font-bold text-white uppercase tracking-wider mb-3">
-              1. ¿Dónde se encuentra tu terreno o propiedad?
+              2. ¿Dónde se encuentra ubicado el terreno? <span class="text-amber-400">*</span>
             </label>
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
               <label class="cursor-pointer">
@@ -928,7 +986,7 @@
               </label>
 
               <label class="cursor-pointer">
-                <input type="radio" name="ubicacion" value="Guayaquil / Samborondón / Vía Costa" class="peer sr-only">
+                <input type="radio" name="ubicacion" value="Guayaquil / Samborondón / Vía Costa / Playas" class="peer sr-only">
                 <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
                   🌴 Guayaquil / Costa
                 </div>
@@ -937,118 +995,233 @@
               <label class="cursor-pointer">
                 <input type="radio" name="ubicacion" value="Manta / Manabí" class="peer sr-only">
                 <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
-                  🌊 Manta / Costa
+                  🌊 Manta / Manabí
                 </div>
               </label>
 
               <label class="cursor-pointer">
-                <input type="radio" name="ubicacion" value="Cuenca / Austro" class="peer sr-only">
+                <input type="radio" name="ubicacion" value="Cuenca / Azuay / Austro" class="peer sr-only">
                 <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
                   🏛️ Cuenca / Austro
                 </div>
               </label>
 
               <label class="cursor-pointer">
+                <input type="radio" name="ubicacion" value="Santo Domingo / Machala / Sierra Centro" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
+                  📍 Sto. Domingo / Provincias
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
                 <input type="radio" name="ubicacion" value="Otra Ciudad en Ecuador" class="peer sr-only">
                 <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
-                  📍 Otra Ciudad
-                </div>
-              </label>
-
-              <label class="cursor-pointer">
-                <input type="radio" name="ubicacion" value="Aún no tengo terreno (Asesoría previa)" class="peer sr-only">
-                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
-                  🔍 Buscando Terreno
+                  🗺️ Otra Ciudad (EC)
                 </div>
               </label>
             </div>
           </div>
 
-          <!-- Step 2: Metraje Estimado -->
+          <!-- Condición 3: Presupuesto Disponible / Capacidad de Inversión (Filtro de Ticket) -->
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <label class="block text-sm font-bold text-white uppercase tracking-wider">
+                3. ¿Cuál es tu presupuesto o capacidad de inversión asignada? <span class="text-amber-400">*</span>
+              </label>
+              <span class="text-[11px] text-slate-400 font-medium hidden sm:inline">Construcción personalizada llave en mano</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+              <label class="cursor-pointer">
+                <input type="radio" name="presupuesto" value="$50,000 a $80,000 USD" checked class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-left font-medium transition">
+                  <span class="font-bold text-sm block text-white peer-checked:text-emerald-300">$50,000 – $80,000 USD</span>
+                  <span class="text-[11px] text-slate-400 block mt-0.5">Ideal vivienda unifamiliar inicial (80 a 140 m²)</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="presupuesto" value="$80,000 a $120,000 USD" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-left font-medium transition">
+                  <span class="font-bold text-sm block text-white peer-checked:text-emerald-300">$80,000 – $120,000 USD</span>
+                  <span class="text-[11px] text-slate-400 block mt-0.5">Residencia familiar estándar completa (140 a 220 m²)</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="presupuesto" value="$120,000 a $200,000 USD" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-left font-medium transition">
+                  <span class="font-bold text-sm block text-white peer-checked:text-emerald-300">$120,000 – $200,000 USD</span>
+                  <span class="text-[11px] text-slate-400 block mt-0.5">Residencia amplia alta gama (220 a 350 m²)</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="presupuesto" value="Más de $200,000 USD" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-left font-medium transition">
+                  <span class="font-bold text-sm block text-white peer-checked:text-emerald-300">Más de $200,000 USD</span>
+                  <span class="text-[11px] text-slate-400 block mt-0.5">Residencia de lujo o complejo unifamiliar</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer sm:col-span-2 lg:col-span-2">
+                <input type="radio" name="presupuesto" value="Menos de $40,000 USD" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-500/10 peer-checked:text-amber-300 text-left font-medium transition">
+                  <span class="font-bold text-sm block text-white peer-checked:text-amber-300">Menos de $40,000 USD</span>
+                  <span class="text-[11px] text-slate-400 block mt-0.5">Aviso: No cubre el costo mínimo para una casa personalizada completa en Steel Framing.</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Condición 4: Urgencia / Tiempo de Inicio (Filtro Decisión vs Curiosos) -->
           <div>
             <label class="block text-sm font-bold text-white uppercase tracking-wider mb-3">
-              2. ¿Cuántos metros cuadrados (m²) aproximados deseas construir?
+              4. ¿En qué plazo deseas iniciar los trabajos (planos o construcción)? <span class="text-amber-400">*</span>
             </label>
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
               <label class="cursor-pointer">
-                <input type="radio" name="metraje" value="60 a 90 m² (Compacta / Suite / Quinta)" checked class="peer sr-only">
-                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
-                  60 - 90 m²
+                <input type="radio" name="plazo" value="Inmediato (Próximos 30 a 60 días) - Decisión tomada" checked class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-center font-semibold transition">
+                  <span class="block text-base mb-1">🚀 Inmediato</span>
+                  <span class="text-[11px] font-normal text-slate-300 block">30 a 60 días</span>
+                  <span class="text-[10px] text-emerald-400 font-bold uppercase mt-1 block">Prioridad 1</span>
                 </div>
               </label>
 
               <label class="cursor-pointer">
-                <input type="radio" name="metraje" value="100 a 140 m² (Casa Familiar Estándar)" class="peer sr-only">
-                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
-                  100 - 140 m²
+                <input type="radio" name="plazo" value="Corto plazo (2 a 4 meses) - Preparativos en curso" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-emerald-400 peer-checked:bg-emerald-500/10 peer-checked:text-emerald-300 text-center font-semibold transition">
+                  <span class="block text-base mb-1">📅 Corto Plazo</span>
+                  <span class="text-[11px] font-normal text-slate-300 block">2 a 4 meses</span>
+                  <span class="text-[10px] text-slate-400 block mt-1">Planificación activa</span>
                 </div>
               </label>
 
               <label class="cursor-pointer">
-                <input type="radio" name="metraje" value="150 a 220 m² (Casa Amplia de 2 Pisos)" class="peer sr-only">
+                <input type="radio" name="plazo" value="Mediano plazo (4 a 6 meses)" class="peer sr-only">
                 <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
-                  150 - 220 m²
+                  <span class="block text-base mb-1">🗓️ Mediano Plazo</span>
+                  <span class="text-[11px] font-normal text-slate-300 block">4 a 6 meses</span>
+                  <span class="text-[10px] text-slate-400 block mt-1">En estructuración</span>
                 </div>
               </label>
 
               <label class="cursor-pointer">
-                <input type="radio" name="metraje" value="Más de 230 m² (Residencia de Lujo o Complejo)" class="peer sr-only">
-                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
-                  +230 m²
+                <input type="radio" name="plazo" value="Más de 1 año / Solo investigando" class="peer sr-only">
+                <div class="p-3.5 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-slate-500 peer-checked:bg-slate-700/30 peer-checked:text-slate-300 text-center font-semibold transition">
+                  <span class="block text-base mb-1">🔍 Informativo</span>
+                  <span class="text-[11px] font-normal text-slate-400 block">+1 año / Curioso</span>
+                  <span class="text-[10px] text-slate-500 block mt-1">Sin fecha fija</span>
                 </div>
               </label>
             </div>
           </div>
 
-          <!-- Step 3: Tipo de Obra & Residencia -->
+          <!-- Condición 5: Qué etapa requieres contratar ahora & Metraje -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <label class="block text-sm font-bold text-white uppercase tracking-wider mb-2">
-                3. Tipo de Obra
+                5. ¿Qué etapa deseas contratar ahora? <span class="text-amber-400">*</span>
               </label>
               <select id="tipo-obra" class="w-full px-4 py-3 bg-slate-900/80 border border-slate-600 rounded-xl text-white text-sm focus:border-amber-400 focus:outline-none">
-                <option value="Proyecto Completo: Diseño, Planos y Construcción Llave en Mano">Proyecto Completo: Diseño, Planos y Construcción Llave en Mano</option>
-                <option value="Ya cuento con Planos: Cotizar Construcción a Precio Fijo">Ya cuento con Planos: Cotizar Construcción en Steel Framing</option>
-                <option value="Solo Consultoría: Paquete de Planos, Diseño de Ingenierías y Permisos">Solo Consultoría: Paquete de Planos, Diseño de Ingenierías y Aprobación Municipal</option>
-                <option value="Ampliación o Segundo Piso sobre Losa">Ampliación o Segundo Piso sobre Losa/Terraza</option>
-                <option value="Obra Semiacabada: Solo Estructura y Cerramiento EIFS">Obra Semiacabada: Solo Estructura y Cerramiento EIFS</option>
+                <option value="Proyecto Completo: Consultoría e Ingenierías para pasar directo a Construcción Llave en Mano">Proyecto Completo: Consultoría + Ingenierías + Construcción Llave en Mano</option>
+                <option value="Ya cuento con Planos Aprobados: Contratar Construcción a Precio Fijo">Ya cuento con Planos: Contratar Construcción a Precio Fijo</option>
+                <option value="Deseo contratar únicamente el Paquete de Planos & Expediente de las 4 Ingenierías">Deseo contratar únicamente el Paquete de Planos & 4 Ingenierías</option>
+                <option value="Ampliación o Segundo Piso sobre Losa Existente">Ampliación o Segundo Piso sobre Losa Existente</option>
+                <option value="Obra Semiacabada: Solo Estructura y Cerramiento Termoacústico EIFS">Obra Semiacabada: Solo Estructura y Cerramiento EIFS</option>
               </select>
             </div>
 
             <div>
               <label class="block text-sm font-bold text-white uppercase tracking-wider mb-2">
-                4. ¿Dónde te encuentras actualmente?
+                6. Área estimada a construir (m²) <span class="text-amber-400">*</span>
               </label>
-              <select id="residencia" class="w-full px-4 py-3 bg-slate-900/80 border border-slate-600 rounded-xl text-white text-sm focus:border-amber-400 focus:outline-none">
-                <option value="Vivo en Ecuador">Vivo en Ecuador</option>
-                <option value="Vivo en Estados Unidos (USA)">Vivo en Estados Unidos (USA)</option>
-                <option value="Vivo en España / Europa">Vivo en España / Europa</option>
-                <option value="Vivo en otro país en el exterior">Vivo en otro país en el exterior</option>
+              <select id="metraje-select" class="w-full px-4 py-3 bg-slate-900/80 border border-slate-600 rounded-xl text-white text-sm focus:border-amber-400 focus:outline-none">
+                <option value="80 a 120 m² (Vivienda Unifamiliar Compacta)">80 a 120 m² (Vivienda Unifamiliar Compacta)</option>
+                <option value="130 a 180 m² (Casa Familiar de 3 Dormitorios)">130 a 180 m² (Casa Familiar de 3 Dormitorios)</option>
+                <option value="190 a 260 m² (Residencia Amplia de 2 Pisos)">190 a 260 m² (Residencia Amplia de 2 Pisos)</option>
+                <option value="Más de 270 m² (Residencia de Alta Gama o Quinta)">Más de 270 m² (Residencia de Alta Gama o Quinta)</option>
               </select>
             </div>
           </div>
 
-          <!-- Step 4: Datos de Contacto -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-2">
-            <div>
-              <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Tu Nombre Completo</label>
-              <input type="text" id="nombre-lead" required placeholder="Ej: Edwin Morales" class="w-full px-4 py-3 bg-slate-900/80 border border-slate-600 rounded-xl text-white text-sm focus:border-amber-400 focus:outline-none">
-            </div>
-            <div>
-              <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">WhatsApp con Código de País</label>
-              <input type="tel" id="telefono-lead" required placeholder="Ej: +593 99 123 4567 ó +1 347..." class="w-full px-4 py-3 bg-slate-900/80 border border-slate-600 rounded-xl text-white text-sm focus:border-amber-400 focus:outline-none">
+          <!-- Condición 7: Residencia del Propietario -->
+          <div>
+            <label class="block text-sm font-bold text-white uppercase tracking-wider mb-3">
+              7. ¿Dónde resides actualmente? <span class="text-amber-400">*</span>
+            </label>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+              <label class="cursor-pointer">
+                <input type="radio" name="residencia" value="Resido en Ecuador" checked class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
+                  🇪🇨 En Ecuador
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="residencia" value="Resido en Estados Unidos (USA)" class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
+                  🇺🇸 En USA
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="residencia" value="Resido en España / Europa" class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
+                  🇪🇺 En Europa
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="residencia" value="Resido en otro país en el exterior" class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-600 bg-slate-900/60 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 peer-checked:text-amber-400 text-center font-semibold transition">
+                  🌎 Otro País
+                </div>
+              </label>
             </div>
           </div>
 
-          <!-- Submit Button -->
-          <div class="pt-4 text-center">
-            <button type="submit" class="w-full sm:w-auto inline-flex items-center justify-center px-10 py-5 rounded-2xl font-heading font-black text-lg uppercase tracking-wider text-white bg-emerald-500 hover:bg-emerald-600 shadow-2xl transition duration-300 transform hover:-translate-y-1 gap-3">
+          <!-- Datos de Contacto (Preparado para CRM / Tally / Make / Meta CAPI) -->
+          <div class="border-t border-slate-700/80 pt-6">
+            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-300 mb-4 flex items-center gap-2">
+              <i class="fa-solid fa-id-card text-amber-400"></i>
+              <span>Datos del Propietario para Validación de Factibilidad</span>
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Nombre y Apellido <span class="text-amber-400">*</span></label>
+                <input type="text" id="nombre-lead" required placeholder="Ej: Edwin Morales" class="w-full px-4 py-3 bg-slate-900/80 border border-slate-600 rounded-xl text-white text-sm focus:border-amber-400 focus:outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">WhatsApp con Código País <span class="text-amber-400">*</span></label>
+                <input type="tel" id="telefono-lead" required placeholder="Ej: +593 99 123 4567 ó +1 347..." class="w-full px-4 py-3 bg-slate-900/80 border border-slate-600 rounded-xl text-white text-sm focus:border-amber-400 focus:outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Correo Electrónico <span class="text-amber-400">*</span></label>
+                <input type="email" id="email-lead" required placeholder="Ej: edwin@ejemplo.com" class="w-full px-4 py-3 bg-slate-900/80 border border-slate-600 rounded-xl text-white text-sm focus:border-amber-400 focus:outline-none">
+              </div>
+            </div>
+          </div>
+
+          <!-- Submit Button & Exclusivity Notice -->
+          <div class="pt-4 text-center space-y-4">
+            <button type="submit" class="w-full sm:w-auto inline-flex items-center justify-center px-10 py-5 rounded-2xl font-heading font-black text-base sm:text-lg uppercase tracking-wider text-white bg-emerald-500 hover:bg-emerald-600 shadow-2xl transition duration-300 transform hover:-translate-y-1 gap-3">
               <i class="fa-brands fa-whatsapp text-2xl"></i>
-              <span>Enviar Cotización a WhatsApp del Arq. Sergio</span>
+              <span>Validar Factibilidad y Enviar al Arq. Sergio Bravo</span>
             </button>
-            <p class="text-xs text-slate-400 mt-3">
-              🔒 Tus datos son 100% privados. No hacemos spam. Conversarás de inmediato con el Arq. Sergio Bravo.
-            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-slate-400 max-w-2xl mx-auto pt-2">
+              <span class="flex items-center gap-1.5">
+                <i class="fa-solid fa-shield-halved text-emerald-400"></i> Confidencialidad 100% garantizada
+              </span>
+              <span class="hidden sm:inline text-slate-600">•</span>
+              <span class="flex items-center gap-1.5">
+                <i class="fa-solid fa-clock text-amber-400"></i> Respuesta técnica en &lt;2 horas laborables
+              </span>
+              <span class="hidden sm:inline text-slate-600">•</span>
+              <span class="flex items-center gap-1.5">
+                <i class="fa-solid fa-user-check text-blue-400"></i> Evaluación directa por el Arq. Sergio Bravo
+              </span>
+            </div>
           </div>
 
         </form>
@@ -1213,29 +1386,58 @@
     </a>
   </aside>
 
-  <!-- Script del Cotizador WhatsApp -->
+  <!-- Script del Filtro Calificador WhatsApp & Lead Capture -->
   <script>
     function enviarCotizacionWhatsApp(e) {
       e.preventDefault();
       
+      const terrenoEl = document.querySelector('input[name="terreno"]:checked');
       const ubicacionEl = document.querySelector('input[name="ubicacion"]:checked');
-      const metrajeEl = document.querySelector('input[name="metraje"]:checked');
-      const tipoObra = document.getElementById('tipo-obra').value;
-      const residencia = document.getElementById('residencia').value;
-      const nombre = document.getElementById('nombre-lead').value.trim();
-      const telefono = document.getElementById('telefono-lead').value.trim();
+      const presupuestoEl = document.querySelector('input[name="presupuesto"]:checked');
+      const plazoEl = document.querySelector('input[name="plazo"]:checked');
+      const tipoObraEl = document.getElementById('tipo-obra');
+      const metrajeEl = document.getElementById('metraje-select');
+      const residenciaEl = document.querySelector('input[name="residencia"]:checked');
+      const nombreEl = document.getElementById('nombre-lead');
+      const telefonoEl = document.getElementById('telefono-lead');
+      const emailEl = document.getElementById('email-lead');
 
+      const nombre = nombreEl ? nombreEl.value.trim() : '';
+      const telefono = telefonoEl ? telefonoEl.value.trim() : '';
+      const email = emailEl ? emailEl.value.trim() : '';
+      const terreno = terrenoEl ? terrenoEl.value : 'No especificado';
       const ubicacion = ubicacionEl ? ubicacionEl.value : 'No especificada';
+      const presupuesto = presupuestoEl ? presupuestoEl.value : 'No especificado';
+      const plazo = plazoEl ? plazoEl.value : 'No especificado';
+      const tipoObra = tipoObraEl ? tipoObraEl.value : 'No especificado';
       const metraje = metrajeEl ? metrajeEl.value : 'No especificado';
+      const residencia = residenciaEl ? residenciaEl.value : 'No especificado';
 
-      const texto = `Hola Arq. Sergio Bravo, deseo cotizar la construcción de mi casa en Steel Framing.%0A%0A` +
-        `*Nombre:* ${encodeURIComponent(nombre)}%0A` +
-        `*Teléfono:* ${encodeURIComponent(telefono)}%0A` +
-        `*Ubicación del Terreno:* ${encodeURIComponent(ubicacion)}%0A` +
-        `*Metraje Estimado:* ${encodeURIComponent(metraje)}%0A` +
-        `*Tipo de Obra:* ${encodeURIComponent(tipoObra)}%0A` +
-        `*Lugar de Residencia:* ${encodeURIComponent(residencia)}%0A%0A` +
-        `Vengo de la página de cotización de steelframingec.com`;
+      // Criterios de Calificación:
+      const sinTerreno = terreno.includes('Aún no tengo terreno');
+      const bajoPresupuesto = presupuesto.includes('Menos de $40,000');
+      const soloCurioso = plazo.includes('Más de 1 año');
+
+      let estadoHeader = '🟢 *[PROYECTO CALIFICADO - ALTA PRIORIDAD]*';
+      if (sinTerreno || bajoPresupuesto || soloCurioso) {
+        estadoHeader = '🟡 *[CONSULTA PRELIMINAR - ETAPA TEMPRANA]*';
+      }
+
+      const texto = `*EVALUACIÓN DE FACTIBILIDAD - HOMERS CONSTRUCTORA*%0A` +
+        `${estadoHeader}%0A%0A` +
+        `Estimado Arq. Sergio Bravo, he completado el filtro de calificación para mi proyecto en Steel Framing:%0A%0A` +
+        `👤 *Propietario:* ${encodeURIComponent(nombre)}%0A` +
+        `📱 *WhatsApp:* ${encodeURIComponent(telefono)}%0A` +
+        `✉️ *Email:* ${encodeURIComponent(email)}%0A` +
+        `🌍 *Residencia:* ${encodeURIComponent(residencia)}%0A%0A` +
+        `📋 *CRITERIOS DE FACTIBILIDAD:*%0A` +
+        `• *1. Terreno:* ${encodeURIComponent(terreno)}%0A` +
+        `• *2. Ubicación:* ${encodeURIComponent(ubicacion)}%0A` +
+        `• *3. Presupuesto Asignado:* ${encodeURIComponent(presupuesto)}%0A` +
+        `• *4. Plazo de Inicio:* ${encodeURIComponent(plazo)}%0A` +
+        `• *5. Etapa a Contratar:* ${encodeURIComponent(tipoObra)}%0A` +
+        `• *6. Metraje Estimado:* ${encodeURIComponent(metraje)}%0A%0A` +
+        `Solicito confirmación de factibilidad y agendar sesión de diagnóstico técnico con el Arq. Sergio Bravo.`;
 
       const url = `https://wa.me/593995099506?text=${texto}`;
       window.open(url, '_blank');
