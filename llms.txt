@@ -9,7 +9,7 @@
 - **Teléfono / WhatsApp Directo:** +593 99 509 9506
 - **Email:** homersarquitectura@gmail.com
 - **Oficina Central y Centro de Despacho:** Quito, Pichincha, Ecuador.
-- **Cobertura Operativa Nacional:** Presencia técnica y ejecución en todo el territorio ecuatoriano con 30 centros y satélites operativos especializados.
+- **Cobertura Operativa Nacional:** Presencia técnica y ejecución en todo el territorio ecuatoriano con 34 centros y satélites operativos especializados.
 - **Servicio para Migrantes en el Exterior:** Asesoría jurídica con firma electrónica y poderes consulares, contratos notariados de precio cerrado y supervisión continua mediante reportes semanales en video HD y fotografías directas a WhatsApp.
 
 ## Enfoque Comercial y Ticket de Proyectos
@@ -27,11 +27,11 @@
 - **Vivienda Llave en Mano:**  a  USD / m² (referencial promedio).
 - *Nota:* El valor definitivo se fija tras el estudio topográfico y la memoria de cálculo, blindado bajo contrato notariado de precio cerrado.
 
-## Directorio Canónico Completo (108 URLs canónicas)
+## Directorio Canónico Completo (113 URLs canónicas)
 
 ### Hubs Temáticos y Recursos
 - [Blog y Recursos Técnicos](https://steelframingec.com/blog-y-recursos.html): Centro de inteligencia técnica, guías de montaje y análisis periciales de costos.
-- [Zonas de Cobertura Nacional](https://steelframingec.com/zonas-de-cobertura.html): Directorio y factibilidad técnica en 30 cantones y satélites de Ecuador.
+- [Zonas de Cobertura Nacional](https://steelframingec.com/zonas-de-cobertura.html): Directorio y factibilidad técnica en 34 cantones y satélites de Ecuador.
 
 ### Pilares Comerciales y Técnicos
 - [Página Principal](https://steelframingec.com/): Portafolio nacional y filosofía de ingeniería.
@@ -55,7 +55,11 @@
 - [Steel Framing en Cuenca](https://steelframingec.com/steel-framing-cuenca/)
 - [Steel Framing en Manta](https://steelframingec.com/steel-framing-manta/)
 
-### Enjambre Geo-Local Satélite (26 Plazas Granulares)
+### Enjambre Geo-Local Satélite (30 Plazas Granulares)
+- [Steel Framing en Baños de Agua Santa](https://steelframingec.com/steel-framing-banos-agua-santa/): Cabañas boutique en laderas, micropilotes y acero Z275 anti-vapores.
+- [Steel Framing en Azogues y Cañar](https://steelframingec.com/steel-framing-azogues-canar/): Blindaje para remesas familiares desde USA, contratos cerrados y control remoto.
+- [Steel Framing en Gualaceo y Paute](https://steelframingec.com/steel-framing-gualaceo-paute/): Quintas vacacionales en el Austro, grandes galerías y montaje seco limpio.
+- [Steel Framing en Daule Norte (Salitre y Santa Lucía)](https://steelframingec.com/steel-framing-daule-norte-salitre-santa-lucia/): Casas de campo en arcillas expansivas y platea flotante rígida.
 - [Steel Framing en Portoviejo](https://steelframingec.com/steel-framing-portoviejo/): Reconstrucción sismorresistente tras 16A, factor Z=0.50g y masa ultraliviana.
 - [Steel Framing en Bahía de Caráquez y San Vicente](https://steelframingec.com/steel-framing-bahia-caraquez-san-vicente/): Frente al mar y ría; protección catódica Z275 y platea flotante liviana.
 - [Steel Framing en Playas (General Villamil)](https://steelframingec.com/steel-framing-playas-general-villamil/): Balneario de Guayaquil; villas entregadas en 90 días y fachadas EIFS anti-salitre.
@@ -83,7 +87,7 @@
 - [Steel Framing en Riobamba](https://steelframingec.com/steel-framing-riobamba/): Suelos volcánicos, losas flotantes y aislamiento térmico contra heladas.
 - [Steel Framing en Santo Domingo](https://steelframingec.com/steel-framing-santo-domingo/): Clima de trópico húmedo; protección Z275 contra moho y condensación.
 
-### Repositorio Técnico y Biblioteca Pericial del Blog (63 Artículos Especializados)
+### Repositorio Técnico y Biblioteca Pericial del Blog (64 Artículos Especializados)
 
 - [Aislamiento Acústico entre Dormitorios: Muros Dobles y Lana Mineral (STC 55)](https://steelframingec.com/blog/aislamiento-acustico-dormitorios-muros-dobles-stc-55/): Guía técnica de aislamiento acústico entre dormitorios en steel framing: muros dobles independientes con montantes de acero galvanizado estructural...
 - [Aislamiento EIFS en Ecuador: Envolvente Termoacústica y Ahorro Energético 2026](https://steelframingec.com/blog/aislamiento-eifs-ecuador-sistema-termoacustico/): Guía pericial de aislamiento EIFS en Ecuador: física de la envolvente continua, eliminación de puentes térmicos en Steel Framing, ahorro del 45% al...
@@ -92,6 +96,7 @@
 - [Cálculo de Derivas de Piso, Factor Z y NEC-SE-DS en Steel Framing Ecuador](https://steelframingec.com/blog/calculo-derivas-piso-factor-z-nec-se-ds/): Memoria de cálculo estructural para Steel Framing en Ecuador bajo la norma NEC-SE-DS. Análisis de derivas de piso (≤ 0.020), factor de zona Z por c...
 - [Construir en Suelo de Cangahua y Terrenos Volcánicos: Cimentación con Steel Framing | Homers](https://steelframingec.com/blog/cangahua-suelos-volcanicos-pichincha-tungurahua-cimentacion/): Guía técnica de cimentación en suelo volcánico y cangahua dura en Quito, Ambato y Latacunga. Ahorra en excavación pesada gracias a la ligereza del ...
 - [Construcción de Casas de Playa para Airbnb en Ayampe, Olón y Manta: Rentabilidad en 90 Días](https://steelframingec.com/blog/casas-playa-airbnb-ayampe-olon-manta-rentabilidad-90-dias/): Modelo financiero de rentabilidad (ROI) para inversionistas en la Costa Ecuatoriana. Casas de playa con acero galvanizado estructural Z275 inmune a...
+- [Ceniza Volcánica en Techos de Steel Framing: Resistencia Estructural y Limpieza en Zonas de Riesgo del Cotopaxi y Tungurahua](https://steelframingec.com/blog/ceniza-volcanica-techos-acero-cotopaxi-tungurahua-limpieza/): Análisis técnico pericial sobre el impacto de la ceniza volcánica seca y húmeda en techos de acero galvanizado estructural Z275. Cálculo bajo norma...
 - [Cimentaciones en Steel Framing: Platea de Hormigón vs Zapatas en Suelos Sísmicos](https://steelframingec.com/blog/cimentaciones-platea-vs-zapatas-corridas-steel-framing/): Análisis geotécnico y estructural de cimentaciones para Steel Framing en Ecuador. Comparativa entre platea rígida de 12-15 cm y zapatas corridas ba...
 - [CIRSOC 303 vs Norma NEC: Comparativa Sísmica de Acero Conformado en Frío](https://steelframingec.com/blog/cirsoc-303-vs-norma-nec-ecuador-acero-conformado-frio/): Comparativa técnica y cálculo estructural sismorresistente: CIRSOC 303 frente a la Norma Ecuatoriana de la Construcción (NEC-SE-DS y NEC-SE-AC). An...
 - [Cómo Colgar Televisores, Muebles y Hamacas en Paredes de Yeso y Steel Framing | Guía Técnica 2026](https://steelframingec.com/blog/colgar-televisores-muebles-hamacas-paredes-yeso/): Guía pericial para fijar cargas en paredes de yeso y Steel Framing: anclajes tipo mariposa, fijación directa a montantes Z275, refuerzos OSB para m...
