@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TMF2MKZ3');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Arq. Sergio Bravo - Homers Constructora">
+
+    <!-- SEO On-Page de Alta Jerarquía -->
+    <title>Ingeniería de Vanos en Steel Framing: Cálculo de Dinteles (Headers), Jacks, Kings y Cripples | Homers Constructora</title>
+    <meta name="description" content="Guía pericial sobre cálculo y ensamble de aberturas en Steel Framing según Consulsteel y SFIA. Descubre cómo dimensionar dinteles (headers), montantes jack, king y cripples para grandes ventanales sin fisuras ni deformaciones.">
+    <meta name="keywords" content="vanos steel framing, calculo dinteles steel framing, montantes jack king cripple, header steel frame ecuador, aberturas ventanas steel framing, consulsteel sfia vanos, flecha admisible dinteles ventanales">
+    <link rel="canonical" href="https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/">
+
+    <!-- Open Graph & Twitter Cards -->
+    <meta property="og:title" content="Ingeniería de Vanos en Steel Framing: Dinteles, Jacks, Kings y Cripples">
+    <meta property="og:description" content="Aprende cómo se calculan las aberturas de puertas y grandes ventanales en Steel Framing sin fisuras según las directrices de Consulsteel, SFIA y norma NEC.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/">
+    <meta property="og:image" content="https://steelframingec.com/img/el-quinche/4%20casa-steel-framing-el%20quinche-ecuador.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../img/homers-logo.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0B192C',
+                            dark: '#1E3E62',
+                            primary: '#0056B3',
+                            accent: '#FF6500',
+                            accentHover: '#E05A00',
+                            light: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org Rich Snippets JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://steelframingec.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog Técnico",
+              "item": "https://steelframingec.com/blog/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Ingeniería de Vanos en Steel Framing: Dinteles, Jacks y Cripples",
+              "item": "https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/"
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "@id": "https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/#article",
+          "headline": "Ingeniería de Vanos en Steel Framing: Cálculo de Dinteles (Headers), Jacks, Kings y Cripples según Consulsteel y SFIA",
+          "description": "Manual técnico sobre resolución estructural de aberturas en muros portantes de Steel Framing. Dimensionamiento analítico de dinteles (headers), montantes jack de apoyo, montantes king pasantes, cripples de modulación y técnicas de placa en 'L' para evitar fisuras.",
+          "image": "https://steelframingec.com/img/el-quinche/4%20casa-steel-framing-el%20quinche-ecuador.jpg",
+          "datePublished": "2026-10-10",
+          "dateModified": "2026-10-10",
+          "author": {
+            "@type": "Person",
+            "name": "Arq. Sergio Bravo",
+            "jobTitle": "Director Técnico de Homers Constructora",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Homers Constructora"
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Homers Constructora",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://steelframingec.com/img/homers-logo.png"
+            }
+          },
+          "mainEntityOfPage": "https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/"
+        },
+        {
+          "@type": "GeneralContractor",
+          "name": "Homers Constructora - Steel Framing EC",
+          "description": "Especialistas en ingeniería estructural sismorresistente con Steel Framing, modulación de perfiles galvanizados Z275 y diseño arquitectónico en Ecuador.",
+          "url": "https://steelframingec.com/",
+          "telephone": "+593995099506",
+          "email": "info@steelframingec.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Quito",
+            "addressRegion": "Pichincha",
+            "addressCountry": "EC"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Cuál es la función exacta de un dintel (header) en un vano portante de Steel Framing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El dintel (header) es la viga horizontal superior colocada sobre la abertura de una puerta o ventana. Su función estructural es interceptar y recolectar las cargas gravitatorias axiales y de sobrecarga provenientes del entrepiso o de la cubierta, y redirigirlas lateralmente hacia los montantes verticales Jack sin que el vano sufra deflexiones que comprometan las carpinterías."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué diferencia existe entre un montante Jack y un montante King?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El montante Jack (o trimmer) es un perfil recortado que se ubica directamente debajo del dintel, sirviendo como asiento y transmitiendo la carga vertical por compresión hacia la solera inferior. El montante King (o stud pasante) es un perfil completo que va desde la solera inferior hasta la solera superior adosado al Jack, cuya función primordial es resistir las fuerzas laterales de viento y corte sísmico perpendicular al muro."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué son los montantes Cripple y para qué se utilizan?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Los cripples son perfiles cortos colocados encima del dintel superior y debajo del alféizar inferior. Su propósito no es resistir grandes cargas axiales primarias, sino mantener la modulación geométrica a 40 o 60 cm para permitir el atornillado continuo y regular de las placas de arriostramiento OSB y placas de yeso, evitando vanos vacíos sin soporte de fijación."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo se previene el agrietamiento de los revestimientos en las esquinas de ventanas?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "En Steel Framing se aplica la regla de corte en 'L' (o tipo pistola) para los tableros OSB y placas de yeso o EIFS. Nunca se permite que una junta vertical u horizontal de placa coincida con la arista o esquina del vano, ya que allí se concentran las líneas de tensión cortante. Además, en el exterior se instalan parches de malla de fibra de vidrio a 45 grados embebidos en base coat."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué límite de flecha o deformación se exige para grandes ventanales de piso a techo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Para vanos con grandes paños vidriados o puertas corredizas panorámicas, la deflexión admisible del dintel bajo carga total no debe superar L/600 (longitud dividida entre 600) o un máximo absoluto de 12 mm según las recomendaciones de SFIA y Consulsteel, protegiendo los cristales laminados o templados de aplastamientos o roturas por compresión."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-slate-700/50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                <span><strong>Ingeniería Estructural Avanzada 2026:</strong> Resolución analítica de aberturas según especificaciones AISI S100, SFIA y Consulsteel.</span>
+            </span>
+            <div class="flex items-center space-x-4">
+                <a href="tel:+593995099506" class="hover:text-amber-400 transition flex items-center gap-1.5 font-medium"><i class="fa-solid fa-phone text-[10px]"></i> 0995 099 506</a>
+                <span class="text-slate-500">|</span>
+                <span class="text-slate-300">Dirección Técnica: Arq. Sergio Bravo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="../../index.html" class="flex items-center gap-3 group">
+                    <img src="../../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">División Técnica de Homers Constructora</span>
+                    </div>
+                </a>
+
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="../../index.html" class="hover:text-blue-900 transition">&larr; Inicio</a>
+                    <a href="#anatomia" class="hover:text-blue-900 transition">Anatomía del Vano</a>
+                    <a href="#jacks-kings" class="hover:text-blue-900 transition">Jacks &amp; Kings</a>
+                    <a href="#flechas" class="hover:text-blue-900 transition">Cálculo de Flechas</a>
+                    <a href="#patologias" class="hover:text-blue-900 transition">Corte en 'L' Antifisuras</a>
+                    <a href="../../construir-casa-ecuador/index.html" class="bg-amber-500 hover:bg-amber-600 text-slate-900 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Proyecto</a>
+                </nav>
+
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20estoy%20estudiando%20la%20ingenieria%20de%20vanos%20y%20dinteles%20en%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <div class="bg-slate-100 py-3 border-b border-slate-200 text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2">
+            <a href="../../index.html" class="hover:text-blue-900 transition">Inicio</a>
+            <span class="text-slate-400">/</span>
+            <a href="../../blog/guia-paso-a-paso-construir-casa-ecuador/index.html" class="hover:text-blue-900 transition">Blog Técnico</a>
+            <span class="text-slate-400">/</span>
+            <span class="text-brand-navy font-semibold">Ingeniería de Vanos: Dinteles, Jacks y Cripples</span>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-gradient-to-b from-slate-900 via-brand-navy to-slate-900 text-white pt-16 pb-20 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-blue-500/20 text-blue-300 border border-blue-500/30 mb-6">
+                <i class="fa-solid fa-shapes"></i> Tratado de Mecánica Estructural en Perfiles C
+            </div>
+            
+            <h1 class="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight mb-6">
+                Ingeniería de Vanos en Steel Framing: Cálculo de Dinteles (Headers), Jacks, Kings y Cripples según Consulsteel y SFIA
+            </h1>
+            
+            <p class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto mb-8 font-normal leading-relaxed">
+                Cómo abrir grandes ventanales panorámicos y puertas corredizas de piso a techo sin riesgo de colapso, fisuras diagonales ni atascos de marcos: física del flujo de cargas, dimensionamiento de perfiles de <strong>acero galvanizado estructural Z275</strong> y control de flechas elásticas.
+            </p>
+
+            <!-- Meta info bar -->
+            <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs text-slate-400 border-t border-slate-800 pt-6">
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-user-tie text-amber-400"></i> Autor: <strong>Arq. Sergio Bravo</strong> (Director Técnico)
+                </span>
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-book-open text-slate-400"></i> Estándares: SFIA / Consulsteel / AISI S100
+                </span>
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-clock text-slate-400"></i> Lectura técnica: 11 min
+                </span>
+                <span class="flex items-center gap-2 text-emerald-400">
+                    <i class="fa-solid fa-circle-check"></i> 100% Sismorresistente NEC
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+
+            <!-- ARTICLE COLUMN -->
+            <article class="lg:col-span-8 space-y-10">
+
+                <!-- QUICK ANSWER BOX (Featured Snippet Block) -->
+                <div class="bg-gradient-to-br from-blue-50 via-white to-amber-50 border-2 border-blue-300 rounded-2xl p-6 sm:p-7 shadow-md">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-blue-900 text-amber-400 flex items-center justify-center text-2xl flex-shrink-0 shadow">
+                            <i class="fa-solid fa-vector-square"></i>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-blue-900 block">Respuesta Pericial Directa</span>
+                            <h2 class="text-xl font-heading font-extrabold text-slate-900">¿Cómo funciona la ingeniería de un vano en un muro portante de Steel Framing?</h2>
+                            <p class="text-sm text-slate-700 leading-relaxed">
+                                Un vano interrumpe la modulación continua de montantes portantes cada 40 cm. Para transferir las cargas gravitatorias y de viento alrededor de la abertura sin deformar las carpinterías ni agrietar los revestimientos, la ingeniería de Steel Framing establece un ensamble de 4 elementos de precisión: 
+                                1) <strong>Dintel (Header):</strong> viga horizontal compuesta que capta la carga superior; 
+                                2) <strong>Montantes Jack (Trimmers):</strong> perfiles de apoyo recortados que sostienen el dintel y canalizan la compresión hacia la solera de piso; 
+                                3) <strong>Montantes King (Full studs):</strong> montantes pasantes de piso a techo que absorben la flexión por empuje de viento y corte lateral; y 
+                                4) <strong>Cripples:</strong> perfiles cortos superiores e inferiores que sostienen la modulación de las placas de cerramiento. Todo bajo un riguroso <strong>cálculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TABLE OF CONTENTS -->
+                <nav class="bg-slate-100 rounded-2xl p-6 border border-slate-200">
+                    <h3 class="font-heading font-bold text-slate-900 text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-list-check text-blue-900"></i> Temario de Ingeniería de Aberturas
+                    </h3>
+                    <ol class="space-y-2 text-sm text-slate-700 font-medium">
+                        <li><a href="#anatomia" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">1</span> Anatomía y Flujo de Fuerzas en el Vano</a></li>
+                        <li><a href="#dinteles" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">2</span> Tipologías de Dinteles (Headers): Viga Cajón vs Celosía</a></li>
+                        <li><a href="#jacks-kings" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">3</span> Interacción Jack-King: Compresión Axial vs Presión de Viento</a></li>
+                        <li><a href="#cripples" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">4</span> Montantes Cripples y Soleras de Alféizar (Sill Headers)</a></li>
+                        <li><a href="#flechas" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">5</span> Criterio de Deflexión Elástica Admisible (L/360 a L/600)</a></li>
+                        <li><a href="#patologias" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">6</span> Prevención de Fisuras: Corte de Placa en 'L' y Malla a 45°</a></li>
+                        <li><a href="#tabla-dinteles" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-amber-100 text-amber-900 flex items-center justify-center text-xs font-bold">&#9733;</span> Tabla Técnica: Dimensionamiento de Dinteles según la Luz</a></li>
+                        <li><a href="#faq" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-slate-200 text-slate-800 flex items-center justify-center text-xs font-bold">?</span> Preguntas Frecuentes</a></li>
+                    </ol>
+                </nav>
+
+                <!-- SECTION 1 -->
+                <section id="anatomia" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">1</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Anatomía Estructural y Flujo de Cargas Alrededor del Vano</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        En una estructura de Steel Framing, los montantes portantes PGC de <strong>acero galvanizado estructural Z275</strong> trabajan de manera continua y colaborativa, distribuyendo las cargas axiales en múltiplos regulares de 40 cm o 60 cm. Cuando el diseño arquitectónico introduce una puerta de acceso, un balcón o un amplio ventanal panorámico, se genera una discontinuidad física que interrumpe el descenso vertical de las fuerzas.
+                    </p>
+
+                    <div class="bg-slate-900 text-white rounded-2xl p-6 sm:p-7 space-y-4">
+                        <h3 class="font-heading font-bold text-lg text-amber-400">Diagrama Analítico de Desvío de Fuerzas</h3>
+                        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                            A diferencia del hormigón donde las tensiones se concentran caóticamente provocando fisuras diagonales a 45°, en el Steel Framing el desvío de cargas se resuelve mediante un pórtico secundario perfectamente triangulado e isostático:
+                        </p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs pt-2">
+                            <div class="p-4 bg-slate-800/90 rounded-xl border border-slate-700 space-y-1">
+                                <span class="font-bold text-amber-400 block text-sm">1. Carga Tributaria Superior</span>
+                                <p class="text-slate-300">Las cargas vivas y muertas provenientes de la losa de entrepiso o de las cerchas de cubierta caen sobre la solera superior y se transfieren a los montantes Cripple superiores.</p>
+                            </div>
+                            <div class="p-4 bg-slate-800/90 rounded-xl border border-slate-700 space-y-1">
+                                <span class="font-bold text-amber-400 block text-sm">2. Captación por el Dintel</span>
+                                <p class="text-slate-300">El Dintel (Header) absorbe el esfuerzo flexionante y transmite la totalidad de las reacciones en los extremos directamente hacia los montantes Jack.</p>
+                            </div>
+                            <div class="p-4 bg-slate-800/90 rounded-xl border border-slate-700 space-y-1">
+                                <span class="font-bold text-amber-400 block text-sm">3. Descenso Axial vía Jacks</span>
+                                <p class="text-slate-300">Los montantes Jack, trabajando a compresión pura sin flexión, conducen la carga hacia la solera inferior PGU y de allí a la platea de hormigón armado.</p>
+                            </div>
+                            <div class="p-4 bg-slate-800/90 rounded-xl border border-slate-700 space-y-1">
+                                <span class="font-bold text-amber-400 block text-sm">4. Blindaje Lateral con Kings</span>
+                                <p class="text-slate-300">Los montantes King adosados rigidizan el conjunto frente a succiones de viento y fuerzas cortantes sísmicas, evitando el desplome del muro.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 2 -->
+                <section id="dinteles" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">2</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Tipologías de Dinteles (Headers): Viga Cajón vs Doble PGC vs Celosía</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        De acuerdo con los manuales de cálculo de <strong>Consulsteel</strong> y las especificaciones de la <strong>SFIA (Steel Framing Industry Association)</strong>, no existe un único tipo de dintel. El dimensionamiento depende de la luz libre (\(L\)), la carga lineal tributaria (\(w\)) y la altura libre disponible bajo la solera superior.
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-2">
+                            <div class="flex items-center gap-2 text-blue-900 font-bold text-base">
+                                <span class="w-7 h-7 rounded-lg bg-blue-100 flex items-center justify-center text-xs">A</span>
+                                <h3>Dintel Viga Cajón (Box Header con Perfiles PGC y Soleras PGU)</h3>
+                            </div>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Es la configuración más eficiente y versátil para luces de entre 1.20 m y 2.40 m. Se conforma enfrentando dos perfiles PGC abrazados por soleras PGU superior e inferior, unidos mediante tornillos autoperforantes hexagonales cada 15 a 20 cm. Esta sección hueca cerrada posee un altísimo momento de inercia a flexión (\(I_x\)) y una resistencia torsional superior que evita el pandeo lateral por flexotorsión. El interior de la viga cajón se rellena previamente con <strong>lana mineral de roca/vidrio</strong> para no generar un puente térmico acústico hueco.
+                            </p>
+                        </div>
+
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-2">
+                            <div class="flex items-center gap-2 text-blue-900 font-bold text-base">
+                                <span class="w-7 h-7 rounded-lg bg-blue-100 flex items-center justify-center text-xs">B</span>
+                                <h3>Dintel Doble PGC Espalda con Espalda (Back-to-Back Header)</h3>
+                            </div>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Ideal cuando la altura disponible es reducida. Consiste en dos montantes PGC unidos alma con alma con tornillos autoperforantes estructurales cada 30 cm. Requiere que los apoyos sobre los Jacks se ejecuten con ángulos conectores de ala ancha para transmitir la reacción sin aplastamiento local del alma (web crippling).
+                            </p>
+                        </div>
+
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-2">
+                            <div class="flex items-center gap-2 text-blue-900 font-bold text-base">
+                                <span class="w-7 h-7 rounded-lg bg-blue-100 flex items-center justify-center text-xs">C</span>
+                                <h3>Dintel en Celosía o Cercha Reticulada de Gran Luz</h3>
+                            </div>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Para ventanales monumentales de 3.00 m a más de 5.00 m de ancho sin columnas intermedias (típicos de salas de doble altura y porches sociales), se diseña una cercha reticulada interior dentro del mismo espesor de muro (100 o 150 mm). Los cordones superior e inferior trabajan a tracción/compresión pura conectados por diagonales PGC a 45°/60°, eliminando la necesidad de incorporar vigas pesadas de otros materiales y manteniendo la ligereza y uniformidad del sistema.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 3 -->
+                <section id="jacks-kings" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">3</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Interacción Jack-King: Compresión Axial vs Presión de Viento</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        Uno de los errores más frecuentes en constructores inexpertos es colocar un solo montante a los costados de una ventana. En ingeniería pericial de Steel Framing, la separación funcional entre el <strong>Montante Jack</strong> y el <strong>Montante King</strong> es estricta:
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-4">
+                        <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-amber-600 block">El Soporte Vertical</span>
+                            <h3 class="font-heading font-bold text-base text-slate-900">Montantes Jack (Trimmers)</h3>
+                            <ul class="text-xs text-slate-600 space-y-2 list-disc list-inside">
+                                <li>Se recortan exactamente a la cota del borde inferior del dintel.</li>
+                                <li>Soportan el 100% de la reacción vertical del dintel sin desviar carga a los montantes King.</li>
+                                <li>En luces mayores a 2.00 m o bajo losas pesadas, se duplican (2 Jacks por cada extremo) para evitar el pandeo local por aplastamiento axial.</li>
+                            </ul>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-blue-900 block">La Columna Continua</span>
+                            <h3 class="font-heading font-bold text-base text-slate-900">Montantes King (Full Studs)</h3>
+                            <ul class="text-xs text-slate-600 space-y-2 list-disc list-inside">
+                                <li>Perfil continuo que va de solera inferior a solera superior sin ningún corte.</li>
+                                <li>Se atornilla al Jack alma con alma mediante tornillos cada 20 cm, formando un elemento compuesto de gran inercia.</li>
+                                <li>Resiste las presiones y succiones de viento que golpean los grandes paños de vidrio, impidiendo la deflexión horizontal fuera del plano del muro.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 4 -->
+                <section id="cripples" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">4</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Montantes Cripples y Soleras de Alféizar (Sill Headers)</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        Los <strong>Cripples</strong> son montantes cortos que restituyen la modulación estándar de 40 cm por encima del dintel y por debajo del alféizar. Aunque no llevan las cargas principales del edificio, desempeñan dos funciones mecánicas indispensables:
+                    </p>
+                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-xs sm:text-sm text-slate-700 space-y-3">
+                        <p>
+                            <strong>1. Sustento de Diafragmas de Arriostramiento:</strong> Las placas estructurales OSB y los tableros de yeso interior requieren apoyos perimetrales continuos cada 40 cm. Sin los cripples, las placas quedarían "volando" en el vano, perdiendo su capacidad para absorber esfuerzos de corte lateral sísmico.
+                        </p>
+                        <p>
+                            <strong>2. Apoyo Firme del Alféizar (Sill):</strong> La solera horizontal inferior de la ventana recibe el peso del marco de carpintería y del acristalamiento. Los cripples inferiores transmiten ese peso directo a la solera de piso, garantizando que el alféizar no se curve ni se desajusten los sellos hidrófugos de la ventana.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- SECTION 5 -->
+                <section id="flechas" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">5</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Criterio de Deflexión Elástica Admisible (L/360 a L/600)</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        En estructuras livianas de perfiles conformados en frío (CFS), el dimensionamiento de un dintel casi nunca está condicionado por la rotura del acero, sino por el <strong>estado límite de servicio (deformación elástica o flecha máxima)</strong>.
+                    </p>
+
+                    <div class="bg-amber-50/70 border-l-4 border-amber-500 rounded-r-2xl p-6 space-y-3">
+                        <h3 class="font-heading font-bold text-slate-900 text-base">Fórmulas y Límites Exigidos por la Norma NEC y SFIA</h3>
+                        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                            Bajo carga total (\(D + L\)), la flecha vertical en el punto medio del dintel (\(\Delta_{max}\)) se evalúa mediante la fórmula de viga simplemente apoyada:
+                        </p>
+                        <div class="bg-white p-3 rounded-xl border border-amber-200 text-center font-mono text-sm text-slate-900 font-bold">
+                            \(\Delta_{max} = \frac{5 \cdot w \cdot L^4}{384 \cdot E \cdot I_x} \le \Delta_{adm}\)
+                        </div>
+                        <ul class="text-xs space-y-2 text-slate-700 list-disc list-inside pt-1">
+                            <li><strong>Vanos de puertas estándar con tabiques ciegos:</strong> Flecha admisible \(\Delta_{adm} \le L/360\) (máx. 15 mm).</li>
+                            <li><strong>Grandes paños vidriados y ventanales corredizos de piso a techo:</strong> Flecha admisible \(\Delta_{adm} \le L/600\) y un límite absoluto de <strong>12 mm</strong>. Si un dintel flexiona más de 12 mm, aplastará el marco superior de aluminio o PVC, bloqueando el deslizamiento de las hojas o provocando la rotura por compresión del vidrio templado.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- SECTION 6 -->
+                <section id="patologias" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">6</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Prevención de Fisuras: Corte de Placa en 'L' y Refuerzo a 45° en EIFS</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        En la construcción tradicional de bloque y enlucido húmedo, es habitual observar fisuras diagonales en las 4 esquinas de ventanas y puertas tras pocos meses de inaugurada la obra. En Steel Framing, la prevención de esta patología se encuentra estandarizada por protocolo pericial:
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-4">
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-2">
+                            <span class="text-xs font-bold text-emerald-600 uppercase block">Protocolo de Emplacado</span>
+                            <h3 class="font-heading font-bold text-base text-slate-900">Corte de Placa en "L" (Corte Pistola)</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Las placas estructurales OSB y los paneles de yeso interiores <strong>nunca deben cortarse al ras del vano</strong> haciendo coincidir una junta recta con la esquina de la abertura. La placa debe cortarse en una sola pieza con forma de "L", penetrando al menos 20 cm tanto en el dintel como en el montante lateral. De este modo, la junta queda desplazada lejos del punto de máxima concentración de tensiones.
+                            </p>
+                        </div>
+
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-2">
+                            <span class="text-xs font-bold text-blue-900 uppercase block">Protocolo de Fachada</span>
+                            <h3 class="font-heading font-bold text-base text-slate-900">Mallas de Refuerzo a 45° en Sistema EIFS/DAF</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                En el <strong>sistema multicapa termoacústico EIFS y DAF</strong>, antes de aplicar la malla de fibra de vidrio general sobre el poliestireno expandido, se instalan "parches" diagonales de malla de 30 x 40 cm orientados a 45° en cada vértice del vano, embebidos en base coat polimérico. Este refuerzo disipa los microesfuerzos térmicos y sísmicos, garantizando fachadas 100% lisas de por vida.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION TABLA DINTELES -->
+                <section id="tabla-dinteles" class="space-y-5 pt-6">
+                    <div class="border-t border-slate-200 pt-8">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 block mb-1">Dimensionamiento Práctico según SFIA y Consulsteel</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Tabla Técnica: Configuración de Dinteles según la Luz Libre del Vano</h2>
+                        <p class="text-slate-600 text-sm leading-relaxed mt-2">
+                            Valores orientativos calculados para perfiles de <strong>acero galvanizado estructural Z275</strong> (espesor mínimo 0.90 mm a 1.50 mm) bajo carga estándar de entrepiso y cubierta liviana.
+                        </p>
+                    </div>
+
+                    <div class="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm bg-white">
+                        <table class="w-full text-left text-xs sm:text-sm">
+                            <thead class="bg-brand-navy text-white font-heading font-bold text-xs uppercase tracking-wider">
+                                <tr>
+                                    <th class="py-4 px-4 sm:px-6">Luz Libre del Vano (\(L\))</th>
+                                    <th class="py-4 px-4 sm:px-6">Tipología Estructural del Dintel</th>
+                                    <th class="py-4 px-4 sm:px-6">Cantidad Jacks de Apoyo</th>
+                                    <th class="py-4 px-4 sm:px-6">Kings por Lado</th>
+                                    <th class="py-4 px-4 sm:px-6">Límite de Flecha</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-slate-700">
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">Hasta 1.00 m (Puertas estándar)</td>
+                                    <td class="py-3.5 px-4 sm:px-6">Dintel cajón simple (2 PGC 100x0.90 + 2 PGU)</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-blue-900">1 Jack</td>
+                                    <td class="py-3.5 px-4 sm:px-6">1 King</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-slate-500">\(L/360\) (2.7 mm)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">1.00 m a 1.80 m (Ventanas medias)</td>
+                                    <td class="py-3.5 px-4 sm:px-6">Dintel cajón PGC 100 o 150x0.95 mm</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-blue-900">1 a 2 Jacks</td>
+                                    <td class="py-3.5 px-4 sm:px-6">1 King</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-slate-500">\(L/480\) (3.7 mm)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">1.80 m a 2.80 m (Ventanales sala)</td>
+                                    <td class="py-3.5 px-4 sm:px-6">Viga cajón rigidizada PGC 150x1.25 mm con clips</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-amber-700">2 Jacks</td>
+                                    <td class="py-3.5 px-4 sm:px-6">1 a 2 Kings</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-amber-700 font-semibold">\(L/600\) (4.6 mm)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">2.80 m a 4.00 m (Puertas corredizas piso-techo)</td>
+                                    <td class="py-3.5 px-4 sm:px-6">Viga cajón reforzada PGC 200x1.50 mm o Celosía reticulada</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-amber-700">2 a 3 Jacks</td>
+                                    <td class="py-3.5 px-4 sm:px-6">2 Kings</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-amber-700 font-semibold">\(L/600\) (&lt; 6.5 mm)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">Mayor a 4.00 m (Galerías panorámicas)</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-blue-900">Cercha en celosía reticulada de Steel Framing integrada al muro</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-emerald-700">3 Jacks + Columna compuesta</td>
+                                    <td class="py-3.5 px-4 sm:px-6">2 Kings</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-emerald-700 font-bold">\(L/600\) (&le; 8 mm)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- FAQ SECTION -->
+                <section id="faq" class="space-y-6 pt-6">
+                    <div class="border-t border-slate-200 pt-8">
+                        <span class="text-xs font-bold uppercase tracking-wider text-blue-900 block mb-1">Dudas Frecuentes</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Preguntas Frecuentes sobre Vanos y Dinteles</h2>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+                            <h3 class="font-heading font-bold text-base text-slate-900 mb-2">¿Se puede colocar un dintel de perfil estructural pesado en una casa de Steel Framing?</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                No es necesario ni conveniente. El sistema Steel Framing está diseñado para resolver el 100% de las luces y vanos utilizando sus propios perfiles conformados en frío de <strong>acero galvanizado estructural Z275</strong> ensamblados en vigas cajón o cerchas en celosía. Introducir elementos de gran peso concentrado alteraría la ligereza sismorresistente del edificio y crearía incompatibilidades térmicas y galvánicas.
+                            </p>
+                        </div>
+
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+                            <h3 class="font-heading font-bold text-base text-slate-900 mb-2">¿Cómo se instalan las ventanas de PVC o aluminio en estos vanos?</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Se fijan directamente a los montantes Jack y al alféizar mediante tornillos autoperforantes galvanizados, interponiendo bandas de estanqueidad hidrófuga y sellando el perímetro con espuma de poliuretano de celda cerrada. La rigidez milimétrica del acero asegura que los marcos no se descuadren jamás con los cambios de temperatura.
+                            </p>
+                        </div>
+
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+                            <h3 class="font-heading font-bold text-base text-slate-900 mb-2">¿Qué sucede con el aislamiento térmico alrededor de un dintel cajón?</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Antes de cerrar el dintel con su solera inferior, la cavidad interna se rellena por completo con <strong>lana mineral de roca/vidrio</strong>. Además, por la cara exterior, el muro se reviste continuamente con las placas de poliestireno expandido del <strong>sistema multicapa termoacústico EIFS y DAF</strong>, eliminando cualquier puente térmico perimetral.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- AUTHOR BIO CARD -->
+                <div class="bg-slate-900 text-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center gap-6 mt-12 border border-slate-800">
+                    <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-amber-500 to-amber-300 p-1 flex-shrink-0 shadow-lg">
+                        <div class="w-full h-full rounded-full bg-slate-950 flex items-center justify-center text-3xl font-heading font-black text-amber-400">
+                            SB
+                        </div>
+                    </div>
+                    <div class="space-y-2 text-center sm:text-left">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Autoría Pericial</span>
+                        <h3 class="font-heading font-black text-xl text-white">Arq. Sergio Bravo</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Director Técnico de <strong>Homers Constructora</strong>. Máster en arquitectura y perito calculista en sistemas constructivos industrializados CFS bajo normativa ecuatoriana NEC y estándares SFIA.
+                        </p>
+                        <div class="pt-2 flex flex-wrap gap-3 justify-center sm:justify-start">
+                            <a href="../../construir-casa-ecuador/index.html" class="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1">
+                                Ver obras construidas en Ecuador &rarr;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA BOX FINAL -->
+                <div class="bg-gradient-to-r from-blue-900 via-brand-dark to-slate-900 text-white rounded-3xl p-8 sm:p-10 shadow-xl text-center space-y-6">
+                    <h2 class="font-heading font-black text-2xl sm:text-3xl max-w-xl mx-auto">
+                        ¿Quieres diseñar una vivienda con ventanales monumentales y cálculo sismorresistente?
+                    </h2>
+                    <p class="text-slate-300 text-sm max-w-2xl mx-auto leading-relaxed">
+                        Conversa directamente con el Arq. Sergio Bravo. Evaluamos tus planos arquitectónicos y calculamos los vanos y perfiles de tu proyecto con garantía estructural de 20 años.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20asesoria%20para%20disenar%20vanos%20y%20ventanales%20en%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl font-heading font-extrabold text-sm uppercase tracking-wider text-slate-950 bg-amber-500 hover:bg-amber-400 shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5 flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Asesoría de Ingeniería por WhatsApp
+                        </a>
+                        <a href="../../construir-casa-ecuador/index.html" class="w-full sm:w-auto px-7 py-4 rounded-xl font-heading font-bold text-sm text-white bg-white/10 hover:bg-white/20 border border-white/20 transition flex items-center justify-center gap-2">
+                            Ver Cotización Llave en Mano
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- SIDEBAR COLUMN -->
+            <aside class="lg:col-span-4 space-y-8">
+
+                <!-- STICKY EXPERT CARD -->
+                <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm sticky top-28 space-y-6">
+                    <div class="border-b border-slate-100 pb-4">
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-blue-900 block mb-1">Ingeniería Homers</span>
+                        <h3 class="font-heading font-bold text-lg text-slate-900">Vanos de Gran Luz sin Riesgos</h3>
+                        <p class="text-xs text-slate-600 mt-1">Cálculo de deflexión milimétrica bajo norma NEC-SE-DS / NEC-SE-AC.</p>
+                    </div>
+
+                    <div class="space-y-3 text-xs text-slate-700">
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Dinteles cajón y cerchas reticuladas
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Montantes Jack y King calculados
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Cero fisuras en esquinas de ventanas
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Acero galvanizado estructural Z275
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20consultarle%20sobre%20el%20calculo%20de%20dinteles%20en%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-slate-950 bg-amber-500 hover:bg-amber-400 shadow transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp con Arq. Sergio
+                    </a>
+
+                    <!-- ARTICULOS RELACIONADOS -->
+                    <div class="border-t border-slate-100 pt-5 space-y-3">
+                        <span class="font-heading font-bold text-xs uppercase tracking-wider text-slate-900 block">Artículos de Consultoría</span>
+                        
+                        <a href="../guia-paso-a-paso-construir-casa-ecuador/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Hoja de Ruta</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Guía Paso a Paso para Construir tu Casa en Ecuador</h4>
+                        </a>
+
+                        <a href="../normativa-nec-steel-framing-sismos-ecuador/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Normativa Sísmica</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Normativa NEC y Sismos en Ecuador: NEC-SE-DS</h4>
+                        </a>
+
+                        <a href="../ingenieria-cfs-wei-wen-yu-sismorresistencia/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Física Teórica CFS</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Ingeniería CFS y Tratado de Wei-Wen Yu</h4>
+                        </a>
+
+                        <a href="../instalaciones-electricas-hidrosanitarias-pex-sin-picar/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Redes y Mantenimiento</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Tuberías PEX y Conduits por Punchouts sin Picar</h4>
+                        </a>
+                    </div>
+
+                    <!-- ENLACES DE JERARQUIA WEB -->
+                    <div class="border-t border-slate-100 pt-5 space-y-2 text-xs">
+                        <span class="font-heading font-bold text-[11px] uppercase tracking-wider text-slate-400 block mb-2">Páginas Pilares de Homers</span>
+                        <div><a href="../../construir-casa-ecuador/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Construir Casa en Ecuador (Oferta Llave en Mano)</a></div>
+                        <div><a href="../../precio-m2/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Precio por m² Steel Framing Ecuador 2026</a></div>
+                        <div><a href="../../que-es-steel-framing/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> ¿Qué es el Steel Framing? Manual Completo</a></div>
+                        <div><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Steel Framing vs Hormigón y Bloque</a></div>
+                    </div>
+                </div>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- FOOTER ECOSISTEMA UNIFICADO -->
+    <footer class="bg-slate-950 text-slate-300 border-t border-slate-800 pt-16 pb-12 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+
+                <!-- Col 1: Identidad Corporativa -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="../../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain" loading="lazy">
+                        <span class="font-heading font-extrabold text-xl text-white tracking-tight">Steel Framing <span class="text-amber-500">EC</span></span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        División especializada de <strong>Homers Constructora</strong>. Liderada por el Arq. Sergio Bravo &bull; Construcción sismorresistente con contrato de precio fijo y dirección técnica diaria. Proyectos llave en mano en Ecuador.
+                    </p>
+                    <p class="text-[11px] text-slate-500">Quito &bull; Cumbayá &bull; Tumbaco &bull; Guayaquil &bull; Cuenca &bull; Manta &bull; Cobertura Nacional</p>
+                </div>
+
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../construir-casa-ecuador/index.html" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Mi Casa &mdash; Ver Oferta</a></li>
+                        <li><a href="../../steel-framing-quito-ecuador/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">Steel Framing en Quito y Valles</a></li>
+                        <li><a href="../../ampliacion-segundo-piso-ecuador/index.html" class="hover:text-white transition">Ampliación de Segundo Piso sobre Losa</a></li>
+                        <li><a href="../../modelos-casas-steel-framing-ecuador/index.html" class="hover:text-white transition">Catálogo de Modelos y Diseños</a></li>
+                        <li><a href="../../construir-casa-en-ecuador-desde-usa/index.html" class="hover:text-white transition">Construir desde USA <span class="text-amber-400 font-bold">[Migrantes]</span></a></li>
+                        <li><a href="../../casas-prefabricadas-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Prefabricadas</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Guias Tecnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Guías Técnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../que-es-steel-framing/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">&iquest;Qué es Steel Framing? (Guía)</a></li>
+                        <li><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Hormigón y Bloque</a></li>
+                        <li><a href="../../permisos-construccion-steel-framing-ecuador/index.html" class="hover:text-white transition">Permisos Municipales Steel Framing</a></li>
+                        <li><a href="../../credito-hipotecario-biess-steel-framing/index.html" class="hover:text-white transition">Crédito Hipotecario BIESS y Bancos</a></li>
+                        <li><a href="../../precio-m2/index.html" class="hover:text-white transition">Precio por m² (Calculadora)</a></li>
+                        <li><a href="../../steel-framing-ecuador/index.html" class="hover:text-white transition">Guía Técnica NEC Steel Framing</a></li>
+                        <li><a href="../../construccion-en-seco-ecuador/index.html" class="hover:text-white transition">Manual Construcción en Seco</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Ciudades y Contacto -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Ciudades y Contacto</div>
+                    <ul class="space-y-2 text-xs mb-4">
+                        <li><a href="../../steel-framing-quito-ecuador/index.html" class="hover:text-white transition">Construcción en Quito &amp; Valles</a></li>
+                        <li><a href="../../steel-framing-guayaquil/index.html" class="hover:text-white transition">Construcción en Guayaquil</a></li>
+                        <li><a href="../../steel-framing-cuenca/index.html" class="hover:text-white transition">Construcción en Cuenca</a></li>
+                        <li><a href="../../steel-framing-manta/index.html" class="hover:text-white transition">Construcción en Manta &amp; Manabí</a></li>
+                        <li><a href="../../cuanto-cuesta-construir-en-ecuador/index.html" class="hover:text-white transition">Costos por Ciudad en Ecuador</a></li>
+                    </ul>
+                    <div class="space-y-1 text-xs text-slate-400">
+                        <p><i class="fa-solid fa-shield-halved text-emerald-400 mr-2"></i> Garantía Estructural 20 Años</p>
+                        <p><a href="tel:+593995099506" class="hover:text-white transition"><i class="fa-solid fa-phone text-amber-400 mr-2"></i>0995 099 506</a></p>
+                        <p><a href="mailto:info@steelframingec.com" class="hover:text-white transition"><i class="fa-solid fa-envelope text-amber-400 mr-2"></i>info@steelframingec.com</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+                <p>&copy; 2026 Homers Constructora &bull; Steel Framing EC. Todos los derechos reservados.</p>
+                <p>Ingeniería de Vanos y Perfilería Z275 bajo estándares internacionales.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Action Button -->
+    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20estoy%20leyendo%20la%20guia%20de%20vanos%20y%20dinteles%20y%20deseo%20asesoria" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-transform duration-300" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+</html>

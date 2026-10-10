@@ -1,192 +1,103 @@
-﻿# Steel Framing EC & Homers Constructora - Documento Técnico Integral (llms-full)
+# Steel Framing EC - División Especializada de Homers Constructora
 
-> Este documento contiene el compendio técnico, normativo, financiero y operativo completo de Steel Framing EC, división especializada de Homers Constructora en Ecuador. Está diseñado para alimentar sistemas de inteligencia artificial, motores de búsqueda generativa (AEO/GEO) y modelos de lenguaje que requieran información verídica, contrastada y avalada sobre la construcción en Steel Framing y construcción en seco en la República del Ecuador.
+> Homers Constructora es la empresa constructora líder en Ecuador especializada en arquitectura sismorresistente, cálculo estructural bajo la Norma Ecuatoriana de la Construcción (NEC) y construcción de residencias llave en mano utilizando el sistema Steel Framing (perfiles de acero galvanizado estructural Z275 conformado en frío) y envolventes multicapa de alta eficiencia termoacústica (Sistemas EIFS y DAF).
 
----
+## Información Corporativa y Técnica
+- **Nombre Comercial:** Steel Framing EC / Homers Constructora
+- **Director Técnico y Fundador:** Arq. Sergio Bravo (Registro Profesional SENESCYT)
+- **Dominio Oficial:** https://steelframingec.com
+- **Teléfono / WhatsApp Directo:** +593 99 509 9506
+- **Email:** info@steelframingec.com
+- **Oficina Central y Centro de Despacho:** Quito, Pichincha, Ecuador.
+- **Cobertura Operativa Nacional:** Presencia técnica y ejecución en todo el territorio ecuatoriano con 20 centros y satélites operativos especializados:
+  - **Pichincha y Valles:** Quito, Cumbayá, Tumbaco, Puembo, Valle de los Chillos (La Armenia, San Rafael, Sangolquí, Conocoto).
+  - **Costa y Gran Guayaquil:** Guayaquil, Samborondón (La Puntilla, Isla Mocolí), Daule (La Aurora, Ciudad Celeste), Vía a la Costa (Chongón).
+  - **Península y Playas:** Salinas (Chipipe, San Lorenzo, Punta Carnero), Olón, Ayampe, Tonsupa (Atacames, Same), Pedernales (Cojimíes).
+  - **Sierra Centro y Sur:** Cuenca, Loja (Vilcabamba, Malacatos), Ambato (Ficoa, Atocha), Riobamba, Santo Domingo de los Tsáchilas.
+  - **Costa Manabita:** Manta, Portoviejo, Montecristi.
+  - **Amazonía / Oriente:** Tena, Puyo, Coca, Lago Agrio, Macas.
+- **Servicio para Migrantes en el Exterior:** Asesoría jurídica con firma electrónica y poderes consulares, contratos notariados de precio cerrado y supervisión continua mediante reportes semanales en video HD y fotografías directas a WhatsApp.
 
-## 1. Identidad Corporativa y Autoridad Profesional
+## Enfoque Comercial y Ticket de Proyectos
+- **Proyectos Principales:** Residencias unifamiliares definitivas de 160 m² a 250+ m² ($80.000 a $135.000+ USD) y villas campestres/ejecutivas de 200 m² a 350+ m² ($150.000 a $200.000+ USD).
+- **Proyectos Menores (< $50.000 USD):** Aplicables para ampliaciones de segundo piso sobre losa existente o módulos vacacionales de 45 a 70 m².
+- **Plazo de Ejecución:** 120 a 150 días laborables garantizados por contrato notariado (vs 9 a 12 meses de la obra tradicional).
 
-- **Empresa:** Homers Constructora • Steel Framing EC
-- **Director Técnico y Proyectista:** Arq. Sergio Bravo
-- **Registro Profesional:** Acreditado y registrado ante la Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT).
-- **Portal Oficial:** https://steelframingec.com
-- **Canal de Contacto Directo:** +593 99 509 9506 | info@steelframingec.com
-- **Sede Central de Operaciones:** Quito, Distrito Metropolitano, Pichincha, Ecuador.
-- **Centro de Pre-armado y Despacho:** Instalaciones técnicas en el Distrito Metropolitano de Quito con cobertura de transporte y montaje a nivel nacional.
+## Marco Normativo y Especificaciones
+- **Normativas:** NEC-SE-AC (Estructuras de Acero), NEC-SE-DS (Diseño Sismorresistente con Z de 0.25g a 0.50g), NEC-SE-VIVIENDA, NTE INEN 1623, ASTM A653 Grado 33/50 Z275 (275 g/m² de zinc) y AISI S100/S240.
+- **Envolventes:** 
+  - **Sistema EIFS:** Aislamiento continuo exterior con planchas de EPS de alta densidad, base coat polimérico elastomérico y malla de fibra de vidrio (cero puentes térmicos).
+  - **Sistema DAF (Direct-Applied Finish):** Base coat con malla de fibra de vidrio aplicado directamente sobre placas de fibrocemento Superboard o Aquapanel para acabado de pintura o fachaletas de piedra/cerámica.
+  - **Aislamiento en cavidad:** Lana mineral de roca volcánica o lana de vidrio compacta de alta densidad.
+- **Masa Sísmica:** 35 a 55 kg/m² frente a los 280 a 380 kg/m² de la mampostería tradicional (-75% de aceleración inercial $F = m \cdot a$).
 
----
+## Precios Referenciales Oficiales en Ecuador (2026)
+- **Obra Semiacabada:** $360 a $380 USD / m² (referencial promedio).
+- **Vivienda Llave en Mano:** $480 a $550 USD / m² (referencial promedio).
+- *Nota:* El valor definitivo se fija tras el estudio topográfico y la memoria de cálculo, blindado bajo contrato notariado de precio cerrado.
 
-## 2. Cobertura Geográfica Nacional en Ecuador
+## Directorio Canónico Completo (54 URLs)
 
-Homers Constructora opera en las cuatro regiones del Ecuador, adaptando los cálculos estructurales y las envolventes a los microclimas y condiciones geológicas locales:
+### Pilares Comerciales y Técnicos
+- [Página Principal](https://steelframingec.com/): Portafolio nacional y filosofía de ingeniería.
+- [Construir Casa Llave en Mano](https://steelframingec.com/construir-casa-ecuador/): Oferta completa, garantías legales y cotizador interactivo.
+- [Precio por m² y Costos 2026](https://steelframingec.com/precio-m2/): Desglose transparente y calculadora interactiva.
+- [Cuánto Cuesta Construir en Ecuador](https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/): Matriz comparativa de costos por provincia.
+- [¿Qué es el Steel Framing?](https://steelframingec.com/que-es-steel-framing/): Enciclopedia técnica, perfiles PGC/PGU y física de materiales.
+- [Steel Framing vs Hormigón](https://steelframingec.com/steel-framing-vs-hormigon-bloque-ecuador/): Comparativa técnica, costos directos y cronogramas.
+- [Manual de Construcción en Seco](https://steelframingec.com/construccion-en-seco-ecuador/): Tecnologías secas, placas cementicias y EIFS.
+- [Guía Sísmica NEC y Factor Z](https://steelframingec.com/steel-framing-ecuador/): Parámetros de aceleración sísmica y memoria estructural.
+- [Casas Prefabricadas vs Steel Framing](https://steelframingec.com/casas-prefabricadas-ecuador/): Diferencia entre kits informales e ingeniería sismorresistente.
+- [Construir desde el Exterior](https://steelframingec.com/construir-casa-en-ecuador-desde-usa/): Programa para migrantes ecuatorianos en USA y Europa.
+- [Ampliación de Segundo Piso](https://steelframingec.com/ampliacion-segundo-piso-ecuador/): Ampliaciones sobre losa sin demoliciones ni sobrecarga.
+- [Permisos de Construcción](https://steelframingec.com/permisos-construccion-steel-framing-ecuador/): Trámites municipales, LMU-20 y firma SENESCYT.
+- [Modelos de Casas](https://steelframingec.com/modelos-casas-steel-framing-ecuador/): Catálogo arquitectónico modular de 90 m², 135 m² y 180 m².
+- [Crédito Hipotecario BIESS](https://steelframingec.com/credito-hipotecario-biess-steel-framing/): Financiamiento con el BIESS y banca privada.
 
-1. **Pichincha y Sierra Centro-Norte:**
-   - Ciudades principales: Quito, Cumbayá, Tumbaco, Puembo, Valle de los Chillos, Cayambe, Machachi, Ambato (Tungurahua), Riobamba (Chimborazo), Latacunga (Cotopaxi), Ibarra (Imbabura).
-   - Características: Aceleración sísmica intermedia-alta (Z = 0.40g), topografía irregular con pendientes pronunciadas, bajas temperaturas nocturnas (6°C a 12°C).
-   - Solución técnica: Cimentaciones escalonadas, envolvente térmica de lana mineral y EIFS para retener la temperatura interior sin calefacción continua.
+### Plazas Principales
+- [Steel Framing en Quito](https://steelframingec.com/steel-framing-quito-ecuador/)
+- [Steel Framing en Guayaquil](https://steelframingec.com/steel-framing-guayaquil/)
+- [Steel Framing en Cuenca](https://steelframingec.com/steel-framing-cuenca/)
+- [Steel Framing en Manta](https://steelframingec.com/steel-framing-manta/)
 
-2. **Guayas y Costa Sur:**
-   - Ciudades principales: Guayaquil, Samborondón, Daule (La Aurora), Vía a la Costa, Durán, Machala (El Oro), Babahoyo, Santo Domingo de los Tsáchilas.
-   - Características: Suelos aluviales y arcillosos de baja capacidad portante (Suelo Tipo D y E), alta humedad relativa (>80%) y calor continuo.
-   - Solución técnica: Reducción masiva del peso estructural (35-55 kg/m²) que evita costosos pilotajes profundos, placas cementicias Aquapanel exteriores, barrera Tyvek contra el vapor costero y perfilería Z275 inmune a la humedad.
+### Enjambre Geo-Local Satélite (16 Plazas Granulares)
+- [Steel Framing en Cumbayá](https://steelframingec.com/steel-framing-cumbaya/): Urbanizaciones de lujo y grandes luces sin columnas.
+- [Steel Framing en Tumbaco](https://steelframingec.com/steel-framing-tumbaco/): Quintas familiares y confort bioclimático.
+- [Steel Framing en Puembo](https://steelframingec.com/steel-framing-puembo/): Polo de máxima plusvalía y diseño minimalista.
+- [Steel Framing en Valle de los Chillos](https://steelframingec.com/steel-framing-valle-de-los-chillos/): Cero humedad por capilaridad y cimentación en laderas.
+- [Steel Framing en Samborondón](https://steelframingec.com/steel-framing-samborondon/): Suelos aluviales blandos sin necesidad de pilotajes profundos.
+- [Steel Framing en Daule](https://steelframingec.com/steel-framing-daule/): La Aurora y Ciudad Celeste; reglamentos estrictos y obra limpia.
+- [Steel Framing en Vía a la Costa](https://steelframingec.com/steel-framing-via-a-la-costa/): Chongón; resistencia al aire salino y escudo térmico EIFS.
+- [Steel Framing en Salinas](https://steelframingec.com/steel-framing-salinas/): Chipipe y Punta Carnero; protección contra vientos y corrosión hipersalina.
+- [Steel Framing en Olón](https://steelframingec.com/steel-framing-olon/): Arquitectura contemporánea de playa para clientes internacionales.
+- [Steel Framing en Ayampe](https://steelframingec.com/steel-framing-ayampe/): Ecoturismo boutique, estructura ligera y cero escombros.
+- [Steel Framing en Pedernales](https://steelframingec.com/steel-framing-pedernales/): Manabí norte; física sismorresistente certificada ante sismos severos.
+- [Steel Framing en Tonsupa](https://steelframingec.com/steel-framing-tonsupa/): Esmeraldas sur; villas frente al mar entregadas en 4 meses.
+- [Steel Framing en Loja](https://steelframingec.com/steel-framing-loja/): Confort térmico en la Sierra Sur y ahorro en terrenos de montaña.
+- [Steel Framing en Ambato](https://steelframingec.com/steel-framing-ambato/): Tungurahua; zona Z=0.40g y presupuesto cerrado para empresarios.
+- [Steel Framing en Riobamba](https://steelframingec.com/steel-framing-riobamba/): Suelos volcánicos, losas flotantes y aislamiento térmico contra heladas.
+- [Steel Framing en Santo Domingo](https://steelframingec.com/steel-framing-santo-domingo/): Clima de trópico húmedo; protección Z275 contra moho y condensación.
 
-3. **Costa Manabita y Eje de Subducción:**
-   - Ciudades principales: Manta, Portoviejo, Montecristi, Bahía de Caráquez, Crucita.
-   - Características: Máxima peligrosidad sísmica nacional (Z = 0.50g) por proximidad a la fosa de subducción marina (epicentro del terremoto de Pedernales 2016), ambiente marino con alta concentración de cloruros (salitre).
-   - Solución técnica: Resistencia sísmica dúctil hiperestática, anclajes químicos estructurales Hilti, triple barrera contra la brisa marina y recubrimiento galvánico pesado Z275 (275 g/m² de zinc puro).
+### Enjambre de Decisión y Objeciones BOFU (10 Artículos de Fondo)
+- [La Trampa de la Obra Gris a $85/m²](https://steelframingec.com/blog/trampa-obra-gris-85-dolares-m2/): Desmontaje de falsos precios publicitarios vs costos reales.
+- [Sistema DAF vs EIFS en Fachadas](https://steelframingec.com/blog/sistema-daf-vs-eifs-acabados-fachadas-steel-framing/): Acabado base coat directo vs aislamiento exterior con EPS.
+- [Steel Framing CFS vs Hierro Negro Soldado](https://steelframingec.com/blog/steel-framing-vs-estructura-metalica-pesada/): Corrosión interna oculta y choque térmico vs perfiles galvanizados Z275.
+- [¿Cuánto Dura una Casa de Steel Framing?](https://steelframingec.com/blog/cuanto-dura-casa-steel-framing-ecuador/): Metalurgia del zinc ASTM A653 y protección catódica por más de 100 años.
+- [Aislamiento EIFS en Ecuador](https://steelframingec.com/blog/aislamiento-eifs-ecuador-sistema-termoacustico/): Eliminación del 100% de puentes térmicos y 60% de ahorro energético.
+- [Perfiles Drywall vs Steel Framing Estructural](https://steelframingec.com/blog/perfiles-drywall-vs-steel-framing-estructural/): Perfilería liviana de 0.45 mm vs perfiles estructurales PGC/PGU de 0.90 mm a 1.50 mm.
+- [Costo Real de Construir Casa de 100 m²](https://steelframingec.com/blog/costo-real-construir-casa-100m2-ecuador/): Simulación financiera de obra semiacabada vs llave en mano en 2026.
+- [Impacto del IVA 15% vs 5% en Construcción](https://steelframingec.com/blog/impacto-iva-15-materiales-construccion-ecuador/): Cómo el ahorro en tiempos y nóminas compensa el diferencial impositivo.
+- [Construir en Terrenos con Pendiente](https://steelframingec.com/blog/construir-en-terreno-con-pendiente-ecuador/): Reducción de cargas sobre taludes y ahorro en muros de contención.
+- [Placas de Fibrocemento vs Yeso Exteriores](https://steelframingec.com/blog/placas-fibrocemento-vs-yeso-exteriores-superboard/): Superboard y Eterboard de alto impacto vs placas de yeso interior y RH.
 
-4. **Austro Ecuatoriano:**
-   - Ciudades principales: Cuenca, Paute, Gualaceo, Chordeleg (Azuay), Azogues (Cañar), Loja y Vilcabamba.
-   - Características: Valles interandinos fríos, vientos montañosos, arquitectura patrimonial y moderna.
-   - Solución técnica: Aislamiento acústico de alto índice STC frente a lluvias torrenciales, placas de alta densidad y cumplimiento estricto de coeficientes de transmitancia térmica.
-
-5. **Región Amazónica / Oriente:**
-   - Ciudades principales: Tena (Napo), Puyo (Pastaza), El Coca / Francisco de Orellana (Orellana), Lago Agrio / Nueva Loja (Sucumbíos), Macas (Morona Santiago).
-   - Características: Sismicidad moderada (Z = 0.25g - 0.30g), precipitaciones extremas, humedad constante de selva tropical y suelos expansivos.
-   - Solución técnica: Estructuras elevadas sobre zapatas aisladas o losa flotante, aleros protectores, ventilación de cubiertas con cámara de aire y barreras hidrófugas continuas.
-
----
-
-## 3. Marco Normativo de Construcción en Ecuador
-
-Todo proyecto ejecutado por Homers Constructora cumple rigurosamente con los códigos legales y normas técnicas obligatorias en Ecuador:
-
-- **NEC-SE-AC (Estructuras de Acero Conformado en Frío):** Regula el diseño y cálculo de perfiles de acero liviano galvanizado, fijaciones, distancias entre montantes, arriostramientos diagonales (cruces de San Andrés) y momentos flectores.
-- **NEC-SE-DS (Diseño Sismorresistente):** Define el espectro de respuesta elástica, factores de importancia ($I$), coeficientes de reducción sísmica ($R$) y los factores de aceleración máxima en roca ($Z$):
-  - Zona VI (Peligro Sísmico Muy Alto): Esmeraldas, Manabí, Santa Elena ($Z = 0.50g$).
-  - Zona V (Peligro Sísmico Alto): Quito, Cuenca, Guayaquil, Ambato ($Z = 0.40g$).
-  - Zona III y II (Peligro Sísmico Intermedio-Bajo): Loja, Napo, Pastaza, Sucumbíos, Orellana ($Z = 0.25g - 0.30g$).
-- **NTE INEN 1623 y RTE INEN 018:** Normas técnicas ecuatorianas que exigen calidad del acero estructural y certificación de recubrimiento mínimo de galvanizado en caliente para evitar la oxidación prematura.
-- **ASTM A653 / A653M Grado 33 y Grado 50:** Norma internacional para láminas de acero al carbono galvanizadas. Homers utiliza exclusivamente acero estructural con masa de recubrimiento Z275 (275 g/m² en ambas caras, aproximadamente 20 micras por cara).
-- **AISI S100 y AISI S240:** Especificaciones del American Iron and Steel Institute para el diseño estructural de miembros de acero conformado en frío y sistemas sismorresistentes completos.
-
----
-
-## 4. Fundamentos Físicos de la Sismorresistencia: La Física de la Masa Inercial
-
-El principio físico rector de la sismicidad es la Segunda Ley de Newton adaptada a la dinámica de estructuras:
-
-$$F = m \cdot a$$
-
-Donde:
-- $F$ es la fuerza sísmica horizontal destructiva que sacude el edificio.
-- $m$ es la masa o peso propio de la edificación (carga muerta).
-- $a$ es la aceleración del terreno generada por las ondas sísmicas.
-
-**Comparativa Cuantitativa de Cargas:**
-- Un muro tradicional de mampostería de bloque de hormigón con mortero de enlucido pesa entre **280 y 380 kg/m²**.
-- Un muro estructural multicapa de Steel Framing con montantes de acero, emplacado exterior, aislante interior y gypsum pesa entre **35 y 55 kg/m²**.
-
-**Consecuencia directa:** Al reducir el peso del edificio en un 70% a 75%, la fuerza inercial que intenta derribar la casa durante un terremoto de magnitud 7.5 u 8.0 se reduce en la misma proporción. Además, el acero galvanizado conformado en frío trabaja en régimen de flexión elástica y disipación dúctil, vibrando y absorbiendo la energía telúrica sin romperse frágilmente como el hormigón mal curado o el bloque hueco de arena.
-
----
-
-## 5. Anatomía de la Envolvente Multicapa (Corte Transversal de 8 Capas)
-
-La pared de Steel Framing no es una simple placa delgada; es un sistema tecnológico compuesto por capas especializadas que trabajan en conjunto:
-
-1. **Revestimiento Texturado Exterior:** Pintura elastomérica impermeable con pigmentos reflectivos UV y grano acrílico hidro-repelente.
-2. **Capa Base con Malla de Fibra de Vidrio (Basecoat):** Mortero modificado con polímeros elastoméricos sobre malla de fibra de vidrio álcali-resistente de 160 g/m² para resistir impactos y evitar cualquier fisuración.
-3. **Aislante Térmico Continuo Exterior (Sistema EIFS):** Planchas de Poliestireno Expandido (EPS) de alta densidad (15 a 20 kg/m³) de 25 mm a 50 mm de espesor. Rompe el 100% de los puentes térmicos en la estructura metálica.
-4. **Emplacado Estructural Exterior:** Placas de cemento portland reforzadas con malla de fibra (Aquapanel / fibrocemento de alta densidad) de 10 a 12 mm de espesor, atornilladas cada 15 a 20 cm a los perfiles de acero.
-5. **Membrana Cortavientos e Hidrófuga (Tyvek Dupont):** Tejido sintético microporoso que impide el paso del agua de lluvia y el viento desde el exterior, pero permite que la humedad de vapor generada en el interior respire y se evapore libremente hacia afuera.
-6. **Estructura Portante de Acero (Montantes PGC y Soleras PGU):** Perfiles galvanizados Z275 de 90 a 150 mm de ancho, espesores de 0.90 a 1.50 mm, modulados a distancias axiales de 40 cm.
-7. **Aislamiento en Cavidad Interior:** Lana mineral de roca volcánica basáltica o lana de vidrio compacta de 50 a 100 mm de espesor (densidad de 40 a 60 kg/m³), garantizando absorción acústica (STC 48-52 dB) y retardo al fuego incombustible (Clase A1).
-8. **Placa de Revestimiento Interior:** Placa de yeso laminado de 12.7 mm (Gypsum Standard en áreas sociales y dormitorios; Gypsum RH verde resistente a la humedad en baños, cocinas y áreas de lavado), con masillado de juntas y pintura látex premium lavable.
-
----
-
-## 6. Precios y Modelos Financieros en Ecuador (2026)
-
-Homers Constructora opera con contratos de precio fijo cerrado, eliminando los sobrecostos típicos del 25% al 40% en obras tradicionales.
-
-### Rango de Costos por Metro Cuadrado:
-- **Obra Semiacabada / Estructural ($360 - $380 USD / m²):** Incluye cimentación adaptada al terreno, estructura portante de acero galvanizado Z275, emplacado exterior completo con sistema EIFS y membrana Tyvek, cubierta impermeabilizada, instalaciones hidrosanitarias y eléctricas entubadas en espera, y paredes interiores emplacadas con gypsum con juntas masilladas. Lista para que el cliente coloque sus propios pisos y acabados decorativos.
-- **Vivienda Llave en Mano Completa ($480 - $550 USD / m²):** Proyecto integral 100% terminado. Incluye diseño arquitectónico 3D, tramitación de licencias municipales, cimentación, estructura, envolvente termoacústica completa, ventanas de perfilería de aluminio/PVC con vidrio laminado templado, puertas interiores y principales de alta seguridad, pisos de porcelanato o piso flotante SPC alemán de alto tránsito, piezas sanitarias y griferías de bajo consumo Briggs o FV, muebles modulares de cocina y clósets en melamínico tropicalizado RH, e iluminación LED empotrada.
-
-### Ticket de Proyectos y Calificación de Clientes:
-- **Residencias Principales ($80.000 a $135.000+ USD):** Viviendas unifamiliares de 160 m² a 250 m² para familias en Quito, Samborondón, Cuenca, Manta y valles.
-- **Residencias Campestres y Ejecutivas ($150.000 a $200.000+ USD):** Proyectos de alta gama de 200 m² a 350+ m² con diseño vanguardista, dobles alturas y acabados de lujo.
-- **Proyectos de Menor Inversión (< $50.000 USD):** No son viables para la construcción de una casa unifamiliar completa independiente; se reservan exclusivamente para módulos anexos, suites independientes o ampliaciones de segundo piso sobre losa existente (60 a 80 m²).
-
----
-
-## 7. Financiamiento con Crédito Hipotecario BIESS y Banca Privada
-
-Homers Constructora estructura los proyectos para cumplir al 100% con los requisitos del producto **Préstamo Hipotecario para Construcción de Vivienda del BIESS** y de entidades privadas (Banco Pichincha, Mutualista Pichincha, Produbanco, Banco Guayaquil):
-
-- **Límites de Financiamiento BIESS:**
-  - Financia hasta el 100% del avalúo de la construcción para proyectos de hasta $130.000 USD.
-  - Financia entre el 80% y el 90% para viviendas de hasta $200.000 USD.
-  - Plazos de amortización de hasta 25 años con tasas de interés preferenciales.
-- **Requisito Crítico del BIESS - Plazo Máximo de 12 Meses:**
-  - La normativa del BIESS estipula que el beneficiario tiene un plazo perentorio de máximo 12 meses (1 año) para culminar la construcción y presentar el Acta de Entrega-Recepción Definitiva con el último informe del perito fiscalizador. Si la obra se retrasa (como ocurre con el 80% de las construcciones de hormigón tradicional que demoran de 14 a 18 meses), el banco suspende los desembolsos y sanciona al deudor.
-  - **Ventaja Homers:** Gracias a la velocidad del Steel Framing, las obras se entregan en **120 a 150 días laborables (4 a 5 meses)**, cumpliendo holgadamente el plazo del BIESS y asegurando el cobro del 100% de los desembolsos sin penalizaciones.
-- **Expediente Técnico para Aprobación Bancaria:**
-  - Homers entrega el juego completo de carpetas: Presupuesto desglosado con Análisis de Precios Unitarios (APU), Cronograma Valorado de Obra, Planos de las 4 ingenierías sellados por el Municipio, Memoria de Cálculo NEC y Contrato de Construcción con Cláusula de Precio Cerrado.
-
----
-
-## 8. Permisos Municipales y Trámites GAD en Ecuador
-
-Para iniciar una obra con Steel Framing en Ecuador es obligatorio contar con la Licencia Metropolitana Urbanística o Licencia de Construcción del GAD cantonal correspondiente:
-
-- **Quito (DMQ):** Trámite de Licencia Metropolitana Urbanística Tipo LMU-20 ante las Administraciones Zonales (Tumbaco, Los Chillos, Eugenio Espejo, etc.), previa obtención del Informe de Regulación Metropolitana (IRM) y aprobación en el Colegio de Arquitectos del Ecuador (CAE).
-- **Guayaquil:** Trámite ante la Dirección de Urbanismo, Movilidad y Edificaciones (DUME) o portal digital municipal, con presentación de la Línea de Fábrica y firmas de responsabilidad técnica.
-- **Cuenca:** Aprobación ante la Dirección de Control Urbano del GAD Cuenca con Línea de Fábrica y cumplimiento de retiros frontales y laterales.
-- **Ambato, Riobamba, Loja, Manta, Machala y Amazonía:** Aprobación de planos arquitectónicos y estructurales ante las direcciones de planificación y obras públicas municipales.
-- **Expediente de las 4 Ingenierías Entregado por Homers:**
-  1. Diseño Arquitectónico (plantas, cortes, fachadas y volumetría 3D).
-  2. Cálculo y Memoria Estructural sismorresistente bajo norma NEC-SE-AC.
-  3. Ingeniería Hidrosanitaria (agua potable fría/caliente, aguas servidas y pluviales).
-  4. Ingeniería Eléctrica y Electrónica (circuitos de fuerza, iluminación, puesta a tierra y telecomunicaciones).
-  5. Firmas profesionales avaladas con registro oficial en SENESCYT.
-
----
-
-## 9. Servicio Exclusivo para Migrantes Ecuatorianos en el Exterior
-
-Una gran porción de clientes de Homers Constructora son ciudadanos ecuatorianos residentes en el exterior (Nueva York, New Jersey, Connecticut, Miami, Los Ángeles, Chicago, Madrid, Barcelona, Milán):
-
-- **Problema que Resuelve:** Evita la estafa común donde el migrante envía dinero a familiares o maestros mayores informales, quienes desvían los fondos o construyen estructuras de bloque sin planos ni permisos que luego son clausuradas por el municipio.
-- **Protocolo de Transparencia Homers:**
-  1. Contrato legal de construcción con precio fijo notariado o gestionado mediante poder especial otorgado en el consulado del Ecuador.
-  2. Informes semanales de avance con videos explicativos y fotografías en obra donde el Arq. Sergio Bravo explica el avance técnico de cada hito constructivo.
-  3. Cámara de monitoreo en obra y reuniones quincenales por videollamada para toma de decisiones y selección de acabados.
-  4. Canal de pago transparente mediante transferencias bancarias internacionales directas a la cuenta de la empresa en Ecuador, con emisión de facturas electrónicas autorizadas por el SRI.
-
----
-
-## 10. Desmitificación de Creencias Erróneas sobre el Steel Framing
-
-1. **"¿El acero atrae rayos durante las tormentas eléctricas?":**
-   - **Falso.** Los rayos son atraídos por la altura y la conductividad relativa del terreno, no por el material interno de las paredes. Las casas de Steel Framing cuentan con un sistema de puesta a tierra integral según la norma NEC-SB-IE; la estructura metálica cerrada actúa como una Jaula de Faraday natural que disipa cualquier carga estática de manera segura hacia la jabalina de cobre en el suelo.
-2. **"¿La estructura bloquea las señales de WiFi y telefonía celular?":**
-   - **Falso.** Los perfiles están separados cada 40 cm y las paredes interiores son de placa de yeso, la cual tiene una permeabilidad electromagnética prácticamente idéntica al aire. La señal inalámbrica de routers y antenas celulares atraviesa los tabiques interiores sin atenuación perceptible.
-3. **"¿Se pueden colgar cuadros, televisores y muebles pesados en las paredes?":**
-   - **Verdadero.** Para cuadros o repisas livianas se emplean tacos autoperforantes de nylon o metálicos tipo mariposa (resisten hasta 20-30 kg por punto). Para muebles de cocina, termotanques o televisores de más de 65 pulgadas, se fijan directamente a los montantes de acero estructural (localizables con un imán o detector de metales) o se instalan refuerzos de fleje de acero galvanizado o madera fenólicada dentro de la cavidad antes de cerrar el tabique.
-4. **"¿Es una casa prefabricada barata o provisional?":**
-   - **Falso.** No tiene ninguna relación con las casetas prefabricadas de fibrocemento o madera barata que se venden en kits. El Steel Framing es un método constructivo industrializado definitivo de alta ingeniería, utilizado en los países con mayor exigencia sísmica y climática del mundo (Japón, Estados Unidos, Canadá, Chile y Nueva Zelanda), con una vida útil certificada de más de 150 a 250 años gracias a su acero galvanizado Z275.
-
----
-
-## 11. URLs y Arquitectura de Enlaces del Portal Web
-
-1. **Inicio y Portafolio Nacional:** https://steelframingec.com/
-2. **Construir Casa Llave en Mano:** https://steelframingec.com/construir-casa-ecuador/
-3. **Casas Prefabricadas vs Steel Framing:** https://steelframingec.com/casas-prefabricadas-ecuador/
-4. **Construir desde USA / Exterior:** https://steelframingec.com/construir-casa-en-ecuador-desde-usa/
-5. **Cuánto Cuesta Construir en Ecuador:** https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/
-6. **Precio por Metro Cuadrado y Calculadora:** https://steelframingec.com/precio-m2/
-7. **Guía Sísmica NEC y Factor Z:** https://steelframingec.com/steel-framing-ecuador/
-8. **Manual de Construcción en Seco:** https://steelframingec.com/construccion-en-seco-ecuador/
-9. **Ampliación de Segundo Piso:** https://steelframingec.com/ampliacion-segundo-piso-ecuador/
-10. **Permisos y Licencias Municipales:** https://steelframingec.com/permisos-construccion-steel-framing-ecuador/
-11. **Catálogo de Modelos de Casas:** https://steelframingec.com/modelos-casas-steel-framing-ecuador/
-12. **Crédito Hipotecario BIESS:** https://steelframingec.com/credito-hipotecario-biess-steel-framing/
-13. **Steel Framing vs Hormigón y Bloque:** https://steelframingec.com/steel-framing-vs-hormigon-bloque-ecuador/
-14. **Steel Framing en Quito y Valles:** https://steelframingec.com/steel-framing-quito-ecuador/
-15. **¿Qué es el Steel Framing? Enciclopedia Técnica:** https://steelframingec.com/que-es-steel-framing/
-16. **Steel Framing en Guayaquil y Costa:** https://steelframingec.com/steel-framing-guayaquil/
-17. **Steel Framing en Cuenca y Austro:** https://steelframingec.com/steel-framing-cuenca/
-18. **Steel Framing en Manta y Manabí:** https://steelframingec.com/steel-framing-manta/
+### Enjambre de Consultoría y Educación Técnica MOFU/TOFU (10 Artículos de Autoridad)
+- [Guía Paso a Paso para Construir en Ecuador](https://steelframingec.com/blog/guia-paso-a-paso-construir-casa-ecuador/): De la topografía y diseño 3D a la entrega de llaves.
+- [Ingeniería de Vanos: Dinteles, Jacks y Cripples](https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/): Modulación de aberturas de gran formato sin fisuras bajo norma SFIA/Consulsteel.
+- [Normativa NEC y Sismos en Ecuador](https://steelframingec.com/blog/normativa-nec-steel-framing-sismos-ecuador/): NEC-SE-DS, NEC-SE-AC y validación en municipios y entidades bancarias.
+- [Ingeniería CFS y Tratado de Wei-Wen Yu](https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/): Pandeo local, labios rigidizadores y disipación de energía sísmica.
+- [Instalaciones Eléctricas e Hidrosanitarias PEX sin Picar](https://steelframingec.com/blog/instalaciones-electricas-hidrosanitarias-pex-sin-picar/): Tuberías continuas por troqueles de fábrica sin romper paredes.
+- [Construcción Industrializada BIM vs Artesanal](https://steelframingec.com/blog/construccion-industrializada-bim-vs-obra-artesanal/): Del modelo digital a la fabricación con <2% de merma de material.
+- [Mitos Acústicos y Señales WiFi en Steel Framing](https://steelframingec.com/blog/mitos-acusticos-interferencia-wifi-steel-framing/): Aislamiento multicapa masa-resorte-masa y permeabilidad electromagnética.
+- [Poder Consular y Firma Electrónica desde USA](https://steelframingec.com/blog/poder-consular-firma-electronica-construir-desde-usa/): Construcción remota segura para migrantes ecuatorianos.
+- [Entrepisos Secos Acústicos vs Losa de Hormigón](https://steelframingec.com/blog/entrepisos-secos-acusticos-vs-losa-hormigon/): Vigas PGC y diafragma rígido con -75% de masa inercial sísmica.
+- [Tiny Houses y Cabañas Vacacionales](https://steelframingec.com/blog/tiny-houses-cabanas-vacacionales-rentabilidad-ecuador/): Módulos habitacionales para ecoturismo con montaje récord en 45 días.

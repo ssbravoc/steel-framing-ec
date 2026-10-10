@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TMF2MKZ3');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Arq. Sergio Bravo - Homers Constructora">
+
+    <!-- SEO On-Page de Alta Jerarquía -->
+    <title>Ingeniería CFS y Tratado de Wei-Wen Yu: Física del Acero Conformado en Frío y Sismorresistencia | Homers Constructora</title>
+    <meta name="description" content="Tratado técnico sobre la física del Cold-Formed Steel (CFS) según Wei-Wen Yu. Descubre la mecánica del pandeo local, distorsional, labios rigidizadores y disipación sísmica newtoniana en perfiles Z275.">
+    <meta name="keywords" content="ingenieria cfs wei wen yu, cold formed steel physics ecuador, pandeo local distorsional cfs, labios rigidizadores montantes c, sismorresistencia newtoniana steel framing, perfiles pgc z275 fisica, calculo estructural cfs nec">
+    <link rel="canonical" href="https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/">
+
+    <!-- Open Graph & Twitter Cards -->
+    <meta property="og:title" content="Ingeniería CFS y Wei-Wen Yu: Física y Sismorresistencia del Acero Conformado en Frío">
+    <meta property="og:description" content="Tratado magistral de ingeniería estructural: pandeo local, distorsional, labios atiesadores y reducción de inercia sísmica según la física de Wei-Wen Yu y George Winter.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/">
+    <meta property="og:image" content="https://steelframingec.com/img/cumbaya/8%20casa-steel-framing-quito-cumbaya.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../img/homers-logo.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0B192C',
+                            dark: '#1E3E62',
+                            primary: '#0056B3',
+                            accent: '#FF6500',
+                            accentHover: '#E05A00',
+                            light: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org Rich Snippets JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://steelframingec.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog Técnico",
+              "item": "https://steelframingec.com/blog/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Ingeniería CFS y Tratado de Wei-Wen Yu",
+              "item": "https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/"
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "@id": "https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/#article",
+          "headline": "Ingeniería CFS y Mecánica de Wei-Wen Yu: Física Estructural y Sismorresistencia del Acero Conformado en Frío",
+          "description": "Estudio avanzado de mecánica de materiales aplicado al Steel Framing. Análisis de las ecuaciones de Wei-Wen Yu y George Winter sobre pandeo local, pandeo distorsional, rigidizadores de borde en montantes C, física newtoniana F = m·a y disipación histerética bajo norma NEC.",
+          "image": "https://steelframingec.com/img/cumbaya/8%20casa-steel-framing-quito-cumbaya.jpg",
+          "datePublished": "2026-10-10",
+          "dateModified": "2026-10-10",
+          "author": {
+            "@type": "Person",
+            "name": "Arq. Sergio Bravo",
+            "jobTitle": "Director Técnico de Homers Constructora",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Homers Constructora"
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Homers Constructora",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://steelframingec.com/img/homers-logo.png"
+            }
+          },
+          "mainEntityOfPage": "https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/"
+        },
+        {
+          "@type": "GeneralContractor",
+          "name": "Homers Constructora - Steel Framing EC",
+          "description": "Especialistas en ingeniería estructural de acero conformado en frío (CFS), cálculo sismorresistente bajo norma NEC y arquitectura de alta eficiencia en Ecuador.",
+          "url": "https://steelframingec.com/",
+          "telephone": "+593995099506",
+          "email": "info@steelframingec.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Quito",
+            "addressRegion": "Pichincha",
+            "addressCountry": "EC"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Quién fue Wei-Wen Yu y por qué su teoría es fundamental para el Steel Framing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wei-Wen Yu (1924-2019) fue el principal pionero e investigador de la ingeniería de elementos de acero conformado en frío (Cold-Formed Steel - CFS). Su obra magistral 'Cold-Formed Steel Design' consolidó las formulaciones matemáticas para el cálculo de elementos de pared delgada, incorporando el concepto de ancho efectivo de Winter y los métodos analíticos hoy adoptados por el American Iron and Steel Institute (AISI S100) y el código ecuatoriano NEC-SE-AC."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cuál es la función del labio atiesador (edge stiffener) en un montante PGC?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El labio o pestaña de doblado (de 12 a 15 mm) en los bordes libres de las alas de un montante en 'C' actúa como un rigidizador longitudinal continuo. Transforma un elemento con borde libre susceptible a pandeo prematuro en una placa parcialmente empotrada, incrementando de manera exponencial el coeficiente de pandeo elástico k de 0.43 a más de 4.0, multiplicando la capacidad portante axial del perfil."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué diferencia existe entre pandeo local y pandeo distorsional en perfiles CFS?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El pandeo local involucra la ondulación elástica de las caras planas (alma o ala) manteniendo fija la línea de unión de los vértices sin deformación de la sección transversal. El pandeo distorsional, en cambio, implica una rotación y desplazamiento conjunto del ala y del labio atiesador alrededor de la unión alma-ala, alterando la geometría transversal del perfil a una longitud de onda intermedia."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo reduce la física newtoniana (F = m·a) el impacto de un terremoto en Steel Framing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Por la segunda ley de Newton, la fuerza inercial generada por un terremoto es directamente proporcional a la masa del edificio. Al pesar los muros de Steel Framing apenas entre 35 y 55 kg/m² frente a los 250 a 350 kg/m² del bloque de hormigón, la masa sísmica total se reduce en más del 75%. En consecuencia, las fuerzas destructivas de corte basal y momentos de volcamiento que intentan derrumbar la casa se reducen en la misma proporción."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Por qué el recubrimiento galvanizado Z275 ofrece protección catódica autorregenerable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El zinc posee un potencial electroquímico más electronegativo que el hierro. En presencia de humedad, el zinc actúa como ánodo de sacrificio, cediendo electrones para oxidarse primero y protegiendo al acero base. Cuando se corta un perfil en obra o se perfora con un tornillo autoperforante, los iones de zinc migran galvánicamente sobre el borde de acero expuesto, creando una película protectora de hidroxicarbonato de zinc que frena de raíz la corrosión."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-slate-700/50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+                <span><strong>Tratado de Física Estructural 2026:</strong> Fundamentos analíticos de perfiles de pared delgada según Wei-Wen Yu y George Winter.</span>
+            </span>
+            <div class="flex items-center space-x-4">
+                <a href="tel:+593995099506" class="hover:text-amber-400 transition flex items-center gap-1.5 font-medium"><i class="fa-solid fa-phone text-[10px]"></i> 0995 099 506</a>
+                <span class="text-slate-500">|</span>
+                <span class="text-slate-300">Dirección Técnica: Arq. Sergio Bravo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="../../index.html" class="flex items-center gap-3 group">
+                    <img src="../../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">División Técnica de Homers Constructora</span>
+                    </div>
+                </a>
+
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="../../index.html" class="hover:text-blue-900 transition">&larr; Inicio</a>
+                    <a href="#pandeo-local" class="hover:text-blue-900 transition">Pandeo Local &amp; Winter</a>
+                    <a href="#labios" class="hover:text-blue-900 transition">Labio Rigidizador</a>
+                    <a href="#dinamica-newton" class="hover:text-blue-900 transition">Dinámica \(F = m \cdot a\)</a>
+                    <a href="#galvanizado" class="hover:text-blue-900 transition">Metalurgia Z275</a>
+                    <a href="../../construir-casa-ecuador/index.html" class="bg-amber-500 hover:bg-amber-600 text-slate-900 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Proyecto</a>
+                </nav>
+
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20estoy%20leyendo%20su%20articulo%20sobre%20la%20teoria%20de%20Wei-Wen%20Yu%20y%20CFS" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <div class="bg-slate-100 py-3 border-b border-slate-200 text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2">
+            <a href="../../index.html" class="hover:text-blue-900 transition">Inicio</a>
+            <span class="text-slate-400">/</span>
+            <a href="../../blog/guia-paso-a-paso-construir-casa-ecuador/index.html" class="hover:text-blue-900 transition">Blog Técnico</a>
+            <span class="text-slate-400">/</span>
+            <span class="text-brand-navy font-semibold">Ingeniería CFS y Tratado de Wei-Wen Yu</span>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-gradient-to-b from-slate-900 via-brand-navy to-slate-900 text-white pt-16 pb-20 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 mb-6">
+                <i class="fa-solid fa-atom"></i> Mecánica de Perfiles de Pared Delgada (Cold-Formed Steel)
+            </div>
+            
+            <h1 class="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight mb-6">
+                Ingeniería CFS y Mecánica de Wei-Wen Yu: Física Estructural y Sismorresistencia del Acero Conformado en Frío
+            </h1>
+            
+            <p class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto mb-8 font-normal leading-relaxed">
+                Una inmersión rigurosa en la ciencia de los perfiles estructurales livianos: pandeo local, distorsional y global, la geometría del labio atiesador, y cómo la ecuación fundamental \(F = m \cdot a\) convierte a una vivienda de <strong>acero galvanizado estructural Z275</strong> en una fortaleza indeformable ante terremotos.
+            </p>
+
+            <!-- Meta info bar -->
+            <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs text-slate-400 border-t border-slate-800 pt-6">
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-user-tie text-amber-400"></i> Autor: <strong>Arq. Sergio Bravo</strong> (Director Técnico)
+                </span>
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-calculator text-slate-400"></i> Base Teórica: Wei-Wen Yu / AISI S100
+                </span>
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-clock text-slate-400"></i> Lectura técnica: 14 min
+                </span>
+                <span class="flex items-center gap-2 text-emerald-400">
+                    <i class="fa-solid fa-feather-pointed"></i> Masa Reducida 35-55 kg/m²
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+
+            <!-- ARTICLE COLUMN -->
+            <article class="lg:col-span-8 space-y-10">
+
+                <!-- QUICK ANSWER BOX (Featured Snippet Block) -->
+                <div class="bg-gradient-to-br from-indigo-50 via-white to-blue-50 border-2 border-indigo-300 rounded-2xl p-6 sm:p-7 shadow-md">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-blue-900 text-amber-400 flex items-center justify-center text-2xl flex-shrink-0 shadow">
+                            <i class="fa-solid fa-square-root-variable"></i>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-indigo-900 block">Principio Físico y Científico</span>
+                            <h2 class="text-xl font-heading font-extrabold text-slate-900">¿Por qué el acero conformado en frío (CFS) es la cúspide de la ingeniería sismorresistente?</h2>
+                            <p class="text-sm text-slate-700 leading-relaxed">
+                                El tratado pionero de <strong>Wei-Wen Yu</strong> demostró que la resistencia estructural no depende de la masa bruta ni del espesor desmedido, sino de la <strong>eficiencia geométrica de la sección transversal</strong>. Al plegar chapas de acero de alta resistencia con rigidizadores de borde (labios de montantes C), se inhibe el pandeo prematuro y se aprovecha el límite elástico del material. Además, bajo la segunda ley de Newton (\(F = m \cdot a\)), al tener muros de apenas <strong>35 a 55 kg/m²</strong>, la inercia basal ante aceleraciones sísmicas se reduce en más del 75%, disipando la energía mediante ductilidad elástica sin el colapso frágil propio de la mampostería.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TABLE OF CONTENTS -->
+                <nav class="bg-slate-100 rounded-2xl p-6 border border-slate-200">
+                    <h3 class="font-heading font-bold text-slate-900 text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-brain text-blue-900"></i> Índice del Tratado de Mecánica CFS
+                    </h3>
+                    <ol class="space-y-2 text-sm text-slate-700 font-medium">
+                        <li><a href="#pioneros" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">1</span> Wei-Wen Yu y George Winter: La Revolución del Cold-Formed Steel</a></li>
+                        <li><a href="#pandeo-local" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">2</span> Mecánica del Pandeo Local y la Teoría del Ancho Efectivo (\(b_{eff}\))</a></li>
+                        <li><a href="#pandeo-distorsional" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">3</span> Pandeo Distorsional y Pandeo Global por Flexotorsión</a></li>
+                        <li><a href="#labios" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">4</span> El Labio Rigidizador (Edge Stiffener): Geometría contra el Colapso</a></li>
+                        <li><a href="#dinamica-newton" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">5</span> Dinámica Newtoniana: Por qué \(F = m \cdot a\) Protege a tu Familia</a></li>
+                        <li><a href="#galvanizado" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-100 text-blue-900 flex items-center justify-center text-xs font-bold">6</span> Metalurgia del Cincado Z275: Ánodo de Sacrificio y Autorregeneración</a></li>
+                        <li><a href="#tabla-mecanica" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-amber-100 text-amber-900 flex items-center justify-center text-xs font-bold">&#9733;</span> Tabla Técnica: Eficiencia Mecánica Específica entre Materiales</a></li>
+                        <li><a href="#faq" class="hover:text-blue-900 transition flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-slate-200 text-slate-800 flex items-center justify-center text-xs font-bold">?</span> Preguntas Frecuentes</a></li>
+                    </ol>
+                </nav>
+
+                <!-- SECTION 1 -->
+                <section id="pioneros" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">1</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Wei-Wen Yu y George Winter: La Revolución del Cold-Formed Steel</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        Durante la primera mitad del siglo XX, las estructuras metálicas dependían de grandes perfiles laminados en caliente de sección maciza. Sin embargo, en la Universidad de Cornell, el profesor <strong>George Winter</strong> y posteriormente su eminente discípulo, el Dr. <strong>Wei-Wen Yu</strong> (profesor de la Missouri University of Science and Technology), identificaron un principio físico transformador: mediante el conformado en frío de bobinas delgadas de acero estructural de alta resistencia (\(F_y \ge 230\text{ a }345\text{ MPa}\)), era posible producir perfiles hiperoptimizados capaces de soportar cargas extraordinarias con una fracción mínima del peso del material.
+                    </p>
+                    <p class="text-slate-700 leading-relaxed">
+                        El tratado de cabecera de Wei-Wen Yu, <em>"Cold-Formed Steel Design"</em>, sentó las bases para el desarrollo del código unificado <strong>AISI S100</strong>, el cual fue incorporado formalmente en el Ecuador dentro del capítulo <strong>NEC-SE-AC</strong> de la Norma Ecuatoriana de la Construcción.
+                    </p>
+                </section>
+
+                <!-- SECTION 2 -->
+                <section id="pandeo-local" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">2</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Mecánica del Pandeo Local y la Teoría del Ancho Efectivo (\(b_{eff}\))</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        Al diseñar elementos de pared delgada (espesores de 0.90 mm a 1.50 mm típicos en perfiles PGC), las paredes planas sometidas a compresión pura experimentan un fenómeno llamado <strong>pandeo local (Local Buckling)</strong>: la chapa se ondula elásticamente antes de alcanzar el límite de fluencia del acero.
+                    </p>
+
+                    <div class="bg-slate-900 text-white rounded-2xl p-6 sm:p-7 space-y-4">
+                        <h3 class="font-heading font-bold text-amber-400 text-base">La Ecuación de Winter para el Ancho Efectivo</h3>
+                        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                            George Winter y Wei-Wen Yu descubrieron que, tras ondularse el centro de una placa en compresión, los bordes continuaban soportando tensiones crecientes (resistencia post-pandeo). Para cuantificar esta capacidad portante residual, formularon la ecuación del <strong>ancho efectivo (\(b_{eff}\))</strong>:
+                        </p>
+                        <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 text-center font-mono text-sm text-amber-300 font-bold">
+                            \(b_{eff} = \rho \cdot w = \left( 1 - \frac{0.22}{\lambda} \right) \cdot \frac{w}{\lambda}\)
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Donde \(\lambda\) es la esbeltez de la placa y \(\rho\) es el factor de reducción por pandeo local. En Homers Constructora, cada <strong>cálculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC</strong> calcula rigurosamente las propiedades efectivas (\(A_{eff}, I_{eff}, S_{eff}\)) de cada montante PGC, asegurando que la estructura trabaje holgadamente por debajo de sus límites elásticos admisibles.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- SECTION 3 -->
+                <section id="pandeo-distorsional" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">3</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Pandeo Distorsional y Pandeo Global por Flexotorsión</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        A diferencia de las columnas pesadas de sección cerrada, un perfil abierto conformado en frío presenta tres modos de inestabilidad elástica interconectados:
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs my-4">
+                        <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-sm space-y-1">
+                            <span class="font-bold text-blue-900 block text-sm">1. Pandeo Local (L)</span>
+                            <p class="text-slate-600">Ondulaciones de corta longitud de onda en el alma y alas. No deforma las aristas de los vértices ni desplaza la sección.</p>
+                        </div>
+                        <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-sm space-y-1">
+                            <span class="font-bold text-amber-600 block text-sm">2. Pandeo Distorsional (D)</span>
+                            <p class="text-slate-600">Rotación del conjunto ala-labio alrededor de la arista alma-ala. Longitud de onda intermedia. Controlado por la inercia del labio atiesador.</p>
+                        </div>
+                        <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-sm space-y-1">
+                            <span class="font-bold text-emerald-600 block text-sm">3. Pandeo Global (G)</span>
+                            <p class="text-slate-600">Flexotorsión a lo largo de todo el montante (longitud de onda grande). Se inhibe mediante el atornillado continuo de placas OSB y correas de bloqueo (straps).</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 4 -->
+                <section id="labios" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">4</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">El Labio Rigidizador (Edge Stiffener): Geometría contra el Colapso</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        ¿Por qué un perfil en "C" (PGC) es infinitamente superior a un perfil en "U" (PGU) cuando se somete a compresión vertical? La respuesta radica en el pequeño pliegue final de 12 a 15 mm denominado <strong>labio rigidizador o atiesador de borde (Edge Stiffener)</strong>.
+                    </p>
+
+                    <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-3 text-xs sm:text-sm text-slate-700">
+                        <div class="flex items-center gap-3 text-slate-900 font-bold text-base">
+                            <i class="fa-solid fa-arrows-to-circle text-amber-500 text-xl"></i>
+                            <h3>El Salto Matemático del Coeficiente de Pandeo (\(k\))</h3>
+                        </div>
+                        <p class="leading-relaxed">
+                            En la mecánica de placas elásticas de Bryan-Timoshenko, la tensión crítica de pandeo está dada por:
+                        </p>
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 text-center font-mono text-sm font-bold text-blue-900">
+                            \(\sigma_{cr} = k \cdot \frac{\pi^2 \cdot E}{12(1-\nu^2)} \cdot \left(\frac{t}{w}\right)^2\)
+                        </div>
+                        <p class="leading-relaxed">
+                            Si el borde del ala está libre (perfil U sin pestaña), el coeficiente \(k\) apenas alcanza <strong>0.43</strong>, lo que significa que el ala colapsa a una tensión bajísima. Al doblar un labio rigidizador adecuado según la fórmula de Yu (\(d_{min} \approx 4.8 \cdot t \cdot (w/t)^{1/3}\)), el coeficiente \(k\) salta de <strong>0.43 a 4.0</strong>: <strong>¡un incremento de más del 800% en la resistencia al pandeo del ala con apenas un gramo extra de acero!</strong>
+                        </p>
+                    </div>
+                </section>
+
+                <!-- SECTION 5 -->
+                <section id="dinamica-newton" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">5</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Dinámica Newtoniana: Por qué \(F = m \cdot a\) Protege a tu Familia</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        La física fundamental es inapelable. En un terremoto, el suelo se acelera violentamente (\(a\)). De acuerdo con la Segunda Ley de Sir Isaac Newton:
+                    </p>
+
+                    <div class="bg-gradient-to-r from-blue-900 via-brand-navy to-slate-900 text-white rounded-2xl p-6 text-center space-y-3">
+                        <span class="text-amber-400 font-mono text-2xl sm:text-3xl font-black block tracking-widest">
+                            Fuerza Inercial = Masa &times; Aceleraci&oacute;n (\(F = m \cdot a\))
+                        </span>
+                        <p class="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto leading-relaxed">
+                            Un edificio no es destruido por el movimiento del suelo por sí mismo; es destruido por la propia <strong>inercia de su propia masa</strong> intentando quedarse quieta mientras la base se desplaza.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3 text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        <p>
+                            Una vivienda de hormigón armado y mampostería de bloque hueco de 150 m² posee una masa en muros y losas que ronda las <strong>90 a 120 toneladas</strong>. Cuando se produce una aceleración de \(0.40g\) (como la que exige la norma NEC en Quito), las fuerzas cortantes basales alcanzan hasta 40 toneladas de fuerza intentando quebrar los nudos y columnas.
+                        </p>
+                        <p>
+                            En contraste, esa misma vivienda construida por Homers Constructora en Steel Framing tiene una masa total de apenas <strong>22 a 28 toneladas</strong> (muros de 35 a 55 kg/m²). La fuerza cortante sísmica se reduce drásticamente a menos de 8 toneladas. La estructura flota sobre el sismo de manera dúctil, absorbiendo y disipando energía a través de miles de tornillos autoperforantes y arriostramientos en cruz sin sufrir fisuras estructurales.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- SECTION 6 -->
+                <section id="galvanizado" class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-blue-900 text-white font-heading font-black text-lg flex items-center justify-center shadow">6</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Metalurgia del Cincado Z275: Ánodo de Sacrificio y Autorregeneración</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed">
+                        El mito recurrente sobre la corrosión del acero queda completamente desarmado al estudiar la electroquímica del recubrimiento de zinc. En Homers Constructora utilizamos exclusivamente perfiles de <strong>acero galvanizado estructural Z275</strong> con 275 gramos de zinc por metro cuadrado aplicado mediante inmersión continua en caliente (norma ASTM A653).
+                    </p>
+
+                    <div class="bg-amber-50/70 border-l-4 border-amber-500 rounded-r-2xl p-6 space-y-2 text-xs sm:text-sm text-slate-700">
+                        <strong class="text-slate-900 block font-heading">¿Cómo opera la protección catódica de sacrificio?</strong>
+                        <p>
+                            El zinc posee un potencial estándar de reducción más negativo (\(-0.76\text{ V}\)) que el hierro (\(-0.44\text{ V}\)). Si un perfil es perforado con un tornillo autoperforante o cortado en taller, el zinc perimetral actúa inmediatamente como un ánodo de sacrificio: se ioniza preferentemente cediendo electrones para neutralizar la oxidación del hierro, sellando la herida con hidróxidos de zinc insolubles. Dentro de la cavidad seca del <strong>sistema multicapa termoacústico EIFS y DAF</strong> aislada con <strong>lana mineral de roca/vidrio</strong>, los perfiles Z275 tienen una vida útil científicamente certificada superior a <strong>300 años</strong>.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- TABLA MECANICA -->
+                <section id="tabla-mecanica" class="space-y-5 pt-6">
+                    <div class="border-t border-slate-200 pt-8">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 block mb-1">Mecánica de Sólidos Comparada</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Tabla Técnica: Eficiencia Mecánica Específica entre Materiales</h2>
+                        <p class="text-slate-600 text-sm leading-relaxed mt-2">
+                            Comparativa de propiedades fundamentales según los tratados de Wei-Wen Yu y normas ACI 318 / AISI S100.
+                        </p>
+                    </div>
+
+                    <div class="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm bg-white">
+                        <table class="w-full text-left text-xs sm:text-sm">
+                            <thead class="bg-brand-navy text-white font-heading font-bold text-xs uppercase tracking-wider">
+                                <tr>
+                                    <th class="py-4 px-4 sm:px-6">Propiedad Mecánica</th>
+                                    <th class="py-4 px-4 sm:px-6 bg-amber-600 text-white">Acero CFS Galvanizado Z275</th>
+                                    <th class="py-4 px-4 sm:px-6 bg-slate-800 text-slate-300">Hormigón Armado (\(f'_c = 210\text{ kg/cm}^2\))</th>
+                                    <th class="py-4 px-4 sm:px-6 bg-slate-800 text-slate-300">Mampostería Bloque Hueco</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-slate-700">
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">Módulo de Elasticidad (\(E\))</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-emerald-700 bg-amber-50/40">203,000 MPa (2,100,000 kg/cm²)</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-slate-600">21,000 MPa (10 veces menor)</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-slate-600">4,500 MPa (Muy deformable)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">Relación Resistencia / Peso</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-emerald-700 bg-amber-50/40">Máxima (45 a 65 kN·m/kg)</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-slate-600">Baja (8 a 12 kN·m/kg)</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-red-600">Pésima (&lt; 3 kN·m/kg)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">Ductilidad Intrínseca</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-emerald-700 bg-amber-50/40">Alta deformación plástica sin rotura</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-slate-600">Moderada (dependiente del estribado)</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-red-600">Frágil (rotura instantánea)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">Densidad Aparente en Muros</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-emerald-700 bg-amber-50/40">35 a 55 kg/m²</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-slate-600">220 a 300 kg/m²</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-red-600">250 a 350 kg/m²</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-900">Energía de Disipación Sísmica</td>
+                                    <td class="py-3.5 px-4 sm:px-6 font-bold text-emerald-700 bg-amber-50/40">Histerética en uniones mecánicas</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-slate-600">Rótulas plásticas con agrietamiento</td>
+                                    <td class="py-3.5 px-4 sm:px-6 text-red-600">Colapso del elemento</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- FAQ SECTION -->
+                <section id="faq" class="space-y-6 pt-6">
+                    <div class="border-t border-slate-200 pt-8">
+                        <span class="text-xs font-bold uppercase tracking-wider text-blue-900 block mb-1">Consultorio de Física</span>
+                        <h2 class="font-heading font-extrabold text-2xl text-slate-900">Preguntas Frecuentes sobre Ingeniería CFS</h2>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+                            <h3 class="font-heading font-bold text-base text-slate-900 mb-2">¿Cómo se evita que un montante PGC sufra flexotorsión en el centro del muro?</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Se previene de dos formas coordinadas: 1) fijando flejes de acero galvanizado (straps de bloqueo) a media altura atornillados con clips a cada montante, y 2) mediante el atornillado directo y continuo de las placas de arriostramiento OSB cada 10 a 15 cm, lo que transforma al montante individual en un diafragma continuo empotrado a lo largo de toda su directriz vertical.
+                            </p>
+                        </div>
+
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+                            <h3 class="font-heading font-bold text-base text-slate-900 mb-2">¿Por qué no se debe soldar el acero conformado en frío en obra?</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Porque las altas temperaturas de la soldadura por arco eléctrico queman la capa protectora de zinc Z275 y destemplan el acero de pared delgada, reduciendo su resistencia local. Por esa razón, el estándar AISI S100 y Homers Constructora utilizan exclusivamente tornillos autoperforantes de acero cementado cincado (hexagonales y cabeza lenteja extraplana) y anclajes certificados Hilti / Simpson Strong-Tie.
+                            </p>
+                        </div>
+
+                        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+                            <h3 class="font-heading font-bold text-base text-slate-900 mb-2">¿Cómo influye el aislamiento de lana mineral en la física del muro?</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                La cavidad entre montantes actúa acústicamente como un resonador masa-resorte-masa. El colchón de <strong>lana mineral de roca/vidrio</strong> disipa por fricción viscosa la energía cinética de las ondas sonoras y térmicas, logrando un aislamiento acústico superior a 48 dB y un coeficiente de transmitancia térmica \(U \le 0.35\text{ W/m}^2\text{K}\).
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- AUTHOR BIO CARD -->
+                <div class="bg-slate-900 text-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center gap-6 mt-12 border border-slate-800">
+                    <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-amber-500 to-amber-300 p-1 flex-shrink-0 shadow-lg">
+                        <div class="w-full h-full rounded-full bg-slate-950 flex items-center justify-center text-3xl font-heading font-black text-amber-400">
+                            SB
+                        </div>
+                    </div>
+                    <div class="space-y-2 text-center sm:text-left">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Dirección Científica y Estructural</span>
+                        <h3 class="font-heading font-black text-xl text-white">Arq. Sergio Bravo</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Director Técnico de <strong>Homers Constructora</strong>. Especialista en cálculo y modelación computacional de perfiles conformados en frío CFS bajo las ecuaciones de Wei-Wen Yu, código AISI S100 y norma NEC de Ecuador.
+                        </p>
+                        <div class="pt-2 flex flex-wrap gap-3 justify-center sm:justify-start">
+                            <a href="../../construir-casa-ecuador/index.html" class="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1">
+                                Ver obras y proyectos llave en mano &rarr;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA BOX FINAL -->
+                <div class="bg-gradient-to-r from-blue-900 via-brand-dark to-slate-900 text-white rounded-3xl p-8 sm:p-10 shadow-xl text-center space-y-6">
+                    <h2 class="font-heading font-black text-2xl sm:text-3xl max-w-xl mx-auto">
+                        ¿Buscas máxima certeza ingenieril para la construcción de tu casa en Ecuador?
+                    </h2>
+                    <p class="text-slate-300 text-sm max-w-2xl mx-auto leading-relaxed">
+                        Construye con la física de tu lado. Diseñamos y ejecutamos residencias unifamiliares con cálculo sismorresistente pericial y entrega en 120 días laborables.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20una%20consulta%20tecnica%20sobre%20calculo%20estructural%20en%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl font-heading font-extrabold text-sm uppercase tracking-wider text-slate-950 bg-amber-500 hover:bg-amber-400 shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5 flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Consulta de Ingeniería por WhatsApp
+                        </a>
+                        <a href="../../precio-m2/index.html" class="w-full sm:w-auto px-7 py-4 rounded-xl font-heading font-bold text-sm text-white bg-white/10 hover:bg-white/20 border border-white/20 transition flex items-center justify-center gap-2">
+                            Ver Calculadora de Precio por m²
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- SIDEBAR COLUMN -->
+            <aside class="lg:col-span-4 space-y-8">
+
+                <!-- STICKY EXPERT CARD -->
+                <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm sticky top-28 space-y-6">
+                    <div class="border-b border-slate-100 pb-4">
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-indigo-900 block mb-1">Ciencia Estructural</span>
+                        <h3 class="font-heading font-bold text-lg text-slate-900">Ingeniería CFS Avanzada</h3>
+                        <p class="text-xs text-slate-600 mt-1">Cálculo de anchos efectivos y sismorresistencia newtoniana en Ecuador.</p>
+                    </div>
+
+                    <div class="space-y-3 text-xs text-slate-700">
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Teoría Wei-Wen Yu &amp; AISI S100
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Labios rigidizadores calculados
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Masa reducida: 35-55 kg/m²
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Acero galvanizado estructural Z275
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20consultarle%20sobre%20la%20ingenieria%20CFS%20para%20mi%20proyecto" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-slate-950 bg-amber-500 hover:bg-amber-400 shadow transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+                    </a>
+
+                    <!-- ARTICULOS RELACIONADOS -->
+                    <div class="border-t border-slate-100 pt-5 space-y-3">
+                        <span class="font-heading font-bold text-xs uppercase tracking-wider text-slate-900 block">Artículos de Consultoría</span>
+                        
+                        <a href="../guia-paso-a-paso-construir-casa-ecuador/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Hoja de Ruta</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Guía Paso a Paso para Construir tu Casa en Ecuador</h4>
+                        </a>
+
+                        <a href="../vanos-puertas-ventanas-dinteles-jacks-cripples/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Ingeniería de Aberturas</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Vanos, Dinteles, Jacks y Cripples en Steel Framing</h4>
+                        </a>
+
+                        <a href="../normativa-nec-steel-framing-sismos-ecuador/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Norma NEC y Sismos</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Normativa NEC y Sismos en Ecuador: NEC-SE-DS</h4>
+                        </a>
+
+                        <a href="../instalaciones-electricas-hidrosanitarias-pex-sin-picar/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Redes Técnicas</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Tuberías PEX y Conduits por Punchouts sin Picar</h4>
+                        </a>
+                    </div>
+
+                    <!-- ENLACES DE JERARQUIA WEB -->
+                    <div class="border-t border-slate-100 pt-5 space-y-2 text-xs">
+                        <span class="font-heading font-bold text-[11px] uppercase tracking-wider text-slate-400 block mb-2">Páginas Pilares de Homers</span>
+                        <div><a href="../../construir-casa-ecuador/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Construir Casa en Ecuador (Oferta Llave en Mano)</a></div>
+                        <div><a href="../../precio-m2/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Precio por m² Steel Framing Ecuador 2026</a></div>
+                        <div><a href="../../que-es-steel-framing/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> ¿Qué es el Steel Framing? Manual Completo</a></div>
+                        <div><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Steel Framing vs Hormigón y Bloque</a></div>
+                    </div>
+                </div>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- FOOTER ECOSISTEMA UNIFICADO -->
+    <footer class="bg-slate-950 text-slate-300 border-t border-slate-800 pt-16 pb-12 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+
+                <!-- Col 1: Identidad Corporativa -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="../../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain" loading="lazy">
+                        <span class="font-heading font-extrabold text-xl text-white tracking-tight">Steel Framing <span class="text-amber-500">EC</span></span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        División especializada de <strong>Homers Constructora</strong>. Liderada por el Arq. Sergio Bravo &bull; Construcción sismorresistente con contrato de precio fijo y dirección técnica diaria. Proyectos llave en mano en Ecuador.
+                    </p>
+                    <p class="text-[11px] text-slate-500">Quito &bull; Cumbayá &bull; Tumbaco &bull; Guayaquil &bull; Cuenca &bull; Manta &bull; Cobertura Nacional</p>
+                </div>
+
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../construir-casa-ecuador/index.html" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Mi Casa &mdash; Ver Oferta</a></li>
+                        <li><a href="../../steel-framing-quito-ecuador/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">Steel Framing en Quito y Valles</a></li>
+                        <li><a href="../../ampliacion-segundo-piso-ecuador/index.html" class="hover:text-white transition">Ampliación de Segundo Piso sobre Losa</a></li>
+                        <li><a href="../../modelos-casas-steel-framing-ecuador/index.html" class="hover:text-white transition">Catálogo de Modelos y Diseños</a></li>
+                        <li><a href="../../construir-casa-en-ecuador-desde-usa/index.html" class="hover:text-white transition">Construir desde USA <span class="text-amber-400 font-bold">[Migrantes]</span></a></li>
+                        <li><a href="../../casas-prefabricadas-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Prefabricadas</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Guias Tecnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Guías Técnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../que-es-steel-framing/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">&iquest;Qué es Steel Framing? (Guía)</a></li>
+                        <li><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Hormigón y Bloque</a></li>
+                        <li><a href="../../permisos-construccion-steel-framing-ecuador/index.html" class="hover:text-white transition">Permisos Municipales Steel Framing</a></li>
+                        <li><a href="../../credito-hipotecario-biess-steel-framing/index.html" class="hover:text-white transition">Crédito Hipotecario BIESS y Bancos</a></li>
+                        <li><a href="../../precio-m2/index.html" class="hover:text-white transition">Precio por m² (Calculadora)</a></li>
+                        <li><a href="../../steel-framing-ecuador/index.html" class="hover:text-white transition">Guía Técnica NEC Steel Framing</a></li>
+                        <li><a href="../../construccion-en-seco-ecuador/index.html" class="hover:text-white transition">Manual Construcción en Seco</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Ciudades y Contacto -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Ciudades y Contacto</div>
+                    <ul class="space-y-2 text-xs mb-4">
+                        <li><a href="../../steel-framing-quito-ecuador/index.html" class="hover:text-white transition">Construcción en Quito &amp; Valles</a></li>
+                        <li><a href="../../steel-framing-guayaquil/index.html" class="hover:text-white transition">Construcción en Guayaquil</a></li>
+                        <li><a href="../../steel-framing-cuenca/index.html" class="hover:text-white transition">Construcción en Cuenca</a></li>
+                        <li><a href="../../steel-framing-manta/index.html" class="hover:text-white transition">Construcción en Manta &amp; Manabí</a></li>
+                        <li><a href="../../cuanto-cuesta-construir-en-ecuador/index.html" class="hover:text-white transition">Costos por Ciudad en Ecuador</a></li>
+                    </ul>
+                    <div class="space-y-1 text-xs text-slate-400">
+                        <p><i class="fa-solid fa-shield-halved text-emerald-400 mr-2"></i> Garantía Estructural 20 Años</p>
+                        <p><a href="tel:+593995099506" class="hover:text-white transition"><i class="fa-solid fa-phone text-amber-400 mr-2"></i>0995 099 506</a></p>
+                        <p><a href="mailto:info@steelframingec.com" class="hover:text-white transition"><i class="fa-solid fa-envelope text-amber-400 mr-2"></i>info@steelframingec.com</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+                <p>&copy; 2026 Homers Constructora &bull; Steel Framing EC. Todos los derechos reservados.</p>
+                <p>Ingeniería y Mecánica de Cold-Formed Steel bajo especificaciones AISI S100 y NEC en Ecuador.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Action Button -->
+    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20estoy%20leyendo%20el%20tratado%20de%20ingenieria%20CFS%20y%20deseo%20asesoria" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-transform duration-300" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+</html>

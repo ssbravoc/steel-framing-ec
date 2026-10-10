@@ -1,148 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- Página Principal / Landing de Marca y Portafolio Nacional -->
   <url>
     <loc>https://steelframingec.com/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Página de Ventas & Cotización de Casas Llave en Mano -->
-  <url>
-    <loc>https://steelframingec.com/construir-casa-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <!-- Comparativa Casas Prefabricadas Ecuador Precios vs Steel Framing -->
-  <url>
-    <loc>https://steelframingec.com/casas-prefabricadas-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.92</priority>
-  </url>
-
-  <!-- Programa Migrante: Construir Casa en Ecuador desde USA -->
-  <url>
-    <loc>https://steelframingec.com/construir-casa-en-ecuador-desde-usa/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.92</priority>
-  </url>
-
-  <!-- Cuánto Cuesta Construir en Guayaquil, Cuenca, Manta y Quito -->
-  <url>
-    <loc>https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.92</priority>
-  </url>
-
-  <!-- Calculadora y Guía de Precio por Metro Cuadrado -->
-  <url>
-    <loc>https://steelframingec.com/precio-m2/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <!-- Guía Técnica y Sismorresistente NEC (Factor Z por Ciudad) -->
-  <url>
-    <loc>https://steelframingec.com/steel-framing-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <!-- Manual Maestro de Construcción en Seco y Comparativas -->
-  <url>
-    <loc>https://steelframingec.com/construccion-en-seco-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- Ampliación de Segundo Piso sobre Losa o Terraza Existente -->
   <url>
     <loc>https://steelframingec.com/ampliacion-segundo-piso-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Trámites y Permisos Municipales para Steel Framing en Ecuador -->
   <url>
-    <loc>https://steelframingec.com/permisos-construccion-steel-framing-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://steelframingec.com/blog/aislamiento-eifs-ecuador-sistema-termoacustico/</loc>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Catálogo de Modelos y Diseños de Casas de Steel Framing -->
   <url>
-    <loc>https://steelframingec.com/modelos-casas-steel-framing-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://steelframingec.com/blog/construccion-industrializada-bim-vs-obra-artesanal/</loc>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Crédito Hipotecario BIESS y Banca Privada para Construir en Steel Framing -->
+  <url>
+    <loc>https://steelframingec.com/blog/construir-en-terreno-con-pendiente-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/costo-real-construir-casa-100m2-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/cuanto-dura-casa-steel-framing-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/entrepisos-secos-acusticos-vs-losa-hormigon/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/guia-paso-a-paso-construir-casa-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/impacto-iva-15-materiales-construccion-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/instalaciones-electricas-hidrosanitarias-pex-sin-picar/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/mitos-acusticos-interferencia-wifi-steel-framing/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/normativa-nec-steel-framing-sismos-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/perfiles-drywall-vs-steel-framing-estructural/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/placas-fibrocemento-vs-yeso-exteriores-superboard/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/poder-consular-firma-electronica-construir-desde-usa/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/sistema-daf-vs-eifs-acabados-fachadas-steel-framing/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/steel-framing-vs-estructura-metalica-pesada/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/tiny-houses-cabanas-vacacionales-rentabilidad-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/trampa-obra-gris-85-dolares-m2/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/casas-prefabricadas-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/construccion-en-seco-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/construir-casa-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/construir-casa-en-ecuador-desde-usa/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://steelframingec.com/credito-hipotecario-biess-steel-framing/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-
-  <!-- Steel Framing vs Hormigón y Bloque en Ecuador: Comparativa Definitiva -->
-  <url>
-    <loc>https://steelframingec.com/steel-framing-vs-hormigon-bloque-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-
-  <!-- Steel Framing en Quito y Valles (Cumbayá, Tumbaco, Los Chillos, Puembo) -->
-  <url>
-    <loc>https://steelframingec.com/steel-framing-quito-ecuador/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.92</priority>
+    <priority>0.9</priority>
   </url>
-
-  <!-- ¿Qué es el Steel Framing? Guía Técnica Completa, Capas y Normativa -->
+  <url>
+    <loc>https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/modelos-casas-steel-framing-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/permisos-construccion-steel-framing-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/precio-m2/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://steelframingec.com/que-es-steel-framing/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.92</priority>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Steel Framing en Guayaquil, Samborondón y Vía a la Costa -->
   <url>
-    <loc>https://steelframingec.com/steel-framing-guayaquil/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://steelframingec.com/steel-framing-ambato/</loc>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.92</priority>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Steel Framing en Cuenca, Azuay y el Austro -->
+  <url>
+    <loc>https://steelframingec.com/steel-framing-ayampe/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://steelframingec.com/steel-framing-cuenca/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Steel Framing en Manta, Portoviejo y Manabí -->
+  <url>
+    <loc>https://steelframingec.com/steel-framing-cumbaya/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-daule/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-guayaquil/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-loja/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://steelframingec.com/steel-framing-manta/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.9</priority>
   </url>
-
+  <url>
+    <loc>https://steelframingec.com/steel-framing-olon/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-pedernales/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-puembo/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-quito-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-riobamba/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-salinas/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-samborondon/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-santo-domingo/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-tonsupa/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-tumbaco/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-valle-de-los-chillos/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-via-a-la-costa/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://steelframingec.com/steel-framing-vs-hormigon-bloque-ecuador/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
