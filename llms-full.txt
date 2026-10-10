@@ -105,3 +105,15 @@
 - [Poder Consular y Firma Electrónica desde USA](https://steelframingec.com/blog/poder-consular-firma-electronica-construir-desde-usa/): Construcción remota segura para migrantes ecuatorianos.
 - [Entrepisos Secos Acústicos vs Losa de Hormigón](https://steelframingec.com/blog/entrepisos-secos-acusticos-vs-losa-hormigon/): Vigas PGC y diafragma rígido con -75% de masa inercial sísmica.
 - [Tiny Houses y Cabañas Vacacionales](https://steelframingec.com/blog/tiny-houses-cabanas-vacacionales-rentabilidad-ecuador/): Módulos habitacionales para ecoturismo con montaje récord en 45 días.
+
+### Enjambre 4: Vanguardia Arquitectónica, Metalurgia & Patologías (10 Artículos)
+- [Cimentaciones en Steel Framing](https://steelframingec.com/blog/cimentaciones-platea-vs-zapatas-corridas-steel-framing/): Platea de hormigón armado de 12-15 cm vs zapatas corridas bajo norma NEC-SE-DS en suelos sísmicos y blandos.
+- [CIRSOC 303 vs Norma NEC](https://steelframingec.com/blog/cirsoc-303-vs-norma-nec-ecuador-acero-conformado-frio/): Comparativa técnica de cálculo estructural para perfiles CFS, análisis LRFD, derivas de piso y factor sísmico Z.
+- [Costos Ocultos de la Obra Húmeda](https://steelframingec.com/blog/costos-ocultos-desperdicio-obra-humeda-vs-presupuesto-cerrado/): Desperdicios del 15-20% en áridos y cemento vs compra programada de acero Z275 y contrato de precio fijo.
+- [Diseño Arquitectónico en Steel Framing](https://steelframingec.com/blog/diseno-arquitectonico-luces-libres-voladizos-steel-framing/): Grandes luces libres de 6 a 8 metros y voladizos de hasta 3 metros sin columnas intermedias mediante vigas reticuladas.
+- [Metalurgia del Acero Z275 y Ambientes Marinos](https://steelframingec.com/blog/galvanizado-z275-astm-a653-proteccion-catodica-ambientes-marinos/): Protección catódica y ánodo de sacrificio ASTM A653 por más de 100 años frente al salitre en la Costa ecuatoriana.
+- [Manual Práctico de Montaje de Paneles y Dinteles](https://steelframingec.com/blog/manual-montaje-paneles-dinteles-aberturas-consulsteel/): Estándar Consulsteel y norma NEC: soleras PGU, montantes PGC a 40 cm, cruces de San Andrés y anclajes HTT14.
+- [Patologías de Humedad y Salitre](https://steelframingec.com/blog/patologias-humedad-capilaridad-salitre-vs-sistema-seco/): Física de la capilaridad en paredes de bloque vs solución seca con platea aislada, polietileno 200 micras y perfiles Z275.
+- [La Trampa de los Perfiles de 0.45 mm de Drywall](https://steelframingec.com/blog/perfiles-045mm-acimco-drywall-vs-estructural-z275/): Alerta pericial sobre riesgos de colapso por usar perfiles no portantes de 0.45 mm vs perfiles estructurales Z275 (0.90 a 1.50 mm).
+- [Resistencia al Fuego F-60 a F-120](https://steelframingec.com/blog/resistencia-al-fuego-f60-f120-steel-framing-seguridad/): Certificación de seguridad bajo normas ASTM E119, lana de roca basáltica a >1000 °C, placas RF y acero incombustible.
+- [Construcción Sustentable y Huella de Carbono](https://steelframingec.com/blog/sustentabilidad-ahorro-agua-huella-carbono-steel-framing/): Cero consumo de agua en montaje, reducción del 47% en huella de carbono y 60% de ahorro energético con EIFS.
