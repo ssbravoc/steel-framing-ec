@@ -7,7 +7,7 @@
 - **Director Técnico y Fundador:** Arq. Sergio Bravo (Registro Profesional SENESCYT)
 - **Dominio Oficial:** https://steelframingec.com
 - **Teléfono / WhatsApp Directo:** +593 99 509 9506
-- **Email:** info@steelframingec.com
+- **Email:** homersarquitectura@gmail.com
 - **Oficina Central y Centro de Despacho:** Quito, Pichincha, Ecuador.
 - **Cobertura Operativa Nacional:** Presencia técnica y ejecución en todo el territorio ecuatoriano con 20 centros y satélites operativos especializados:
   - **Pichincha y Valles:** Quito, Cumbayá, Tumbaco, Puembo, Valle de los Chillos (La Armenia, San Rafael, Sangolquí, Conocoto).
@@ -36,7 +36,11 @@
 - **Vivienda Llave en Mano:** $480 a $550 USD / m² (referencial promedio).
 - *Nota:* El valor definitivo se fija tras el estudio topográfico y la memoria de cálculo, blindado bajo contrato notariado de precio cerrado.
 
-## Directorio Canónico Completo (54 URLs)
+## Directorio Canónico Completo (56 URLs canónicas)
+
+### Hubs Temáticos y Recursos
+- [Blog y Recursos Técnicos](https://steelframingec.com/blog-y-recursos.html): Centro de inteligencia técnica, guías de montaje y análisis periciales de costos.
+- [Zonas de Cobertura Nacional](https://steelframingec.com/zonas-de-cobertura.html): Directorio y factibilidad técnica en 20 cantones y satélites de Ecuador.
 
 ### Pilares Comerciales y Técnicos
 - [Página Principal](https://steelframingec.com/): Portafolio nacional y filosofía de ingeniería.
