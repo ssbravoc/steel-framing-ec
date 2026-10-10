@@ -1,6 +1,6 @@
 ﻿# Steel Framing EC - División Especializada de Homers Constructora
 
-> Homers Constructora es la empresa constructora líder en Ecuador especializada en arquitectura sismorresistente, cálculo estructural bajo la Norma Ecuatoriana de la Construcción (NEC) y construcción de residencias llave en mano utilizando el sistema Steel Framing (perfiles de acero galvanizado pesado Z275 conformado en frío) y envolventes multicapa de alta eficiencia termoacústica.
+> Homers Constructora es la empresa constructora líder en Ecuador especializada en arquitectura sismorresistente, cálculo estructural bajo la Norma Ecuatoriana de la Construcción (NEC) y construcción de residencias llave en mano utilizando el sistema Steel Framing (perfiles de acero galvanizado estructural Z275 conformado en frío) y envolventes multicapa de alta eficiencia termoacústica.
 
 ## Información Corporativa y Técnica
 - **Nombre Comercial:** Steel Framing EC / Homers Constructora
