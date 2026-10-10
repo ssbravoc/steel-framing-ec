@@ -1,212 +1,210 @@
-# Steel Framing EC - DivisiÃ³n Especializada de Homers Constructora
+# Steel Framing EC - Homers Constructora
 
-> Homers Constructora es la constructora pionera en Ecuador especializada en arquitectura contemporÃ¡nea, cÃ¡lculo estructural sismorresistente bajo la Norma Ecuatoriana de la ConstrucciÃ³n (NEC) y construcciÃ³n de residencias llave en mano con Steel Framing (acero galvanizado estructural Z275 conformado en frÃ­o) y envolventes multicapa de alta eficiencia termoacÃºstica (Sistemas EIFS y DAF).
+> Homers Constructora es la constructora pionera en Ecuador especializada en arquitectura contemporanea, calculo estructural sismorresistente bajo la Norma Ecuatoriana de la Construccion (NEC) y construccion de residencias llave en mano con Steel Framing (acero galvanizado estructural Z275 conformado en frio) y envolventes multicapa de alta eficiencia termoacustica (Sistemas EIFS y DAF).
 
-## InformaciÃ³n Corporativa y Contacto Directo
+## Informacion Corporativa y Contacto Directo
 - **Nombre Comercial:** Steel Framing EC / Homers Constructora
-- **Director TÃ©cnico:** Arq. Sergio Bravo
+- **Director Tecnico:** Arq. Sergio Bravo
 - **Dominio Oficial:** https://steelframingec.com
-- **WhatsApp Oficial:** +593 99 509 9506
-- **Correo ElectrÃ³nico:** homersarquitectura@gmail.com
+- **WhatsApp Oficial:** +593 99 509 9506 (https://wa.me/593995099506)
+- **Correo Electronico:** homersarquitectura@gmail.com
 - **Sede Central:** Quito, Pichincha, Ecuador.
-- **Cobertura Operativa:** Todo el territorio continental de Ecuador e Islas GalÃ¡pagos.
-- **Servicio para Migrantes:** Contratos notariados de precio cerrado, asesorÃ­a jurÃ­dica con poderes consulares y reportes continuos semanales en video HD.
+- **Cobertura Operativa:** Todo el territorio continental de Ecuador e Islas Galapagos.
+- **Servicio Especial para Migrantes:** Contratos notariados de precio cerrado, asesoria juridica con poderes consulares y bitacora semanal en video HD.
 
-## Precios Oficiales y Modelos de ContrataciÃ³n (Ecuador 2026)
-- **Obra Semiacabada:**  a  USD / mÂ² (CimentaciÃ³n con platea flotante, estructura completa Z275, envolvente exterior EIFS impermeable, techos e instalaciones pasadas).
-- **Llave en Mano de Lujo:**  a  USD / mÂ² (Vivienda 100% terminada, aislamiento de lana mineral en todos los ambientes, porcelanatos, baÃ±os de lujo, cocina modular y lista para habitar en 90 a 120 dÃ­as).
-- **GarantÃ­a:** Contrato notariado de precio cerrado sin sobrecostos imprevistos y garantÃ­a decenal (CÃ³digo Civil ecuatoriano).
+## Precios Oficiales y Modelos de Contratacion (Ecuador 2026)
+- **Obra Semiacabada (Gris de Alta Calidad):** $360 a $380 USD / m2 (Platea flotante de hormigon armado, estructura completa Z275, cerramientos exteriores EIFS impermeables, techos con impermeabilizacion completa y acometidas hidrosanitarias/electricas pasadas).
+- **Llave en Mano de Lujo:** $480 a $550 USD / m2 (Vivienda 100% terminada, aislamiento termoacustico de lana de roca en todos los ambientes, porcelanatos, banos de lujo operativos, cocina modular con cuarzo/granito, carpinteria e iluminacion LED lista para habitar en 90 a 120 dias).
+- **Garantia Legal:** Contrato notariado de precio cerrado sin sobrecostos imprevistos y garantia decenal amparada en el Codigo Civil ecuatoriano.
 
-## Especificaciones de IngenierÃ­a y Sismorresistencia
-- **Normativa Estructural:** Cumplimiento estricto de NEC-SE-AC (Estructuras de Acero), NEC-SE-DS (DiseÃ±o Sismorresistente), AISI S100/S240 y CIRSOC 303.
-- **Masa SÃ­smica Reducida:** 35 a 55 kg/mÂ² frente a 280-380 kg/mÂ² del bloque de hormigÃ³n (reducciÃ³n del 75% al 85% de las fuerzas de inercia sÃ­smica F = m Â· a).
-- **Acero Estructural:** Perfiles C y U conformados en frÃ­o con recubrimiento de zinc Z275 (275 g/mÂ², ASTM A653) de durabilidad superior a 100 aÃ±os.
+## Especificaciones de Ingenieria y Sismorresistencia
+- **Normativa Estructural:** Cumplimiento estricto de NEC-SE-AC (Estructuras de Acero), NEC-SE-DS (Diseno Sismorresistente), AISI S100/S240 y CIRSOC 303.
+- **Masa Sismica Reducida:** 35 a 55 kg/m2 frente a 280-380 kg/m2 del bloque de hormigon (reduccion del 75% al 85% de las fuerzas de inercia sismica F = m . a).
+- **Acero Estructural:** Perfiles conformados en frio con recubrimiento de zinc Z275 (275 g/m2, ASTM A653) de durabilidad certificada superior a 100 anos.
+- **Aislamiento Termico y Acustico:** Fachada continua EIFS (Exterior Insulation and Finish System) con EPS de alta densidad y lana de roca mineral interior (STC > 50 dB y U < 0.35 W/m2K).
 
-## Mapa de NavegaciÃ³n y Arquitectura SemÃ¡ntica
+## Paginas Principales y Herramientas
+- [¿Cuánto Cuesta Construir en Guayaquil, Cuenca, Manta y Quito? Precios m² 2026](https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/)
+- [¿Qué es el Steel Framing? Guía Técnica Completa, Perfiles PGC/PGU, Capas y Videos de Obra 2026](https://steelframingec.com/que-es-steel-framing/)
+- [Ampliación de Segundo Piso sobre Losa en Ecuador](https://steelframingec.com/ampliacion-segundo-piso-ecuador/)
+- [Blog y Recursos Técnicos de Steel Framing en Ecuador](https://steelframingec.com/blog-y-recursos.html)
+- [Casas Prefabricadas en Ecuador: Precios 2026 vs Steel Framing](https://steelframingec.com/casas-prefabricadas-ecuador/)
+- [Casas Steel Framing Ecuador | Construcción Rápida, Sismorresistente y Sin Sobrecostos](https://steelframingec.com/)
+- [Construcción en Seco en Ecuador: Guía Definitiva, Steel Framing, Drywall y Precios 2026](https://steelframingec.com/construccion-en-seco-ecuador/)
+- [Construir Casa en Ecuador con Steel Framing | Presupuesto Cerrado y Llave en Mano - Homers Constructora](https://steelframingec.com/construir-casa-ecuador/)
+- [Construir Casa en Ecuador desde USA (Guía para Migrantes)](https://steelframingec.com/construir-casa-en-ecuador-desde-usa/)
+- [Construir con Crédito Hipotecario BIESS y Banco en Ecuador](https://steelframingec.com/credito-hipotecario-biess-steel-framing/)
+- [Modelos y Diseños de Casas en Steel Framing Ecuador | Catálogo 2026](https://steelframingec.com/modelos-casas-steel-framing-ecuador/)
+- [Paso 2: Evaluación de Factibilidad Técnica de tu Terreno](https://steelframingec.com/diagnostico-proyecto/)
+- [Permisos Municipales y Trámites para Steel Framing en Ecuador | Guía NEC](https://steelframingec.com/permisos-construccion-steel-framing-ecuador/)
+- [Precio del Steel Framing por m² en Ecuador (2026): ¿Cuánto Cuesta Construir tu Casa?](https://steelframingec.com/precio-m2/)
+- [Zonas de Cobertura Steel Framing en Ecuador | Directorio de Factibilidad Homers](https://steelframingec.com/zonas-de-cobertura.html)
 
-### Hubs Centrales
-- [](): 
-- [](): 
+## Centro de Aprendizaje y Guias Tecnicas (Blog)
+- [¿Cómo Cocinar con Gas vs Inducción en Casas de Steel Framing?: Seguridad, Ductos y Aislamiento Térmico](https://steelframingec.com/blog/cocinar-con-gas-vs-induccion-casas-steel-framing-seguridad/)
+- [¿Cuánto Dura una Casa de Steel Framing en Ecuador? Vida Útil Real (+100 Años) 2026](https://steelframingec.com/blog/cuanto-dura-casa-steel-framing-ecuador/)
+- [¿Cuánto Tarda Construir una Casa en Ecuador?: 12 Meses en Bloque vs 4 Meses en Steel Framing y el Impacto en tu Dinero](https://steelframingec.com/blog/tiempo-construccion-casa-bloque-vs-steel-framing-ecuador/)
+- [¿Hace Ruido la Lluvia y el Granizo en Techos de Steel Framing?: El Sandwich Acústico Multicapa que Supera al Hormigón](https://steelframingec.com/blog/ruido-lluvia-granizo-techos-steel-framing-lana-roca/)
+- [¿Pierde Valor una Casa de Steel Framing con los Años? Plusvalía y Reventa](https://steelframingec.com/blog/plusvalia-reventa-devaluacion-casa-steel-framing-ecuador/)
+- [¿Por qué las Casas de Steel Framing No Crujen ni Hacen Ruido?: Fijaciones Estructurales y Aislamiento Acústico](https://steelframingec.com/blog/desgaste-roce-sismos-crujidos-ruido-acero-z275/)
+- [¿Por Qué se Rajan las Paredes de Bloque en los Temblores?: Elasticidad y Ductilidad Sismorresistente del Acero Galvanizado Z275](https://steelframingec.com/blog/resistencia-sismica-paredes-rajadas-bloque-vs-perfiles-acero/)
+- [¿Qué Pólizas de Seguro Cubren una Casa de Steel Framing en Ecuador? Cobertura contra Incendio y Terremoto](https://steelframingec.com/blog/polizas-seguros-hogar-incendio-sismo-steel-framing-ecuador/)
+- [¿Se Puede Romper una Pared de Steel Framing con un Combo?: Pruebas de Resistencia y Seguridad Antirrobo Real](https://steelframingec.com/blog/seguridad-antirrobo-impacto-paredes-steel-framing-ecuador/)
+- [¿Una Casa de Acero Atrae Rayos? El Mito de la Jaula de Faraday | Guía 2026](https://steelframingec.com/blog/mito-jaula-faraday-rayos-casa-acero/)
+- [Acabados Modernos en Steel Framing: Fachadas EIFS de Lujo, Porcelanatos Gigantes e Interiores Perfectos](https://steelframingec.com/blog/acabados-modernos-steel-framing-fachadas-eifs-interiores-lisos/)
+- [Aislamiento Acústico entre Dormitorios: Muros Dobles y Lana Mineral (STC 55)](https://steelframingec.com/blog/aislamiento-acustico-dormitorios-muros-dobles-stc-55/)
+- [Aislamiento EIFS en Ecuador: Envolvente Termoacústica y Ahorro Energético 2026](https://steelframingec.com/blog/aislamiento-eifs-ecuador-sistema-termoacustico/)
+- [Aislamiento Térmico EIFS vs Paredes de Bloque en Ecuador: Eficiencia y Ahorro Energético](https://steelframingec.com/blog/aislamiento-termico-eifs-vs-paredes-bloque-ecuador/)
+- [Ampliación de Oficinas y Clínicas en Terrazas: Obra Limpia](https://steelframingec.com/blog/ampliacion-oficinas-clinicas-terrazas-comerciales-obra-limpia/)
+- [Aprobación de Planos y Registro de Construcción en el Municipio de Guayaquil y Samborondón para Steel Framing](https://steelframingec.com/blog/aprobacion-planos-municipio-guayaquil-steel-framing/)
+- [Aulas Escolares y Dispensarios Médicos Modulares en Steel Framing: Soluciones de Infraestructura Rápida y Sismorresistente en Ecuador](https://steelframingec.com/blog/aulas-hospitales-modulares-steel-framing-emergencias/)
+- [Avalúo Hipotecario y Peritaje Bancario en Steel Framing: Cómo BIESS, Banco Pichincha y Produbanco Valúan Viviendas de Acero Galvanizado](https://steelframingec.com/blog/avaluo-hipotecario-bancos-ecuador-peritaje-steel-framing/)
+- [Barrera de Viento y Agua (Weather Barrier) en Steel Framing: Cómo Funciona la Membrana Transpirable tipo Tyvek](https://steelframingec.com/blog/barrera-viento-agua-membrana-hidrofuga-tyvek-ventilacion/)
+- [Barreras Antihormigas y Protección contra Roedores en Steel Framing: Hermeticidad en Zonas Tropicales y Campestres de Ecuador](https://steelframingec.com/blog/barreras-antihormigas-proteccion-roedores-selva-tropical/)
+- [Cabañas para Airbnb y Glamping en Steel Framing: Cómo Construir en 45 Días y Maximizar tu Rentabilidad en Ecuador](https://steelframingec.com/blog/construir-cabanas-glamping-rentabilidad-turistica-steel-framing/)
+- [Cálculo de Derivas de Piso, Factor Z y NEC-SE-DS en Steel Framing Ecuador](https://steelframingec.com/blog/calculo-derivas-piso-factor-z-nec-se-ds/)
+- [Cálculo y Construcción de Platea de Hormigón (Losa Radier) para Steel Framing: Espesores, Armado y Costos por m²](https://steelframingec.com/blog/calculo-cimentacion-losa-radier-platea-hormigon-costos/)
+- [Campamentos Mineros y Petroleros en Steel Framing: Viviendas y Oficinas Modulares para Operación Continua en la Amazonía y Sierra](https://steelframingec.com/blog/campamentos-mineros-petroleros-steel-framing-amazonia/)
+- [Casas Cálidas sin Calefacción en Quito, Cuenca y Riobamba: Cómo el Steel Framing Combate el Frío Andino](https://steelframingec.com/blog/aislamiento-termico-sierra-frio-steel-framing-quito-cuenca/)
+- [Casas de Campo y Quintas Vacacionales en Steel Framing: Arquitectura Contemporánea sin Columnas en los Valles de Ecuador](https://steelframingec.com/blog/villas-modernas-campo-quintas-valles-steel-framing/)
+- [Ceniza Volcánica en Techos de Steel Framing: Resistencia Estructural y Limpieza en Zonas de Riesgo del Cotopaxi y Tungurahua](https://steelframingec.com/blog/ceniza-volcanica-techos-acero-cotopaxi-tungurahua-limpieza/)
+- [Centros Comerciales y Strip Malls en Steel Framing: Construcción Comercial Fast-Track y Máxima Rentabilidad Inmobiliaria](https://steelframingec.com/blog/centros-comerciales-locales-strip-malls-steel-framing/)
+- [Certificación EDGE y Eficiencia Energética en Steel Framing Ecuador: Ahorro del 40% en Energía, Agua y Huella de Carbono](https://steelframingec.com/blog/auditoria-energetica-certificacion-edge-steel-framing-ecuador/)
+- [Cimentaciones en Steel Framing: Platea de Hormigón vs Zapatas en Suelos Sísmicos](https://steelframingec.com/blog/cimentaciones-platea-vs-zapatas-corridas-steel-framing/)
+- [CIRSOC 303 vs Norma NEC: Comparativa Sísmica de Acero Conformado en Frío](https://steelframingec.com/blog/cirsoc-303-vs-norma-nec-ecuador-acero-conformado-frio/)
+- [Climatización Split Inverter en Steel Framing: Reducción del 50% en Planilla Eléctrica en Guayaquil, Samborondón y Manta](https://steelframingec.com/blog/climatizacion-split-inverter-steel-framing-ahorro-guayaquil-manta/)
+- [Cómo Colgar Televisores, Muebles y Hamacas en Paredes de Yeso y Steel Framing | Guía Técnica 2026](https://steelframingec.com/blog/colgar-televisores-muebles-hamacas-paredes-yeso/)
+- [Cómo Construir un Segundo Piso sin Reforzar Columnas ni Cimientos: La Solución Liviana en Steel Framing en Ecuador](https://steelframingec.com/blog/ampliacion-segundo-piso-sin-reforzar-columnas-steel-framing/)
+- [Cómo Eliminar los Puentes Térmicos en Steel Framing: La Ciencia del Aislamiento Continuo EIFS Exterior](https://steelframingec.com/blog/puentes-termicos-steel-framing-aislamiento-eifs-continuo/)
+- [Cómo Financiar tu Casa de Steel Framing en Terreno Propio con BIESS o Banco Pichincha: Requisitos, Planos y Carpeta Técnica](https://steelframingec.com/blog/financiamiento-credito-construccion-terreno-propio-steel-framing/)
+- [Cómo Mantener Fresca una Casa en Guayaquil, Samborondón y Manta: La Física del Aislamiento EIFS en Steel Framing frente al Calor Costero](https://steelframingec.com/blog/aislamiento-termico-costa-calor-steel-framing-guayaquil-manta/)
+- [Construcción de Casas de Playa para Airbnb en Ayampe, Olón y Manta: Rentabilidad en 90 Días](https://steelframingec.com/blog/casas-playa-airbnb-ayampe-olon-manta-rentabilidad-90-dias/)
+- [Construcción de Viviendas en la Amazonía Ecuatoriana: Manejo de Humedad 90%](https://steelframingec.com/blog/construccion-viviendas-amazonia-ecuador-puyo-tena-humedad/)
+- [Construcción en Zonas de Alto Nivel Freático y Suelos Blandos: Samborondón, Daule y Salitre](https://steelframingec.com/blog/suelos-blandos-nivel-freatico-samborondon-daule-salitre/)
+- [Construcción Industrializada BIM vs Obra Artesanal en Ecuador](https://steelframingec.com/blog/construccion-industrializada-bim-vs-obra-artesanal/)
+- [Construcción Sustentable en Ecuador: Cero Agua en Obra y -47% en Huella de Carbono](https://steelframingec.com/blog/sustentabilidad-ahorro-agua-huella-carbono-steel-framing/)
+- [Construir en Lotes con Quebrada o Pendiente: Ahorra Miles de Dólares en Muros de Contención con Steel Framing](https://steelframingec.com/blog/lotes-quebrada-pendiente-ahorro-muros-contencion-steel-framing/)
+- [Construir en Suelo de Cangahua y Terrenos Volcánicos: Cimentación con Steel Framing](https://steelframingec.com/blog/cangahua-suelos-volcanicos-pichincha-tungurahua-cimentacion/)
+- [Construir en Terreno con Pendiente en Ecuador: Steel Framing y Ahorro en Muros](https://steelframingec.com/blog/construir-en-terreno-con-pendiente-ecuador/)
+- [Construir en Terrenos con Pendiente Extrema en Cuenca y Loja: Ahorro en Muros](https://steelframingec.com/blog/terrenos-pendiente-laderas-cuenca-loja-muros-contencion/)
+- [Construir tu Casa en Ecuador desde USA: Guía para Migrantes con Precio Cerrado](https://steelframingec.com/blog/construir-casa-ecuador-desde-usa-migrantes/)
+- [Contrato Notariado de Precio Cerrado en Construcción: Cómo Homers te Protege de Sobrecostos y Estafas de Albañiles en Ecuador](https://steelframingec.com/blog/contrato-notariado-precio-cerrado-proteccion-sobrecostos-homers/)
+- [Costo Real de Construir una Casa de 100 m² en Ecuador (2026): Presupuesto y Desglose](https://steelframingec.com/blog/costo-real-construir-casa-100m2-ecuador/)
+- [Costos de Mantenimiento a 20 Años: Casa de Bloque vs Casa de Steel Framing en Ecuador](https://steelframingec.com/blog/costos-mantenimiento-20-anos-casa-bloque-vs-steel-framing/)
+- [Crédito Hipotecario BIESS para Construcción en Terreno Propio: Guía Steel Framing](https://steelframingec.com/blog/credito-hipotecario-biess-construccion-terreno-propio/)
+- [Cubiertas Planas Accesibles en Steel Framing: Cero Goteras con TPO y Manto Asfáltico](https://steelframingec.com/blog/cubiertas-planas-terrazas-tpo-manto-asfaltico-steel-framing/)
+- [Diseño Arquitectónico en Steel Framing: Grandes Luces y Voladizos sin Columnas](https://steelframingec.com/blog/diseno-arquitectonico-luces-libres-voladizos-steel-framing/)
+- [Diseño Bioclimático en Steel Framing para la Costa Ecuatoriana (Guayaquil, Manta, Machala)](https://steelframingec.com/blog/diseno-bioclimatico-costa-guayaquil-manta-machala/)
+- [Diseño Bioclimático en Steel Framing para la Sierra Ecuatoriana: Quito, Cuenca y Loja](https://steelframingec.com/blog/diseno-bioclimatico-sierra-quito-cuenca-loja/)
+- [El Mito de la "Pared con Sonido a Hueco": Solidez y Firmeza Táctil](https://steelframingec.com/blog/solidez-tactil-sonido-hueco-paredes-yeso-steel-framing/)
+- [El Puente Térmico en Perfiles de Acero: Cómo Evitar la Condensación](https://steelframingec.com/blog/puente-termico-perfiles-acero-barrera-eifs-exterior/)
+- [Ensayos de Laboratorio para Acero Galvanizado Estructural en Ecuador: Ensayos de Tracción, Doblado y Masa de Cinc INEN](https://steelframingec.com/blog/ensayos-laboratorio-traccion-acero-galvanizado-inen/)
+- [Entrepisos Secos Acústicos vs Losa de Hormigón Armado](https://steelframingec.com/blog/entrepisos-secos-acusticos-vs-losa-hormigon/)
+- [Entrepisos Secos de Altas Cargas en Steel Framing: Vigas Reticuladas, Luces Mayores y Sobrecargas Comerciales según NEC](https://steelframingec.com/blog/entrepisos-secos-vigas-reticuladas-cargas-vivas-comerciales/)
+- [Estudio de Mecánica de Suelos para Steel Framing en Ecuador: Sondeos SPT, Capacidad Portante y Ahorro en Cimentación](https://steelframingec.com/blog/estudio-mecanica-suelos-para-steel-framing-ecuador/)
+- [Fachadas de Piedra y Alucobond sobre Acero Galvanizado | Fachadas Ventiladas 2026](https://steelframingec.com/blog/fachadas-piedra-alucobond-sobre-acero-galvanizado/)
+- [Flujo de Caja y Desembolsos en Contratos de Precio Cerrado](https://steelframingec.com/blog/flujo-caja-desembolsos-contratos-precio-cerrado-homers/)
+- [Garantía Decenal del Código Civil Ecuatoriano: Responsabilidad Estructural de Homers por 10 Años](https://steelframingec.com/blog/garantia-decenal-codigo-civil-ecuatoriano-responsabilidad-homers/)
+- [Griferías Empotradas y Sanitarios Suspendidos en Steel Framing: Instalación Milimétrica](https://steelframingec.com/blog/acabados-lujo-griferias-empotradas-perfiles-acero-banos/)
+- [Guía Definitiva para Inversionistas Inmobiliarios en Steel Framing Ecuador: Rentabilidad, TIR, Reducción de Costos Financieros y Entrega Llave en Mano](https://steelframingec.com/blog/guia-definitiva-inversionistas-inmobiliarios-steel-framing-ecuador/)
+- [Guía Paso a Paso para Construir tu Casa en Ecuador (2026): Del Lote a la Llave en Mano en 120 Días](https://steelframingec.com/blog/guia-paso-a-paso-construir-casa-ecuador/)
+- [Huella de Carbono y Reciclabilidad en la Construcción: Steel Framing vs Hormigón Armado en Ecuador](https://steelframingec.com/blog/reciclabilidad-huella-carbono-acero-vs-hormigon-ecuador/)
+- [Humedad en Duchas y Baños de Steel Framing: Membranas Líquidas, Placas Cementicias y Cero Filtraciones](https://steelframingec.com/blog/humedad-duchas-banos-steel-framing-membranas-liquidas/)
+- [Impacto del IVA 15% en Materiales de Construcción en Ecuador: Cómo el Contrato Cerrado te Protege](https://steelframingec.com/blog/impacto-iva-15-materiales-construccion-ecuador/)
+- [Ingeniería CFS y Tratado de Wei-Wen Yu: Física del Acero Conformado en Frío y Sismorresistencia](https://steelframingec.com/blog/ingenieria-cfs-wei-wen-yu-sismorresistencia/)
+- [Ingeniería de Vanos en Steel Framing: Cálculo de Dinteles (Headers), Jacks, Kings y Cripples](https://steelframingec.com/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/)
+- [Instalación de Chimeneas y Estufas de Leña/Pellets en Steel Framing: Aislamiento Térmico y Seguridad contra Incendio](https://steelframingec.com/blog/instalacion-chimeneas-estufas-lena-pellets-steel-framing/)
+- [Instalación de Paneles Solares en Cubiertas de Steel Framing: Fijaciones Seguras sin Perforar la Impermeabilización](https://steelframingec.com/blog/instalacion-paneles-solares-cubiertas-steel-framing-fijaciones/)
+- [Instalación de Porcelanato Gigante en Entrepisos Secos de Steel Framing | Guía Técnica 2026](https://steelframingec.com/blog/instalacion-porcelanato-gigante-entrepisos-secos/)
+- [Instalaciones Eléctricas e Hidrosanitarias PEX sin Picar Paredes en Steel Framing](https://steelframingec.com/blog/instalaciones-electricas-hidrosanitarias-pex-sin-picar/)
+- [Instalaciones Eléctricas en Casas de Acero: Ductos EMT, Pasacables Plásticos y Seguridad Antichispas](https://steelframingec.com/blog/instalaciones-electricas-casas-acero-ductos-emt-seguridad/)
+- [Instalaciones Eléctricas y Corrientes Débiles en Steel Framing: Aislamiento, Pasacables y Sistema Equipotencial a Tierra](https://steelframingec.com/blog/instalaciones-electricas-corriente-debil-steel-framing-normas/)
+- [Instalaciones PEX e Hidrosanitarias en Steel Framing: Troqueles y Precisión sin Picar Muros](https://steelframingec.com/blog/instalaciones-pex-hidrosanitarias-troqueles-estructurales/)
+- [La Pesadilla de las Losas de Hormigón que Gotean: Techos Secos y Terrazas con Membrana en Steel Framing](https://steelframingec.com/blog/filtraciones-goteras-losas-planas-solucion-terrazas-steel-framing/)
+- [La Trampa de la Obra Gris a $85 USD/m² en Steel Framing: Desglose Pericial Ecuador 2026](https://steelframingec.com/blog/trampa-obra-gris-85-dolares-m2/)
+- [La Trampa de los $85/m² en Obra Húmeda vs Presupuesto Real y Steel Framing](https://steelframingec.com/blog/trampa-precio-85-m2-obra-humeda-vs-presupuesto-real/)
+- [La Trampa de los Perfiles de 0.45 mm de Drywall en Muros Portantes: Alerta Pericial](https://steelframingec.com/blog/perfiles-045mm-acimco-drywall-vs-estructural-z275/)
+- [Lana de Vidrio vs Lana de Roca en Steel Framing: Aislamiento Térmico, Acústico y Resistencia al Fuego en Ecuador](https://steelframingec.com/blog/aislamiento-lana-vidrio-vs-lana-roca-ecuador-acustica/)
+- [Los Costos Ocultos de la Obra Húmeda: Desperdicios del 15% vs Contrato Cerrado](https://steelframingec.com/blog/costos-ocultos-desperdicio-obra-humeda-vs-presupuesto-cerrado/)
+- [Manual Práctico de Montaje de Paneles y Dinteles en Steel Framing](https://steelframingec.com/blog/manual-montaje-paneles-dinteles-aberturas-consulsteel/)
+- [Metalurgia del Acero Z275: ASTM A653 y Protección Catódica en Ambientes Marinos](https://steelframingec.com/blog/galvanizado-z275-astm-a653-proteccion-catodica-ambientes-marinos/)
+- [Mitos Acústicos y Señales WiFi en Steel Framing](https://steelframingec.com/blog/mitos-acusticos-interferencia-wifi-steel-framing/)
+- [Normativa NEC y Steel Framing en Ecuador: NEC-SE-DS, NEC-SE-AC y Validación BIESS 2026](https://steelframingec.com/blog/normativa-nec-steel-framing-sismos-ecuador/)
+- [Paneles Industrializados Off-Site vs Montaje In-Situ en Steel Framing: Cuál Elegir en Terrenos Urbanos y Rurales de Ecuador](https://steelframingec.com/blog/paneles-industrializados-offsite-taller-vs-ensamblaje-in-situ/)
+- [Paredes con Salitre, Moho y Desprendimiento de Pintura en la Costa: Por Qué el Bloque Falla y Cómo lo Resuelve el Steel Framing](https://steelframingec.com/blog/paredes-bloque-humedas-moho-salitre-solucion-steel-framing/)
+- [Patologías de Humedad y Salitre: Por Qué el Bloque Falla y el Steel Framing No](https://steelframingec.com/blog/patologias-humedad-capilaridad-salitre-vs-sistema-seco/)
+- [Perfiles Drywall vs Steel Framing Estructural: Falla Crítica en Muros Portantes](https://steelframingec.com/blog/perfiles-drywall-vs-steel-framing-estructural/)
+- [Permiso de Construcción en el Municipio de Quito para Steel Framing: Guía Paso a Paso y Trámite LMU-20](https://steelframingec.com/blog/permiso-construccion-municipio-quito-steel-framing-paso-a-paso/)
+- [Permisos de Construcción LMU-20 Quito: Guía Definitiva para Steel Framing](https://steelframingec.com/blog/permisos-construccion-lmu-20-quito-steel-framing/)
+- [Piscinas e Hidromasajes en Terrazas de Steel Framing: Cálculo de Sobrecarga](https://steelframingec.com/blog/piscinas-jacuzzis-terrazas-steel-framing-calculo-sobrecarga/)
+- [Placa OSB Estructural vs Multilaminado Fenólico: Resistencia Sísmica y Humedad](https://steelframingec.com/blog/placa-osb-estructural-vs-multilaminado-fenolico-diafragmas/)
+- [Placas de Fibrocemento vs Placas de Yeso RH: Cuándo Usar Cada Una en Zonas Húmedas y Fachadas de Steel Framing](https://steelframingec.com/blog/placas-fibrocemento-vs-yeso-rh-zonas-humedas-exteriores/)
+- [Placas Fibrocemento vs Yeso Exteriores Ecuador: Guía Superboard y EIFS](https://steelframingec.com/blog/placas-fibrocemento-vs-yeso-exteriores-superboard/)
+- [Plazas Gastronómicas y Locales Comerciales en Steel Framing: Abre tu Negocio en 60 Días y Ahorra Meses de Arriendo](https://steelframingec.com/blog/locales-comerciales-plazas-gastronomicas-rapidez-steel-framing/)
+- [Poder Consular y Firma Electrónica para Construir en Ecuador desde USA](https://steelframingec.com/blog/poder-consular-firma-electronica-construir-desde-usa/)
+- [Presupuesto Paso a Paso de una Casa de Steel Framing en Ecuador: Desglose de Partidas de Obra Semiacabada ($360-$380) vs Llave en Mano ($480-$550)](https://steelframingec.com/blog/desglose-partidas-presupuesto-casa-steel-framing-llave-en-mano/)
+- [Remodelaciones en Steel Framing: ¿Se Pueden Tumbar o Mover Paredes?](https://steelframingec.com/blog/remodelaciones-futuras-tumbar-paredes-steel-framing/)
+- [Reparación de Fugas de Agua Ocultas en Steel Framing: Apertura y Cierre Limpio sin Picar Paredes](https://steelframingec.com/blog/reparacion-fugas-agua-ocultas-steel-framing-sin-picar/)
+- [Resistencia al Fuego en Steel Framing: Certificación F-60 a F-120 y Ensayos ASTM E119](https://steelframingec.com/blog/resistencia-al-fuego-f60-f120-steel-framing-seguridad/)
+- [Resistencia al Impacto de Balón y Golpes en Fachadas EIFS: El Rol de la Malla de Fibra de Vidrio de 160 g/m²](https://steelframingec.com/blog/resistencia-impacto-balon-golpes-fachadas-eifs-malla-refuerzo/)
+- [Salinidad y Brisa Marina a Menos de 100 Metros de la Playa: La Ciencia del Zinc Z275 y Tornillos Ruspert](https://steelframingec.com/blog/salinidad-brisa-marina-playa-zinc-z275-tornillos-ruspert/)
+- [Sistema DAF vs EIFS en Steel Framing: Fachadas, Costos y Climas Ecuador 2026](https://steelframingec.com/blog/sistema-daf-vs-eifs-acabados-fachadas-steel-framing/)
+- [Software BIM y Modelado 3D en Steel Framing: De Vertex BD y Revit a la Fabricación Milimétrica en Ecuador](https://steelframingec.com/blog/ingenieria-cfs-software-vertex-bd-revit-bim-ecuador/)
+- [Steel Framing (CFS) vs Estructura Metálica Tradicional de Hierro Negro: Comparativa Ecuador 2026](https://steelframingec.com/blog/steel-framing-vs-estructura-metalica-pesada/)
+- [Steel Framing para Hoteles Ecológicos, Glamping y Resorts en Ecuador: Retorno Rápido de Inversión y Cero Impacto Ambiental](https://steelframingec.com/blog/steel-framing-para-hoteles-ecologicos-resorts-ecuador/)
+- [Steel Framing vs Casas de Madera (Wood Framing): Resistencia a Termitas, Polilla y Humedad en Ecuador](https://steelframingec.com/blog/steel-framing-vs-casas-madera-wood-framing-termitas-ecuador/)
+- [Steel Framing vs Contenedores Marítimos: Comparativa Real de Aislamiento, Óxido y Costo](https://steelframingec.com/blog/steel-framing-vs-contenedores-maritimos-costo-aislamiento-oxido/)
+- [Steel Framing vs Estructura Metálica Pesada en Terremotos de Subducción Profunda](https://steelframingec.com/blog/steel-framing-vs-estructura-metalica-pesada-sismos-subduccion/)
+- [Terrazas Voladas y Fachadas Minimalistas in Steel Framing: Cómo Lograr Voladizos de 2.5 Metros sin Columnas Intermedias](https://steelframingec.com/blog/terrazas-voladizos-2-metros-sin-columnas-steel-framing/)
+- [Tiny Houses en Steel Framing en Ecuador: Modelos de 30 a 50 m², Costos Reales y Rentabilidad Llave en Mano](https://steelframingec.com/blog/tiny-houses-llave-en-mano-ecuador-modelos-steel-framing/)
+- [Tiny Houses y Cabañas Vacacionales en Ecuador: Rentabilidad Turística](https://steelframingec.com/blog/tiny-houses-cabanas-vacacionales-rentabilidad-ecuador/)
+- [Tornillos Autoperforantes Estructurales vs Tornillos Negros de Drywall](https://steelframingec.com/blog/tornillos-autoperforantes-estructurales-vs-tornillos-negros-drywall/)
+- [Vientos Huracanados y Ráfagas Costeras en Ecuador: Cálculo de Succión de Techos según NEC-SE-CG](https://steelframingec.com/blog/vientos-huracanados-rafagas-costeras-ecuador-calculo-succion-nec/)
 
-### Pilares Comerciales y de DecisiÃ³n (BOFU / MOFU)
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-
-### Enjambre de Cobertura GeogrÃ¡fica Regional
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-
-### Biblioteca TÃ©cnica y ArtÃ­culos Especializados del Blog
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
-- [](): 
+## Cobertura Geo-Local por Provincias y Ciudades
+- [Steel Framing Ecuador | Guía Técnica, Norma Sísmica NEC y Construcción Homers](https://steelframingec.com/steel-framing-ecuador/)
+- [Steel Framing en Ambato y Tungurahua | Casas Sismorresistentes Z=0.40g](https://steelframingec.com/steel-framing-ambato/)
+- [Steel Framing en Ayampe y Manabí Sur | Villas Ecoturísticas y Retiros Sustentables](https://steelframingec.com/steel-framing-ayampe/)
+- [Steel Framing en Azogues y Cañar | Construcción con Remesas y Precio Cerrado](https://steelframingec.com/steel-framing-azogues-canar/)
+- [Steel Framing en Bahía de Caráquez y San Vicente | Construcción Sismorresistente Frente al Mar y Ría](https://steelframingec.com/steel-framing-bahia-caraquez-san-vicente/)
+- [Steel Framing en Baños de Agua Santa | Cabañas Boutique y Hostales en Laderas de Montaña](https://steelframingec.com/steel-framing-banos-agua-santa/)
+- [Steel Framing en Cotacachi y Otavalo | Casas para Expats y Residencias Campestres](https://steelframingec.com/steel-framing-cotacachi-otavalo/)
+- [Steel Framing en Cuenca Ecuador | Casas Sismorresistentes en el Austro con Aislamiento T&eacute;rmico](https://steelframingec.com/steel-framing-cuenca/)
+- [Steel Framing en Cumbayá Quito | Casas Sismorresistentes de Alta Gama](https://steelframingec.com/steel-framing-cumbaya/)
+- [Steel Framing en Daule Norte (Salitre y Santa Lucía) | Casas de Campo y Haciendas en la Cuenca del Guayas](https://steelframingec.com/steel-framing-daule-norte-salitre-santa-lucia/)
+- [Steel Framing en Daule y La Aurora | Casas en Urbanizaciones en 120 Días](https://steelframingec.com/steel-framing-daule/)
+- [Steel Framing en Gualaceo y Paute | Quintas Vacacionales y Retiro en el Valle del Austro](https://steelframingec.com/steel-framing-gualaceo-paute/)
+- [Steel Framing en Guaranda y Bolívar | Casas Modernas en Terrenos de Montaña y Precio Cerrado](https://steelframingec.com/steel-framing-guaranda-bolivar/)
+- [Steel Framing en Guayaquil Ecuador | Casas Sismorresistentes en Samborond&oacute;n, Daule y V&iacute;a a la Costa](https://steelframingec.com/steel-framing-guayaquil/)
+- [Steel Framing en Ibarra Imbabura | Casas Sismorresistentes y Térmicas en la Ciudad Blanca](https://steelframingec.com/steel-framing-ibarra/)
+- [Steel Framing en Lago Agrio y Shushufindi | Viviendas Corporativas y Residencias Modernas](https://steelframingec.com/steel-framing-lago-agrio-sucumbios/)
+- [Steel Framing en Latacunga y Salcedo Cotopaxi | Casas Sismorresistentes y Térmicas frente al Frío Andino](https://steelframingec.com/steel-framing-latacunga-salcedo/)
+- [Steel Framing en Loja y Vilcabamba | Casas Sismorresistentes y Bioclimáticas](https://steelframingec.com/steel-framing-loja/)
+- [Steel Framing en Macas y Sucúa Morona Santiago | Casas Modernas y Quintas en Terrenos de Pendiente](https://steelframingec.com/steel-framing-macas-morona-santiago/)
+- [Steel Framing en Machala y El Oro | Construcción Sismorresistente en Suelos Costeros](https://steelframingec.com/steel-framing-machala/)
+- [Steel Framing en Manta y Manab&iacute; Ecuador | Casas Sismorresistentes Z=0.50g y Anticorrosivas](https://steelframingec.com/steel-framing-manta/)
+- [Steel Framing en Montañita y Manglaralto | Ecoturismo, Hoteles y Villas Sostenibles](https://steelframingec.com/steel-framing-montanita-manglaralto/)
+- [Steel Framing en Nayón Quito | Construcción Sismorresistente en Laderas de Alta Plusvalía](https://steelframingec.com/steel-framing-nayon/)
+- [Steel Framing en Olón y Santa Elena Norte | Arquitectura de Playa de Lujo Llave en Mano](https://steelframingec.com/steel-framing-olon/)
+- [Steel Framing en Pedernales y Manabí Norte | Casas Sismorresistentes Z=0.50g y Anticorrosivas](https://steelframingec.com/steel-framing-pedernales/)
+- [Steel Framing en Playas (General Villamil) | Casas Vacacionales y Villas Frente al Mar](https://steelframingec.com/steel-framing-playas-general-villamil/)
+- [Steel Framing en Portoviejo Manabí | Construcción Sismorresistente con Acero Galvanizado Z275](https://steelframingec.com/steel-framing-portoviejo/)
+- [Steel Framing en Puembo Quito | Villas de Lujo y Casas de Campo](https://steelframingec.com/steel-framing-puembo/)
+- [Steel Framing en Punta Blanca y San Pablo | Villas de Playa Exclusivas y Terrazas Panorámicas](https://steelframingec.com/steel-framing-punta-blanca-san-pablo/)
+- [Steel Framing en Puyo y Mera Pastaza | Casas y Cabañas Inmunes a la Humedad de Selva](https://steelframingec.com/steel-framing-puyo-pastaza/)
+- [Steel Framing en Quito Ecuador | Casas y Ampliaciones en Cumbayá, Tumbaco y Valles](https://steelframingec.com/steel-framing-quito-ecuador/)
+- [Steel Framing en Riobamba y Chimborazo | Casas Sismorresistentes y Térmicas](https://steelframingec.com/steel-framing-riobamba/)
+- [Steel Framing en Salinas y Santa Elena | Villas de Playa Inmunes al Salitre](https://steelframingec.com/steel-framing-salinas/)
+- [Steel Framing en Samborondón | Casas de Lujo sin Pilotaje Profundo](https://steelframingec.com/steel-framing-samborondon/)
+- [Steel Framing en San Cristóbal Galápagos | Casas y Hoteles Sustentables Frente al Mar](https://steelframingec.com/steel-framing-galapagos-san-cristobal/)
+- [Steel Framing en Santa Cruz Galápagos | Construcción Ecológica y Rápida para Villas y Hoteles](https://steelframingec.com/steel-framing-galapagos-santa-cruz/)
+- [Steel Framing en Santo Domingo de los Tsáchilas | Casas Inmunes a Humedad y Moho](https://steelframingec.com/steel-framing-santo-domingo/)
+- [Steel Framing en Tababela y Yaruquí | Residencias Campestres y Villas de Lujo](https://steelframingec.com/steel-framing-tababela-yaruqui/)
+- [Steel Framing en Tena y Archidona Napo | Eco-Lodges, Cabañas y Residencias de Selva](https://steelframingec.com/steel-framing-tena-archidona/)
+- [Steel Framing en Tonsupa y Esmeraldas Sur | Torres Bajas y Villas de Playa Llave en Mano](https://steelframingec.com/steel-framing-tonsupa/)
+- [Steel Framing en Tulcán y Carchi | Casas Térmicas que Eliminan el Frío Extremo Andino](https://steelframingec.com/steel-framing-tulcan-carchi/)
+- [Steel Framing en Tumbaco Quito | Casas Campestres y Villas Modernas](https://steelframingec.com/steel-framing-tumbaco/)
+- [Steel Framing en Valle de los Chillos | Casas Sismorresistentes Llave en Mano](https://steelframingec.com/steel-framing-valle-de-los-chillos/)
+- [Steel Framing en Vía a la Costa Guayaquil | Casas Modernas Km 10 al 30](https://steelframingec.com/steel-framing-via-a-la-costa/)
+- [Steel Framing en Zamora y Yantzaza | Construcción Rápida de Casas Modernas y Campamentos Mineros](https://steelframingec.com/steel-framing-zamora-chinchipe/)
+- [Steel Framing vs Hormigón y Bloque en Ecuador: Comparativa Técnica y Económica 2026](https://steelframingec.com/steel-framing-vs-hormigon-bloque-ecuador/)
