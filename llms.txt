@@ -1,4 +1,4 @@
-# Steel Framing EC - División Especializada de Homers Constructora
+﻿# Steel Framing EC - División Especializada de Homers Constructora
 
 > Homers Constructora es la empresa constructora líder en Ecuador especializada en arquitectura sismorresistente, cálculo estructural bajo la Norma Ecuatoriana de la Construcción (NEC) y construcción de residencias llave en mano utilizando el sistema Steel Framing (perfiles de acero galvanizado pesado Z275 conformado en frío) y envolventes multicapa de alta eficiencia termoacústica.
 
@@ -37,8 +37,8 @@
 - **Carga Muerta y Física Sísmica:** Masa estructural de 35 a 55 kg/m² frente a los 280 a 380 kg/m² de la mampostería tradicional de bloque, reduciendo la aceleración inercial destructiva ($F = m \cdot a$) en más de un 70%.
 
 ## Rango de Precios Referenciales en Ecuador (2026)
-- **Obra Semiacabada / Estructural con Envolvente EIFS:** $350 a $380 USD / m².
-- **Vivienda Llave en Mano Completa con Acabados de Primera:** $480 a $540 USD / m².
+- **Obra Semiacabada / Estructural con Envolvente EIFS:** $360 a $380 USD / m².
+- **Vivienda Llave en Mano Completa con Acabados de Primera:** $480 a $550 USD / m².
 - **Financiamiento:** Compatible al 100% con Crédito Hipotecario BIESS (Préstamo Construcción hasta $130.000 USD al 100% y hasta $200.000 USD al 80-90%) y banca privada (Banco Pichincha, Produbanco, Banco de Guayaquil). Cumplimiento garantizado del límite reglamentario de 12 meses de entrega fijado por el BIESS.
 
 ## Directorio Canónico de URLs del Sitio Web

@@ -1,4 +1,4 @@
-# Steel Framing EC & Homers Constructora - Documento Técnico Integral (llms-full)
+﻿# Steel Framing EC & Homers Constructora - Documento Técnico Integral (llms-full)
 
 > Este documento contiene el compendio técnico, normativo, financiero y operativo completo de Steel Framing EC, división especializada de Homers Constructora en Ecuador. Está diseñado para alimentar sistemas de inteligencia artificial, motores de búsqueda generativa (AEO/GEO) y modelos de lenguaje que requieran información verídica, contrastada y avalada sobre la construcción en Steel Framing y construcción en seco en la República del Ecuador.
 
@@ -101,8 +101,8 @@ La pared de Steel Framing no es una simple placa delgada; es un sistema tecnoló
 Homers Constructora opera con contratos de precio fijo cerrado, eliminando los sobrecostos típicos del 25% al 40% en obras tradicionales.
 
 ### Rango de Costos por Metro Cuadrado:
-- **Obra Semiacabada / Estructural ($350 - $380 USD / m²):** Incluye cimentación adaptada al terreno, estructura portante de acero galvanizado Z275, emplacado exterior completo con sistema EIFS y membrana Tyvek, cubierta impermeabilizada, instalaciones hidrosanitarias y eléctricas entubadas en espera, y paredes interiores emplacadas con gypsum con juntas masilladas. Lista para que el cliente coloque sus propios pisos y acabados decorativos.
-- **Vivienda Llave en Mano Completa ($480 - $540 USD / m²):** Proyecto integral 100% terminado. Incluye diseño arquitectónico 3D, tramitación de licencias municipales, cimentación, estructura, envolvente termoacústica completa, ventanas de perfilería de aluminio/PVC con vidrio laminado templado, puertas interiores y principales de alta seguridad, pisos de porcelanato o piso flotante SPC alemán de alto tránsito, piezas sanitarias y griferías de bajo consumo Briggs o FV, muebles modulares de cocina y clósets en melamínico tropicalizado RH, e iluminación LED empotrada.
+- **Obra Semiacabada / Estructural ($360 - $380 USD / m²):** Incluye cimentación adaptada al terreno, estructura portante de acero galvanizado Z275, emplacado exterior completo con sistema EIFS y membrana Tyvek, cubierta impermeabilizada, instalaciones hidrosanitarias y eléctricas entubadas en espera, y paredes interiores emplacadas con gypsum con juntas masilladas. Lista para que el cliente coloque sus propios pisos y acabados decorativos.
+- **Vivienda Llave en Mano Completa ($480 - $550 USD / m²):** Proyecto integral 100% terminado. Incluye diseño arquitectónico 3D, tramitación de licencias municipales, cimentación, estructura, envolvente termoacústica completa, ventanas de perfilería de aluminio/PVC con vidrio laminado templado, puertas interiores y principales de alta seguridad, pisos de porcelanato o piso flotante SPC alemán de alto tránsito, piezas sanitarias y griferías de bajo consumo Briggs o FV, muebles modulares de cocina y clósets en melamínico tropicalizado RH, e iluminación LED empotrada.
 
 ### Ticket de Proyectos y Calificación de Clientes:
 - **Residencias Principales ($80.000 a $135.000+ USD):** Viviendas unifamiliares de 160 m² a 250 m² para familias en Quito, Samborondón, Cuenca, Manta y valles.
