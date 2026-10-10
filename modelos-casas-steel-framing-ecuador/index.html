@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -158,7 +158,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <a href="../index.html" class="flex items-center gap-3 group">
-                    <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-11 w-auto object-contain transition-transform group-hover:scale-105">
+                    <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
                     <div class="flex flex-col">
                         <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
                         <span class="text-[11px] text-slate-500 font-semibold tracking-wide">División de Homers Constructora • Arq. Sergio Bravo</span>
@@ -250,7 +250,7 @@
                 <div class="bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm hover:shadow-md transition">
                     <div>
                         <div class="h-52 bg-slate-200 overflow-hidden relative">
-                            <img src="../img/cumbaya/1%20casa-steel-framing-quito-cumbaya.jpg" alt="Modelo Compacto 90m2" class="w-full h-full object-cover">
+                            <img src="../img/cumbaya/1%20casa-steel-framing-quito-cumbaya.jpg" alt="Modelo Compacto 90m2" class="w-full h-full object-cover" loading="lazy">
                             <span class="absolute top-3 right-3 bg-slate-900 text-white text-xs font-bold px-3 py-1 rounded-full">1 Planta • 90 m²</span>
                         </div>
                         <div class="p-6 space-y-4">
@@ -284,7 +284,7 @@
                     </div>
                     <div>
                         <div class="h-52 bg-slate-200 overflow-hidden relative mt-4">
-                            <img src="../img/cumbaya/2%20casa-steel-framing-quito-cumbaya.jpg" alt="Modelo Familiar 135m2" class="w-full h-full object-cover">
+                            <img src="../img/cumbaya/2%20casa-steel-framing-quito-cumbaya.jpg" alt="Modelo Familiar 135m2" class="w-full h-full object-cover" loading="lazy">
                             <span class="absolute top-3 right-3 bg-amber-500 text-slate-950 text-xs font-extrabold px-3 py-1 rounded-full">2 Plantas • 135 m²</span>
                         </div>
                         <div class="p-6 space-y-4">
@@ -315,7 +315,7 @@
                 <div class="bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm hover:shadow-md transition">
                     <div>
                         <div class="h-52 bg-slate-200 overflow-hidden relative">
-                            <img src="../img/el-quinche/1%20casa-steel-framing-el%20quinche-ecuador.jpg" alt="Modelo Campestre 180m2" class="w-full h-full object-cover">
+                            <img src="../img/el-quinche/1%20casa-steel-framing-el%20quinche-ecuador.jpg" alt="Modelo Campestre 180m2" class="w-full h-full object-cover" loading="lazy">
                             <span class="absolute top-3 right-3 bg-slate-900 text-white text-xs font-bold px-3 py-1 rounded-full">Doble Altura • 180 m²</span>
                         </div>
                         <div class="p-6 space-y-4">
@@ -363,16 +363,13 @@
             </div>
 
             <div class="max-w-3xl mx-auto bg-slate-800/80 rounded-3xl p-5 sm:p-7 border border-slate-700 shadow-2xl">
-                <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-slate-950 mb-4 shadow-inner">
-                    <iframe 
-                        class="w-full h-full" 
-                        src="https://www.youtube-nocookie.com/embed/oJYK8D8AeYo" 
-                        title="Montaje de Estructura Steel Framing - De los Planos a la Realidad" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen 
-                        loading="lazy">
-                    </iframe>
+                <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-slate-950 mb-4 shadow-inner cursor-pointer group" onclick="this.innerHTML='<iframe class=\'w-full h-full\' src=\'https://www.youtube-nocookie.com/embed/oJYK8D8AeYo?autoplay=1\' title=\'Montaje de Estructura Steel Framing - De los Planos a la Realidad\' frameborder=\'0\' allow=\'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\' allowfullscreen></iframe>'">
+                    <img src="https://img.youtube.com/vi/oJYK8D8AeYo/maxresdefault.jpg" alt="Montaje de Estructura Steel Framing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    <div class="absolute inset-0 bg-slate-950/40 group-hover:bg-slate-950/20 transition-colors flex items-center justify-center">
+                        <div class="w-16 h-16 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-play text-xl ml-1"></i>
+                        </div>
+                    </div>
                 </div>
                 <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
                     <div>
@@ -469,7 +466,7 @@
                 <!-- Col 1: Empresa & Autoridad -->
                 <div class="space-y-3">
                     <div class="flex items-center space-x-3">
-                        <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1">
+                        <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
                         <div>
                             <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
                             <span class="text-[10px] text-slate-400 block">Divisi&oacute;n de Homers Constructora</span>

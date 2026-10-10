@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -163,7 +163,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <a href="../index.html" class="flex items-center gap-3 group">
-                    <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-11 w-auto object-contain transition-transform group-hover:scale-105">
+                    <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
                     <div class="flex flex-col">
                         <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
                         <span class="text-[11px] text-slate-500 font-semibold tracking-wide">División de Homers Constructora • Arq. Sergio Bravo</span>
@@ -341,17 +341,14 @@
                         <p class="text-slate-600 text-sm leading-relaxed">
                             Documentamos cada hito de avance de obra en video y fotografías de alta resolución. Cada viernes recibirás en tu WhatsApp un reporte pormenorizado del avance ejecutado por el Arq. Sergio Bravo, para que supervises los detalles con total tranquilidad desde tu trabajo en el exterior.
                         </p>
-                        <!-- Video embed reporte real -->
-                        <div class="mt-4 rounded-xl overflow-hidden bg-slate-950 aspect-video max-w-xl border border-slate-300 shadow-md">
-                            <iframe 
-                                class="w-full h-full" 
-                                src="https://www.youtube-nocookie.com/embed/k1jMxedQR_I?start=11" 
-                                title="Reporte de Obra en Video HD - Homers Constructora" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen 
-                                loading="lazy">
-                            </iframe>
+                        <!-- Video embed reporte real con fachada ultrarrápida -->
+                        <div class="mt-4 rounded-xl overflow-hidden bg-slate-950 aspect-video max-w-xl border border-slate-300 shadow-md cursor-pointer group relative" onclick="this.innerHTML='<iframe class=\'w-full h-full\' src=\'https://www.youtube-nocookie.com/embed/k1jMxedQR_I?autoplay=1&start=11\' title=\'Reporte de Obra en Video - Homers Constructora\' frameborder=\'0\' allow=\'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\' allowfullscreen></iframe>'">
+                            <img src="https://img.youtube.com/vi/k1jMxedQR_I/maxresdefault.jpg" alt="Reporte de Obra en Video" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                            <div class="absolute inset-0 bg-slate-950/40 group-hover:bg-slate-950/20 transition-colors flex items-center justify-center">
+                                <div class="w-16 h-16 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+                                    <i class="fa-solid fa-play text-xl ml-1"></i>
+                                </div>
+                            </div>
                         </div>
                         <span class="inline-block text-xs text-slate-500 font-medium">
                             <i class="fa-solid fa-circle-check text-emerald-500 mr-1"></i> As&iacute; luce un reporte t&iacute;pico de avance de obra que enviamos semanalmente por WhatsApp.
@@ -534,7 +531,7 @@
                 <!-- Col 1: Empresa & Autoridad -->
                 <div class="space-y-3">
                     <div class="flex items-center space-x-3">
-                        <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1">
+                        <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
                         <div>
                             <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
                             <span class="text-[10px] text-slate-400 block">Divisi&oacute;n de Homers Constructora</span>
