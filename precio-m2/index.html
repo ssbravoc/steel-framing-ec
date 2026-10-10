@@ -346,29 +346,38 @@
                     <div>
                         <label for="calc-m2" class="block text-sm font-semibold text-slate-700">Área a Construir (m²):</label>
                         <div class="mt-1 relative rounded-xl shadow-sm">
-                            <input type="number" id="calc-m2" min="20" max="1000" value="100" class="block w-full rounded-xl border border-gray-300 px-4 py-3 text-lg font-bold text-slate-900 focus:ring-2 focus:ring-blue-900 focus:border-blue-900" oninput="calculateEstimate()">
+                            <input type="number" id="calc-m2" min="50" max="1000" value="180" class="block w-full rounded-xl border border-gray-300 px-4 py-3 text-lg font-bold text-slate-900 focus:ring-2 focus:ring-blue-900 focus:border-blue-900" oninput="calculateEstimate()">
                             <span class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-slate-400 font-bold">m²</span>
                         </div>
+                        <p class="text-[11px] text-slate-500 mt-1">Sugerido para residencia familiar completa de 3 o 4 dormitorios: 160 a 240 m².</p>
                     </div>
 
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Selecciona Ciudad o Referencia:</label>
-                        <div class="grid grid-cols-2 gap-2 text-xs font-semibold">
-                            <button type="button" class="calc-ref-btn p-3 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all active bg-blue-50 border-blue-900" data-val="481" data-city="Guayaquil" onclick="selectCity(this)">
-                                <div>Guayaquil</div>
-                                <div class="text-slate-500 font-normal">481 USD/m²</div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Selecciona Ciudad o Región:</label>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs font-semibold">
+                            <button type="button" class="calc-ref-btn p-2.5 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all active bg-blue-50 border-blue-900" data-val="495" data-city="Guayaquil / Costa" onclick="selectCity(this)">
+                                <div>Guayaquil / Costa</div>
+                                <div class="text-slate-500 font-normal">495 USD/m²</div>
                             </button>
-                            <button type="button" class="calc-ref-btn p-3 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all" data-val="415" data-city="Quito" onclick="selectCity(this)">
-                                <div>Quito</div>
-                                <div class="text-slate-500 font-normal">415 USD/m²</div>
+                            <button type="button" class="calc-ref-btn p-2.5 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all" data-val="485" data-city="Quito / Valles" onclick="selectCity(this)">
+                                <div>Quito / Valles</div>
+                                <div class="text-slate-500 font-normal">485 USD/m²</div>
                             </button>
-                            <button type="button" class="calc-ref-btn p-3 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all" data-val="416" data-city="Cuenca" onclick="selectCity(this)">
-                                <div>Cuenca</div>
-                                <div class="text-slate-500 font-normal">416 USD/m²</div>
+                            <button type="button" class="calc-ref-btn p-2.5 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all" data-val="480" data-city="Cuenca / Austro" onclick="selectCity(this)">
+                                <div>Cuenca / Austro</div>
+                                <div class="text-slate-500 font-normal">480 USD/m²</div>
                             </button>
-                            <button type="button" class="calc-ref-btn p-3 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all" data-val="500" data-city="Manta" onclick="selectCity(this)">
-                                <div>Manta</div>
-                                <div class="text-slate-500 font-normal">500 USD/m²</div>
+                            <button type="button" class="calc-ref-btn p-2.5 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all" data-val="510" data-city="Manta / Manabí" onclick="selectCity(this)">
+                                <div>Manta / Manabí</div>
+                                <div class="text-slate-500 font-normal">510 USD/m²</div>
+                            </button>
+                            <button type="button" class="calc-ref-btn p-2.5 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all" data-val="480" data-city="Ambato / Riobamba" onclick="selectCity(this)">
+                                <div>Sierra Centro / Loja</div>
+                                <div class="text-slate-500 font-normal">480 USD/m²</div>
+                            </button>
+                            <button type="button" class="calc-ref-btn p-2.5 rounded-xl border border-gray-200 text-left hover:border-blue-900 transition-all" data-val="520" data-city="Amazonía / Oriente" onclick="selectCity(this)">
+                                <div>Amazonía / Oriente</div>
+                                <div class="text-slate-500 font-normal">520 USD/m²</div>
                             </button>
                         </div>
                     </div>
@@ -376,8 +385,9 @@
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-2">Modalidad Deseada:</label>
                         <select id="calc-modalidad" class="block w-full rounded-xl border border-gray-300 px-4 py-3 text-sm font-medium text-slate-800" onchange="calculateEstimate()">
-                            <option value="llave-mano">Vivienda Terminada (Llave en Mano)</option>
-                            <option value="estructura">Solo Estructura de Acero Galvanizado Montada</option>
+                            <option value="llave-mano">Vivienda Terminada Llave en Mano ($480 - $540 USD/m²)</option>
+                            <option value="semiacabada">Obra Semiacabada: Estructura + Envolvente EIFS ($350 - $380 USD/m²)</option>
+                            <option value="estructura">Solo Estructura de Acero Galvanizado Montada ($220 USD/m²)</option>
                         </select>
                     </div>
                 </div>
@@ -386,26 +396,26 @@
                 <div class="bg-slate-900 text-white p-8 rounded-2xl shadow-xl flex flex-col justify-between h-full">
                     <div>
                         <span class="text-xs text-amber-400 font-bold uppercase tracking-wider">Presupuesto Estimado</span>
-                        <div class="text-4xl font-extrabold text-white mt-2" id="calc-total">$48,100 USD</div>
-                        <p class="text-xs text-slate-400 mt-2" id="calc-detalle">Para 100 m² construidos en Guayaquil (Modalidad Llave en Mano).</p>
+                        <div class="text-4xl font-extrabold text-white mt-2" id="calc-total">$89,100 USD</div>
+                        <p class="text-xs text-slate-400 mt-2" id="calc-detalle">Para 180 m² construidos en Guayaquil / Costa (Modalidad Llave en Mano).</p>
 
                         <div class="border-t border-slate-800 mt-6 pt-4 space-y-2 text-xs text-slate-300">
                             <div class="flex justify-between">
                                 <span>Tiempo promedio de entrega:</span>
-                                <strong class="text-white">75 a 90 días</strong>
+                                <strong class="text-white">120 a 150 días</strong>
                             </div>
                             <div class="flex justify-between">
-                                <span>Garantía estructural:</span>
-                                <strong class="text-white">Sismorresistente NEC</strong>
+                                <span>Cálculo antisísmico:</span>
+                                <strong class="text-white">Norma NEC-SE-AC / AISI S100</strong>
                             </div>
                             <div class="flex justify-between">
                                 <span>Sobrecostos de obra:</span>
-                                <strong class="text-white">$0 (Presupuesto Cerrado)</strong>
+                                <strong class="text-emerald-400">$0 (Precio Fijo Cerrado en Contrato)</strong>
                             </div>
                         </div>
                     </div>
 
-                    <a id="calc-whatsapp-btn" href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20calcule%20una%20casa%20de%20100m2%20en%20Guayaquil%20y%20deseo%20una%20cotizacion%20exacta" target="_blank" class="mt-8 block w-full text-center py-3.5 px-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-colors shadow-md">
+                    <a id="calc-whatsapp-btn" href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20calcule%20una%20casa%20de%20180m2%20en%20Guayaquil%20y%20deseo%20una%20cotizacion%20exacta" target="_blank" class="mt-8 block w-full text-center py-3.5 px-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-colors shadow-md">
                         Cotizar Este Proyecto con Arq. Sergio Bravo →
                     </a>
                 </div>
@@ -694,8 +704,8 @@
 
     <!-- Scripts de la Calculadora & Acordeones -->
     <script>
-        let currentRate = 481;
-        let currentCity = "Guayaquil";
+        let currentRate = 495;
+        let currentCity = "Guayaquil / Costa";
 
         function selectCity(btn) {
             document.querySelectorAll('.calc-ref-btn').forEach(b => {
@@ -716,17 +726,21 @@
             const modalidad = document.getElementById('calc-modalidad').value;
 
             let rate = currentRate;
-            if (modalidad === 'estructura') {
+            let modTexto = 'Llave en Mano';
+            if (modalidad === 'semiacabada') {
+                rate = 365; // Tarifa de obra semiacabada con EIFS
+                modTexto = 'Obra Semiacabada con EIFS';
+            } else if (modalidad === 'estructura') {
                 rate = 220; // Tarifa referencial de solo estructura montada
+                modTexto = 'Solo Estructura Montada';
             }
 
             const total = Math.round(m2 * rate);
             document.getElementById('calc-total').textContent = `$${total.toLocaleString('en-US')} USD`;
 
-            const modTexto = modalidad === 'estructura' ? 'Solo Estructura Montada' : 'Llave en Mano';
             document.getElementById('calc-detalle').textContent = `Para ${m2} m² construidos en ${currentCity} (${modTexto}).`;
 
-            const waMsg = `Hola Arq. Sergio, calcule una casa de ${m2}m2 en ${currentCity} (${modTexto}) por un valor estimado de $${total.toLocaleString('en-US')} USD y deseo cotizar mi proyecto.`;
+            const waMsg = `Hola Arq. Sergio, calculé una residencia de ${m2}m2 en ${currentCity} (${modTexto}) por un valor estimado de $${total.toLocaleString('en-US')} USD y deseo asesoría técnica para mi proyecto.`;
             document.getElementById('calc-whatsapp-btn').href = `https://wa.me/593995099506?text=${encodeURIComponent(waMsg)}`;
         }
 
