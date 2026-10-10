@@ -23,7 +23,7 @@
 - **Obra Semiacabada:**  a  USD / m².
 - **Vivienda Llave en Mano:**  a  USD / m².
 
-## 4. Directorio Canónico de URLs (103 Páginas Públicas Indexables)
+## 4. Directorio Canónico de URLs (108 Páginas Públicas Indexables)
 
 ### Portales Principales y Herramientas
 - https://steelframingec.com/ (Página Principal)
@@ -43,11 +43,16 @@
 - https://steelframingec.com/modelos-casas-steel-framing-ecuador/ (Modelos y Catálogo de Planos)
 - https://steelframingec.com/credito-hipotecario-biess-steel-framing/ (Crédito Hipotecario BIESS y Bancos)
 
-### Cobertura Geo-Local (25 Ciudades y Satélites)
+### Cobertura Geo-Local (30 Ciudades y Satélites)
 - https://steelframingec.com/steel-framing-quito-ecuador/ (Quito - Pichincha)
 - https://steelframingec.com/steel-framing-guayaquil/ (Guayaquil - Guayas)
 - https://steelframingec.com/steel-framing-cuenca/ (Cuenca - Azuay)
 - https://steelframingec.com/steel-framing-manta/ (Manta - Manabí)
+- https://steelframingec.com/steel-framing-portoviejo/ (Portoviejo - Manabí)
+- https://steelframingec.com/steel-framing-bahia-caraquez-san-vicente/ (Bahía de Caráquez y San Vicente)
+- https://steelframingec.com/steel-framing-playas-general-villamil/ (Playas - General Villamil)
+- https://steelframingec.com/steel-framing-punta-blanca-san-pablo/ (Punta Blanca y San Pablo)
+- https://steelframingec.com/steel-framing-montanita-manglaralto/ (Montañita y Manglaralto)
 - https://steelframingec.com/steel-framing-nayon/ (Nayón - Quito)
 - https://steelframingec.com/steel-framing-tababela-yaruqui/ (Tababela y Yaruquí)
 - https://steelframingec.com/steel-framing-machala/ (Machala y El Oro)
