@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TMF2MKZ3');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Arq. Sergio Bravo - Homers Constructora">
+
+    <!-- SEO On-Page de Alta Jerarquía -->
+    <title>Cálculo y Construcción de Platea de Hormigón (Losa Radier) para Steel Framing: Espesores, Armado y Costos por m² | Homers Constructora</title>
+    <meta name="description" content="Guía técnica pericial sobre cálculo estructural de platea de hormigón (losa radier) para Steel Framing bajo norma NEC-SE-HM. Anatomía paso a paso, sub-base 95% Proctor, viga perimetral, armadura bicapa fy=4200 y costos en Ecuador ($45-$65/m² vs bloque).">
+    <meta name="keywords" content="calculo cimentacion losa radier platea hormigon steel framing ecuador, platea de cimentacion sismorresistente nec, viga perimetral steel framing, costo platea m2 ecuador, arq sergio bravo homers constructora">
+    <link rel="canonical" href="https://steelframingec.com/blog/calculo-cimentacion-losa-radier-platea-hormigon-costos/">
+
+    <!-- Open Graph & Twitter Cards -->
+    <meta property="og:title" content="Cálculo y Construcción de Platea de Hormigón (Losa Radier) para Steel Framing: Espesores, Armado y Costos por m²">
+    <meta property="og:description" content="Análisis técnico pericial: dimensionamiento, excavación, sub-base granular, barrera de vapor, viga perimetral y armadura de la platea de cimentación para casas sismorresistentes de Steel Framing en Ecuador.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://steelframingec.com/blog/calculo-cimentacion-losa-radier-platea-hormigon-costos/">
+    <meta property="og:image" content="https://steelframingec.com/img/cumbaya/12%20casa-steel-framing-quito-cumbaya.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../img/homers-logo.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0B192C',
+                            dark: '#1E3E62',
+                            primary: '#0056B3',
+                            accent: '#FF6500',
+                            accentHover: '#E05A00',
+                            light: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org Rich Snippets JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://steelframingec.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog Técnico",
+              "item": "https://steelframingec.com/blog-y-recursos.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Cálculo de Cimentación en Losa Radier y Platea de Hormigón",
+              "item": "https://steelframingec.com/blog/calculo-cimentacion-losa-radier-platea-hormigon-costos/"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://steelframingec.com/blog/calculo-cimentacion-losa-radier-platea-hormigon-costos/#article",
+          "headline": "Cálculo y Construcción de Platea de Hormigón (Losa Radier) para Steel Framing: Espesores, Armado y Costos por m²",
+          "description": "Estudio técnico pericial sobre cimentación flotante o losa radier para viviendas de Steel Framing bajo la norma NEC-SE-HM, detallando sub-base compactada, viga perimetral, armadura bicapa y costos comparativos en Ecuador.",
+          "image": "https://steelframingec.com/img/cumbaya/12%20casa-steel-framing-quito-cumbaya.jpg",
+          "datePublished": "2026-10-10",
+          "dateModified": "2026-10-10",
+          "author": {
+            "@type": "Person",
+            "name": "Arq. Sergio Bravo",
+            "jobTitle": "Director Técnico de Homers Constructora",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Homers Constructora"
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Homers Constructora",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://steelframingec.com/img/homers-logo.png"
+            }
+          },
+          "mainEntityOfPage": "https://steelframingec.com/blog/calculo-cimentacion-losa-radier-platea-hormigon-costos/"
+        },
+        {
+          "@type": "GeneralContractor",
+          "name": "Homers Constructora - Steel Framing EC",
+          "description": "Consultora y constructora especialista en cimentaciones sismorresistentes, estructuras de acero galvanizado estructural Z275 y proyectos llave en mano en Ecuador.",
+          "url": "https://steelframingec.com/",
+          "telephone": "+593995099506",
+          "email": "homersarquitectura@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Quito",
+            "addressRegion": "Pichincha",
+            "addressCountry": "EC"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://steelframingec.com/blog/calculo-cimentacion-losa-radier-platea-hormigon-costos/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Por qué la platea de hormigón (losa radier) es la cimentación ideal para Steel Framing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Debido a que el Steel Framing es un sistema constructivo liviano pero distribuido en múltiples puntos de carga lineal, la platea flotante o losa radier actúa como un diafragma rígido continuo que reparte uniformemente las cargas sobre el suelo, absorbe asentamientos diferenciales y se comporta de manera óptima ante solicitaciones sísmicas según la norma NEC-SE-HM."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cuánto cuesta construir una platea de hormigón para Steel Framing en Ecuador?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El costo por metro cuadrado de una platea de hormigón para Steel Framing oscila entre $45 y $65/m², dependiendo de los movimientos de tierra y la capacidad portante del suelo. En comparación, una cimentación tradicional de zapatas y cadenas para mampostería de bloque cuesta entre $90 y $140/m²."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué espesor y resistencia de hormigón exige la norma para la losa radier?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La norma NEC-SE-HM y los estándares de ingeniería estructural recomiendan una viga perimetral y vigas de rigidización de 25 a 30 cm de espesor, y una losa central de 12 a 15 cm de hormigón estructural con una resistencia a la compresión f'c = 210 kg/cm² (21 MPa) reforzada con malla electrosoldada bicapa o varillas fy = 4200 kg/cm²."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-slate-700/50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                <span><strong>Artículo 34 - Fase 3 (Enjambre Técnico):</strong> Cálculo de Cimentación en Losa Radier y Platea de Hormigón bajo Norma NEC-SE-HM.</span>
+            </span>
+            <div class="flex items-center space-x-4">
+                <a href="tel:+593995099506" class="hover:text-amber-400 transition flex items-center gap-1.5 font-medium"><i class="fa-solid fa-phone text-[10px]"></i> +593 99 509 9506</a>
+                <span class="text-slate-500">|</span>
+                <span class="text-slate-300">Dirección Técnica: Arq. Sergio Bravo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="../../index.html" class="flex items-center gap-3 group">
+                    <img src="../../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">División Técnica de Homers Constructora</span>
+                    </div>
+                </a>
+
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="../../index.html" class="hover:text-blue-900 transition">&larr; Inicio</a>
+                    <a href="#anatomia" class="hover:text-blue-900 transition">Anatomía Paso a Paso</a>
+                    <a href="#vigas-armado" class="hover:text-blue-900 transition">Vigas y Armado</a>
+                    <a href="#costos-comparativos" class="hover:text-blue-900 transition">Costos en Ecuador</a>
+                    <a href="../../construir-casa-ecuador/index.html" class="bg-amber-500 hover:bg-amber-600 text-slate-900 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Proyecto</a>
+                </nav>
+
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20asesoria%20sobre%20calculo%20de%20platea%20y%20cimentacion%20para%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <div class="bg-slate-100 py-3 border-b border-slate-200 text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2">
+            <a href="../../index.html" class="hover:text-blue-900 transition">Inicio</a>
+            <span class="text-slate-400">/</span>
+            <a href="../../blog-y-recursos.html" class="hover:text-blue-900 transition">Blog Técnico</a>
+            <span class="text-slate-400">/</span>
+            <span class="text-brand-navy font-semibold">Cálculo de Cimentación en Losa Radier y Platea de Hormigón</span>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-gradient-to-b from-slate-900 via-brand-navy to-slate-900 text-white pt-16 pb-20 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#06b6d4_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 mb-6">
+                <i class="fa-solid fa-hard-hat"></i> Artículo 34 &bull; Enjambre de Consultoría Técnica
+            </div>
+            
+            <h1 class="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight mb-6">
+                Cálculo y Construcción de Platea de Hormigón (Losa Radier) para Steel Framing: Espesores, Armado y Costos por m²
+            </h1>
+            
+            <p class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto mb-8 font-normal leading-relaxed">
+                Estudio pericial de ingeniería estructural bajo la norma NEC-SE-HM para el diseño y fundición de cimentaciones flotantes en edificaciones livianas de <strong class="text-white">acero galvanizado estructural Z275</strong> en Ecuador.
+            </p>
+            
+            <div class="flex flex-wrap justify-center items-center gap-6 text-xs text-slate-300 border-t border-slate-800 pt-6">
+                <div class="flex items-center gap-2">
+                    <img src="../../img/homers-logo.png" alt="Arq. Sergio Bravo" class="w-8 h-8 rounded-full border border-slate-700 bg-white p-0.5 object-contain">
+                    <span class="font-semibold text-white">Por: Arq. Sergio Bravo</span>
+                </div>
+                <span>&bull;</span>
+                <div><i class="fa-regular fa-calendar text-amber-400"></i> Actualizado: Octubre 2026</div>
+                <span>&bull;</span>
+                <div><i class="fa-regular fa-clock text-amber-400"></i> Tiempo de lectura: 11 min</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT & ASIDE LAYOUT -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+
+            <!-- ARTICLE BODY (8 Cols) -->
+            <article class="lg:col-span-8 space-y-10 text-slate-700 text-base leading-relaxed bg-white p-6 sm:p-10 rounded-2xl shadow-sm border border-slate-200">
+
+                <!-- Lead Paragraph -->
+                <p class="text-lg font-medium text-slate-900 leading-relaxed border-l-4 border-amber-500 pl-4 py-1">
+                    La elección de la cimentación en un proyecto de construcción en seco determina no solo la estabilidad estructural ante eventos telúricos, sino la durabilidad frente a la humedad freática y el costo global de la obra gris. Para edificaciones ejecutadas con perfiles de <strong class="text-slate-900">acero galvanizado estructural Z275</strong>, la platea de cimentación o losa radier representa la solución técnica idónea según la Norma Ecuatoriana de la Construcción (<a href="../../steel-framing-ecuador/index.html" class="text-blue-900 font-semibold hover:underline">NEC-SE-HM Hormigón Armado</a>).
+                </p>
+
+                <!-- Section 1 -->
+                <section id="cimentacion-ideal" class="space-y-4">
+                    <h2 class="font-heading font-bold text-2xl text-slate-900 tracking-tight pt-4 border-b border-slate-100 pb-2">
+                        1. La Cimentación Ideal para Steel Framing: Platea Flotante vs Zapatas
+                    </h2>
+                    <p>
+                        A diferencia de la mampostería tradicional de ladrillo y bloque que concentra grandes cargas puntuales en columnas aisladas requiriendo zapatas profundas, el sistema <strong class="text-slate-900">Steel Framing</strong> distribuye el peso de la edificación de forma lineal y continua a través de los paneles portantes (studs). 
+                    </p>
+                    <p>
+                        Esta distribución homogénea permite el diseño de una <strong class="text-slate-900">cimentación flotante o losa radier</strong>, la cual actúa como una balsa de hormigón armado que flota sobre el terreno natural. Las ventajas estructurales en zonas de alta actividad telúrica en Ecuador son definitivas:
+                    </p>
+                    <ul class="list-disc pl-6 space-y-2 text-slate-700">
+                        <li><strong>Distribución uniforme de presiones:</strong> Minimiza los asentamientos diferenciales en suelos compresibles o de capacidad portante media.</li>
+                        <li><strong>Rigidez bidireccional:</strong> Conecta todos los muros portantes en un solo diafragma monolítico de cimentación.</li>
+                        <li><strong>Comportamiento sismorresistente:</strong> Al moverse solidariamente con el suelo durante un sismo, reduce la amplificación de ondas y protege la superestructura liviana.</li>
+                        <li><strong>Rapidez de ejecución:</strong> Reduce los tiempos de excavación y vaciado en comparación con sistemas de zapatas corridas tradicionales.</li>
+                    </ul>
+
+                    <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-xl my-6">
+                        <div class="flex items-center gap-2 font-heading font-bold text-amber-900 text-sm mb-1">
+                            <i class="fa-solid fa-triangle-exclamation text-amber-600"></i> Nota Técnica Pericial (Norma NEC-SE-HM)
+                        </div>
+                        <p class="text-xs text-amber-900 leading-relaxed">
+                            Toda platea en Steel Framing requiere obligatoriamente un estudio de suelos (mecánica de suelos SPT) para determinar el módulo de balasto del terreno y evitar asentamientos excesivos en zonas con presencia de arcillas expansivas o nivel freático alto.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Section 2 -->
+                <section id="anatomia" class="space-y-4">
+                    <h2 class="font-heading font-bold text-2xl text-slate-900 tracking-tight pt-4 border-b border-slate-100 pb-2">
+                        2. Anatomía Constructiva Paso a Paso de la Platea
+                    </h2>
+                    <p>
+                        La correcta ejecución de una losa radier exige seguir un protocolo riguroso de capas superpuestas que garantizan la estabilidad mecánica y el aislamiento hidrófugo absoluto:
+                    </p>
+
+                    <div class="space-y-6 pt-2">
+                        <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                            <h3 class="font-heading font-bold text-slate-900 text-base mb-2 flex items-center gap-2">
+                                <span class="bg-brand-navy text-white text-xs w-6 h-6 rounded-full flex items-center justify-center">1</span> Movimiento de Tierras y Sub-Base Granular
+                            </h3>
+                            <p class="text-sm text-slate-700">
+                                Se realiza el descapote y excavación de la capa vegetal (mínimo 30 a 40 cm). Se extiende una sub-base granular compactada (lastre seleccionado o piedra chancada) colocada en capas de 15 cm, compactada mecánicamente con placa vibratoria o rodillo hasta alcanzar al menos el <strong class="text-slate-900">95% de la densidad Proctor Modificado</strong>.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                            <h3 class="font-heading font-bold text-slate-900 text-base mb-2 flex items-center gap-2">
+                                <span class="bg-brand-navy text-white text-xs w-6 h-6 rounded-full flex items-center justify-center">2</span> Barrera de Vapor Hidrófuga Continua
+                            </h3>
+                            <p class="text-sm text-slate-700">
+                                Sobre la sub-base compactada se instala una lámina de polietileno de alta densidad (HDPE) de <strong class="text-slate-900">200 micrones</strong> con traslapes sellados de 30 cm. Esta barrera es fundamental para cortar de raíz la humedad por capilaridad ascendente proveniente del suelo, protegiendo las soleras inferiores de acero galvanizado.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                            <h3 class="font-heading font-bold text-slate-900 text-base mb-2 flex items-center gap-2">
+                                <span class="bg-brand-navy text-white text-xs w-6 h-6 rounded-full flex items-center justify-center">3</span> Embutido de Instalaciones Sanitarias y Eléctricas
+                            </h3>
+                            <p class="text-sm text-slate-700">
+                                Antes del vaciado del hormigón, se colocan todas las tuberías de desagüe, PVC sanitario, alimentaciones de agua potable y canalizaciones eléctricas embutidas bajo la platea, realizando pruebas hidráulicas de presión para evitar fugas futuras bajo la cimentación.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 3 -->
+                <section id="vigas-armado" class="space-y-4">
+                    <h2 class="font-heading font-bold text-2xl text-slate-900 tracking-tight pt-4 border-b border-slate-100 pb-2">
+                        3. Viga Perimetral, Espesores y Armadura de Acero
+                    </h2>
+                    <p>
+                        El diseño geométrico de la platea contempla un aumento de sección en el perímetro y bajo los muros de carga principales:
+                    </p>
+                    <ul class="list-disc pl-6 space-y-2 text-slate-700">
+                        <li><strong>Viga perimetral y vigas de rigidización:</strong> Espesor de <strong class="text-slate-900">25 a 30 cm</strong> con estribos y refuerzo longitudinal calculado para absorber los momentos torsores y cortantes perimetrales.</li>
+                        <li><strong>Losa central:</strong> Espesor de <strong class="text-slate-900">12 a 15 cm</strong> vaciada con hormigón premezclado de resistencia cilíndrica <strong class="text-slate-900">f'c = 210 kg/cm² (21 MPa)</strong>.</li>
+                        <li><strong>Armadura de refuerzo:</strong> Malla electrosoldada bicapa (superior e inferior) o emparrillado con varillas corrugadas de <strong class="text-slate-900">fy = 4200 kg/cm²</strong> espaciadas según cálculo estructural.</li>
+                        <li><strong>Pernos de anclaje:</strong> Embutidos milimétricamente durante el vaciado del hormigón fresco (varillas roscadas ASTM A307/A36 con resina epóxica o anclaje mecánico) para fijar las soleras basales de los paneles de Steel Framing.</li>
+                    </ul>
+                </section>
+
+                <!-- Section 4 -->
+                <section id="costos-comparativos" class="space-y-4">
+                    <h2 class="font-heading font-bold text-2xl text-slate-900 tracking-tight pt-4 border-b border-slate-100 pb-2">
+                        4. Desglose de Costos en Ecuador y Comparativa con Bloque
+                    </h2>
+                    <p>
+                        En el mercado de la construcción en Ecuador, la ejecución eficiente de plateas para Steel Framing optimiza notablemente los presupuestos de obra gris frente a la construcción húmeda tradicional:
+                    </p>
+
+                    <div class="overflow-x-auto my-6">
+                        <table class="min-w-full text-sm text-left border border-slate-200 rounded-xl overflow-hidden">
+                            <thead class="bg-slate-900 text-white font-heading text-xs uppercase">
+                                <tr>
+                                    <th class="py-3.5 px-4">Tipo de Cimentación / Sistema</th>
+                                    <th class="py-3.5 px-4">Costo Referencial por m²</th>
+                                    <th class="py-3.5 px-4">Plazo de Ejecución</th>
+                                    <th class="py-3.5 px-4">Ventaja Estructural</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-xs sm:text-sm">
+                                <tr class="bg-amber-50/60 font-medium">
+                                    <td class="py-3 px-4 text-slate-900">Platea / Losa Radier (Steel Framing)</td>
+                                    <td class="py-3 px-4 text-emerald-700 font-bold">$45.00 – $65.00 /m²</td>
+                                    <td class="py-3 px-4">5 a 8 días</td>
+                                    <td class="py-3 px-4 text-slate-700">Monolítica, sismorresistente, impermeabilizada.</td>
+                                </tr>
+                                <tr class="bg-white">
+                                    <td class="py-3 px-4 text-slate-900">Zapatas y Cadenas (Mampostería Bloque)</td>
+                                    <td class="py-3 px-4 text-slate-700">$90.00 – $140.00 /m²</td>
+                                    <td class="py-3 px-4">15 a 25 días</td>
+                                    <td class="py-3 px-4 text-slate-700">Excavación profunda, alto volumen de encofrado.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p class="text-sm text-slate-600">
+                        Asimismo, los estándares económicos globales vigentes en Homers Constructora sitúan la <strong class="text-slate-900">Obra Semiacabada en $360-$380/m²</strong> y el proyecto <strong class="text-slate-900">Llave en Mano entre $480-$550/m²</strong>, garantizando especificaciones de máxima calidad y control técnico diario.
+                    </p>
+                </section>
+
+                <!-- Internal Contextual Links -->
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl space-y-3 my-8">
+                    <h3 class="font-heading font-bold text-slate-900 text-sm uppercase tracking-wider">Enlaces de Asesoría y Presupuestos Homers</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="../../diagnostico-proyecto/index.html" class="text-blue-900 font-semibold hover:text-amber-600 transition flex items-center gap-2"><i class="fa-solid fa-arrow-right text-xs"></i> Solicitar Diagnóstico y Viabilidad de Proyecto</a></li>
+                        <li><a href="../../precio-m2/index.html" class="text-blue-900 font-semibold hover:text-amber-600 transition flex items-center gap-2"><i class="fa-solid fa-arrow-right text-xs"></i> Consultar Simulador de Precio por m² en Ecuador</a></li>
+                        <li><a href="../../zonas-de-cobertura.html" class="text-blue-900 font-semibold hover:text-amber-600 transition flex items-center gap-2"><i class="fa-solid fa-arrow-right text-xs"></i> Revisar Zonas de Cobertura (Quito, Guayaquil, Cuenca, Manta, Loja)</a></li>
+                    </ul>
+                </div>
+
+                <!-- AUTOR EXACTO CARD (Arq. Sergio Bravo) -->
+                <div class="bg-gradient-to-r from-slate-900 to-brand-navy text-white p-6 sm:p-8 rounded-2xl shadow-md my-10 flex flex-col sm:flex-row items-center gap-6">
+                    <img src="../../img/homers-logo.png" alt="Arq. Sergio Bravo" class="w-24 h-24 rounded-full border-2 border-amber-400 bg-white p-1 object-contain shrink-0 shadow-lg">
+                    <div class="space-y-2 text-center sm:text-left">
+                        <div class="inline-block px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-bold uppercase tracking-wider border border-amber-500/30">
+                            Autoridad Técnica Pericial
+                        </div>
+                        <h3 class="font-heading font-black text-xl text-white">Arq. Sergio Bravo</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Director Técnico de Homers Constructora y especialista en cálculo estructural sismorresistente en Steel Framing. Con más de 15 años de trayectoria en el diseño y ejecución de edificaciones industriales y residenciales llave en mano bajo norma NEC en Ecuador.
+                        </p>
+                        <div class="pt-1 text-xs text-amber-400 font-semibold">
+                            Contacto directo: homersarquitectura@gmail.com | +593 99 509 9506
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- ASIDE / SIDEBAR (4 Cols) -->
+            <aside class="lg:col-span-4 space-y-8">
+                
+                <!-- CTA Card Box -->
+                <div class="bg-brand-navy text-white p-6 rounded-2xl shadow-lg border border-slate-800 space-y-4 text-center">
+                    <div class="inline-flex p-3 rounded-full bg-amber-500/20 text-amber-400 text-xl mb-1">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-white">¿Vas a Construir en Steel Framing?</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Cotiza tu cimentación y proyecto completo con profesionales certificados. Contrato de precio fijo y garantía estructural de 20 años.
+                    </p>
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20asesoria%20sobre%20calculo%20de%20platea%20y%20precio%20por%20m2" target="_blank" rel="noopener noreferrer" class="block w-full py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-900 font-heading font-bold text-xs uppercase tracking-wider transition shadow-md">
+                        <i class="fa-brands fa-whatsapp mr-1.5"></i> Hablar con Arq. Sergio Bravo
+                    </a>
+                </div>
+
+                <!-- Related Technical Articles Widget -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5">
+                    <span class="font-heading font-bold text-xs uppercase tracking-wider text-slate-900 block border-b border-slate-100 pb-2">Artículos de Consultoría Relacionados</span>
+                    
+                    <div class="space-y-4">
+                        <a href="../cirsoc-303-vs-norma-nec-ecuador-acero-conformado-frio/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Normativa Sísmica</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">CIRSOC 303 vs Norma NEC: Comparativa Sísmica</h4>
+                        </a>
+
+                        <a href="../guia-paso-a-paso-construir-casa-ecuador/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Hoja de Ruta</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Guía Paso a Paso para Construir tu Casa en Ecuador</h4>
+                        </a>
+
+                        <a href="../vanos-puertas-ventanas-dinteles-jacks-cripples/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Aberturas</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Vanos, Dinteles, Jacks y Cripples en Steel Framing</h4>
+                        </a>
+
+                        <a href="../construccion-industrializada-bim-vs-obra-artesanal/index.html" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Industrialización</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Construcción Industrializada BIM vs Obra Artesanal</h4>
+                        </a>
+                    </div>
+
+                    <!-- Enlaces de Jerarquía Web -->
+                    <div class="border-t border-slate-100 pt-5 space-y-2 text-xs">
+                        <span class="font-heading font-bold text-[11px] uppercase tracking-wider text-slate-400 block mb-2">Páginas Pilares de Homers</span>
+                        <div><a href="../../construir-casa-ecuador/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Construir Casa en Ecuador (Llave en Mano)</a></div>
+                        <div><a href="../../precio-m2/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Precio por m² Steel Framing Ecuador 2026</a></div>
+                        <div><a href="../../que-es-steel-framing/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> ¿Qué es el Steel Framing? Manual Completo</a></div>
+                        <div><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Steel Framing vs Hormigón y Bloque</a></div>
+                    </div>
+                </div>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- FOOTER ESTANDARIZADO 4 COLUMNAS -->
+    <footer class="bg-slate-950 text-slate-400 py-14 border-t border-slate-800 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10">
+
+                <!-- Col 1: Empresa & Autoridad -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <img src="../../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
+                        <div>
+                            <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
+                            <span class="text-[10px] text-slate-400 block">División de Homers Constructora</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Arq. Sergio Bravo (SENESCYT) &bull; Construcción sismorresistente con contrato de precio fijo y dirección técnica diaria. Proyectos llave en mano en Ecuador.
+                    </p>
+                    <div class="space-y-1.5 text-xs text-slate-400 pt-1">
+                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garantía Estructural 20 Años</p>
+                        <p class="flex items-center gap-2"><a href="tel:+593995099506" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-phone text-amber-400"></i> +593 99 509 9506</a></p>
+                        <p class="flex items-center gap-2"><a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope text-amber-400"></i> homersarquitectura@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../construir-casa-ecuador/index.html" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Casa Llave en Mano</a></li>
+                        <li><a href="../../precio-m2/index.html" class="hover:text-white transition">Calculadora de Precio por m²</a></li>
+                        <li><a href="../../ampliacion-segundo-piso-ecuador/index.html" class="hover:text-white transition">Ampliación de Segundo Piso sobre Losa</a></li>
+                        <li><a href="../../construir-casa-en-ecuador-desde-usa/index.html" class="hover:text-white transition">Programa Construcción desde USA 🇺🇸</a></li>
+                        <li><a href="../../modelos-casas-steel-framing-ecuador/index.html" class="hover:text-white transition">Catálogo de Modelos y Diseños</a></li>
+                        <li><a href="../../credito-hipotecario-biess-steel-framing/index.html" class="hover:text-white transition">Crédito Hipotecario BIESS y Bancos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Guías Técnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Guías Técnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../que-es-steel-framing/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">¿Qué es Steel Framing? (Guía)</a></li>
+                        <li><a href="../../steel-framing-vs-hormigon-bloque-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Hormigón y Bloque</a></li>
+                        <li><a href="../../steel-framing-ecuador/index.html" class="hover:text-white transition">Guía Técnica NEC Steel Framing</a></li>
+                        <li><a href="../../construccion-en-seco-ecuador/index.html" class="hover:text-white transition">Manual de Construcción en Seco</a></li>
+                        <li><a href="../../permisos-construccion-steel-framing-ecuador/index.html" class="hover:text-white transition">Permisos Municipales y Planos</a></li>
+                        <li><a href="../../casas-prefabricadas-ecuador/index.html" class="hover:text-white transition">Steel Framing vs Casas Prefabricadas</a></li>
+                        <li class="pt-1"><a href="../../blog-y-recursos.html" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos Técnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Costos por Ciudad en Ecuador -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Costos por Ciudad en Ecuador</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="../../cuanto-cuesta-construir-en-ecuador/index.html" class="hover:text-amber-400 transition font-medium text-amber-400">Costos por Ciudad en Ecuador</a></li>
+                        <li><a href="../../steel-framing-quito-ecuador/index.html" class="hover:text-white transition">Quito y Valles (Cumbayá / Puembo)</a></li>
+                        <li><a href="../../steel-framing-guayaquil/index.html" class="hover:text-white transition">Guayaquil y Samborondón</a></li>
+                        <li><a href="../../steel-framing-cuenca/index.html" class="hover:text-white transition">Cuenca y Azuay</a></li>
+                        <li><a href="../../steel-framing-manta/index.html" class="hover:text-white transition">Manta y Costa Manabita</a></li>
+                        <li><a href="../../steel-framing-loja/index.html" class="hover:text-white transition">Loja y Sierra Sur</a></li>
+                        <li class="pt-1"><a href="../../zonas-de-cobertura.html" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                    </ul>
+                    <div class="pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 text-white font-bold hover:bg-emerald-500 transition text-xs gap-1.5 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-8 border-t border-slate-900 text-center text-slate-400 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div>
+                    &copy; 2026 Homers Constructora Ecuador. Todos los derechos reservados.
+                </div>
+                <div class="text-[11px] text-slate-500">
+                    Cálculo estructural sismorresistente bajo norma NEC-SE-HM / NEC-SE-DS y perfiles de acero galvanizado estructural Z275.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Action Button -->
+    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20asesoria%20sobre%20el%20calculo%20de%20platea%20y%20cimentacion" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-transform duration-300" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+</html>
