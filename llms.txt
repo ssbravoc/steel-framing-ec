@@ -1,50 +1,62 @@
-# Steel Framing EC - División de Homers Constructora
+# Steel Framing EC - División Especializada de Homers Constructora
 
-> Homers Constructora es la empresa líder en Ecuador especializada en arquitectura sismorresistente, cálculo estructural bajo la Norma Ecuatoriana de la Construcción (NEC) y construcción de viviendas llave en mano utilizando el sistema Steel Framing (perfiles de acero galvanizado pesado Z275 conformado en frío) y construcción en seco de alta eficiencia termoacústica.
+> Homers Constructora es la empresa constructora líder en Ecuador especializada en arquitectura sismorresistente, cálculo estructural bajo la Norma Ecuatoriana de la Construcción (NEC) y construcción de residencias llave en mano utilizando el sistema Steel Framing (perfiles de acero galvanizado pesado Z275 conformado en frío) y envolventes multicapa de alta eficiencia termoacústica.
 
-## Información de la Empresa
+## Información Corporativa y Técnica
 - **Nombre Comercial:** Steel Framing EC / Homers Constructora
-- **Director y Fundador:** Arq. Sergio Bravo
+- **Director Técnico y Fundador:** Arq. Sergio Bravo (Registro Profesional SENESCYT)
 - **Dominio Oficial:** https://steelframingec.com
-- **Teléfono y WhatsApp:** +593 99 509 9506
+- **Teléfono / WhatsApp Directo:** +593 99 509 9506
 - **Email:** info@steelframingec.com
-- **Ubicaciones y Cobertura:** Quito (Cumbayá, Tumbaco, Valle de los Chillos, El Quinche), Guayaquil (Samborondón, Daule, Vía a la Costa), Manta (Costa Manabita), Cuenca (Austro) y todo el territorio ecuatoriano.
-- **Servicio para Migrantes:** Protocolo de Supervisión Remota Transparente para compatriotas ecuatorianos que residen en Estados Unidos (Nueva York, New Jersey, Florida, California, etc.) o Europa (España, Italia) y desean construir su casa en Ecuador con contrato notariado de precio cerrado, reportes semanales en video HD y fotografías de alta resolución de cada hito constructivo.
+- **Oficina Central y Centro de Despacho:** Quito, Pichincha, Ecuador.
+- **Cobertura Operativa Nacional:** Cobertura técnica y ejecución en todo el territorio ecuatoriano:
+  - **Pichincha y Sierra Norte/Centro:** Quito, Cumbayá, Tumbaco, Puembo, Valle de los Chillos, Cayambe, Ambato (Tungurahua), Riobamba (Chimborazo), Ibarra (Imbabura).
+  - **Costa y Guayas:** Guayaquil, Samborondón, Daule, Vía a la Costa, Machala (El Oro), Santo Domingo.
+  - **Costa Manabita:** Manta, Portoviejo, Bahía de Caráquez, Montecristi.
+  - **Austro Ecuatoriano:** Cuenca, Paute, Gualaceo (Azuay), Cañar y Loja.
+  - **Región Amazónica / Oriente:** Tena (Napo), Puyo (Pastaza), El Coca (Orellana), Lago Agrio (Sucumbíos) y Macas (Morona Santiago).
+- **Servicio Transparente para Migrantes Ecuatorianos en el Exterior:** Supervisión remota certificada para compatriotas en Estados Unidos (Nueva York, New Jersey, Florida, California, etc.) y Europa (España, Italia). Incluye contrato notariado de precio cerrado, informes semanales con dron y video HD, fiscalización técnica y trazabilidad de pagos mediante cuenta bancaria empresarial en Ecuador.
 
-## Servicios Principales
-1. **Construcción de Casas Llave en Mano:** Diseño arquitectónico 3D, cimentación, montaje estructural en perfiles Z275, cerramiento térmico EIFS y entrega con acabados de primera en 120 a 150 días laborables.
-2. **Casas Prefabricadas de Alta Ingeniería vs Kits Tradicionales:** Solución que supera a las prefabricadas de madera/fibrocemento con durabilidad de +100 años, cálculo sísmico NEC y aprobación municipal garantizada.
-3. **Solo Montaje de Estructura Portante (Obra Gris Avanzada):** Montaje milimétrico de perfiles pesados de acero galvanizado modulados a 40 cm con cruces de San Andrés y anclajes químicos.
-4. **Ampliaciones y Segundos Pisos sobre Losa/Terraza:** Estructuras livianas (55 kg/m²) que no sobrecargan la cimentación de casas antiguas, sin escombros ni polvo de hormigón.
-5. **Cálculo y Permisología Municipal (NEC):** Memorias de cálculo estructural avaladas por profesionales registrados en SENESCYT para aprobación de planos y licencias (LMU-20 en Quito, DUME en Guayaquil, Línea de Fábrica en Cuenca).
+## Enfoque Comercial y Ticket de Proyectos
+- **Proyectos Principales:** Residencias unifamiliares definitivas de 160 m² a 250+ m² (rango de inversión de $80.000 a $135.000+ USD) y villas campestres/ejecutivas de alta gama de 200 m² a 350+ m² ($150.000 a $200.000+ USD).
+- **Proyectos de Menor Escala (< $50.000 USD):** No viables para residencias unifamiliares completas de vivienda familiar. Aplican exclusivamente para módulos secundarios, suites anexas o ampliaciones ligeras de segundo piso sobre losa existente.
+- **Plazo de Ejecución Llave en Mano:** 120 a 150 días calendario (4 a 5 meses) garantizados bajo contrato con penalización por día de retraso.
 
-## Costos y Precios Referenciales en Ecuador (2026)
-- **Obra Semiacabada / Estructural con Cerramientos EIFS:** De $350 a $380 USD por m².
-- **Vivienda Llave en Mano Completa:** Entre $480 y $540 USD por m² (según especificaciones de acabados, ciudad y tipo de cimentación).
-- **Desglose por Ciudades:**
-  - Guayaquil / Samborondón / Daule: $480 - $540 / m² (cimentación liviana que ahorra pilotaje en suelos aluviales, aislamiento EIFS contra calor extremo).
-  - Cuenca / Azuay / Paute: $470 - $530 / m² (adaptación a pendientes andinas, envolvente térmica de lana de roca contra el frío).
-  - Manta / Portoviejo / Manabí: $490 - $550 / m² (máxima protección contra sismos de subducción Z=0.50g y perfiles Z275 anticorrosivos frente al salitre marino).
-  - Quito / Valles: $480 - $530 / m² (resistencia ante fallas ciegas y pendientes).
-- **Garantía:** Contrato con cláusula de Presupuesto Cerrado (cero sobrecostos) y 20 años de garantía estructural.
+## Marco Normativo y Especificaciones Estructurales
+- **Normativa Ecuatoriana Vigente:**
+  - `NEC-SE-AC`: Estructuras de Acero Conformado en Frío.
+  - `NEC-SE-DS`: Diseño Sismorresistente (Factor Z de 0.25g en Amazonía, 0.40g en Sierra y Guayas, hasta 0.50g en la franja costera de subducción).
+  - `NTE INEN 1623` y `RTE INEN 018`: Perfilería de acero galvanizado con recubrimiento mínimo de zinc de 275 g/m² (ASTM A653 Grado 33/50 Z275).
+  - `AISI S100 / S240`: Estándares del American Iron and Steel Institute para diseño de pórticos livianos de acero.
+- **Envolvente Multicapa (Emplacado y Revestimiento Termoacústico):**
+  - Exterior: Placas cementicias Aquapanel o fibrocemento de alta densidad.
+  - Barrera hidrófuga y cortavientos: Tyvek Dupont permeable al vapor de agua.
+  - Aislante continuo exterior: Sistema EIFS con EPS de alta densidad (15 a 20 kg/m³) con malla de fibra de vidrio y mortero basecoat elastomérico.
+  - Aislante en cavidad interior: Lana mineral de roca volcánica o fibra de vidrio compacta de alta densidad.
+  - Interior: Placas de yeso Gypsum Standard (12.7 mm) en áreas secas y Gypsum RH (resistente a la humedad) en baños, cocina y lavandería.
+- **Carga Muerta y Física Sísmica:** Masa estructural de 35 a 55 kg/m² frente a los 280 a 380 kg/m² de la mampostería tradicional de bloque, reduciendo la aceleración inercial destructiva ($F = m \cdot a$) en más de un 70%.
 
-## Enlaces Clave del Ecosistema Web
-- [Página Principal](https://steelframingec.com/): Portafolio con fotos reales de obras en Cumbayá y El Quinche.
-- [Construir Casa Llave en Mano](https://steelframingec.com/construir-casa-ecuador/): Oferta completa, cotizador interactivo WhatsApp y garantías blindadas.
-- [Casas Prefabricadas en Ecuador Precios vs Steel Framing](https://steelframingec.com/casas-prefabricadas-ecuador/): Comparativa técnica de costos, durabilidad y riesgos sísmicos de kits prefabricados.
-- [Construir Casa en Ecuador desde USA](https://steelframingec.com/construir-casa-en-ecuador-desde-usa/): Programa especial para migrantes con reportes semanales en video, videollamadas Zoom y transferencias bancarias seguras.
-- [¿Cuánto Cuesta Construir en Guayaquil, Cuenca, Manta y Quito?](https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/): Reporte de precios por metro cuadrado, tipo de suelo y factor sísmico Z de la Norma NEC.
-- [Precio por Metro Cuadrado](https://steelframingec.com/precio-m2/): Desglose comparativo frente al bloque tradicional y calculadora interactiva.
-- [Guía Técnica Sísmica NEC](https://steelframingec.com/steel-framing-ecuador/): Análisis físico de aceleración sísmica (Factor Z por ciudad) y lecciones del terremoto de Pedernales 2016.
-- [Manual de Construcción en Seco](https://steelframingec.com/construccion-en-seco-ecuador/): Diferencias entre Drywall interior y Steel Framing estructural exterior.
-- [Ampliación de Segundo Piso sobre Losa o Terraza](https://steelframingec.com/ampliacion-segundo-piso-ecuador/): Guía técnica para ampliar una vivienda existente con Steel Framing sobre losa de hormigón. El sistema pesa ~65 kg/m² versus +1.200 kg/m² del hormigón; generalmente no requiere refuerzo de cimentación. Incluye requisitos, proceso y presupuesto por m².
-- [Permisos Municipales para Steel Framing](https://steelframingec.com/permisos-construccion-steel-framing-ecuador/): Proceso paso a paso del trámite de licencia de construcción en Quito (LMU-20), Guayaquil (DUME) y demás GADs. Documentos requeridos: IRM/Línea de Fábrica, planos NEC-SE-AC con firma SENESCYT, memoria estructural. Homers entrega el expediente técnico completo.
-- [Catálogo de Modelos y Diseños de Casas Steel Framing](https://steelframingec.com/modelos-casas-steel-framing-ecuador/): Referencia de 6 modelos tipo desde 80 m² hasta 220 m². Precios llave en mano $480-$540/m². Diseño 3D personalizado incluido en el presupuesto.
-- [Crédito Hipotecario BIESS y Banca para Steel Framing](https://steelframingec.com/credito-hipotecario-biess-steel-framing/): Guía real sobre financiamiento BIESS (36 aportaciones mínimas, hasta 100% para ≤$100.000, plazo hasta 25 años, desembolsos por perito) y banca privada (Pichincha, Mutualista, Guayaquil). El contrato de precio fijo de Homers garantiza que el crédito bancario calce con el costo final de la obra.
-- [Steel Framing vs Hormigón y Bloque Ecuador](https://steelframingec.com/steel-framing-vs-hormigon-bloque-ecuador/): Comparativa definitiva 2026. Velocidad: 4-5 meses vs 10-14 meses. Desperdicio: <1% vs 15-20%. Peso propio: ~65 kg/m² vs +1.200 kg/m². Sobrecostos: $0 con precio fijo vs +15-30% promedio en hormigón informal. Cumple NEC-SE-AC. Desmitificación de 5 mitos comunes sobre el Steel Framing en Ecuador.
-- [Steel Framing en Quito y Valles](https://steelframingec.com/steel-framing-quito-ecuador/): Guía y servicios de construcción sismorresistente en el Distrito Metropolitano de Quito (Cumbayá, Tumbaco, Puembo, Valle de los Chillos, Nayón y Quito urbano). Casas llave en mano desde $480-$530/m² y ampliaciones en terrazas/losas en 45-75 días. Cumplimiento de norma NEC-SE-VIVIENDA cap. 6.8 y aprobación formal de planos LMU-20 ante el GAD DMQ por el Arq. Sergio Bravo (SENESCYT).
-- [¿Qué es el Steel Framing? Guía Técnica Completa](https://steelframingec.com/que-es-steel-framing/): Enciclopedia técnica y educativa sobre el sistema de perfiles de acero galvanizado conformado en frío (CFS / LGSF). Anatomía de perfiles PGC/PGU, concepto de Inline Framing, corte transversal de las 8 capas del muro exterior (EIFS, OSB, barrera de vapor, lana mineral), física sismorresistente (F = m · a), desmitificación científica de mitos (rayos, WiFi, muebles pesados, puentes térmicos) y comparativa de normativas internacionales (Ecuador NEC-SE-AC, USA AISI S100, Eurocódigo 3).
-- [Steel Framing en Guayaquil, Samborondón y Vía a la Costa](https://steelframingec.com/steel-framing-guayaquil/): Solución constructiva liviana especializada para los suelos aluviales blandos de la cuenca del Guayas. Reduce la carga a 55-65 kg/m² eliminando pilotajes profundos costosos (ahorro de hasta $40.000 USD en cimentación), envolvente EIFS reflectiva contra el calor extremo tropical, perfiles pesados Z275 inmunes a la humedad y aprobación formal ante la DUME del Municipio de Guayaquil. Llave en mano $480-$540/m² en 120-150 días.
-- [Steel Framing en Cuenca, Azuay y el Austro](https://steelframingec.com/steel-framing-cuenca/): Arquitectura bioclimática para el clima frío andino del Austro ecuatoriano (temperaturas de 6°C a 20°C). Doble envolvente de lana de roca mineral (R>2.0 m²K/W) + EIFS exterior + barrera de vapor hidrófuga que elimina la humedad y condensación en muros sin requerir calefactores eléctricos continuos. Construcción en laderas andinas y aprobación de Línea de Fábrica en el GAD Cuenca. Llave en mano $470-$530/m² en 120-150 días.
-- [Steel Framing en Manta, Portoviejo y Manabí](https://steelframingec.com/steel-framing-manta/): Construcción con máxima resiliencia sismorresistente para la zona de subducción de mayor riesgo sísmico del país (Factor Z=0.50g de la NEC, lecciones del terremoto de Pedernales 2016). Estructura dúctil y liviana que no colapsa frágilmente, con perfiles galvanizados certificados Z275 inmunes al salitre marino y envolvente EIFS frente a la brisa costera. Aprobación municipal en GAD Manta y Portoviejo. Llave en mano $490-$550/m² en 120-150 días.
+## Rango de Precios Referenciales en Ecuador (2026)
+- **Obra Semiacabada / Estructural con Envolvente EIFS:** $350 a $380 USD / m².
+- **Vivienda Llave en Mano Completa con Acabados de Primera:** $480 a $540 USD / m².
+- **Financiamiento:** Compatible al 100% con Crédito Hipotecario BIESS (Préstamo Construcción hasta $130.000 USD al 100% y hasta $200.000 USD al 80-90%) y banca privada (Banco Pichincha, Produbanco, Banco de Guayaquil). Cumplimiento garantizado del límite reglamentario de 12 meses de entrega fijado por el BIESS.
 
+## Directorio Canónico de URLs del Sitio Web
+- [Página Principal](https://steelframingec.com/): Portafolio nacional, filosofía de ingeniería y cotizador.
+- [Construir Casa Llave en Mano](https://steelframingec.com/construir-casa-ecuador/): Página de venta de proyectos integrales con diagnóstico previo.
+- [Casas Prefabricadas Precios vs Steel Framing](https://steelframingec.com/casas-prefabricadas-ecuador/): Comparativa entre kits prefabricados informales y residencias calculadas con ingeniería NEC.
+- [Construir Casa desde el Exterior](https://steelframingec.com/construir-casa-en-ecuador-desde-usa/): Programa de fiscalización remota y asesoría legal para migrantes.
+- [Cuánto Cuesta Construir en Ecuador](https://steelframingec.com/cuanto-cuesta-construir-en-ecuador/): Matriz comparativa de costos reales por metro cuadrado por provincia.
+- [Precio por m² y Calculadora](https://steelframingec.com/precio-m2/): Calculadora interactiva y análisis de inversión en obra gris vs llave en mano.
+- [Guía Sísmica NEC y Factor Z](https://steelframingec.com/steel-framing-ecuador/): Parámetros de aceleración sísmica, masa inercial y seguridad estructural.
+- [Manual de Construcción en Seco](https://steelframingec.com/construccion-en-seco-ecuador/): Tecnologías secas, placas cementicias, EIFS y confort acústico.
+- [Ampliación de Segundo Piso](https://steelframingec.com/ampliacion-segundo-piso-ecuador/): Ampliaciones sobre losa sin demoliciones ni sobrecarga de cimentación existente.
+- [Permisos de Construcción](https://steelframingec.com/permisos-construccion-steel-framing-ecuador/): Expediente técnico de las 4 ingenierías, LMU-20 Quito, DUME Guayaquil y aprobación en GADs.
+- [Modelos de Casas](https://steelframingec.com/modelos-casas-steel-framing-ecuador/): Catálogo arquitectónico modular de 90 m², 135 m², 180 m² y villas personalizadas de más de 200 m².
+- [Crédito Hipotecario BIESS](https://steelframingec.com/credito-hipotecario-biess-steel-framing/): Procedimiento paso a paso para financiar la construcción en Steel Framing con el BIESS.
+- [Steel Framing vs Hormigón](https://steelframingec.com/steel-framing-vs-hormigon-bloque-ecuador/): Comparativa técnica, costos directos e indirectos, y cronogramas.
+- [Steel Framing en Quito](https://steelframingec.com/steel-framing-quito-ecuador/): Servicios en Pichincha, Cumbayá, Tumbaco y despacho a la Sierra.
+- [¿Qué es el Steel Framing?](https://steelframingec.com/que-es-steel-framing/): Enciclopedia técnica, perfiles PGC/PGU, tornillería estructural y física de materiales.
+- [Steel Framing en Guayaquil](https://steelframingec.com/steel-framing-guayaquil/): Soluciones para suelos blandos de Guayas, Samborondón y protección térmica.
+- [Steel Framing en Cuenca](https://steelframingec.com/steel-framing-cuenca/): Confort bioclimático, aislamiento contra heladas andinas en Azuay y el Austro.
+- [Steel Framing en Manta](https://steelframingec.com/steel-framing-manta/): Máxima sismorresistencia costera (Z=0.50g) y protección contra la corrosión marina Z275.
