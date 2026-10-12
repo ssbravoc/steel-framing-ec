@@ -1,10 +1,14 @@
 User-agent: *
 Allow: /
+Disallow: /gracias-cita-confirmada/
+Disallow: /guia-descargada/
 
-# Motores de Busqueda e Inteligencia Artificial (GEO / AEO)
-# Permite a los rastreadores de OpenAI (ChatGPT, SearchGPT) indexar y citar el sitio
+# Motores de Búsqueda de Inteligencia Artificial (AEO / GEO Optimization)
+# OpenAI (ChatGPT, SearchGPT, GPT-4o)
 User-agent: GPTBot
 Allow: /
+Disallow: /gracias-cita-confirmada/
+Disallow: /guia-descargada/
 
 User-agent: ChatGPT-User
 Allow: /
@@ -12,7 +16,7 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-# Anthropic Claude
+# Anthropic (Claude 3.5, Claude 3.7 Sonnet)
 User-agent: Claude-Web
 Allow: /
 
@@ -22,15 +26,12 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-# Perplexity AI
+# Perplexity AI (Perplexity Search / Citations)
 User-agent: PerplexityBot
 Allow: /
 
-# Google Gemini / Google Extended / Googlebot
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Googlebot
+# DeepSeek (DeepSeek-V3, DeepSeek-R1)
+User-agent: DeepSeekBot
 Allow: /
 
 # Apple Intelligence
@@ -40,21 +41,39 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-# DeepSeek & LLMs
-User-agent: DeepSeekBot
+# Googlebot & Gemini Training
+User-agent: Googlebot
 Allow: /
 
-# CoHere AI
+User-agent: Google-Extended
+Allow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Common Crawl (Base de entrenamiento para LLMs abiertos)
+User-agent: CCBot
+Allow: /
+
+# Cohere AI
 User-agent: cohere-ai
 Allow: /
 
-# Meta Llama
+# Meta AI / Llama
 User-agent: FacebookBot
 Allow: /
 
-# Sitemap oficial e IndexNow
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Diffbot Knowledge Graph
+User-agent: Diffbot
+Allow: /
+
+# Sitemap Oficial
 Sitemap: https://steelframingec.com/sitemap.xml
 
-# Documentación para Modelos de Lenguaje y Motores de IA Generativa:
-# https://steelframingec.com/llms.txt
-# https://steelframingec.com/llms-full.txt
+# Knowledge Base & Manifestos para Modelos de Lenguaje (LLMs):
+# Contexto resumido: https://steelframingec.com/llms.txt
+# Base de conocimiento completa: https://steelframingec.com/llms-full.txt
