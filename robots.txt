@@ -2,6 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /gracias-cita-confirmada/
 Disallow: /guia-descargada/
+Disallow: /evaluacion-proyecto-vip/
+Disallow: /agenda-llamada-privada/
 
 # Motores de Búsqueda de Inteligencia Artificial (AEO / GEO Optimization)
 # OpenAI (ChatGPT, SearchGPT, GPT-4o)
@@ -9,6 +11,8 @@ User-agent: GPTBot
 Allow: /
 Disallow: /gracias-cita-confirmada/
 Disallow: /guia-descargada/
+Disallow: /evaluacion-proyecto-vip/
+Disallow: /agenda-llamada-privada/
 
 User-agent: ChatGPT-User
 Allow: /
