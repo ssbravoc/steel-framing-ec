@@ -582,20 +582,65 @@
 
 
     <!-- Floating WhatsApp Button -->
-    <aside aria-label="Contacto por WhatsApp" class="fixed bottom-6 right-6 z-50">
-        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20le%C3%AD%20el%20art%C3%ADculo%20sobre%20Construcci%C3%B3n%20Industrializada%20BIM%20y%20deseo%20asesor%C3%ADa." target="_blank" class="flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-3 rounded-full shadow-2xl transition duration-300 transform hover:scale-105 group border-2 border-white/40">
-            <div class="relative">
-                <i class="fa-brands fa-whatsapp text-2xl"></i>
-                <span class="absolute -top-1 -right-1 flex h-3 w-3">
-                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-400"></span>
-                </span>
-            </div>
-            <div class="hidden sm:block text-left pr-1">
-                <div class="text-[10px] uppercase font-bold text-emerald-100 tracking-wider leading-none">Consultoría Directa</div>
-                <div class="text-xs font-black font-heading leading-tight mt-0.5">Arq. Sergio Bravo</div>
-            </div>
-        </a>
-    </aside>
+    <!-- SIDEBAR COLUMN -->
+            <aside class="lg:col-span-4 space-y-8">
+                <!-- STICKY EXPERT CARD -->
+                <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm sticky top-28 space-y-6">
+                    <div class="border-b border-slate-100 pb-4">
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-blue-900 block mb-1">Cálculo Estructural &amp; Proyectos</span>
+                        <h3 class="font-heading font-bold text-lg text-slate-900">Ingeniería Sismorresistente</h3>
+                        <p class="text-xs text-slate-600 mt-1">Dirección técnica del Arq. Sergio Bravo bajo código NEC y estándares AISI / CIRSOC.</p>
+                    </div>
+
+                    <div class="space-y-3 text-xs text-slate-700">
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Metodología LRFD / AISI S100
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Factor Z calibrado hasta 0.50g
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Derivas controladas &le; 0.010
+                        </div>
+                        <div class="flex items-center gap-2 text-emerald-700 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Acero galvanizado estructural Z275
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20del%20blog%20de%20steelframingec.com%20y%20deseo%20asesoría%20técnica%20para%20mi%20proyecto" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-slate-950 bg-amber-500 hover:bg-amber-400 shadow transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+                    </a>
+
+                    <!-- ARTICULOS DE CONSULTORIA -->
+                    <div class="border-t border-slate-100 pt-5 space-y-3">
+                        <span class="font-heading font-bold text-xs uppercase tracking-wider text-slate-900 block">Artículos de Consultoría</span>
+                        
+                        <a href="/blog/guia-paso-a-paso-construir-casa-ecuador/" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Hoja de Ruta</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Guía Paso a Paso para Construir tu Casa en Ecuador</h4>
+                        </a>
+
+                        <a href="/blog/vanos-puertas-ventanas-dinteles-jacks-cripples/" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Aberturas</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Vanos, Dinteles, Jacks y Cripples en Steel Framing</h4>
+                        </a>
+
+                        <a href="/blog/construccion-industrializada-bim-vs-obra-artesanal/" class="block p-3 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-100 transition group">
+                            <span class="text-[10px] font-bold text-amber-600 uppercase block">Industrialización</span>
+                            <h4 class="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">Construcción Industrializada BIM vs Obra Artesanal</h4>
+                        </a>
+                    </div>
+
+                    <!-- ENLACES DE JERARQUIA WEB -->
+                    <div class="border-t border-slate-100 pt-5 space-y-2 text-xs">
+                        <span class="font-heading font-bold text-[11px] uppercase tracking-wider text-slate-400 block mb-2">Páginas Pilares de Steel Framing EC</span>
+                        <div><a href="/construir-casa-ecuador/" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Construir Casa en Ecuador (Llave en Mano)</a></div>
+                        <div><a href="/precio-m2/" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Precio por m² Steel Framing Ecuador 2026</a></div>
+                        <div><a href="/que-es-steel-framing/" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> ¿Qué es el Steel Framing? Manual Completo</a></div>
+                        <div><a href="/steel-framing-vs-hormigon-bloque-ecuador/" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-arrow-right text-[10px]"></i> Steel Framing vs Hormigón y Bloque</a></div>
+                        <div><a href="/zonas-de-cobertura" class="text-blue-900 hover:text-amber-600 transition font-medium flex items-center gap-1.5"><i class="fa-solid fa-map-location-dot text-[10px] text-amber-500"></i> Zonas de Cobertura (60 Ciudades)</a></div>
+                    </div>
+                </div>
+            </aside>
 </body>
 </html>
