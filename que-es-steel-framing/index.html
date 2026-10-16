@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -36,25 +36,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Tailwind CSS CDN -->
+        <!-- Tailwind CSS (CDN para despliegue instantÃ¡neo en Cloudflare Pages) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        brand: {
-                            navy: '#0B192C',
-                            dark: '#1E3E62',
-                            primary: '#0056B3',
-                            accent: '#FF6500',
-                            accentHover: '#E05A00',
-                            light: '#F8FAFC'
-                        }
-                    },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif']
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            50: '#f8fafc',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        blue: {
+                            900: '#1e3a8a',
+                            950: '#0f1f4b',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
                     }
                 }
             }
@@ -223,14 +228,14 @@
     }
     </script>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Top Announcement Bar -->
-    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-slate-700/50">
+    <div class="bg-slate-900 text-white text-xs py-2 px-4 border-b border-slate-700/50">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
             <span class="flex items-center gap-2">
                 <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -281,12 +286,12 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2">
             <a href="/" class="hover:text-blue-900 transition">Inicio</a>
             <span class="text-slate-400">/</span>
-            <span class="text-brand-navy font-semibold">&iquest;Qu&eacute; es el Steel Framing? Gu&iacute;a T&eacute;cnica y Educativa Completa</span>
+            <span class="text-slate-900 font-semibold">&iquest;Qu&eacute; es el Steel Framing? Gu&iacute;a T&eacute;cnica y Educativa Completa</span>
         </div>
     </div>
 
     <!-- HERO SECTION -->
-    <section class="relative bg-gradient-to-b from-slate-900 via-brand-navy to-slate-900 text-white pt-16 pb-20 overflow-hidden">
+    <section class="relative bg-gradient-to-b from-slate-900 via-slate-900 to-slate-900 text-white pt-16 pb-20 overflow-hidden">
         <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px]"></div>
         
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -592,31 +597,31 @@
                     <div class="w-full flex justify-center py-4 bg-slate-50 rounded-xl border border-slate-200">
                         <svg viewBox="0 0 320 240" class="w-full max-w-[280px] h-auto drop-shadow-sm" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <!-- Metal Profile Line -->
-                            <path d="M 80,45 L 60,45 L 60,195 L 80,195" stroke="#1E3E62" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M 80,45 L 60,45 L 60,195 L 80,195" stroke="#1e3a8a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <!-- Lip top -->
-                            <path d="M 80,45 L 80,62" stroke="#1E3E62" stroke-width="10" stroke-linecap="round"/>
+                            <path d="M 80,45 L 80,62" stroke="#1e3a8a" stroke-width="10" stroke-linecap="round"/>
                             <!-- Lip bottom -->
-                            <path d="M 80,195 L 80,178" stroke="#1E3E62" stroke-width="10" stroke-linecap="round"/>
+                            <path d="M 80,195 L 80,178" stroke="#1e3a8a" stroke-width="10" stroke-linecap="round"/>
                             <!-- Punzonado Oval Hole -->
-                            <rect x="52" y="105" width="16" height="30" rx="8" fill="#FF6500" opacity="0.85"/>
-                            <text x="76" y="125" fill="#FF6500" font-size="10" font-weight="bold" font-family="sans-serif">Pasacables</text>
+                            <rect x="52" y="105" width="16" height="30" rx="8" fill="#f59e0b" opacity="0.85"/>
+                            <text x="76" y="125" fill="#f59e0b" font-size="10" font-weight="bold" font-family="sans-serif">Pasacables</text>
                             
                             <!-- Dimension Alma -->
                             <line x1="40" y1="45" x2="40" y2="195" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3 3"/>
                             <line x1="35" y1="45" x2="45" y2="45" stroke="#94A3B8" stroke-width="1.5"/>
                             <line x1="35" y1="195" x2="45" y2="195" stroke="#94A3B8" stroke-width="1.5"/>
-                            <text x="12" y="125" fill="#0B192C" font-size="11" font-weight="bold" font-family="sans-serif">Alma (A)</text>
+                            <text x="12" y="125" fill="#0f172a" font-size="11" font-weight="bold" font-family="sans-serif">Alma (A)</text>
                             <text x="12" y="140" fill="#64748B" font-size="9" font-family="sans-serif">90-150 mm</text>
 
                             <!-- Dimension Ala -->
                             <line x1="60" y1="215" x2="80" y2="215" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3 3"/>
                             <line x1="60" y1="210" x2="60" y2="220" stroke="#94A3B8" stroke-width="1.5"/>
                             <line x1="80" y1="210" x2="80" y2="220" stroke="#94A3B8" stroke-width="1.5"/>
-                            <text x="60" y="232" fill="#0B192C" font-size="10" font-weight="bold" font-family="sans-serif">Ala (B): 40 mm</text>
+                            <text x="60" y="232" fill="#0f172a" font-size="10" font-weight="bold" font-family="sans-serif">Ala (B): 40 mm</text>
 
                             <!-- Dimension Pestaña -->
                             <line x1="100" y1="45" x2="100" y2="62" stroke="#94A3B8" stroke-width="1.5"/>
-                            <text x="108" y="58" fill="#0B192C" font-size="10" font-weight="bold" font-family="sans-serif">Labio/Pesta&ntilde;a: 15 mm</text>
+                            <text x="108" y="58" fill="#0f172a" font-size="10" font-weight="bold" font-family="sans-serif">Labio/Pesta&ntilde;a: 15 mm</text>
                             <text x="108" y="70" fill="#64748B" font-size="9" font-family="sans-serif">(Rigidizador anti-pandeo)</text>
                         </svg>
                     </div>
@@ -657,22 +662,22 @@
                     <div class="w-full flex justify-center py-4 bg-slate-50 rounded-xl border border-slate-200">
                         <svg viewBox="0 0 320 240" class="w-full max-w-[280px] h-auto drop-shadow-sm" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <!-- Metal Profile Line (U shape open) -->
-                            <path d="M 85,45 L 60,45 L 60,195 L 85,195" stroke="#FF6500" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M 85,45 L 60,45 L 60,195 L 85,195" stroke="#f59e0b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
                             
                             <!-- Dimension Alma Interna -->
                             <line x1="40" y1="45" x2="40" y2="195" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3 3"/>
                             <line x1="35" y1="45" x2="45" y2="45" stroke="#94A3B8" stroke-width="1.5"/>
                             <line x1="35" y1="195" x2="45" y2="195" stroke="#94A3B8" stroke-width="1.5"/>
-                            <text x="12" y="125" fill="#0B192C" font-size="11" font-weight="bold" font-family="sans-serif">Alma (A)</text>
+                            <text x="12" y="125" fill="#0f172a" font-size="11" font-weight="bold" font-family="sans-serif">Alma (A)</text>
                             <text x="12" y="140" fill="#64748B" font-size="9" font-family="sans-serif">Calibrada +1mm</text>
 
                             <!-- Dimension Ala -->
                             <line x1="60" y1="215" x2="85" y2="215" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3 3"/>
                             <line x1="60" y1="210" x2="60" y2="220" stroke="#94A3B8" stroke-width="1.5"/>
                             <line x1="85" y1="210" x2="85" y2="220" stroke="#94A3B8" stroke-width="1.5"/>
-                            <text x="60" y="232" fill="#0B192C" font-size="10" font-weight="bold" font-family="sans-serif">Alas (B): 35 mm</text>
+                            <text x="60" y="232" fill="#0f172a" font-size="10" font-weight="bold" font-family="sans-serif">Alas (B): 35 mm</text>
 
-                            <text x="110" y="115" fill="#1E3E62" font-size="12" font-weight="bold" font-family="sans-serif">Perfil Abierto (U)</text>
+                            <text x="110" y="115" fill="#1e3a8a" font-size="12" font-weight="bold" font-family="sans-serif">Perfil Abierto (U)</text>
                             <text x="110" y="132" fill="#64748B" font-size="10" font-family="sans-serif">Sin pesta&ntilde;as para encastrar</text>
                             <text x="110" y="146" fill="#64748B" font-size="10" font-family="sans-serif">el montante PGC en su interior.</text>
                         </svg>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -36,25 +36,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Tailwind CSS CDN -->
+        <!-- Tailwind CSS (CDN para despliegue instantÃ¡neo en Cloudflare Pages) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        brand: {
-                            navy: '#0B192C',
-                            dark: '#1E3E62',
-                            primary: '#0056B3',
-                            accent: '#FF6500',
-                            accentHover: '#E05A00',
-                            light: '#F8FAFC'
-                        }
-                    },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif']
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            50: '#f8fafc',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        blue: {
+                            900: '#1e3a8a',
+                            950: '#0f1f4b',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
                     }
                 }
             }
@@ -154,15 +159,15 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Top Bar -->
-    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-slate-800">
+    <div class="bg-slate-900 text-white text-xs py-2 px-4 border-b border-slate-800">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <div class="flex items-center gap-4">
-                <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-brand-accent"></i> Tababela, Yaruquí y Valle Oriental - Quito</span>
-                <span class="hidden md:flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-brand-accent"></i> Estructura Sismorresistente NEC-SE-DS</span>
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-amber-500"></i> Tababela, Yaruquí y Valle Oriental - Quito</span>
+                <span class="hidden md:flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-amber-500"></i> Estructura Sismorresistente NEC-SE-DS</span>
             </div>
             <div class="flex items-center gap-4">
-                <a href="tel:+593995099506" class="hover:text-brand-accent transition"><i class="fa-solid fa-phone text-brand-accent mr-1"></i> +593 99 509 9506</a>
-                <a href="mailto:homersarquitectura@gmail.com" class="hover:text-brand-accent transition"><i class="fa-solid fa-envelope text-brand-accent mr-1"></i> homersarquitectura@gmail.com</a>
+                <a href="tel:+593995099506" class="hover:text-amber-500 transition"><i class="fa-solid fa-phone text-amber-500 mr-1"></i> +593 99 509 9506</a>
+                <a href="mailto:homersarquitectura@gmail.com" class="hover:text-amber-500 transition"><i class="fa-solid fa-envelope text-amber-500 mr-1"></i> homersarquitectura@gmail.com</a>
             </div>
         </div>
     </div>
@@ -171,30 +176,30 @@
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="https://steelframingec.com/" class="flex items-center gap-3">
-                <div class="bg-brand-navy text-white font-heading font-black text-xl p-2 rounded-lg tracking-wider">HOMERS</div>
+                <div class="bg-slate-900 text-white font-heading font-black text-xl p-2 rounded-lg tracking-wider">HOMERS</div>
                 <div class="hidden sm:block">
-                    <span class="block font-heading font-bold text-sm text-brand-navy leading-tight">HOMERS CONSTRUCTORA</span>
+                    <span class="block font-heading font-bold text-sm text-slate-900 leading-tight">HOMERS CONSTRUCTORA</span>
                     <span class="block text-xs text-slate-500 font-medium">Steel Framing Ecuador</span>
                 </div>
             </a>
             <nav class="hidden lg:flex items-center gap-8 font-medium text-sm text-slate-700">
-                <a href="https://steelframingec.com/#beneficios" class="hover:text-brand-primary transition">El Sistema</a>
-                <a href="/precio-m2/" class="hover:text-brand-primary transition">Precios m²</a>
-                <a href="/zonas-de-cobertura" class="hover:text-brand-primary transition">Cobertura</a>
-                <a href="/diagnostico-proyecto/" class="hover:text-brand-primary transition">Diagnóstico</a>
-                <a href="https://steelframingec.com/#contacto" class="bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-2.5 rounded-lg font-semibold transition shadow-md shadow-brand-accent/20">Cotizar Proyecto</a>
+                <a href="https://steelframingec.com/#beneficios" class="hover:text-blue-900 transition">El Sistema</a>
+                <a href="/precio-m2/" class="hover:text-blue-900 transition">Precios m²</a>
+                <a href="/zonas-de-cobertura" class="hover:text-blue-900 transition">Cobertura</a>
+                <a href="/diagnostico-proyecto/" class="hover:text-blue-900 transition">Diagnóstico</a>
+                <a href="https://steelframingec.com/#contacto" class="bg-amber-500 hover:bg-amber-600 text-white px-5 py-2.5 rounded-lg font-semibold transition shadow-md shadow-amber-500/20">Cotizar Proyecto</a>
             </nav>
-            <button id="mobile-menu-btn" class="lg:hidden text-slate-700 hover:text-brand-primary p-2 text-xl" aria-label="Menú">
+            <button id="mobile-menu-btn" class="lg:hidden text-slate-700 hover:text-blue-900 p-2 text-xl" aria-label="Menú">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 shadow-lg">
-            <a href="https://steelframingec.com/#beneficios" class="block py-2 text-slate-700 hover:text-brand-primary font-medium">El Sistema</a>
-            <a href="/precio-m2/" class="block py-2 text-slate-700 hover:text-brand-primary font-medium">Precios m²</a>
-            <a href="/zonas-de-cobertura" class="block py-2 text-slate-700 hover:text-brand-primary font-medium">Cobertura</a>
-            <a href="/diagnostico-proyecto/" class="block py-2 text-slate-700 hover:text-brand-primary font-medium">Diagnóstico</a>
-            <a href="https://steelframingec.com/#contacto" class="block text-center bg-brand-accent text-white py-3 rounded-lg font-semibold shadow-md">Cotizar Proyecto</a>
+            <a href="https://steelframingec.com/#beneficios" class="block py-2 text-slate-700 hover:text-blue-900 font-medium">El Sistema</a>
+            <a href="/precio-m2/" class="block py-2 text-slate-700 hover:text-blue-900 font-medium">Precios m²</a>
+            <a href="/zonas-de-cobertura" class="block py-2 text-slate-700 hover:text-blue-900 font-medium">Cobertura</a>
+            <a href="/diagnostico-proyecto/" class="block py-2 text-slate-700 hover:text-blue-900 font-medium">Diagnóstico</a>
+            <a href="https://steelframingec.com/#contacto" class="block text-center bg-amber-500 text-white py-3 rounded-lg font-semibold shadow-md">Cotizar Proyecto</a>
         </div>
     </header>
 
@@ -206,39 +211,39 @@
     </script>
 
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-brand-navy via-brand-dark to-slate-900 text-white py-20 lg:py-28 overflow-hidden">
-        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#0056B3_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <section class="relative bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white py-20 lg:py-28 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#1e3a8a_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-7 space-y-6">
-                    <div class="inline-flex items-center gap-2 bg-brand-primary/30 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider border border-blue-400/30">
-                        <i class="fa-solid fa-plane-departure text-brand-accent"></i> Fase 3: Tababela y Yaruquí | Polo Suburbano
+                    <div class="inline-flex items-center gap-2 bg-blue-900/30 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider border border-blue-400/30">
+                        <i class="fa-solid fa-plane-departure text-amber-500"></i> Fase 3: Tababela y Yaruquí | Polo Suburbano
                     </div>
                     <h1 class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-tight">
-                        Steel Framing en <span class="text-brand-accent">Tababela y Yaruquí</span>
+                        Steel Framing en <span class="text-amber-500">Tababela y Yaruquí</span>
                     </h1>
                     <p class="text-lg text-slate-300 font-normal leading-relaxed">
                         Diseño y construcción de residencias campestres, quintas familiares y villas de lujo junto al Aeropuerto Mariscal Sucre. Estructura de <strong class="text-white font-semibold">acero galvanizado estructural Z275</strong>, confort acústico superior frente al tráfico aéreo y aislamiento térmico EIFS para el valle oriental.
                     </p>
                     <div class="flex flex-wrap gap-4 pt-4">
-                        <a href="https://steelframingec.com/#contacto" class="bg-brand-accent hover:bg-brand-accentHover text-white px-8 py-4 rounded-xl font-bold transition shadow-lg shadow-brand-accent/30 flex items-center gap-2">
+                        <a href="https://steelframingec.com/#contacto" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl font-bold transition shadow-lg shadow-amber-500/30 flex items-center gap-2">
                             <span>Solicitar Cotización</span> <i class="fa-solid fa-arrow-right"></i>
                         </a>
                         <a href="/diagnostico-proyecto/" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-6 py-4 rounded-xl font-semibold transition flex items-center gap-2">
-                            <i class="fa-solid fa-file-contract text-brand-accent"></i> Diagnóstico Técnico
+                            <i class="fa-solid fa-file-contract text-amber-500"></i> Diagnóstico Técnico
                         </a>
                     </div>
                     <div class="grid grid-cols-3 gap-4 pt-8 border-t border-slate-700/60 text-sm">
                         <div>
-                            <span class="block font-heading font-black text-2xl text-brand-accent">$360 - $380</span>
+                            <span class="block font-heading font-black text-2xl text-amber-500">$360 - $380</span>
                             <span class="text-slate-400 text-xs">Semiacabado / m²</span>
                         </div>
                         <div>
-                            <span class="block font-heading font-black text-2xl text-brand-accent">$480 - $550</span>
+                            <span class="block font-heading font-black text-2xl text-amber-500">$480 - $550</span>
                             <span class="text-slate-400 text-xs">Llave en mano / m²</span>
                         </div>
                         <div>
-                            <span class="block font-heading font-black text-2xl text-brand-accent">STC 55</span>
+                            <span class="block font-heading font-black text-2xl text-amber-500">STC 55</span>
                             <span class="text-slate-400 text-xs">Aislamiento Acústico</span>
                         </div>
                     </div>
@@ -246,24 +251,24 @@
                 <div class="lg:col-span-5">
                     <div class="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md shadow-2xl space-y-6">
                         <div class="border-b border-white/10 pb-4">
-                            <span class="text-xs uppercase tracking-wider text-brand-accent font-bold">Ficha Técnica Regional</span>
+                            <span class="text-xs uppercase tracking-wider text-amber-500 font-bold">Ficha Técnica Regional</span>
                             <h3 class="font-heading font-bold text-xl text-white mt-1">Valle Oriental de Quito</h3>
                         </div>
                         <ul class="space-y-4 text-sm text-slate-300">
                             <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-check-circle text-brand-accent mt-1"></i>
+                                <i class="fa-solid fa-check-circle text-amber-500 mt-1"></i>
                                 <span><strong>Polo de Expansión:</strong> Ideal para ejecutivos, personal de aviación y familias que buscan quintas y lotes amplios.</span>
                             </li>
                             <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-check-circle text-brand-accent mt-1"></i>
+                                <i class="fa-solid fa-check-circle text-amber-500 mt-1"></i>
                                 <span><strong>Suelo Volcánico / Cangahua:</strong> Cimentación optimizada para terrenos planos a semi-planos con excelente capacidad portante.</span>
                             </li>
                             <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-check-circle text-brand-accent mt-1"></i>
+                                <i class="fa-solid fa-check-circle text-amber-500 mt-1"></i>
                                 <span><strong>Luces Libres de 6 a 8m:</strong> Espacios amplios e integrados sin columnas intermedias gracias a vigas reticuladas Z275.</span>
                             </li>
                             <li class="flex items-start gap-3">
-                                <i class="fa-solid fa-check-circle text-brand-accent mt-1"></i>
+                                <i class="fa-solid fa-check-circle text-amber-500 mt-1"></i>
                                 <span><strong>Director Técnico:</strong> Arq. Sergio Bravo.</span>
                             </li>
                         </ul>
@@ -282,14 +287,14 @@
     <section class="bg-white py-6 border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-wrap justify-center gap-6 text-sm font-semibold text-slate-700">
-                <a href="/precio-m2/" class="flex items-center gap-2 hover:text-brand-primary transition bg-slate-100 hover:bg-blue-50 px-4 py-2 rounded-lg border border-slate-200">
-                    <i class="fa-solid fa-calculator text-brand-accent"></i> Calculadora y Precios m²
+                <a href="/precio-m2/" class="flex items-center gap-2 hover:text-blue-900 transition bg-slate-100 hover:bg-blue-50 px-4 py-2 rounded-lg border border-slate-200">
+                    <i class="fa-solid fa-calculator text-amber-500"></i> Calculadora y Precios m²
                 </a>
-                <a href="/diagnostico-proyecto/" class="flex items-center gap-2 hover:text-brand-primary transition bg-slate-100 hover:bg-blue-50 px-4 py-2 rounded-lg border border-slate-200">
-                    <i class="fa-solid fa-stethoscope text-brand-accent"></i> Diagnóstico de Proyecto
+                <a href="/diagnostico-proyecto/" class="flex items-center gap-2 hover:text-blue-900 transition bg-slate-100 hover:bg-blue-50 px-4 py-2 rounded-lg border border-slate-200">
+                    <i class="fa-solid fa-stethoscope text-amber-500"></i> Diagnóstico de Proyecto
                 </a>
-                <a href="/zonas-de-cobertura" class="flex items-center gap-2 hover:text-brand-primary transition bg-slate-100 hover:bg-blue-50 px-4 py-2 rounded-lg border border-slate-200">
-                    <i class="fa-solid fa-map-location-dot text-brand-accent"></i> Zonas de Cobertura Nacional
+                <a href="/zonas-de-cobertura" class="flex items-center gap-2 hover:text-blue-900 transition bg-slate-100 hover:bg-blue-50 px-4 py-2 rounded-lg border border-slate-200">
+                    <i class="fa-solid fa-map-location-dot text-amber-500"></i> Zonas de Cobertura Nacional
                 </a>
             </div>
         </div>
@@ -299,8 +304,8 @@
     <section class="py-20 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                <span class="text-brand-primary font-bold text-sm tracking-wider uppercase">Ingeniería y Confort en Tababela y Yaruquí</span>
-                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy">
+                <span class="text-blue-900 font-bold text-sm tracking-wider uppercase">Ingeniería y Confort en Tababela y Yaruquí</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900">
                     Soluciones Constructivas para el Valle Oriental
                 </h2>
                 <p class="text-slate-600 text-lg">
@@ -311,10 +316,10 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
                 <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-md transition space-y-4">
-                    <div class="w-14 h-14 bg-blue-50 text-brand-primary rounded-xl flex items-center justify-center text-2xl font-bold">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-900 rounded-xl flex items-center justify-center text-2xl font-bold">
                         <i class="fa-solid fa-plane"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy">Aislamiento Acústico STC 55</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900">Aislamiento Acústico STC 55</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Eliminación absoluta del ruido aeronáutico proveniente del Aeropuerto Mariscal Sucre. Empleamos tabiques dobles con cámaras de aire desacopladas y paneles de lana de roca volcánica, alcanzando un estándar acústico superior (STC 55) para un descanso absoluto.
                     </p>
@@ -322,10 +327,10 @@
 
                 <!-- Card 2 -->
                 <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-md transition space-y-4">
-                    <div class="w-14 h-14 bg-blue-50 text-brand-primary rounded-xl flex items-center justify-center text-2xl font-bold">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-900 rounded-xl flex items-center justify-center text-2xl font-bold">
                         <i class="fa-solid fa-mountain-sun"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy">Grandes Luces sin Columnas</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900">Grandes Luces sin Columnas</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Aprovechamiento óptimo de terrenos planos a semi-planos con suelo de cangahua dura. Gracias a las vigas reticuladas de <strong class="text-slate-800">acero galvanizado estructural Z275</strong>, logramos luces libres de 6 a 8 metros, permitiendo diseños arquitectónicos abiertos, diáfanos y modernos.
                     </p>
@@ -333,10 +338,10 @@
 
                 <!-- Card 3 -->
                 <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-md transition space-y-4">
-                    <div class="w-14 h-14 bg-blue-50 text-brand-primary rounded-xl flex items-center justify-center text-2xl font-bold">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-900 rounded-xl flex items-center justify-center text-2xl font-bold">
                         <i class="fa-solid fa-temperature-arrow-down"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy">Confort Térmico EIFS</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900">Confort Térmico EIFS</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Protección contra los vientos fríos nocturnos típicos del valle oriental. El sistema de aislamiento térmico exterior EIFS sella herméticamente la envolvente, evitando puentes térmicos y garantizando estabilidad térmica interior todo el año.
                     </p>
@@ -349,8 +354,8 @@
     <section class="py-20 bg-white border-t border-slate-200" id="precios">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                <span class="text-brand-primary font-bold text-sm tracking-wider uppercase">Inversión Transparente</span>
-                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy">
+                <span class="text-blue-900 font-bold text-sm tracking-wider uppercase">Inversión Transparente</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900">
                     Precios Oficiales de Construcción en Tababela y Yaruquí
                 </h2>
                 <p class="text-slate-600 text-lg">
@@ -365,50 +370,50 @@
                         <div class="inline-block bg-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
                             Obra Gris / Semiacabada
                         </div>
-                        <h3 class="font-heading font-bold text-2xl text-brand-navy">Estructura y Envolvente</h3>
+                        <h3 class="font-heading font-bold text-2xl text-slate-900">Estructura y Envolvente</h3>
                         <div class="flex items-baseline gap-2">
-                            <span class="font-heading font-black text-4xl sm:text-5xl text-brand-navy">$360 - $380</span>
+                            <span class="font-heading font-black text-4xl sm:text-5xl text-slate-900">$360 - $380</span>
                             <span class="text-slate-500 font-semibold">USD / m²</span>
                         </div>
                         <ul class="space-y-3 text-sm text-slate-700 pt-4 border-t border-slate-200">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Cimentación y losa de hormigón armado</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Estructura de acero galvanizado estructural Z275</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Cubierta termoacústica y canaletas</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Placas exteriores OSB y barrera hidrófuga</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Aislamiento acústico de lana de roca</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Cimentación y losa de hormigón armado</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Estructura de acero galvanizado estructural Z275</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Cubierta termoacústica y canaletas</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Placas exteriores OSB y barrera hidrófuga</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Aislamiento acústico de lana de roca</li>
                         </ul>
                     </div>
                     <div class="pt-8">
-                        <a href="https://steelframingec.com/#contacto" class="block text-center w-full bg-brand-navy hover:bg-brand-dark text-white py-4 rounded-xl font-bold transition shadow-md">
+                        <a href="https://steelframingec.com/#contacto" class="block text-center w-full bg-slate-900 hover:bg-blue-950 text-white py-4 rounded-xl font-bold transition shadow-md">
                             Cotizar Obra Semiacabada
                         </a>
                     </div>
                 </div>
 
                 <!-- Llave en Mano -->
-                <div class="bg-brand-navy text-white border-2 border-brand-accent rounded-3xl p-8 flex flex-col justify-between shadow-xl relative overflow-hidden">
-                    <div class="absolute top-0 right-0 bg-brand-accent text-white text-xs font-extrabold px-4 py-1.5 rounded-bl-xl uppercase tracking-wider">
+                <div class="bg-slate-900 text-white border-2 border-amber-500 rounded-3xl p-8 flex flex-col justify-between shadow-xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-amber-500 text-white text-xs font-extrabold px-4 py-1.5 rounded-bl-xl uppercase tracking-wider">
                         Más Solicitado
                     </div>
                     <div class="space-y-6">
-                        <div class="inline-block bg-brand-accent/20 text-brand-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-brand-accent/30">
+                        <div class="inline-block bg-amber-500/20 text-amber-500 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-amber-500/30">
                             Llave en Mano Total
                         </div>
                         <h3 class="font-heading font-bold text-2xl text-white">Residencia Lista para Habitar</h3>
                         <div class="flex items-baseline gap-2">
-                            <span class="font-heading font-black text-4xl sm:text-5xl text-brand-accent">$480 - $550</span>
+                            <span class="font-heading font-black text-4xl sm:text-5xl text-amber-500">$480 - $550</span>
                             <span class="text-slate-300 font-semibold">USD / m²</span>
                         </div>
                         <ul class="space-y-3 text-sm text-slate-300 pt-4 border-t border-slate-700">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Todo lo incluido en Obra Semiacabada</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Sistema EIFS de acabado exterior premium</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Instalaciones hidrosanitarias y eléctricas completas</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Pisos de porcelanato importado y cerámica</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Muebles de cocina modular, closets y grifería de lujo</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Todo lo incluido en Obra Semiacabada</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Sistema EIFS de acabado exterior premium</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Instalaciones hidrosanitarias y eléctricas completas</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Pisos de porcelanato importado y cerámica</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Muebles de cocina modular, closets y grifería de lujo</li>
                         </ul>
                     </div>
                     <div class="pt-8">
-                        <a href="https://steelframingec.com/#contacto" class="block text-center w-full bg-brand-accent hover:bg-brand-accentHover text-white py-4 rounded-xl font-bold transition shadow-lg shadow-brand-accent/30">
+                        <a href="https://steelframingec.com/#contacto" class="block text-center w-full bg-amber-500 hover:bg-amber-600 text-white py-4 rounded-xl font-bold transition shadow-lg shadow-amber-500/30">
                             Cotizar Llave en Mano
                         </a>
                     </div>
@@ -421,8 +426,8 @@
     <section class="py-20 bg-slate-50 border-t border-slate-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 space-y-4">
-                <span class="text-brand-primary font-bold text-sm tracking-wider uppercase">Preguntas Frecuentes</span>
-                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy">
+                <span class="text-blue-900 font-bold text-sm tracking-wider uppercase">Preguntas Frecuentes</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900">
                     Dudas sobre Steel Framing en Tababela y Yaruquí
                 </h2>
             </div>
@@ -430,8 +435,8 @@
             <div class="space-y-6">
                 <!-- FAQ 1 -->
                 <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-2">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Cómo elimina el Steel Framing el ruido aeronáutico en Tababela y Yaruquí?
                     </h3>
                     <p class="text-slate-600 text-sm pl-7 leading-relaxed">
@@ -441,8 +446,8 @@
 
                 <!-- FAQ 2 -->
                 <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-2">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Qué ventajas ofrece el terreno de cangahua en Tababela y Yaruquí para el Steel Framing?
                     </h3>
                     <p class="text-slate-600 text-sm pl-7 leading-relaxed">
@@ -452,8 +457,8 @@
 
                 <!-- FAQ 3 -->
                 <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-2">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Cuáles son los precios por m² para construir con Steel Framing en Tababela y Yaruquí?
                     </h3>
                     <p class="text-slate-600 text-sm pl-7 leading-relaxed">
@@ -463,8 +468,8 @@
 
                 <!-- FAQ 4 -->
                 <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-2">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Cómo maneja el Steel Framing los vientos fríos nocturnos del valle oriental?
                     </h3>
                     <p class="text-slate-600 text-sm pl-7 leading-relaxed">
@@ -476,71 +481,84 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-brand-navy text-white pt-16 pb-12 border-t border-slate-800">
+        <!-- Footer Estandarizado 4 Columnas -->
+    <footer class="bg-slate-950 text-slate-400 py-14 border-t border-slate-800 text-xs">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-16 border-b border-slate-800">
-                <!-- Col 1 -->
-                <div class="space-y-4">
-                    <div class="flex items-center gap-3">
-                        <div class="bg-brand-accent text-white font-heading font-black text-lg p-2 rounded-lg tracking-wider">HOMERS</div>
-                        <span class="font-heading font-bold text-lg">Homers Constructora</span>
-                    </div>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Especialistas en ingeniería y construcción en Steel Framing sismorresistente en Ecuador. Residencias de alta gama con eficiencia térmica y acústica superior.
-                    </p>
-                    <div class="text-xs text-slate-400">
-                        <strong class="text-white">Director Técnico:</strong> Arq. Sergio Bravo<br>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10">
+
+                <!-- Col 1: Empresa & Autoridad -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
+                        <div>
+                            <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
+                            <span class="text-[10px] text-slate-400 block">Divisi&oacute;n de Homers Constructora</span>
                         </div>
+                    </div>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Arq. Sergio Bravo &bull; Construcci&oacute;n sismorresistente con contrato de precio fijo y direcci&oacute;n t&eacute;cnica diaria. Proyectos llave en mano en Ecuador.
+                    </p>
+                    <div class="space-y-1.5 text-xs text-slate-400 pt-1">
+                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garant&iacute;a Estructural 20 A&ntilde;os</p>
+                        <p class="flex items-center gap-2"><a href="tel:+593995099506" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-phone text-amber-400"></i> +593 99 509 9506</a></p>
+                        <p class="flex items-center gap-2"><a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope text-amber-400"></i> homersarquitectura@gmail.com</a></p>
+                    </div>
                 </div>
 
-                <!-- Col 2 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-base uppercase tracking-wider text-brand-accent">Zonas Principales</h4>
-                    <ul class="space-y-2.5 text-sm text-slate-300">
-                        <li><a href="https://steelframingec.com/steel-framing-quito-ecuador/" class="hover:text-brand-accent transition">Quito y Cumbayá</a></li>
-                        <li><a href="https://steelframingec.com/steel-framing-tumbaco/" class="hover:text-brand-accent transition">Tumbaco y Los Chillos</a></li>
-                        <li><a href="https://steelframingec.com/steel-framing-loja/" class="hover:text-brand-accent transition">Loja y Vilcabamba</a></li>
-                        <li><a href="https://steelframingec.com/steel-framing-cuenca/" class="hover:text-brand-accent transition">Cuenca y Azuay</a></li>
-                        <li><a href="/zonas-de-cobertura" class="text-brand-accent font-semibold hover:underline">Ver todas las zonas &rarr;</a></li>
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/construir-casa-ecuador/" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Casa Llave en Mano</a></li>
+                        <li><a href="/precio-m2/" class="hover:text-white transition">Calculadora de Precio por m&sup2;</a></li>
+                        <li><a href="/ampliacion-segundo-piso-ecuador/" class="hover:text-white transition">Ampliaci&oacute;n de Segundo Piso sobre Losa</a></li>
+                        <li><a href="/construir-casa-en-ecuador-desde-usa/" class="hover:text-white transition">Programa Construcci&oacute;n desde USA &#127482;&#127480;</a></li>
+                        <li><a href="/modelos-casas-steel-framing-ecuador/" class="hover:text-white transition">Cat&aacute;logo de Modelos y Dise&ntilde;os</a></li>
+                        <li><a href="/credito-hipotecario-biess-steel-framing/" class="hover:text-white transition">Cr&eacute;dito Hipotecario BIESS y Bancos</a></li>
                     </ul>
                 </div>
 
-                <!-- Col 3 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-base uppercase tracking-wider text-brand-accent">Enlaces Útiles</h4>
-                    <ul class="space-y-2.5 text-sm text-slate-300">
-                        <li><a href="/precio-m2/" class="hover:text-brand-accent transition">Calculadora de Precios m²</a></li>
-                        <li><a href="/diagnostico-proyecto/" class="hover:text-brand-accent transition">Diagnóstico de Proyecto</a></li>
-                        <li><a href="https://steelframingec.com/#beneficios" class="hover:text-brand-accent transition">Ventajas del Steel Framing</a></li>
-                        <li><a href="https://steelframingec.com/#contacto" class="hover:text-brand-accent transition">Contacto Directo</a></li>
+                <!-- Col 3: GuÃ­as TÃ©cnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Gu&iacute;as T&eacute;cnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/que-es-steel-framing/" class="hover:text-amber-400 transition font-medium text-amber-400">&iquest;Qu&eacute; es Steel Framing? (Gu&iacute;a)</a></li>
+                        <li><a href="/steel-framing-vs-hormigon-bloque-ecuador/" class="hover:text-white transition">Steel Framing vs Hormig&oacute;n y Bloque</a></li>
+                        <li><a href="/steel-framing-ecuador/" class="hover:text-white transition">Gu&iacute;a T&eacute;cnica NEC Steel Framing</a></li>
+                        <li><a href="/construccion-en-seco-ecuador/" class="hover:text-white transition">Manual de Construcci&oacute;n en Seco</a></li>
+                        <li><a href="/permisos-construccion-steel-framing-ecuador/" class="hover:text-white transition">Permisos Municipales y Planos</a></li>
+                        <li><a href="/casas-prefabricadas-ecuador/" class="hover:text-white transition">Steel Framing vs Casas Prefabricadas</a></li>
+                        <li class="pt-1"><a href="/blog-y-recursos/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos T&eacute;cnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
                 </div>
 
-                <!-- Col 4 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-base uppercase tracking-wider text-brand-accent">Contacto Directo</h4>
-                    <ul class="space-y-3 text-sm text-slate-300">
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-phone text-brand-accent mt-1"></i>
-                            <span>+593 99 509 9506</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-envelope text-brand-accent mt-1"></i>
-                            <span>homersarquitectura@gmail.com</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-location-dot text-brand-accent mt-1"></i>
-                            <span>Tababela, Yaruquí y Valle Oriental, Quito, Ecuador</span>
-                        </li>
+                <!-- Col 4: Zonas de Cobertura en Ecuador -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Zonas de Cobertura en Ecuador</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-amber-400 transition font-medium text-amber-400">Costos y referencias en Steel Framing</a></li>
+                        <li><a href="/steel-framing-quito-ecuador/" class="hover:text-white transition">Quito y Valles (Cumbay&aacute; / Puembo)</a></li>
+                        <li><a href="/steel-framing-guayaquil/" class="hover:text-white transition">Guayaquil y Samborond&oacute;n</a></li>
+                        <li><a href="/steel-framing-cuenca/" class="hover:text-white transition">Cuenca y Azuay</a></li>
+                        <li><a href="/steel-framing-manta/" class="hover:text-white transition">Manta y Costa Manabita</a></li>
+                        <li><a href="/steel-framing-loja/" class="hover:text-white transition">Loja y Sierra Sur</a></li>
+                        <li class="pt-1"><a href="/zonas-de-cobertura/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las 60 zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
+                    <div class="pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 text-white font-bold hover:bg-emerald-500 transition text-xs gap-1.5 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+                        </a>
+                    </div>
                 </div>
+
             </div>
 
-            <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
-                <p>&copy; 2026 Homers Constructora. Todos los derechos reservados.</p>
-                <div class="flex gap-6">
-                    <a href="https://steelframingec.com/" class="hover:text-slate-400 transition">Términos y Condiciones</a>
-                    <a href="https://steelframingec.com/" class="hover:text-slate-400 transition">Política de Privacidad</a>
+            <div class="pt-8 border-t border-slate-900 text-center text-slate-400 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div>
+                    &copy; 2026 Homers Constructora Ecuador. Todos los derechos reservados.
+                </div>
+                <div class="text-[11px] text-slate-500">
+                    C&aacute;lculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC y perfiles de acero galvanizado estructural Z275.
                 </div>
             </div>
         </div>

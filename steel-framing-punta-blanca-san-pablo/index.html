@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -36,25 +36,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Tailwind CSS CDN -->
+        <!-- Tailwind CSS (CDN para despliegue instantÃ¡neo en Cloudflare Pages) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        brand: {
-                            navy: '#0B192C',
-                            dark: '#1E3E62',
-                            primary: '#0056B3',
-                            accent: '#FF6500',
-                            accentHover: '#E05A00',
-                            light: '#F8FAFC'
-                        }
-                    },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif']
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            50: '#f8fafc',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        blue: {
+                            900: '#1e3a8a',
+                            950: '#0f1f4b',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
                     }
                 }
             }
@@ -150,7 +155,7 @@
     }
     </script>
 </head>
-<body class="bg-brand-light text-slate-700 font-sans antialiased selection:bg-brand-accent selection:text-white">
+<body class="bg-slate-50 text-slate-700 font-sans antialiased selection:bg-amber-500 selection:text-white">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
@@ -158,82 +163,103 @@
     <!-- End Google Tag Manager -->
 
     <!-- TOPBAR -->
-    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-white/10">
+    <div class="bg-slate-900 text-white text-xs py-2 px-4 border-b border-white/10">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <div class="flex items-center gap-4">
-                <span><i class="fa-solid fa-location-dot text-brand-accent mr-1"></i> Punta Blanca, San Pablo y Península de Santa Elena</span>
+                <span><i class="fa-solid fa-location-dot text-amber-500 mr-1"></i> Punta Blanca, San Pablo y Península de Santa Elena</span>
                 <span class="hidden md:inline">|</span>
-                <span class="hidden md:inline"><i class="fa-solid fa-user-shield text-brand-accent mr-1"></i> Dir. Técnico: Arq. Sergio Bravo</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-user-shield text-amber-500 mr-1"></i> Dir. Técnico: Arq. Sergio Bravo</span>
             </div>
             <div class="flex items-center gap-4">
-                <a href="tel:+593995099506" class="hover:text-brand-accent transition-colors"><i class="fa-solid fa-phone text-brand-accent mr-1"></i> +593 99 509 9506</a>
+                <a href="tel:+593995099506" class="hover:text-amber-500 transition-colors"><i class="fa-solid fa-phone text-amber-500 mr-1"></i> +593 99 509 9506</a>
                 <span>|</span>
-                <a href="mailto:homersarquitectura@gmail.com" class="hover:text-brand-accent transition-colors"><i class="fa-solid fa-envelope text-brand-accent mr-1"></i> homersarquitectura@gmail.com</a>
+                <a href="mailto:homersarquitectura@gmail.com" class="hover:text-amber-500 transition-colors"><i class="fa-solid fa-envelope text-amber-500 mr-1"></i> homersarquitectura@gmail.com</a>
             </div>
         </div>
     </div>
 
     <!-- NAVBAR -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="https://steelframingec.com/" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-lg bg-brand-navy flex items-center justify-center text-white font-heading font-bold text-xl group-hover:bg-brand-accent transition-colors shadow-md">
-                    H
-                </div>
-                <div class="flex flex-col">
-                    <span class="font-heading font-extrabold text-lg text-brand-navy tracking-tight leading-none">HOMERS</span>
-                    <span class="text-xs font-semibold text-brand-accent tracking-widest uppercase mt-0.5">Constructora</span>
-                </div>
-            </a>
-
-            <!-- Desktop Nav -->
-            <nav class="hidden lg:flex items-center gap-8 font-medium text-sm text-slate-700">
-                <a href="https://steelframingec.com/" class="hover:text-brand-primary transition-colors">Inicio</a>
-                <a href="/zonas-de-cobertura" class="hover:text-brand-primary transition-colors">Zonas de Cobertura</a>
-                <a href="/precio-m2/" class="hover:text-brand-primary transition-colors">Precios m²</a>
-                <a href="/diagnostico-proyecto/" class="hover:text-brand-primary transition-colors">Diagnóstico</a>
-                <a href="tel:+593995099506" class="bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-2.5 rounded-lg font-semibold shadow-md shadow-brand-accent/20 transition-all transform hover:-translate-y-0.5">
-                    <i class="fa-brands fa-whatsapp mr-1.5 text-base"></i> Cotizar Villa
+        <!-- Header / Navbar Canonica Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="/" class="flex items-center gap-3 group">
+                    <img src="../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">Divisi&oacute;n de Homers Constructora &bull; Arq. Sergio Bravo</span>
+                    </div>
                 </a>
-            </nav>
 
-            <!-- Mobile Menu Button -->
-            <button id="menu-btn" class="lg:hidden text-slate-700 hover:text-brand-primary focus:outline-none p-2">
-                <i class="fa-solid fa-bars text-2xl"></i>
-            </button>
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="/#beneficios" class="hover:text-blue-900 transition">Beneficios</a>
+                    <a href="/que-es-steel-framing/" class="hover:text-blue-900 transition">&iquest;Qu&eacute; es?</a>
+                    <div class="relative group py-2">
+                        <button class="text-slate-700 group-hover:text-blue-900 font-medium transition flex items-center gap-1 focus:outline-none">
+                            <span>Ciudades</span>
+                            <svg class="w-3.5 h-3.5 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </button>
+                        <div class="absolute left-0 mt-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-2 hidden group-hover:block transition-all z-50">
+                            <a href="/steel-framing-quito-ecuador/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Quito &amp; Valles</a>
+                            <a href="/steel-framing-guayaquil/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Guayaquil &amp; Samborond&oacute;n</a>
+                            <a href="/steel-framing-cuenca/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Cuenca &amp; Austro</a>
+                            <a href="/steel-framing-manta/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Manta &amp; Manab&iacute;</a>
+                            <a href="/steel-framing-pedernales/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Pedernales &amp; Cojim&iacute;es</a>
+                            <a href="/steel-framing-tonsupa/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Tonsupa &amp; Atacames</a>
+                            <a href="/steel-framing-olon/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Ol&oacute;n &amp; Santa Elena</a>
+                            <a href="/steel-framing-ayampe/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Ayampe &amp; Manab&iacute; Sur</a>
+                            <div class="border-t border-slate-100 my-1"></div>
+                            <a href="/zonas-de-cobertura/" class="block px-4 py-1.5 text-xs text-amber-600 font-bold hover:underline">Ver todas las 60 ciudades &rarr;</a>
+                        </div>
+                    </div>
+                    <a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-blue-900 transition">Precios m&sup2;</a>
+                    <a href="/construir-casa-en-ecuador-desde-usa/" class="text-blue-900 font-bold hover:text-blue-950 transition">&#127482;&#127480; Migrantes</a>
+                    <a href="/construir-casa-ecuador/" class="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Casa</a>
+                </nav>
+
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20de%20steelframingec.com%20y%20deseo%20cotizar%20mi%20proyecto" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                    <button id="mobile-menu-btn" class="lg:hidden text-slate-700 hover:text-slate-900 p-2 focus:outline-none" aria-label="Abrir men&uacute;">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
         </div>
 
-        <!-- Mobile Menu Dropdown -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 shadow-lg">
-            <a href="https://steelframingec.com/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Inicio</a>
-            <a href="/zonas-de-cobertura" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Zonas de Cobertura</a>
-            <a href="/precio-m2/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Precios m²</a>
-            <a href="/diagnostico-proyecto/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Diagnóstico de Proyecto</a>
-            <div class="pt-2">
-                <a href="tel:+593995099506" class="block text-center bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-3 rounded-lg font-semibold shadow-md">
-                    <i class="fa-brands fa-whatsapp mr-2"></i> Cotizar Villa de Playa
-                </a>
-            </div>
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-xl px-4 pt-3 pb-6 space-y-2">
+            <a href="/#beneficios" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">Beneficios</a>
+            <a href="/que-es-steel-framing/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&iquest;Qu&eacute; es?</a>
+            <a href="/cuanto-cuesta-construir-en-ecuador/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">Precios m&sup2;</a>
+            <a href="/zonas-de-cobertura/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&#128205; Zonas de Cobertura (60 Ciudades)</a>
+            <a href="/construir-casa-en-ecuador-desde-usa/" class="block py-2 text-sm font-bold text-blue-900">&#127482;&#127480; Programa para Migrantes</a>
+            <a href="/construir-casa-ecuador/" class="block py-2.5 text-center rounded-lg bg-amber-500 text-slate-950 font-extrabold text-xs">&#127969; Cotizar Casa Llave en Mano</a>
+            <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20de%20steelframingec.com%20y%20deseo%20cotizar%20mi%20proyecto" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-lg bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+            </a>
         </div>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="relative bg-brand-navy text-white py-20 lg:py-32 overflow-hidden">
+    <section class="relative bg-slate-900 text-white py-20 lg:py-32 overflow-hidden">
         <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-7 space-y-6">
-                    <div class="inline-flex items-center gap-2 bg-brand-accent/20 border border-brand-accent/40 text-brand-accent px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                    <div class="inline-flex items-center gap-2 bg-amber-500/20 border border-amber-500/40 text-amber-500 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
                         <i class="fa-solid fa-umbrella-beach"></i> Enclaves Residenciales de Alta Gama · Santa Elena
                     </div>
                     <h1 class="font-heading font-black text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-tight">
-                        Steel Framing en <span class="text-brand-accent">Punta Blanca</span> y <span class="text-brand-accent">San Pablo</span>
+                        Steel Framing en <span class="text-amber-500">Punta Blanca</span> y <span class="text-amber-500">San Pablo</span>
                     </h1>
                     <p class="text-slate-300 text-lg sm:text-xl font-light leading-relaxed">
                         Arquitectura costera contemporánea en la Península de Santa Elena. Diseñamos y construimos villas de playa exclusivas con <strong class="text-white font-semibold">acero galvanizado estructural Z275</strong>, voladizos ligeros de 2.5 metros sin columnas y techos planos transitables con membranas TPO de alto rendimiento.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                        <a href="tel:+593995099506" class="bg-brand-accent hover:bg-brand-accentHover text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-brand-accent/30 text-center transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+                        <a href="tel:+593995099506" class="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-amber-500/30 text-center transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
                             <i class="fa-brands fa-whatsapp text-xl"></i> Asesoría con el Arq. Sergio Bravo
                         </a>
                         <a href="/precio-m2/" class="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-8 py-4 rounded-xl text-center transition-all flex items-center justify-center gap-2">
@@ -257,7 +283,7 @@
                 </div>
                 <div class="lg:col-span-5">
                     <div class="bg-white/5 border border-white/10 p-6 sm:p-8 rounded-2xl backdrop-blur-md shadow-2xl relative">
-                        <div class="absolute -top-3 -right-3 bg-brand-accent text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                        <div class="absolute -top-3 -right-3 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
                             Garantía Técnica
                         </div>
                         <h3 class="font-heading font-bold text-xl text-white mb-4">Solicita tu Presupuesto Costero</h3>
@@ -266,15 +292,15 @@
                             <input type="hidden" name="_subject" value="Nueva cotización Steel Framing - Punta Blanca / San Pablo">
                             <div>
                                 <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Nombre Completo</label>
-                                <input type="text" name="nombre" required class="w-full bg-slate-900/60 border border-white/20 rounded-lg px-4 py-2.5 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-accent" placeholder="Ej. Ing. Roberto Mendoza">
+                                <input type="text" name="nombre" required class="w-full bg-slate-900/60 border border-white/20 rounded-lg px-4 py-2.5 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-amber-500" placeholder="Ej. Ing. Roberto Mendoza">
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Teléfono / WhatsApp</label>
-                                <input type="tel" name="telefono" required class="w-full bg-slate-900/60 border border-white/20 rounded-lg px-4 py-2.5 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-accent" placeholder="Ej. 0995099506">
+                                <input type="tel" name="telefono" required class="w-full bg-slate-900/60 border border-white/20 rounded-lg px-4 py-2.5 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-amber-500" placeholder="Ej. 0995099506">
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Ubicación del Terreno</label>
-                                <select name="ubicacion" class="w-full bg-slate-900/60 border border-white/20 rounded-lg px-4 py-2.5 text-white text-sm focus:outline-none focus:border-brand-accent">
+                                <select name="ubicacion" class="w-full bg-slate-900/60 border border-white/20 rounded-lg px-4 py-2.5 text-white text-sm focus:outline-none focus:border-amber-500">
                                     <option value="Punta Blanca">Punta Blanca</option>
                                     <option value="San Pablo">San Pablo</option>
                                     <option value="Punta Centinela">Punta Centinela</option>
@@ -283,12 +309,12 @@
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Modalidad de Interés</label>
-                                <select name="modalidad" class="w-full bg-slate-900/60 border border-white/20 rounded-lg px-4 py-2.5 text-white text-sm focus:outline-none focus:border-brand-accent">
+                                <select name="modalidad" class="w-full bg-slate-900/60 border border-white/20 rounded-lg px-4 py-2.5 text-white text-sm focus:outline-none focus:border-amber-500">
                                     <option value="Llave en Mano ($480-$550/m2)">Llave en Mano ($480 - $550 / m²)</option>
                                     <option value="Obra Semiacabada ($360-$380/m2)">Obra Semiacabada ($360 - $380 / m²)</option>
                                 </select>
                             </div>
-                            <button type="submit" class="w-full bg-brand-accent hover:bg-brand-accentHover text-white font-bold py-3 px-4 rounded-lg transition-colors shadow-lg shadow-brand-accent/30 text-sm uppercase tracking-wider">
+                            <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-4 rounded-lg transition-colors shadow-lg shadow-amber-500/30 text-sm uppercase tracking-wider">
                                 Enviar Solicitud Directa
                             </button>
                         </form>
@@ -302,40 +328,40 @@
     <section class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
-                <span class="text-brand-primary font-bold text-sm tracking-widest uppercase">Excelencia en Construcción Costera</span>
-                <h2 class="font-heading font-bold text-3xl sm:text-4xl text-brand-navy">Villas Exclusivas Frente al Pacífico con Ingeniería Sismorresistente</h2>
-                <div class="w-20 h-1.5 bg-brand-accent mx-auto rounded-full"></div>
+                <span class="text-blue-900 font-bold text-sm tracking-widest uppercase">Excelencia en Construcción Costera</span>
+                <h2 class="font-heading font-bold text-3xl sm:text-4xl text-slate-900">Villas Exclusivas Frente al Pacífico con Ingeniería Sismorresistente</h2>
+                <div class="w-20 h-1.5 bg-amber-500 mx-auto rounded-full"></div>
                 <p class="text-slate-600 text-lg leading-relaxed pt-2">
-                    La Península de Santa Elena exige especificaciones técnicas rigurosas debido al ambiente marino y la succión eólica costera. En <strong class="text-brand-navy">Homers Constructora</strong> transformamos el diseño arquitectónico de playa mediante nuestro sistema de <strong class="text-brand-navy">acero galvanizado estructural Z275</strong>, garantizando durabilidad frente al salitre y máxima velocidad constructiva.
+                    La Península de Santa Elena exige especificaciones técnicas rigurosas debido al ambiente marino y la succión eólica costera. En <strong class="text-slate-900">Homers Constructora</strong> transformamos el diseño arquitectónico de playa mediante nuestro sistema de <strong class="text-slate-900">acero galvanizado estructural Z275</strong>, garantizando durabilidad frente al salitre y máxima velocidad constructiva.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-brand-light p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-14 h-14 bg-brand-navy text-brand-accent rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md">
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 bg-slate-900 text-amber-500 rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md">
                         <i class="fa-solid fa-shield-halved"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Protección Anti-Salitre Z275</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Protección Anti-Salitre Z275</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Perfilería con recubrimiento de zinc Z275 y tornillería con recubrimiento Ruspert de 1000 horas de niebla salina, previniendo cualquier tipo de oxidación prematura en ambientes costeros agresivos.
                     </p>
                 </div>
 
-                <div class="bg-brand-light p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-14 h-14 bg-brand-navy text-brand-accent rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md">
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 bg-slate-900 text-amber-500 rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md">
                         <i class="fa-solid fa-wind"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Resistencia a Vientos y Voladizos</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Resistencia a Vientos y Voladizos</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Cálculos estructurales bajo norma <strong class="text-slate-800">NEC-SE-CG</strong> con anclajes sísmico-eólicos y voladizos ligeros de hasta 2.5 metros sin columnas, logrando visuales panorámicas abiertas hacia el mar.
                     </p>
                 </div>
 
-                <div class="bg-brand-light p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-14 h-14 bg-brand-navy text-brand-accent rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md">
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 bg-slate-900 text-amber-500 rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md">
                         <i class="fa-solid fa-building-shield"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Techos Planos y Roof-Gardens</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Techos Planos y Roof-Gardens</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Implementación de cubiertas transitables impermeabilizadas con membranas TPO y mantos asfálticos de alta especificación para terrazas miradores y áreas sociales superiores de alto disfrute.
                     </p>
@@ -345,12 +371,12 @@
     </section>
 
     <!-- TECHNICAL & ARCHITECTURAL FOCUS SECTION -->
-    <section class="py-16 bg-brand-light border-y border-slate-200">
+    <section class="py-16 bg-slate-50 border-y border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div class="space-y-6">
-                    <span class="text-brand-accent font-bold text-sm tracking-widest uppercase">Arquitectura Costera Contemporánea</span>
-                    <h2 class="font-heading font-bold text-3xl sm:text-4xl text-brand-navy leading-tight">
+                    <span class="text-amber-500 font-bold text-sm tracking-widest uppercase">Arquitectura Costera Contemporánea</span>
+                    <h2 class="font-heading font-bold text-3xl sm:text-4xl text-slate-900 leading-tight">
                         Ingeniería Pericial para Enclaves Exclusivos: Punta Blanca, San Pablo y Punta Centinela
                     </h2>
                     <p class="text-slate-600 leading-relaxed">
@@ -358,49 +384,49 @@
                     </p>
                     <ul class="space-y-4 text-slate-700">
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-brand-accent text-lg mt-1"></i>
+                            <i class="fa-solid fa-circle-check text-amber-500 text-lg mt-1"></i>
                             <div>
-                                <strong class="text-brand-navy">Voladizos de 2.5 Metros sin Columnas:</strong> Estructuras en celosía metálica que permiten balcones y terrazas voladas con vistas despejadas al océano sin interrupciones visuales.
+                                <strong class="text-slate-900">Voladizos de 2.5 Metros sin Columnas:</strong> Estructuras en celosía metálica que permiten balcones y terrazas voladas con vistas despejadas al océano sin interrupciones visuales.
                             </div>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-brand-accent text-lg mt-1"></i>
+                            <i class="fa-solid fa-circle-check text-amber-500 text-lg mt-1"></i>
                             <div>
-                                <strong class="text-brand-navy">Anclajes Sísmico-Eólicos:</strong> Conexiones rígidas calculadas para soportar la succión de vientos de tormenta y sismos bajo normativa vigente.
+                                <strong class="text-slate-900">Anclajes Sísmico-Eólicos:</strong> Conexiones rígidas calculadas para soportar la succión de vientos de tormenta y sismos bajo normativa vigente.
                             </div>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-brand-accent text-lg mt-1"></i>
+                            <i class="fa-solid fa-circle-check text-amber-500 text-lg mt-1"></i>
                             <div>
-                                <strong class="text-brand-navy">Tornillería Ruspert 1000h:</strong> Elementos de fijación certificados contra ambientes salinos extremos, garantizando cero corrosión en uniones estructurales.
+                                <strong class="text-slate-900">Tornillería Ruspert 1000h:</strong> Elementos de fijación certificados contra ambientes salinos extremos, garantizando cero corrosión en uniones estructurales.
                             </div>
                         </li>
                     </ul>
                     <div class="pt-4">
-                        <a href="/diagnostico-proyecto/" class="inline-flex items-center gap-2 bg-brand-navy hover:bg-brand-dark text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                        <a href="/diagnostico-proyecto/" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-blue-950 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
                             <i class="fa-solid fa-file-contract"></i> Conoce nuestro Diagnóstico de Proyecto
                         </a>
                     </div>
                 </div>
                 <div class="bg-white p-8 rounded-2xl shadow-xl border border-slate-200">
-                    <h3 class="font-heading font-bold text-2xl text-brand-navy mb-6 pb-4 border-b border-slate-100">
+                    <h3 class="font-heading font-bold text-2xl text-slate-900 mb-6 pb-4 border-b border-slate-100">
                         Comparativa de Inversión m²
                     </h3>
                     <div class="space-y-6">
-                        <div class="bg-brand-light p-5 rounded-xl border border-slate-200">
+                        <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
                             <div class="flex justify-between items-center mb-2">
-                                <span class="font-heading font-bold text-brand-navy text-lg">Obra Semiacabada</span>
-                                <span class="bg-brand-navy text-white text-xs font-bold px-3 py-1 rounded-full">$360 - $380 / m²</span>
+                                <span class="font-heading font-bold text-slate-900 text-lg">Obra Semiacabada</span>
+                                <span class="bg-slate-900 text-white text-xs font-bold px-3 py-1 rounded-full">$360 - $380 / m²</span>
                             </div>
                             <p class="text-slate-600 text-sm">
                                 Incluye cimentación, estructura de acero galvanizado Z275, arriostramientos, cerramientos exteriores con placas cementicias y cubierta transitable con impermeabilización.
                             </p>
                         </div>
 
-                        <div class="bg-brand-light p-5 rounded-xl border-2 border-brand-accent shadow-sm">
+                        <div class="bg-slate-50 p-5 rounded-xl border-2 border-amber-500 shadow-sm">
                             <div class="flex justify-between items-center mb-2">
-                                <span class="font-heading font-bold text-brand-navy text-lg">Llave en Mano <span class="text-xs bg-brand-accent text-white px-2 py-0.5 rounded ml-2">Recomendado</span></span>
-                                <span class="bg-brand-accent text-white text-xs font-bold px-3 py-1 rounded-full">$480 - $550 / m²</span>
+                                <span class="font-heading font-bold text-slate-900 text-lg">Llave en Mano <span class="text-xs bg-amber-500 text-white px-2 py-0.5 rounded ml-2">Recomendado</span></span>
+                                <span class="bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full">$480 - $550 / m²</span>
                             </div>
                             <p class="text-slate-600 text-sm">
                                 Proyecto 100% terminado listo para habitar. Incluye instalaciones hidrosanitarias y eléctricas, ventanalería panorámica de aluminio y vidrio templado, pisos de porcelanato y acabados de alta gama para playa.
@@ -408,7 +434,7 @@
                         </div>
                     </div>
                     <div class="mt-6 text-center">
-                        <a href="/precio-m2/" class="text-brand-primary font-bold text-sm hover:underline inline-flex items-center gap-1">
+                        <a href="/precio-m2/" class="text-blue-900 font-bold text-sm hover:underline inline-flex items-center gap-1">
                             Ver detalles completos de precios y especificaciones <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -420,32 +446,32 @@
     <!-- ZONAS DE COBERTURA EN SANTA ELENA -->
     <section class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <span class="text-brand-primary font-bold text-sm tracking-widest uppercase">Cobertura en la Península</span>
-            <h2 class="font-heading font-bold text-3xl sm:text-4xl text-brand-navy mt-2 mb-4">Enclaves Residenciales Atendidos</h2>
+            <span class="text-blue-900 font-bold text-sm tracking-widest uppercase">Cobertura en la Península</span>
+            <h2 class="font-heading font-bold text-3xl sm:text-4xl text-slate-900 mt-2 mb-4">Enclaves Residenciales Atendidos</h2>
             <p class="text-slate-600 max-w-2xl mx-auto mb-12">
                 Llevamos ingeniería y construcción sismorresistente en Steel Framing a cada urbanización y comuna de la costa de Santa Elena.
             </p>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-left">
-                <div class="bg-brand-light p-6 rounded-xl border border-slate-200">
-                    <div class="text-brand-accent font-bold text-lg mb-1"><i class="fa-solid fa-location-dot mr-2"></i>Punta Blanca</div>
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <div class="text-amber-500 font-bold text-lg mb-1"><i class="fa-solid fa-location-dot mr-2"></i>Punta Blanca</div>
                     <p class="text-slate-600 text-xs">Villas exclusivas, ciudadelas privadas y terrenos frente al mar.</p>
                 </div>
-                <div class="bg-brand-light p-6 rounded-xl border border-slate-200">
-                    <div class="text-brand-accent font-bold text-lg mb-1"><i class="fa-solid fa-location-dot mr-2"></i>San Pablo</div>
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <div class="text-amber-500 font-bold text-lg mb-1"><i class="fa-solid fa-location-dot mr-2"></i>San Pablo</div>
                     <p class="text-slate-600 text-xs">Desarrollos residenciales, casas vacacionales y quintas playeras.</p>
                 </div>
-                <div class="bg-brand-light p-6 rounded-xl border border-slate-200">
-                    <div class="text-brand-accent font-bold text-lg mb-1"><i class="fa-solid fa-location-dot mr-2"></i>Punta Centinela</div>
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <div class="text-amber-500 font-bold text-lg mb-1"><i class="fa-solid fa-location-dot mr-2"></i>Punta Centinela</div>
                     <p class="text-slate-600 text-xs">Urbanizaciones de alta gama con estrictas exigencias estéticas.</p>
                 </div>
-                <div class="bg-brand-light p-6 rounded-xl border border-slate-200">
-                    <div class="text-brand-accent font-bold text-lg mb-1"><i class="fa-solid fa-location-dot mr-2"></i>Otras Zonas</div>
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <div class="text-amber-500 font-bold text-lg mb-1"><i class="fa-solid fa-location-dot mr-2"></i>Otras Zonas</div>
                     <p class="text-slate-600 text-xs">Montañita, Olón, Salinas, Chipipe, Ballenita y La Libertad.</p>
                 </div>
             </div>
             <div class="mt-8">
-                <a href="/zonas-de-cobertura" class="inline-flex items-center gap-2 bg-brand-navy hover:bg-brand-dark text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                <a href="/zonas-de-cobertura" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-blue-950 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
                     <i class="fa-solid fa-map-location-dot"></i> Ver todas las zonas de cobertura nacional
                 </a>
             </div>
@@ -453,17 +479,17 @@
     </section>
 
     <!-- FAQ SECTION -->
-    <section class="py-16 bg-brand-light border-t border-slate-200">
+    <section class="py-16 bg-slate-50 border-t border-slate-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <span class="text-brand-primary font-bold text-sm tracking-widest uppercase">Preguntas Frecuentes</span>
-                <h2 class="font-heading font-bold text-3xl sm:text-4xl text-brand-navy mt-2">Dudas Sobre Steel Framing en la Costa</h2>
+                <span class="text-blue-900 font-bold text-sm tracking-widest uppercase">Preguntas Frecuentes</span>
+                <h2 class="font-heading font-bold text-3xl sm:text-4xl text-slate-900 mt-2">Dudas Sobre Steel Framing en la Costa</h2>
             </div>
 
             <div class="space-y-6">
                 <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-2">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i> ¿Por qué el Steel Framing es superior a la construcción tradicional en Punta Blanca y San Pablo?
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i> ¿Por qué el Steel Framing es superior a la construcción tradicional en Punta Blanca y San Pablo?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-6">
                         El Steel Framing con acero galvanizado estructural Z275 ofrece una resistencia superior frente a la corrosión marina de la Península de Santa Elena. A diferencia del hormigón tradicional que sufre oxidación de varillas por el salitre, el acero Z275 con tornillería Ruspert de 1000 horas garantiza durabilidad extrema, mayor velocidad de ejecución (120 días) y estructuras sismorresistentes ligeras ideales para suelos arenosos.
@@ -471,8 +497,8 @@
                 </div>
 
                 <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-2">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i> ¿Cómo se resuelven los techos planos transitables y miradores en casas de playa?
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i> ¿Cómo se resuelven los techos planos transitables y miradores en casas de playa?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-6">
                         Diseñamos techos planos transitables y roof-gardens utilizando perfiles estructurales de alta sección con pendientes calculadas, impermeabilización con membranas TPO de altas altas prestaciones o mantos asfálticos especializados, y capas de aislamiento térmico que reducen drásticamente la radiación solar directa sobre los espacios habitables superiores.
@@ -480,8 +506,8 @@
                 </div>
 
                 <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-2">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i> ¿Qué garantía hay contra los vientos costeros y la succión eólica en Punta Blanca?
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i> ¿Qué garantía hay contra los vientos costeros y la succión eólica en Punta Blanca?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-6">
                         Nuestras estructuras están calculadas bajo la norma ecuatoriana de la construcción NEC-SE-CG (Cargas de Viento). Incorporamos anclajes sísmico-eólicos perimetrales que conectan la estructura metálica directamente a la cimentación de hormigón armado, garantizando estabilidad absoluta ante ráfagas severas y voladizos de hasta 2.5 metros sin columnas.
@@ -489,8 +515,8 @@
                 </div>
 
                 <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-2">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i> ¿Cuáles son los precios por metro cuadrado para construir en Punta Blanca y San Pablo?
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i> ¿Cuáles son los precios por metro cuadrado para construir en Punta Blanca y San Pablo?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-6">
                         Ofrecemos dos modalidades de contratación transparentes: Obra Semiacabada de $360 a $380/m² (estructura Z275, arriostramientos, cerramientos exteriores y cubierta) y Llave en Mano de $480 a $550/m² (acabados de playa de alta gama, ventanalería panorámica, instalaciones y aparatos sanitarios listos para habitar).
@@ -501,7 +527,7 @@
     </section>
 
     <!-- FINAL CTA BANNER -->
-    <section class="bg-brand-navy text-white py-16 relative overflow-hidden">
+    <section class="bg-slate-900 text-white py-16 relative overflow-hidden">
         <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-6">
             <h2 class="font-heading font-black text-3xl sm:text-4xl tracking-tight">Construye tu Villa de Playa en Punta Blanca o San Pablo con Garantía Profesional</h2>
@@ -509,7 +535,7 @@
                 Agenda una reunión técnica con el Arq. Sergio Bravo y evalúa los planos, costos y cronograma para tu proyecto en la Península de Santa Elena.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
-                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20deseo%20cotizar%20una%20villa%20en%20Steel%20Framing%20en%20Punta%20Blanca%20o%20San%20Pablo." target="_blank" rel="noopener" class="bg-brand-accent hover:bg-brand-accentHover text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 text-base">
+                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20deseo%20cotizar%20una%20villa%20en%20Steel%20Framing%20en%20Punta%20Blanca%20o%20San%20Pablo." target="_blank" rel="noopener" class="bg-amber-500 hover:bg-amber-600 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 text-base">
                     <i class="fa-brands fa-whatsapp text-xl"></i> Hablar por WhatsApp (+593 99 509 9506)
                 </a>
                 <a href="mailto:homersarquitectura@gmail.com" class="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-8 py-4 rounded-xl transition-all flex items-center justify-center gap-2 text-base">
@@ -520,66 +546,84 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800">
+        <!-- Footer Estandarizado 4 Columnas -->
+    <footer class="bg-slate-950 text-slate-400 py-14 border-t border-slate-800 text-xs">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-                <!-- Col 1 -->
-                <div class="space-y-4">
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-lg bg-brand-accent flex items-center justify-center text-white font-heading font-bold text-xl shadow-md">
-                            H
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="font-heading font-extrabold text-lg text-white tracking-tight leading-none">HOMERS</span>
-                            <span class="text-xs font-semibold text-brand-accent tracking-widest uppercase mt-0.5">Constructora</span>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10">
+
+                <!-- Col 1: Empresa & Autoridad -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
+                        <div>
+                            <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
+                            <span class="text-[10px] text-slate-400 block">Divisi&oacute;n de Homers Constructora</span>
                         </div>
                     </div>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Especialistas en ingeniería Steel Framing y arquitectura sismorresistente en Ecuador. Rigor técnico y contratos a precio fijo.
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Arq. Sergio Bravo &bull; Construcci&oacute;n sismorresistente con contrato de precio fijo y direcci&oacute;n t&eacute;cnica diaria. Proyectos llave en mano en Ecuador.
                     </p>
-                    <div class="text-xs text-slate-400">
-                        <p class="font-semibold text-white">Dir. Técnico: Arq. Sergio Bravo</p>
-                        
+                    <div class="space-y-1.5 text-xs text-slate-400 pt-1">
+                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garant&iacute;a Estructural 20 A&ntilde;os</p>
+                        <p class="flex items-center gap-2"><a href="tel:+593995099506" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-phone text-amber-400"></i> +593 99 509 9506</a></p>
+                        <p class="flex items-center gap-2"><a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope text-amber-400"></i> homersarquitectura@gmail.com</a></p>
                     </div>
                 </div>
 
-                <!-- Col 2 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-white text-base tracking-wider uppercase">Enlaces Útiles</h4>
-                    <ul class="space-y-2.5 text-sm">
-                        <li><a href="https://steelframingec.com/" class="hover:text-brand-accent transition-colors">Inicio Principal</a></li>
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Zonas de Cobertura Nacional</a></li>
-                        <li><a href="/precio-m2/" class="hover:text-brand-accent transition-colors">Calculadora y Precios m²</a></li>
-                        <li><a href="/diagnostico-proyecto/" class="hover:text-brand-accent transition-colors">Diagnóstico de Proyecto</a></li>
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/construir-casa-ecuador/" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Casa Llave en Mano</a></li>
+                        <li><a href="/precio-m2/" class="hover:text-white transition">Calculadora de Precio por m&sup2;</a></li>
+                        <li><a href="/ampliacion-segundo-piso-ecuador/" class="hover:text-white transition">Ampliaci&oacute;n de Segundo Piso sobre Losa</a></li>
+                        <li><a href="/construir-casa-en-ecuador-desde-usa/" class="hover:text-white transition">Programa Construcci&oacute;n desde USA &#127482;&#127480;</a></li>
+                        <li><a href="/modelos-casas-steel-framing-ecuador/" class="hover:text-white transition">Cat&aacute;logo de Modelos y Dise&ntilde;os</a></li>
+                        <li><a href="/credito-hipotecario-biess-steel-framing/" class="hover:text-white transition">Cr&eacute;dito Hipotecario BIESS y Bancos</a></li>
                     </ul>
                 </div>
 
-                <!-- Col 3 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-white text-base tracking-wider uppercase">Enclaves Santa Elena</h4>
-                    <ul class="space-y-2.5 text-sm">
-                        <li><span class="text-slate-300">Steel Framing Punta Blanca</span></li>
-                        <li><span class="text-slate-300">Steel Framing San Pablo</span></li>
-                        <li><span class="text-slate-300">Steel Framing Punta Centinela</span></li>
-                        <li><span class="text-slate-300">Villas de Playa Sismorresistentes</span></li>
+                <!-- Col 3: GuÃ­as TÃ©cnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Gu&iacute;as T&eacute;cnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/que-es-steel-framing/" class="hover:text-amber-400 transition font-medium text-amber-400">&iquest;Qu&eacute; es Steel Framing? (Gu&iacute;a)</a></li>
+                        <li><a href="/steel-framing-vs-hormigon-bloque-ecuador/" class="hover:text-white transition">Steel Framing vs Hormig&oacute;n y Bloque</a></li>
+                        <li><a href="/steel-framing-ecuador/" class="hover:text-white transition">Gu&iacute;a T&eacute;cnica NEC Steel Framing</a></li>
+                        <li><a href="/construccion-en-seco-ecuador/" class="hover:text-white transition">Manual de Construcci&oacute;n en Seco</a></li>
+                        <li><a href="/permisos-construccion-steel-framing-ecuador/" class="hover:text-white transition">Permisos Municipales y Planos</a></li>
+                        <li><a href="/casas-prefabricadas-ecuador/" class="hover:text-white transition">Steel Framing vs Casas Prefabricadas</a></li>
+                        <li class="pt-1"><a href="/blog-y-recursos/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos T&eacute;cnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
                 </div>
 
-                <!-- Col 4 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-white text-base tracking-wider uppercase">Contacto Directo</h4>
-                    <div class="space-y-3 text-sm">
-                        <p class="flex items-center gap-2"><i class="fa-solid fa-phone text-brand-accent"></i> +593 99 509 9506</p>
-                        <p class="flex items-center gap-2"><i class="fa-solid fa-envelope text-brand-accent"></i> homersarquitectura@gmail.com</p>
-                        <p class="flex items-start gap-2"><i class="fa-solid fa-location-dot text-brand-accent mt-1"></i> Cobertura en Punta Blanca, San Pablo y Península de Santa Elena, Ecuador</p>
+                <!-- Col 4: Zonas de Cobertura en Ecuador -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Zonas de Cobertura en Ecuador</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-amber-400 transition font-medium text-amber-400">Costos y referencias en Steel Framing</a></li>
+                        <li><a href="/steel-framing-quito-ecuador/" class="hover:text-white transition">Quito y Valles (Cumbay&aacute; / Puembo)</a></li>
+                        <li><a href="/steel-framing-guayaquil/" class="hover:text-white transition">Guayaquil y Samborond&oacute;n</a></li>
+                        <li><a href="/steel-framing-cuenca/" class="hover:text-white transition">Cuenca y Azuay</a></li>
+                        <li><a href="/steel-framing-manta/" class="hover:text-white transition">Manta y Costa Manabita</a></li>
+                        <li><a href="/steel-framing-loja/" class="hover:text-white transition">Loja y Sierra Sur</a></li>
+                        <li class="pt-1"><a href="/zonas-de-cobertura/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las 60 zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                    </ul>
+                    <div class="pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 text-white font-bold hover:bg-emerald-500 transition text-xs gap-1.5 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+                        </a>
                     </div>
                 </div>
+
             </div>
 
-            <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
-                <p>&copy; 2026 Homers Constructora · Arq. Sergio Bravo. Todos los derechos reservados.</p>
-                <div class="flex gap-6">
-                    <a href="https://steelframingec.com/" class="hover:text-brand-accent transition-colors">steelframingec.com</a>
+            <div class="pt-8 border-t border-slate-900 text-center text-slate-400 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div>
+                    &copy; 2026 Homers Constructora Ecuador. Todos los derechos reservados.
+                </div>
+                <div class="text-[11px] text-slate-500">
+                    C&aacute;lculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC y perfiles de acero galvanizado estructural Z275.
                 </div>
             </div>
         </div>
@@ -587,7 +631,7 @@
 
     <!-- JavaScript for Mobile Menu Toggle -->
     <script>
-        const btn = document.getElementById('menu-btn');
+        const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
 
         btn.addEventListener('click', () => {

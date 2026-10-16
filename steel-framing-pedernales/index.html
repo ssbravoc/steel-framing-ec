@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -36,25 +36,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Tailwind CSS CDN -->
+        <!-- Tailwind CSS (CDN para despliegue instantÃ¡neo en Cloudflare Pages) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        brand: {
-                            navy: '#0B192C',
-                            dark: '#1E3E62',
-                            primary: '#0056B3',
-                            accent: '#FF6500',
-                            accentHover: '#E05A00',
-                            light: '#F8FAFC'
-                        }
-                    },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif']
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            50: '#f8fafc',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        blue: {
+                            900: '#1e3a8a',
+                            950: '#0f1f4b',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
                     }
                 }
             }
@@ -143,14 +148,14 @@
     }
     </script>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Top Announcement Bar -->
-    <div class="bg-brand-navy text-white text-xs py-2 px-4 border-b border-slate-700/50">
+    <div class="bg-slate-900 text-white text-xs py-2 px-4 border-b border-slate-700/50">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
             <span class="flex items-center gap-2">
                 <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -200,12 +205,12 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2">
             <a href="/" class="hover:text-blue-900 transition">Inicio</a>
             <span class="text-slate-400">/</span>
-            <span class="text-brand-navy font-semibold">Steel Framing en Pedernales y Manabí Norte (Ecuador)</span>
+            <span class="text-slate-900 font-semibold">Steel Framing en Pedernales y Manabí Norte (Ecuador)</span>
         </div>
     </div>
 
     <!-- HERO SECTION -->
-    <section class="relative bg-gradient-to-b from-slate-900 via-brand-navy to-slate-900 text-white pt-16 pb-20 overflow-hidden">
+    <section class="relative bg-gradient-to-b from-slate-900 via-slate-900 to-slate-900 text-white pt-16 pb-20 overflow-hidden">
         <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px]"></div>
         
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -500,7 +505,7 @@
             <div class="overflow-x-auto bg-slate-50 rounded-2xl shadow-sm border border-slate-200">
                 <table class="w-full text-left text-xs sm:text-sm">
                     <thead>
-                        <tr class="bg-brand-navy text-white text-xs uppercase tracking-wider">
+                        <tr class="bg-slate-900 text-white text-xs uppercase tracking-wider">
                             <th class="p-4 sm:p-5">Criterio Constructivo</th>
                             <th class="p-4 sm:p-5 bg-amber-500 text-slate-900 font-extrabold">Steel Framing Homers</th>
                             <th class="p-4 sm:p-5">Hormigón y Bloque Tradicional</th>
@@ -652,7 +657,7 @@
 
         </div>
         <div class="mt-12 text-center">
-          <a href="/construir-casa-ecuador/" class="inline-flex items-center gap-2 bg-brand-navy text-white font-extrabold px-8 py-4 rounded-xl hover:bg-brand-dark shadow-lg transition text-sm">
+          <a href="/construir-casa-ecuador/" class="inline-flex items-center gap-2 bg-slate-900 text-white font-extrabold px-8 py-4 rounded-xl hover:bg-blue-950 shadow-lg transition text-sm">
             <i class="fa-solid fa-arrow-right"></i> Ver Propuesta Completa Llave en Mano
           </a>
         </div>
@@ -660,7 +665,7 @@
     </section>
 
     <!-- CTA BANNER FINAL -->
-    <section class="py-16 bg-gradient-to-r from-brand-navy to-brand-dark text-white text-center">
+    <section class="py-16 bg-gradient-to-r from-slate-950 to-slate-900 text-white text-center">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="font-heading font-black text-2xl sm:text-3xl md:text-4xl mb-4 tracking-tight">Tu Residencia Sismorresistente en Pedernales en 120 a 150 Días.</h2>
             <p class="text-slate-300 text-sm sm:text-base mb-8 max-w-2xl mx-auto">Estructura certificada con acero galvanizado estructural Z275 inmune al salitre marino, cálculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC y contrato a precio fijo cerrado. Consulta directamente con el Arq. Sergio Bravo.</p>

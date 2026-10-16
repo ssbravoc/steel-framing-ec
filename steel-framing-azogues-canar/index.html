@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -36,25 +36,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Tailwind CSS CDN -->
+        <!-- Tailwind CSS (CDN para despliegue instantÃ¡neo en Cloudflare Pages) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        brand: {
-                            navy: '#0B192C',
-                            dark: '#1E3E62',
-                            primary: '#0056B3',
-                            accent: '#FF6500',
-                            accentHover: '#E05A00',
-                            light: '#F8FAFC'
-                        }
-                    },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif']
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            50: '#f8fafc',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        blue: {
+                            900: '#1e3a8a',
+                            950: '#0f1f4b',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
                     }
                 }
             }
@@ -141,20 +146,20 @@
     }
     </script>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Top Announcement Bar -->
-    <div class="bg-brand-navy text-white text-xs py-2 px-4 text-center font-medium">
+    <div class="bg-slate-900 text-white text-xs py-2 px-4 text-center font-medium">
         <div class="max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-4">
-            <span><i class="fa-solid fa-shield-halved text-brand-accent mr-1"></i> Blindaje de Remesas desde EE.UU. (NY, NJ, CT) con Precio Cerrado</span>
+            <span><i class="fa-solid fa-shield-halved text-amber-500 mr-1"></i> Blindaje de Remesas desde EE.UU. (NY, NJ, CT) con Precio Cerrado</span>
             <span class="hidden md:inline">|</span>
-            <span><i class="fa-solid fa-location-dot text-brand-accent mr-1"></i> Cobertura en Azogues, Biblián, Cañar y Déleg</span>
+            <span><i class="fa-solid fa-location-dot text-amber-500 mr-1"></i> Cobertura en Azogues, Biblián, Cañar y Déleg</span>
             <span class="hidden md:inline">|</span>
-            <a href="tel:+593995099506" class="hover:text-brand-accent font-bold transition-colors"><i class="fa-solid fa-phone mr-1"></i> +593 99 509 9506</a>
+            <a href="tel:+593995099506" class="hover:text-amber-500 font-bold transition-colors"><i class="fa-solid fa-phone mr-1"></i> +593 99 509 9506</a>
         </div>
     </div>
 
@@ -165,11 +170,11 @@
                 <!-- Logo -->
                 <div class="flex items-center gap-3">
                     <a href="https://steelframingec.com/" class="flex items-center gap-2">
-                        <div class="bg-brand-navy text-white p-2.5 rounded-xl font-heading font-black text-xl tracking-wider">
+                        <div class="bg-slate-900 text-white p-2.5 rounded-xl font-heading font-black text-xl tracking-wider">
                             HOMERS
                         </div>
                         <div class="flex flex-col">
-                            <span class="font-heading font-bold text-sm text-brand-navy leading-tight">STEEL FRAMING EC</span>
+                            <span class="font-heading font-bold text-sm text-slate-900 leading-tight">STEEL FRAMING EC</span>
                             <span class="text-xs text-slate-500 font-medium">Azogues y Cañar</span>
                         </div>
                     </a>
@@ -177,23 +182,23 @@
 
                 <!-- Desktop Navigation Links -->
                 <nav class="hidden lg:flex items-center gap-8 font-medium text-sm text-slate-700">
-                    <a href="https://steelframingec.com/" class="hover:text-brand-primary transition-colors">Inicio</a>
-                    <a href="/construir-casa-en-ecuador-desde-usa/" class="text-brand-accent font-semibold hover:underline">Migrantes USA</a>
-                    <a href="/precio-m2/" class="hover:text-brand-primary transition-colors">Precios m²</a>
-                    <a href="/diagnostico-proyecto/" class="hover:text-brand-primary transition-colors">Diagnóstico</a>
-                    <a href="/zonas-de-cobertura" class="hover:text-brand-primary transition-colors">Cobertura</a>
+                    <a href="https://steelframingec.com/" class="hover:text-blue-900 transition-colors">Inicio</a>
+                    <a href="/construir-casa-en-ecuador-desde-usa/" class="text-amber-500 font-semibold hover:underline">Migrantes USA</a>
+                    <a href="/precio-m2/" class="hover:text-blue-900 transition-colors">Precios m²</a>
+                    <a href="/diagnostico-proyecto/" class="hover:text-blue-900 transition-colors">Diagnóstico</a>
+                    <a href="/zonas-de-cobertura" class="hover:text-blue-900 transition-colors">Cobertura</a>
                 </nav>
 
                 <!-- CTA Button -->
                 <div class="hidden sm:flex items-center gap-4">
-                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20estoy%20en%20EE.UU.%20y%20deseo%20construir%20mi%20casa%20en%20Azogues%20con%20precio%20cerrado." target="_blank" rel="noopener" class="bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-2.5 rounded-xl font-heading font-bold text-sm transition-all shadow-md shadow-brand-accent/20 flex items-center gap-2">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20estoy%20en%20EE.UU.%20y%20deseo%20construir%20mi%20casa%20en%20Azogues%20con%20precio%20cerrado." target="_blank" rel="noopener" class="bg-amber-500 hover:bg-amber-600 text-white px-5 py-2.5 rounded-xl font-heading font-bold text-sm transition-all shadow-md shadow-amber-500/20 flex items-center gap-2">
                         <i class="fa-brands fa-whatsapp text-lg"></i> Asesoría WhatsApp
                     </a>
                 </div>
 
                 <!-- Mobile Menu Button -->
                 <div class="lg:hidden flex items-center">
-                    <button id="mobile-menu-button" class="text-slate-700 hover:text-brand-primary focus:outline-none p-2" aria-label="Abrir menú">
+                    <button id="mobile-menu-button" class="text-slate-700 hover:text-blue-900 focus:outline-none p-2" aria-label="Abrir menú">
                         <i class="fa-solid fa-bars text-2xl"></i>
                     </button>
                 </div>
@@ -202,13 +207,13 @@
 
         <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 shadow-lg">
-            <a href="https://steelframingec.com/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Inicio</a>
-            <a href="/construir-casa-en-ecuador-desde-usa/" class="block py-2 text-brand-accent font-semibold">Migrantes USA</a>
-            <a href="/precio-m2/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Precios m²</a>
-            <a href="/diagnostico-proyecto/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Diagnóstico de Proyecto</a>
-            <a href="/zonas-de-cobertura" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Zonas de Cobertura</a>
+            <a href="https://steelframingec.com/" class="block py-2 text-slate-700 font-medium hover:text-blue-900">Inicio</a>
+            <a href="/construir-casa-en-ecuador-desde-usa/" class="block py-2 text-amber-500 font-semibold">Migrantes USA</a>
+            <a href="/precio-m2/" class="block py-2 text-slate-700 font-medium hover:text-blue-900">Precios m²</a>
+            <a href="/diagnostico-proyecto/" class="block py-2 text-slate-700 font-medium hover:text-blue-900">Diagnóstico de Proyecto</a>
+            <a href="/zonas-de-cobertura" class="block py-2 text-slate-700 font-medium hover:text-blue-900">Zonas de Cobertura</a>
             <div class="pt-2">
-                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20estoy%20en%20EE.UU.%20y%20deseo%20construir%20mi%20casa%20en%20Azogues%20con%20precio%20cerrado." target="_blank" rel="noopener" class="w-full bg-brand-accent text-white py-3 rounded-xl font-heading font-bold text-center block shadow-md">
+                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20estoy%20en%20EE.UU.%20y%20deseo%20construir%20mi%20casa%20en%20Azogues%20con%20precio%20cerrado." target="_blank" rel="noopener" class="w-full bg-amber-500 text-white py-3 rounded-xl font-heading font-bold text-center block shadow-md">
                     <i class="fa-brands fa-whatsapp mr-2"></i> Asesoría por WhatsApp
                 </a>
             </div>
@@ -224,23 +229,23 @@
     </script>
 
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-brand-navy via-brand-dark to-slate-900 text-white py-20 lg:py-28 overflow-hidden">
-        <div class="absolute inset-0 opacity-15 bg-[radial-gradient(#FF6500_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <section class="relative bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white py-20 lg:py-28 overflow-hidden">
+        <div class="absolute inset-0 opacity-15 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <!-- Hero Content -->
                 <div class="lg:col-span-7 space-y-6">
-                    <div class="inline-flex items-center gap-2 bg-brand-accent/20 border border-brand-accent/40 text-brand-accent px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                    <div class="inline-flex items-center gap-2 bg-amber-500/20 border border-amber-500/40 text-amber-500 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
                         <i class="fa-solid fa-house-chimney-crack"></i> Provincia de Cañar • Azogues • Biblián • Déleg
                     </div>
                     <h1 class="font-heading font-black text-3xl sm:text-4xl lg:text-5xl leading-tight">
-                        Steel Framing en Azogues y Cañar: Construcción Segura con Remesas y <span class="text-brand-accent">Precio Cerrado</span>
+                        Steel Framing en Azogues y Cañar: Construcción Segura con Remesas y <span class="text-amber-500">Precio Cerrado</span>
                     </h1>
                     <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
                         Construye el patrimonio de tu familia en Azogues o Cañar desde Nueva York, Nueva Jersey o Connecticut con absoluta seguridad jurídica. Contratos notariados de precio cerrado, cimentación liviana para laderas andinas y estructura de <span class="text-white font-semibold">acero galvanizado estructural Z275</span> bajo norma NEC-SE-DS.
                     </p>
                     <div class="flex flex-wrap gap-4 pt-2">
-                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20deseo%20cotizar%20mi%20casa%20en%20Azogues%20o%20Cañar%20con%20precio%20cerrado." target="_blank" rel="noopener" class="bg-brand-accent hover:bg-brand-accentHover text-white px-8 py-4 rounded-xl font-heading font-bold text-base transition-all shadow-lg shadow-brand-accent/30 flex items-center gap-3">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20deseo%20cotizar%20mi%20casa%20en%20Azogues%20o%20Cañar%20con%20precio%20cerrado." target="_blank" rel="noopener" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl font-heading font-bold text-base transition-all shadow-lg shadow-amber-500/30 flex items-center gap-3">
                             <i class="fa-brands fa-whatsapp text-xl"></i> Cotizar desde EE.UU.
                         </a>
                         <a href="/precio-m2/" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-xl font-heading font-bold text-base transition-all flex items-center gap-2">
@@ -250,15 +255,15 @@
                     <!-- Trust Badges -->
                     <div class="pt-6 grid grid-cols-3 gap-4 border-t border-slate-700/60 text-xs sm:text-sm text-slate-300">
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-file-contract text-brand-accent text-lg"></i>
+                            <i class="fa-solid fa-file-contract text-amber-500 text-lg"></i>
                             <span>Contrato Notariado</span>
                         </div>
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-video text-brand-accent text-lg"></i>
+                            <i class="fa-solid fa-video text-amber-500 text-lg"></i>
                             <span>Reportes HD Semanales</span>
                         </div>
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-helmet-safety text-brand-accent text-lg"></i>
+                            <i class="fa-solid fa-helmet-safety text-amber-500 text-lg"></i>
                             <span>Arq. Sergio Bravo</span>
                         </div>
                     </div>
@@ -267,18 +272,18 @@
                 <!-- Hero Form / Card -->
                 <div class="lg:col-span-5 bg-white text-slate-800 rounded-3xl p-8 shadow-2xl border border-slate-100">
                     <div class="text-center mb-6">
-                        <span class="text-xs font-bold uppercase tracking-wider text-brand-primary">Atención Exclusiva Migrantes</span>
-                        <h2 class="font-heading font-bold text-2xl text-brand-navy mt-1">Inicia tu Proyecto en Cañar</h2>
+                        <span class="text-xs font-bold uppercase tracking-wider text-blue-900">Atención Exclusiva Migrantes</span>
+                        <h2 class="font-heading font-bold text-2xl text-slate-900 mt-1">Inicia tu Proyecto en Cañar</h2>
                         <p class="text-slate-500 text-xs mt-1">Recibe asesoría directa del Arq. Sergio Bravo sin intermediarios.</p>
                     </div>
                     <form action="https://wa.me/593995099506" method="get" target="_blank" class="space-y-4">
                         <div>
                             <label class="block text-xs font-semibold text-slate-700 mb-1">Nombre y Apellido (o Representante)</label>
-                            <input type="text" name="text" placeholder="Ej. Juan Cárdenas (desde NY)" required class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-brand-primary focus:outline-none bg-slate-50">
+                            <input type="text" name="text" placeholder="Ej. Juan Cárdenas (desde NY)" required class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-blue-900 focus:outline-none bg-slate-50">
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-700 mb-1">Ciudad Destino del Terreno</label>
-                            <select name="ciudad" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-brand-primary focus:outline-none bg-slate-50">
+                            <select name="ciudad" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-blue-900 focus:outline-none bg-slate-50">
                                 <option value="Azogues">Azogues</option>
                                 <option value="Biblián">Biblián</option>
                                 <option value="Cañar">Cañar</option>
@@ -287,12 +292,12 @@
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-700 mb-1">Presupuesto / Modalidad</label>
-                            <select name="modalidad" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-brand-primary focus:outline-none bg-slate-50">
+                            <select name="modalidad" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-blue-900 focus:outline-none bg-slate-50">
                                 <option value="Llave en Mano ($480-$550/m2)">Llave en Mano ($480 - $550/m²)</option>
                                 <option value="Obra Semiacabada ($360-$380/m2)">Obra Semiacabada ($360 - $380/m²)</option>
                             </select>
                         </div>
-                        <button type="submit" class="w-full bg-brand-primary hover:bg-brand-dark text-white py-4 rounded-xl font-heading font-bold text-sm transition-all shadow-md shadow-brand-primary/20 flex items-center justify-center gap-2">
+                        <button type="submit" class="w-full bg-blue-900 hover:bg-blue-950 text-white py-4 rounded-xl font-heading font-bold text-sm transition-all shadow-md shadow-blue-900/20 flex items-center justify-center gap-2">
                             <i class="fa-brands fa-whatsapp text-lg"></i> Consultar por WhatsApp Directo
                         </button>
                     </form>
@@ -308,8 +313,8 @@
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-accent text-xs font-bold uppercase tracking-wider bg-brand-accent/10 px-3 py-1 rounded-full">Seguridad para la Comunidad Migrante</span>
-                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy mt-4">
+                <span class="text-amber-500 text-xs font-bold uppercase tracking-wider bg-amber-500/10 px-3 py-1 rounded-full">Seguridad para la Comunidad Migrante</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900 mt-4">
                     Blindaje Total de Remesas en Azogues, Biblián, Cañar y Déleg
                 </h2>
                 <p class="text-slate-600 text-base mt-4">
@@ -320,15 +325,15 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
                 <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all">
-                    <div class="w-14 h-14 bg-brand-navy text-white rounded-xl flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
-                        <i class="fa-solid fa-file-shield text-brand-accent"></i>
+                    <div class="w-14 h-14 bg-slate-900 text-white rounded-xl flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                        <i class="fa-solid fa-file-shield text-amber-500"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Contrato Notariado de Precio Cerrado</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Contrato Notariado de Precio Cerrado</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Estipulamos montos exactos por metro cuadrado sin sorpresas ni adendas abusivas. Tu inversión en Azogues o Cañar está blindada jurídicamente bajo la legislación ecuatoriana.
                     </p>
                     <div class="mt-6 pt-4 border-t border-slate-200">
-                        <a href="/construir-casa-en-ecuador-desde-usa/" class="text-brand-primary text-sm font-semibold hover:underline flex items-center gap-1">
+                        <a href="/construir-casa-en-ecuador-desde-usa/" class="text-blue-900 text-sm font-semibold hover:underline flex items-center gap-1">
                             Ver guía para migrantes <i class="fa-solid fa-arrow-right text-xs"></i>
                         </a>
                     </div>
@@ -336,15 +341,15 @@
 
                 <!-- Card 2 -->
                 <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all">
-                    <div class="w-14 h-14 bg-brand-navy text-white rounded-xl flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
-                        <i class="fa-solid fa-video text-brand-accent"></i>
+                    <div class="w-14 h-14 bg-slate-900 text-white rounded-xl flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                        <i class="fa-solid fa-video text-amber-500"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Reportes HD y Bitácora Digital</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Reportes HD y Bitácora Digital</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Recibe cada fin de semana videos en alta definición del avance de obra y accede a una plataforma digital de control de calidad. Supervisa tu casa desde tu celular en EE.UU.
                     </p>
                     <div class="mt-6 pt-4 border-t border-slate-200">
-                        <a href="/diagnostico-proyecto/" class="text-brand-primary text-sm font-semibold hover:underline flex items-center gap-1">
+                        <a href="/diagnostico-proyecto/" class="text-blue-900 text-sm font-semibold hover:underline flex items-center gap-1">
                             Solicitar diagnóstico técnico <i class="fa-solid fa-arrow-right text-xs"></i>
                         </a>
                     </div>
@@ -352,10 +357,10 @@
 
                 <!-- Card 3 -->
                 <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all">
-                    <div class="w-14 h-14 bg-brand-navy text-white rounded-xl flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
-                        <i class="fa-solid fa-user-tie text-brand-accent"></i>
+                    <div class="w-14 h-14 bg-slate-900 text-white rounded-xl flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                        <i class="fa-solid fa-user-tie text-amber-500"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Dirección del Arq. Sergio Bravo</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Dirección del Arq. Sergio Bravo</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Cada diseño y ejecución constructiva cuenta con el aval y , garantizando ingeniería de primer nivel y acabados estéticos impecables.
                     </p>
@@ -372,8 +377,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-6 space-y-6">
-                    <span class="text-brand-accent text-xs font-bold uppercase tracking-wider bg-brand-accent/10 px-3 py-1 rounded-full">Ingeniería Andina</span>
-                    <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy">
+                    <span class="text-amber-500 text-xs font-bold uppercase tracking-wider bg-amber-500/10 px-3 py-1 rounded-full">Ingeniería Andina</span>
+                    <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900">
                         Solución para Terrenos Escarpados de Ladera en Azogues y Clima Frío
                     </h2>
                     <p class="text-slate-600 text-base leading-relaxed">
@@ -381,47 +386,47 @@
                     </p>
                     <ul class="space-y-4 text-slate-700 text-sm">
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-brand-accent text-lg mt-0.5"></i>
+                            <i class="fa-solid fa-circle-check text-amber-500 text-lg mt-0.5"></i>
                             <span><strong>Cimentación Liviana:</strong> Al pesar solo entre 35 y 55 kg/m² (frente a los 350 kg/m² de la mampostería tradicional), reducimos drásticamente las cargas sobre el terreno y los costos de cimentación en pendientes.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-brand-accent text-lg mt-0.5"></i>
+                            <i class="fa-solid fa-circle-check text-amber-500 text-lg mt-0.5"></i>
                             <span><strong>Acero Galvanizado Estructural Z275:</strong> Perfiles de alta resistencia con galvanizado pesado que garantizan durabilidad contra la humedad y comportamiento plenamente <strong>sismorresistente</strong> bajo norma NEC-SE-DS.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-brand-accent text-lg mt-0.5"></i>
+                            <i class="fa-solid fa-circle-check text-amber-500 text-lg mt-0.5"></i>
                             <span><strong>Aislamiento Térmico EIFS:</strong> Envolvente exterior con EPS que combate el frío característico de la sierra del Cañar, manteniendo el interior cálido y confortable.</span>
                         </li>
                     </ul>
                     <div class="pt-4">
-                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20tengo%20un%20terreno%20en%20pendiente%20en%20Azogues%20y%20deseo%20asesoría." target="_blank" rel="noopener" class="inline-flex items-center gap-3 bg-brand-navy hover:bg-brand-dark text-white px-7 py-3.5 rounded-xl font-heading font-bold text-sm transition-all shadow-md">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20tengo%20un%20terreno%20en%20pendiente%20en%20Azogues%20y%20deseo%20asesoría." target="_blank" rel="noopener" class="inline-flex items-center gap-3 bg-slate-900 hover:bg-blue-950 text-white px-7 py-3.5 rounded-xl font-heading font-bold text-sm transition-all shadow-md">
                             <i class="fa-brands fa-whatsapp text-lg"></i> Consultar sobre mi terreno en ladera
                         </a>
                     </div>
                 </div>
                 <div class="lg:col-span-6">
                     <div class="bg-white p-8 rounded-3xl shadow-xl border border-slate-200 space-y-6">
-                        <h3 class="font-heading font-bold text-xl text-brand-navy border-b pb-4">Comparativa Constructiva en Azogues</h3>
+                        <h3 class="font-heading font-bold text-xl text-slate-900 border-b pb-4">Comparativa Constructiva en Azogues</h3>
                         <div class="space-y-4 text-sm">
                             <div class="flex justify-between items-center pb-3 border-b border-slate-100">
                                 <span class="text-slate-600 font-medium">Peso Estructural</span>
-                                <span class="font-bold text-brand-accent">35 - 55 kg/m² (Steel Framing)</span>
+                                <span class="font-bold text-amber-500">35 - 55 kg/m² (Steel Framing)</span>
                             </div>
                             <div class="flex justify-between items-center pb-3 border-b border-slate-100">
                                 <span class="text-slate-600 font-medium">Resistencia Sísmica</span>
-                                <span class="font-bold text-brand-navy">Alta Ductilidad (NEC-SE-DS)</span>
+                                <span class="font-bold text-slate-900">Alta Ductilidad (NEC-SE-DS)</span>
                             </div>
                             <div class="flex justify-between items-center pb-3 border-b border-slate-100">
                                 <span class="text-slate-600 font-medium">Plazo de Ejecución</span>
-                                <span class="font-bold text-brand-navy">120 a 150 días</span>
+                                <span class="font-bold text-slate-900">120 a 150 días</span>
                             </div>
                             <div class="flex justify-between items-center">
                                 <span class="text-slate-600 font-medium">Control para Migrantes</span>
-                                <span class="font-bold text-brand-primary">100% Digital y Notariado</span>
+                                <span class="font-bold text-blue-900">100% Digital y Notariado</span>
                             </div>
                         </div>
-                        <div class="bg-brand-light p-4 rounded-xl border border-slate-200 text-xs text-slate-600">
-                            <i class="fa-solid fa-circle-info text-brand-primary mr-1"></i> El Arq. Sergio Bravo evalúa personalmente las condiciones geotécnicas de tu solar en Azogues, Biblián, Cañar o Déleg antes de iniciar los planos definitivos.
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs text-slate-600">
+                            <i class="fa-solid fa-circle-info text-blue-900 mr-1"></i> El Arq. Sergio Bravo evalúa personalmente las condiciones geotécnicas de tu solar en Azogues, Biblián, Cañar o Déleg antes de iniciar los planos definitivos.
                         </div>
                     </div>
                 </div>
@@ -433,8 +438,8 @@
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-accent text-xs font-bold uppercase tracking-wider bg-brand-accent/10 px-3 py-1 rounded-full">Transparencia Financiera</span>
-                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy mt-4">
+                <span class="text-amber-500 text-xs font-bold uppercase tracking-wider bg-amber-500/10 px-3 py-1 rounded-full">Transparencia Financiera</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900 mt-4">
                     Precios Oficiales m² 2026 para Azogues y Cañar
                 </h2>
                 <p class="text-slate-600 text-base mt-4">
@@ -444,52 +449,52 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                 <!-- Option 1 -->
-                <div class="bg-slate-50 border-2 border-slate-200 rounded-3xl p-8 flex flex-col justify-between shadow-sm hover:border-brand-primary transition-all">
+                <div class="bg-slate-50 border-2 border-slate-200 rounded-3xl p-8 flex flex-col justify-between shadow-sm hover:border-blue-900 transition-all">
                     <div>
                         <div class="flex justify-between items-center mb-4">
                             <span class="bg-slate-200 text-slate-700 text-xs font-bold px-3 py-1 rounded-full uppercase">Modalidad Estándar</span>
-                            <span class="font-heading font-black text-2xl text-brand-navy">$360 - $380 <span class="text-xs text-slate-500 font-normal">USD / m²*</span></span>
+                            <span class="font-heading font-black text-2xl text-slate-900">$360 - $380 <span class="text-xs text-slate-500 font-normal">USD / m²*</span></span>
                         </div>
-                        <h3 class="font-heading font-bold text-2xl text-brand-navy mb-3">Obra Semiacabada</h3>
+                        <h3 class="font-heading font-bold text-2xl text-slate-900 mb-3">Obra Semiacabada</h3>
                         <p class="text-slate-600 text-sm mb-6">Ideal si deseas estructurar la residencia de forma segura y realizar acabados posteriores o administrar entregas parciales.</p>
                         <ul class="space-y-3 text-sm text-slate-700 mb-8">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Estructura de acero galvanizado Z275</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Cimentación y losa de piso</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Entrepiso y cubierta térmica</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Placas exteriores OSB / EIFS básico</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Estructura de acero galvanizado Z275</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Cimentación y losa de piso</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Entrepiso y cubierta térmica</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Placas exteriores OSB / EIFS básico</li>
                         </ul>
                     </div>
-                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20deseo%20cotizar%20Obra%20Semiacabada%20en%20Azogues." target="_blank" rel="noopener" class="w-full bg-slate-800 hover:bg-brand-navy text-white py-3.5 rounded-xl font-heading font-bold text-center text-sm transition-all shadow-md">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20deseo%20cotizar%20Obra%20Semiacabada%20en%20Azogues." target="_blank" rel="noopener" class="w-full bg-slate-800 hover:bg-slate-900 text-white py-3.5 rounded-xl font-heading font-bold text-center text-sm transition-all shadow-md">
                         Cotizar Semiacabada
                     </a>
                 </div>
 
                 <!-- Option 2 -->
-                <div class="bg-brand-navy text-white border-2 border-brand-accent rounded-3xl p-8 flex flex-col justify-between shadow-xl relative overflow-hidden">
-                    <div class="absolute top-0 right-0 bg-brand-accent text-white text-[10px] font-bold px-4 py-1.5 rounded-bl-xl uppercase tracking-wider">
+                <div class="bg-slate-900 text-white border-2 border-amber-500 rounded-3xl p-8 flex flex-col justify-between shadow-xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-amber-500 text-white text-[10px] font-bold px-4 py-1.5 rounded-bl-xl uppercase tracking-wider">
                         Más Solicitado desde EE.UU.
                     </div>
                     <div>
                         <div class="flex justify-between items-center mb-4">
-                            <span class="bg-brand-accent/20 text-brand-accent text-xs font-bold px-3 py-1 rounded-full uppercase">Todo Incluido</span>
+                            <span class="bg-amber-500/20 text-amber-500 text-xs font-bold px-3 py-1 rounded-full uppercase">Todo Incluido</span>
                             <span class="font-heading font-black text-2xl text-white">$480 - $550 <span class="text-xs text-slate-300 font-normal">USD / m²*</span></span>
                         </div>
                         <h3 class="font-heading font-bold text-2xl text-white mb-3">Llave en Mano</h3>
                         <p class="text-slate-300 text-sm mb-6">La solución definitiva para migrantes. Nos encargamos de todo desde los cimientos hasta las llaves en la puerta para tu llegada o la de tus padres.</p>
                         <ul class="space-y-3 text-sm text-slate-200 mb-8">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Todo lo de Obra Semiacabada</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Instalaciones eléctricas, sanitarias y de gas</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Envolvente térmica EIFS completa</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i> Acabados de primera (pisos, grifería, pintura)</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Todo lo de Obra Semiacabada</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Instalaciones eléctricas, sanitarias y de gas</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Envolvente térmica EIFS completa</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Acabados de primera (pisos, grifería, pintura)</li>
                         </ul>
                     </div>
-                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20deseo%20cotizar%20Llave%20en%20Mano%20en%20Azogues%20o%20Cañar." target="_blank" rel="noopener" class="w-full bg-brand-accent hover:bg-brand-accentHover text-white py-3.5 rounded-xl font-heading font-bold text-center text-sm transition-all shadow-lg shadow-brand-accent/30">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20deseo%20cotizar%20Llave%20en%20Mano%20en%20Azogues%20o%20Cañar." target="_blank" rel="noopener" class="w-full bg-amber-500 hover:bg-amber-600 text-white py-3.5 rounded-xl font-heading font-bold text-center text-sm transition-all shadow-lg shadow-amber-500/30">
                         Cotizar Llave en Mano
                     </a>
                 </div>
             </div>
             <div class="text-center mt-8">
-                <p class="text-xs text-slate-500">* Precios sujetos a revisión topográfica del terreno y metraje total del proyecto. <a href="/precio-m2/" class="text-brand-primary underline font-medium">Ver detalles completos de precios m²</a>.</p>
+                <p class="text-xs text-slate-500">* Precios sujetos a revisión topográfica del terreno y metraje total del proyecto. <a href="/precio-m2/" class="text-blue-900 underline font-medium">Ver detalles completos de precios m²</a>.</p>
             </div>
         </div>
     </section>
@@ -498,8 +503,8 @@
     <section class="py-20 bg-slate-50 border-t border-slate-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <span class="text-brand-accent text-xs font-bold uppercase tracking-wider bg-brand-accent/10 px-3 py-1 rounded-full">Preguntas Frecuentes</span>
-                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy mt-4">
+                <span class="text-amber-500 text-xs font-bold uppercase tracking-wider bg-amber-500/10 px-3 py-1 rounded-full">Preguntas Frecuentes</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900 mt-4">
                     Resuelve tus Dudas sobre Construir en Azogues y Cañar
                 </h2>
                 <p class="text-slate-600 text-sm mt-2">Respuestas claras para nuestra comunidad migrante en EE.UU. y propietarios locales.</p>
@@ -508,8 +513,8 @@
             <div class="space-y-6">
                 <!-- FAQ 1 -->
                 <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Cómo blindan las remesas familiares enviadas desde EE.UU. para la construcción en Azogues y Cañar?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-7">
@@ -519,8 +524,8 @@
 
                 <!-- FAQ 2 -->
                 <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Por qué el Steel Framing es ideal para los terrenos escarpados de ladera andina en Azogues?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-7">
@@ -530,8 +535,8 @@
 
                 <!-- FAQ 3 -->
                 <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Cuáles son los precios oficiales para construir en Azogues, Biblián y Cañar?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-7">
@@ -541,8 +546,8 @@
 
                 <!-- FAQ 4 -->
                 <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿El aislamiento EIFS protege la casa del frío extremo de la sierra en la provincia de Cañar?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-7">
@@ -554,10 +559,10 @@
     </section>
 
     <!-- Final CTA Section -->
-    <section class="py-20 bg-brand-navy text-white relative overflow-hidden">
-        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#FF6500_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <section class="py-20 bg-slate-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-8">
-            <span class="bg-brand-accent/20 border border-brand-accent/40 text-brand-accent px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+            <span class="bg-amber-500/20 border border-amber-500/40 text-amber-500 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
                 Construye con el Arq. Sergio Bravo
             </span>
             <h2 class="font-heading font-black text-3xl sm:text-4xl lg:text-5xl leading-tight">
@@ -567,7 +572,7 @@
                 No arriesgues tu capital con familiares o contratistas informales. Asegura tu inversión con contratos notariados, precio cerrado y tecnología sismorresistente en acero galvanizado Z275.
             </p>
             <div class="flex flex-wrap justify-center gap-4 pt-4">
-                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20estoy%20listo%20para%20iniciar%20mi%20proyecto%20en%20Azogues." target="_blank" rel="noopener" class="bg-brand-accent hover:bg-brand-accentHover text-white px-8 py-4 rounded-xl font-heading font-bold text-base transition-all shadow-xl shadow-brand-accent/30 flex items-center gap-3">
+                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20estoy%20listo%20para%20iniciar%20mi%20proyecto%20en%20Azogues." target="_blank" rel="noopener" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl font-heading font-bold text-base transition-all shadow-xl shadow-amber-500/30 flex items-center gap-3">
                     <i class="fa-brands fa-whatsapp text-xl"></i> Hablar por WhatsApp con el Arquitecto
                 </a>
                 <a href="/diagnostico-proyecto/" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-xl font-heading font-bold text-base transition-all flex items-center gap-2">
@@ -578,74 +583,84 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800">
+        <!-- Footer Estandarizado 4 Columnas -->
+    <footer class="bg-slate-950 text-slate-400 py-14 border-t border-slate-800 text-xs">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-                <!-- Col 1 -->
-                <div class="space-y-4">
-                    <div class="flex items-center gap-2">
-                        <div class="bg-brand-accent text-white p-2 rounded-lg font-heading font-black text-lg">
-                            HOMERS
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10">
+
+                <!-- Col 1: Empresa & Autoridad -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
+                        <div>
+                            <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
+                            <span class="text-[10px] text-slate-400 block">Divisi&oacute;n de Homers Constructora</span>
                         </div>
-                        <span class="font-heading font-bold text-white text-base">STEEL FRAMING EC</span>
                     </div>
-                    <p class="text-sm text-slate-400 leading-relaxed">
-                        Constructora líder en Steel Framing en Ecuador. Especialistas en blindaje de remesas para migrantes y construcción sismorresistente con acero galvanizado Z275.
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Arq. Sergio Bravo &bull; Construcci&oacute;n sismorresistente con contrato de precio fijo y direcci&oacute;n t&eacute;cnica diaria. Proyectos llave en mano en Ecuador.
                     </p>
-                    <div class="text-xs text-slate-500">
-                        <p class="font-semibold text-slate-400">Dirección Técnica:</p>
-                        <p>Arq. Sergio Bravo</p>
+                    <div class="space-y-1.5 text-xs text-slate-400 pt-1">
+                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garant&iacute;a Estructural 20 A&ntilde;os</p>
+                        <p class="flex items-center gap-2"><a href="tel:+593995099506" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-phone text-amber-400"></i> +593 99 509 9506</a></p>
+                        <p class="flex items-center gap-2"><a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope text-amber-400"></i> homersarquitectura@gmail.com</a></p>
                     </div>
                 </div>
 
-                <!-- Col 2 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-white text-base">Enlaces Clave</h4>
-                    <ul class="space-y-2.5 text-sm">
-                        <li><a href="https://steelframingec.com/" class="hover:text-brand-accent transition-colors">Inicio</a></li>
-                        <li><a href="/construir-casa-en-ecuador-desde-usa/" class="hover:text-brand-accent transition-colors">Migrantes USA</a></li>
-                        <li><a href="/precio-m2/" class="hover:text-brand-accent transition-colors">Precios m² Oficiales</a></li>
-                        <li><a href="/diagnostico-proyecto/" class="hover:text-brand-accent transition-colors">Diagnóstico de Proyecto</a></li>
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Zonas de Cobertura</a></li>
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/construir-casa-ecuador/" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Casa Llave en Mano</a></li>
+                        <li><a href="/precio-m2/" class="hover:text-white transition">Calculadora de Precio por m&sup2;</a></li>
+                        <li><a href="/ampliacion-segundo-piso-ecuador/" class="hover:text-white transition">Ampliaci&oacute;n de Segundo Piso sobre Losa</a></li>
+                        <li><a href="/construir-casa-en-ecuador-desde-usa/" class="hover:text-white transition">Programa Construcci&oacute;n desde USA &#127482;&#127480;</a></li>
+                        <li><a href="/modelos-casas-steel-framing-ecuador/" class="hover:text-white transition">Cat&aacute;logo de Modelos y Dise&ntilde;os</a></li>
+                        <li><a href="/credito-hipotecario-biess-steel-framing/" class="hover:text-white transition">Cr&eacute;dito Hipotecario BIESS y Bancos</a></li>
                     </ul>
                 </div>
 
-                <!-- Col 3 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-white text-base">Provincia de Cañar</h4>
-                    <ul class="space-y-2.5 text-sm text-slate-400">
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Azogues (Matriz Provincial)</a></li>
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Biblián</a></li>
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Cañar</a></li>
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Déleg</a></li>
+                <!-- Col 3: GuÃ­as TÃ©cnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Gu&iacute;as T&eacute;cnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/que-es-steel-framing/" class="hover:text-amber-400 transition font-medium text-amber-400">&iquest;Qu&eacute; es Steel Framing? (Gu&iacute;a)</a></li>
+                        <li><a href="/steel-framing-vs-hormigon-bloque-ecuador/" class="hover:text-white transition">Steel Framing vs Hormig&oacute;n y Bloque</a></li>
+                        <li><a href="/steel-framing-ecuador/" class="hover:text-white transition">Gu&iacute;a T&eacute;cnica NEC Steel Framing</a></li>
+                        <li><a href="/construccion-en-seco-ecuador/" class="hover:text-white transition">Manual de Construcci&oacute;n en Seco</a></li>
+                        <li><a href="/permisos-construccion-steel-framing-ecuador/" class="hover:text-white transition">Permisos Municipales y Planos</a></li>
+                        <li><a href="/casas-prefabricadas-ecuador/" class="hover:text-white transition">Steel Framing vs Casas Prefabricadas</a></li>
+                        <li class="pt-1"><a href="/blog-y-recursos/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos T&eacute;cnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
                 </div>
 
-                <!-- Col 4 -->
-                <div class="space-y-4">
-                    <h4 class="font-heading font-bold text-white text-base">Contacto Directo</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-envelope text-brand-accent"></i>
-                            <a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition-colors">homersarquitectura@gmail.com</a>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fa-brands fa-whatsapp text-brand-accent text-lg"></i>
-                            <a href="https://wa.me/593995099506" target="_blank" rel="noopener" class="hover:text-white transition-colors">+593 99 509 9506</a>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-location-dot text-brand-accent mt-1"></i>
-                            <span>Quito & Azogues, Ecuador<br>Atención exclusiva remesas EE.UU.</span>
-                        </li>
+                <!-- Col 4: Zonas de Cobertura en Ecuador -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Zonas de Cobertura en Ecuador</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-amber-400 transition font-medium text-amber-400">Costos y referencias en Steel Framing</a></li>
+                        <li><a href="/steel-framing-quito-ecuador/" class="hover:text-white transition">Quito y Valles (Cumbay&aacute; / Puembo)</a></li>
+                        <li><a href="/steel-framing-guayaquil/" class="hover:text-white transition">Guayaquil y Samborond&oacute;n</a></li>
+                        <li><a href="/steel-framing-cuenca/" class="hover:text-white transition">Cuenca y Azuay</a></li>
+                        <li><a href="/steel-framing-manta/" class="hover:text-white transition">Manta y Costa Manabita</a></li>
+                        <li><a href="/steel-framing-loja/" class="hover:text-white transition">Loja y Sierra Sur</a></li>
+                        <li class="pt-1"><a href="/zonas-de-cobertura/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las 60 zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
+                    <div class="pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 text-white font-bold hover:bg-emerald-500 transition text-xs gap-1.5 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+                        </a>
+                    </div>
                 </div>
+
             </div>
 
-            <div class="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
-                <p>&copy; 2026 Homers Constructora. Todos los derechos reservados. Diseñado por Arq. Sergio Bravo.</p>
-                <div class="flex gap-6">
-                    <a href="https://steelframingec.com/" class="hover:text-slate-400 transition-colors">Política de Privacidad</a>
-                    <a href="https://steelframingec.com/" class="hover:text-slate-400 transition-colors">Términos de Servicio</a>
+            <div class="pt-8 border-t border-slate-900 text-center text-slate-400 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div>
+                    &copy; 2026 Homers Constructora Ecuador. Todos los derechos reservados.
+                </div>
+                <div class="text-[11px] text-slate-500">
+                    C&aacute;lculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC y perfiles de acero galvanizado estructural Z275.
                 </div>
             </div>
         </div>

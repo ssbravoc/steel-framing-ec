@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -36,25 +36,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Tailwind CSS CDN -->
+        <!-- Tailwind CSS (CDN para despliegue instantÃ¡neo en Cloudflare Pages) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        brand: {
-                            navy: '#0B192C',
-                            dark: '#1E3E62',
-                            primary: '#0056B3',
-                            accent: '#FF6500',
-                            accentHover: '#E05A00',
-                            light: '#F8FAFC'
-                        }
-                    },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif']
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            50: '#f8fafc',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        blue: {
+                            900: '#1e3a8a',
+                            950: '#0f1f4b',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
                     }
                 }
             }
@@ -148,26 +153,26 @@
     }
     </script>
 </head>
-<body class="bg-brand-light text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- TOP BAR -->
-    <div class="bg-brand-navy text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-slate-800">
+    <div class="bg-slate-900 text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-slate-800">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <div class="flex items-center gap-4">
-                <a href="tel:+593995099506" class="hover:text-brand-accent transition-colors flex items-center gap-1.5">
-                    <i class="fa-solid fa-phone text-brand-accent"></i> +593 99 509 9506
+                <a href="tel:+593995099506" class="hover:text-amber-500 transition-colors flex items-center gap-1.5">
+                    <i class="fa-solid fa-phone text-amber-500"></i> +593 99 509 9506
                 </a>
                 <span class="hidden md:inline text-slate-600">|</span>
-                <a href="mailto:homersarquitectura@gmail.com" class="hover:text-brand-accent transition-colors hidden md:flex items-center gap-1.5">
-                    <i class="fa-solid fa-envelope text-brand-accent"></i> homersarquitectura@gmail.com
+                <a href="mailto:homersarquitectura@gmail.com" class="hover:text-amber-500 transition-colors hidden md:flex items-center gap-1.5">
+                    <i class="fa-solid fa-envelope text-amber-500"></i> homersarquitectura@gmail.com
                 </a>
             </div>
             <div class="flex items-center gap-3">
-                <span class="bg-brand-accent/20 text-brand-accent px-2.5 py-0.5 rounded-full font-semibold text-xs tracking-wide">
+                <span class="bg-amber-500/20 text-amber-500 px-2.5 py-0.5 rounded-full font-semibold text-xs tracking-wide">
                     Dir. Técnico: Arq. Sergio Bravo
                 </span>
                 <span class="hidden sm:inline text-slate-500">|</span>
@@ -177,69 +182,87 @@
     </div>
 
     <!-- STICKY NAVBAR -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="https://steelframingec.com/" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-xl bg-brand-navy flex items-center justify-center text-white font-heading font-black text-xl shadow-md group-hover:bg-brand-primary transition-colors">
-                    H
-                </div>
-                <div class="flex flex-col">
-                    <span class="font-heading font-extrabold text-lg text-brand-navy leading-none tracking-tight">HOMERS</span>
-                    <span class="text-xs font-semibold text-brand-accent tracking-widest uppercase mt-0.5">Constructora</span>
-                </div>
-            </a>
-
-            <!-- Desktop Nav -->
-            <nav class="hidden lg:flex items-center gap-8 font-medium text-slate-700">
-                <a href="https://steelframingec.com/" class="hover:text-brand-primary transition-colors">Inicio</a>
-                <a href="/precio-m2/" class="hover:text-brand-primary transition-colors">Precios m²</a>
-                <a href="/zonas-de-cobertura" class="hover:text-brand-primary transition-colors">Zonas de Cobertura</a>
-                <a href="/diagnostico-proyecto/" class="hover:text-brand-primary transition-colors">Diagnóstico Proyectos</a>
-            </nav>
-
-            <div class="hidden lg:flex items-center gap-4">
-                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20estoy%20interesado%20en%20construir%20con%20Steel%20Framing%20en%20Ba%C3%B1os%20de%20Agua%20Santa." target="_blank" rel="noopener" class="bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-2.5 rounded-xl font-semibold text-sm shadow-md shadow-brand-accent/20 transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
-                    <i class="fa-brands fa-whatsapp text-lg"></i> Cotizar en Baños
+        <!-- Header / Navbar Canonica Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="/" class="flex items-center gap-3 group">
+                    <img src="../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">Divisi&oacute;n de Homers Constructora &bull; Arq. Sergio Bravo</span>
+                    </div>
                 </a>
-            </div>
 
-            <!-- Mobile Menu Button -->
-            <button id="menu-btn" class="lg:hidden text-slate-700 hover:text-brand-primary text-2xl focus:outline-none">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="/#beneficios" class="hover:text-blue-900 transition">Beneficios</a>
+                    <a href="/que-es-steel-framing/" class="hover:text-blue-900 transition">&iquest;Qu&eacute; es?</a>
+                    <div class="relative group py-2">
+                        <button class="text-slate-700 group-hover:text-blue-900 font-medium transition flex items-center gap-1 focus:outline-none">
+                            <span>Ciudades</span>
+                            <svg class="w-3.5 h-3.5 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </button>
+                        <div class="absolute left-0 mt-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-2 hidden group-hover:block transition-all z-50">
+                            <a href="/steel-framing-quito-ecuador/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Quito &amp; Valles</a>
+                            <a href="/steel-framing-guayaquil/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Guayaquil &amp; Samborond&oacute;n</a>
+                            <a href="/steel-framing-cuenca/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Cuenca &amp; Austro</a>
+                            <a href="/steel-framing-manta/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Manta &amp; Manab&iacute;</a>
+                            <a href="/steel-framing-pedernales/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Pedernales &amp; Cojim&iacute;es</a>
+                            <a href="/steel-framing-tonsupa/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Tonsupa &amp; Atacames</a>
+                            <a href="/steel-framing-olon/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Ol&oacute;n &amp; Santa Elena</a>
+                            <a href="/steel-framing-ayampe/" class="block px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 hover:text-blue-900">&#128205; Ayampe &amp; Manab&iacute; Sur</a>
+                            <div class="border-t border-slate-100 my-1"></div>
+                            <a href="/zonas-de-cobertura/" class="block px-4 py-1.5 text-xs text-amber-600 font-bold hover:underline">Ver todas las 60 ciudades &rarr;</a>
+                        </div>
+                    </div>
+                    <a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-blue-900 transition">Precios m&sup2;</a>
+                    <a href="/construir-casa-en-ecuador-desde-usa/" class="text-blue-900 font-bold hover:text-blue-950 transition">&#127482;&#127480; Migrantes</a>
+                    <a href="/construir-casa-ecuador/" class="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Casa</a>
+                </nav>
+
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20de%20steelframingec.com%20y%20deseo%20cotizar%20mi%20proyecto" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                    <button id="mobile-menu-btn" class="lg:hidden text-slate-700 hover:text-slate-900 p-2 focus:outline-none" aria-label="Abrir men&uacute;">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
         </div>
 
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-6 space-y-3">
-            <a href="https://steelframingec.com/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Inicio</a>
-            <a href="/precio-m2/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Precios m²</a>
-            <a href="/zonas-de-cobertura" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Zonas de Cobertura</a>
-            <a href="/diagnostico-proyecto/" class="block py-2 text-slate-700 font-medium hover:text-brand-primary">Diagnóstico Proyectos</a>
-            <div class="pt-2">
-                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20estoy%20interesado%20en%20construir%20con%20Steel%20Framing%20en%20Ba%C3%B1os%20de%20Agua%20Santa." target="_blank" rel="noopener" class="w-full bg-brand-accent text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2 shadow-md">
-                    <i class="fa-brands fa-whatsapp text-lg"></i> Cotizar por WhatsApp
-                </a>
-            </div>
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-xl px-4 pt-3 pb-6 space-y-2">
+            <a href="/#beneficios" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">Beneficios</a>
+            <a href="/que-es-steel-framing/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&iquest;Qu&eacute; es?</a>
+            <a href="/cuanto-cuesta-construir-en-ecuador/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">Precios m&sup2;</a>
+            <a href="/zonas-de-cobertura/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&#128205; Zonas de Cobertura (60 Ciudades)</a>
+            <a href="/construir-casa-en-ecuador-desde-usa/" class="block py-2 text-sm font-bold text-blue-900">&#127482;&#127480; Programa para Migrantes</a>
+            <a href="/construir-casa-ecuador/" class="block py-2.5 text-center rounded-lg bg-amber-500 text-slate-950 font-extrabold text-xs">&#127969; Cotizar Casa Llave en Mano</a>
+            <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20de%20steelframingec.com%20y%20deseo%20cotizar%20mi%20proyecto" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-lg bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+            </a>
         </div>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="relative bg-gradient-to-br from-brand-navy via-brand-dark to-slate-900 text-white py-20 lg:py-28 overflow-hidden">
+    <section class="relative bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white py-20 lg:py-28 overflow-hidden">
         <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-7 space-y-6">
-                    <div class="inline-flex items-center gap-2 bg-brand-accent/20 border border-brand-accent/40 text-brand-accent px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase">
+                    <div class="inline-flex items-center gap-2 bg-amber-500/20 border border-amber-500/40 text-amber-500 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase">
                         <i class="fa-solid fa-mountain-sun"></i> Enclave Turístico y Montaña Volcánica
                     </div>
                     <h1 class="font-heading font-black text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-tight">
-                        Steel Framing en <span class="text-brand-accent">Baños de Agua Santa</span>
+                        Steel Framing en <span class="text-amber-500">Baños de Agua Santa</span>
                     </h1>
                     <p class="text-slate-300 text-lg sm:text-xl font-light leading-relaxed">
                         Diseño y construcción de <strong class="text-white font-semibold">cabañas boutique y hostales</strong> en laderas de montaña, Ulba, Río Verde y Ruta de las Cascadas. Soluciones sismorresistentes con <strong class="text-white font-semibold">acero galvanizado estructural Z275</strong> y cimentaciones eficientes en pendientes pronunciadas.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20asesoria%20para%20proyecto%20en%20Ba%C3%B1os%20de%20Agua%20Santa." target="_blank" rel="noopener" class="bg-brand-accent hover:bg-brand-accentHover text-white px-8 py-4 rounded-xl font-bold text-base shadow-lg shadow-brand-accent/30 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-3">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20asesoria%20para%20proyecto%20en%20Ba%C3%B1os%20de%20Agua%20Santa." target="_blank" rel="noopener" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl font-bold text-base shadow-lg shadow-amber-500/30 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-3">
                             <i class="fa-brands fa-whatsapp text-xl"></i> Asesoría Técnica con el Arq. Sergio Bravo
                         </a>
                         <a href="/precio-m2/" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-6 py-4 rounded-xl font-semibold text-base transition-all flex items-center justify-center gap-2">
@@ -263,22 +286,22 @@
                 </div>
                 <div class="lg:col-span-5">
                     <div class="bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20 shadow-2xl relative">
-                        <div class="absolute -top-4 -right-4 bg-brand-accent text-white text-xs font-bold px-4 py-2 rounded-xl shadow-lg">
+                        <div class="absolute -top-4 -right-4 bg-amber-500 text-white text-xs font-bold px-4 py-2 rounded-xl shadow-lg">
                             Fase 3: Tungurahua
                         </div>
                         <h3 class="font-heading font-bold text-2xl text-white mb-6">Solicita tu Cotización en Baños</h3>
                         <form action="https://wa.me/593995099506" method="get" target="_blank" class="space-y-4">
                             <div>
                                 <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Nombre Completo</label>
-                                <input type="text" placeholder="Ej. Ing. Carlos Mendoza" required class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-accent text-sm">
+                                <input type="text" placeholder="Ej. Ing. Carlos Mendoza" required class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-amber-500 text-sm">
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Teléfono / WhatsApp</label>
-                                <input type="tel" placeholder="Ej. 0991234567" required class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-accent text-sm">
+                                <input type="tel" placeholder="Ej. 0991234567" required class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-amber-500 text-sm">
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Tipo de Proyecto</label>
-                                <select class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white focus:outline-none focus:border-brand-accent text-sm">
+                                <select class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white focus:outline-none focus:border-amber-500 text-sm">
                                     <option class="bg-slate-900">Cabaña Boutique / Hostal</option>
                                     <option class="bg-slate-900">Residencia Vacacional</option>
                                     <option class="bg-slate-900">Ampliación / Segundo Piso</option>
@@ -286,9 +309,9 @@
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Ubicación / Sector</label>
-                                <input type="text" placeholder="Ej. Ulba, Río Verde, Centro" required class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-accent text-sm">
+                                <input type="text" placeholder="Ej. Ulba, Río Verde, Centro" required class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-amber-500 text-sm">
                             </div>
-                            <button type="submit" class="w-full bg-brand-accent hover:bg-brand-accentHover text-white py-4 rounded-xl font-bold text-sm shadow-lg shadow-brand-accent/20 transition-all flex items-center justify-center gap-2">
+                            <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-white py-4 rounded-xl font-bold text-sm shadow-lg shadow-amber-500/20 transition-all flex items-center justify-center gap-2">
                                 <i class="fa-solid fa-paper-plane"></i> Enviar Solicitud Directa
                             </button>
                         </form>
@@ -302,8 +325,8 @@
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-primary font-semibold text-sm tracking-wider uppercase bg-brand-primary/10 px-3.5 py-1.5 rounded-full">Desafíos Geotécnicos y Climáticos</span>
-                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy mt-4 mb-6">
+                <span class="text-blue-900 font-semibold text-sm tracking-wider uppercase bg-blue-900/10 px-3.5 py-1.5 rounded-full">Desafíos Geotécnicos y Climáticos</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 mt-4 mb-6">
                     Construir en Baños de Agua Santa: Montaña, Volcán y Humedad
                 </h2>
                 <p class="text-slate-600 text-lg">
@@ -312,31 +335,31 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-brand-light p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-14 h-14 rounded-2xl bg-brand-primary/10 text-brand-primary flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-brand-primary group-hover:text-white transition-colors">
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-900/10 text-blue-900 flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-blue-900 group-hover:text-white transition-colors">
                         <i class="fa-solid fa-mountain"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Pendientes Pronunciadas sin Muros Masivos</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Pendientes Pronunciadas sin Muros Masivos</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Las laderas volcánicas de Baños exigen cimentaciones inteligentes. Al ser una estructura ultraliviana (35-55 kg/m²), el Steel Framing evita la excavación masiva y costosos muros de contención de hormigón, apoyándose de forma segura sobre micropilotes.
                     </p>
                 </div>
 
-                <div class="bg-brand-light p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-14 h-14 rounded-2xl bg-brand-accent/10 text-brand-accent flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-brand-accent group-hover:text-white transition-colors">
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-amber-500 group-hover:text-white transition-colors">
                         <i class="fa-solid fa-shield-halved"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Acero Galvanizado Z275 vs Humedad y Vapor</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Acero Galvanizado Z275 vs Humedad y Vapor</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         La alta humedad de ceja de montaña y la proximidad a fuentes termales exigen máxima protección contra la corrosión. Empleamos exclusivamente acero galvanizado estructural Z275, garantizando durabilidad centenaria sin oxidación.
                     </p>
                 </div>
 
-                <div class="bg-brand-light p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-14 h-14 rounded-2xl bg-brand-primary/10 text-brand-primary flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-brand-primary group-hover:text-white transition-colors">
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-900/10 text-blue-900 flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-blue-900 group-hover:text-white transition-colors">
                         <i class="fa-solid fa-temperature-arrow-down"></i>
                     </div>
-                    <h3 class="font-heading font-bold text-xl text-brand-navy mb-3">Confort Termoacústico Multicapa EIFS</h3>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">Confort Termoacústico Multicapa EIFS</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Para cabañas boutique y hostales, el confort de los huéspedes es primordial. El sistema EIFS exterior combinado con lana de roca interior aísla el frío nocturno de montaña y bloquea el ruido exterior, manteniendo la temperatura ideal todo el año.
                     </p>
@@ -346,11 +369,11 @@
     </section>
 
     <!-- SECTION: OFFICIAL PRICING -->
-    <section class="py-20 bg-brand-light border-y border-slate-200">
+    <section class="py-20 bg-slate-50 border-y border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-accent font-semibold text-sm tracking-wider uppercase bg-brand-accent/10 px-3.5 py-1.5 rounded-full">Transparencia Financiera</span>
-                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy mt-4 mb-6">
+                <span class="text-amber-500 font-semibold text-sm tracking-wider uppercase bg-amber-500/10 px-3.5 py-1.5 rounded-full">Transparencia Financiera</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 mt-4 mb-6">
                     Precios Oficiales por Metro Cuadrado en Baños de Agua Santa
                 </h2>
                 <p class="text-slate-600 text-lg">
@@ -362,49 +385,49 @@
                 <div class="bg-white p-8 sm:p-10 rounded-3xl border border-slate-200 shadow-lg flex flex-col justify-between relative">
                     <div>
                         <div class="flex justify-between items-center mb-6">
-                            <span class="text-xs font-bold text-brand-primary bg-brand-primary/10 px-3 py-1 rounded-full uppercase">Modalidad 1</span>
-                            <span class="text-2xl font-heading font-black text-brand-navy">$360 - $380 <span class="text-sm font-normal text-slate-500">/ m²</span></span>
+                            <span class="text-xs font-bold text-blue-900 bg-blue-900/10 px-3 py-1 rounded-full uppercase">Modalidad 1</span>
+                            <span class="text-2xl font-heading font-black text-slate-900">$360 - $380 <span class="text-sm font-normal text-slate-500">/ m²</span></span>
                         </div>
-                        <h3 class="font-heading font-bold text-2xl text-brand-navy mb-4">Obra Semiacabada</h3>
+                        <h3 class="font-heading font-bold text-2xl text-slate-900 mb-4">Obra Semiacabada</h3>
                         <p class="text-slate-600 text-sm mb-6">Ideal para propietarios que desean administrar los acabados finales o avanzar por etapas en su cabaña o hostal.</p>
                         <ul class="space-y-3 text-sm text-slate-700 mb-8">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i><span>Estructura de acero galvanizado Z275</span></li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i><span>Cimentación puntual y placas base</span></li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i><span>Paneles exteriores y cubierta metálica</span></li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i><span>Instalaciones básicas embutidas</span></li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i><span>Estructura de acero galvanizado Z275</span></li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i><span>Cimentación puntual y placas base</span></li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i><span>Paneles exteriores y cubierta metálica</span></li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i><span>Instalaciones básicas embutidas</span></li>
                         </ul>
                     </div>
-                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20me%20interesa%20la%20Obra%20Semiacabada%20en%20Ba%C3%B1os." target="_blank" rel="noopener" class="w-full bg-brand-navy hover:bg-brand-dark text-white py-3.5 rounded-xl font-semibold text-center transition-colors">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20me%20interesa%20la%20Obra%20Semiacabada%20en%20Ba%C3%B1os." target="_blank" rel="noopener" class="w-full bg-slate-900 hover:bg-blue-950 text-white py-3.5 rounded-xl font-semibold text-center transition-colors">
                         Cotizar Obra Semiacabada
                     </a>
                 </div>
 
-                <div class="bg-white p-8 sm:p-10 rounded-3xl border-2 border-brand-accent shadow-xl flex flex-col justify-between relative">
-                    <div class="absolute -top-4 right-8 bg-brand-accent text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase shadow-md">
+                <div class="bg-white p-8 sm:p-10 rounded-3xl border-2 border-amber-500 shadow-xl flex flex-col justify-between relative">
+                    <div class="absolute -top-4 right-8 bg-amber-500 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase shadow-md">
                         Más Solicitado
                     </div>
                     <div>
                         <div class="flex justify-between items-center mb-6">
-                            <span class="text-xs font-bold text-brand-accent bg-brand-accent/10 px-3 py-1 rounded-full uppercase">Modalidad 2</span>
-                            <span class="text-2xl font-heading font-black text-brand-navy">$480 - $550 <span class="text-sm font-normal text-slate-500">/ m²</span></span>
+                            <span class="text-xs font-bold text-amber-500 bg-amber-500/10 px-3 py-1 rounded-full uppercase">Modalidad 2</span>
+                            <span class="text-2xl font-heading font-black text-slate-900">$480 - $550 <span class="text-sm font-normal text-slate-500">/ m²</span></span>
                         </div>
-                        <h3 class="font-heading font-bold text-2xl text-brand-navy mb-4">Llave en Mano</h3>
+                        <h3 class="font-heading font-bold text-2xl text-slate-900 mb-4">Llave en Mano</h3>
                         <p class="text-slate-600 text-sm mb-6">Proyecto 100% terminado con acabados de primera, listo para operar como hostal boutique o habitar de inmediato.</p>
                         <ul class="space-y-3 text-sm text-slate-700 mb-8">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i><span>Todo lo incluido en Obra Semiacabada</span></li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i><span>Aislamiento termoacústico EIFS + Lana de roca</span></li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i><span>Pisos porcelanato, grifería y sanitarios alta gama</span></li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-accent"></i><span>Diseño arquitectónico y permisos municipales</span></li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i><span>Todo lo incluido en Obra Semiacabada</span></li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i><span>Aislamiento termoacústico EIFS + Lana de roca</span></li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i><span>Pisos porcelanato, grifería y sanitarios alta gama</span></li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i><span>Diseño arquitectónico y permisos municipales</span></li>
                         </ul>
                     </div>
-                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20me%20interesa%20Llave%20en%20Mano%20en%20Ba%C3%B1os." target="_blank" rel="noopener" class="w-full bg-brand-accent hover:bg-brand-accentHover text-white py-3.5 rounded-xl font-semibold text-center shadow-md transition-colors">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20me%20interesa%20Llave%20en%20Mano%20en%20Ba%C3%B1os." target="_blank" rel="noopener" class="w-full bg-amber-500 hover:bg-amber-600 text-white py-3.5 rounded-xl font-semibold text-center shadow-md transition-colors">
                         Cotizar Llave en Mano
                     </a>
                 </div>
             </div>
 
             <div class="mt-12 text-center">
-                <a href="/precio-m2/" class="inline-flex items-center gap-2 text-brand-primary font-semibold hover:underline">
+                <a href="/precio-m2/" class="inline-flex items-center gap-2 text-blue-900 font-semibold hover:underline">
                     Ver calculadora detallada de costos y especificaciones <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
@@ -416,8 +439,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div class="space-y-6">
-                    <span class="text-brand-primary font-semibold text-sm tracking-wider uppercase bg-brand-primary/10 px-3.5 py-1.5 rounded-full">Ventajas Estructurales</span>
-                    <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy leading-tight">
+                    <span class="text-blue-900 font-semibold text-sm tracking-wider uppercase bg-blue-900/10 px-3.5 py-1.5 rounded-full">Ventajas Estructurales</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 leading-tight">
                         Por qué el Steel Framing potencia Hostales y Cabañas Boutique en Baños
                     </h2>
                     <p class="text-slate-600 leading-relaxed">
@@ -425,42 +448,42 @@
                     </p>
                     <div class="space-y-4">
                         <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-xl bg-brand-accent/10 text-brand-accent flex items-center justify-center font-bold flex-shrink-0 mt-1">
+                            <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold flex-shrink-0 mt-1">
                                 <i class="fa-solid fa-bolt"></i>
                             </div>
                             <div>
-                                <h4 class="font-heading font-bold text-brand-navy">Velocidad de Ejecución (50% más rápido)</h4>
+                                <h4 class="font-heading font-bold text-slate-900">Velocidad de Ejecución (50% más rápido)</h4>
                                 <p class="text-slate-600 text-sm">Construye y pon a operar tu hostal en tiempo récord, generando ingresos turísticos anticipados sin demoras por encofrados húmedos.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-xl bg-brand-primary/10 text-brand-primary flex items-center justify-center font-bold flex-shrink-0 mt-1">
+                            <div class="w-10 h-10 rounded-xl bg-blue-900/10 text-blue-900 flex items-center justify-center font-bold flex-shrink-0 mt-1">
                                 <i class="fa-solid fa-house-chimney-crack"></i>
                             </div>
                             <div>
-                                <h4 class="font-heading font-bold text-brand-navy">Ingeniería Sismorresistente Certificada</h4>
+                                <h4 class="font-heading font-bold text-slate-900">Ingeniería Sismorresistente Certificada</h4>
                                 <p class="text-slate-600 text-sm">Estructuras flexibles que disipan la energía sísmica de manera óptima, garantizando la máxima seguridad para residentes y huéspedes.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-xl bg-brand-accent/10 text-brand-accent flex items-center justify-center font-bold flex-shrink-0 mt-1">
+                            <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold flex-shrink-0 mt-1">
                                 <i class="fa-solid fa-seedling"></i>
                             </div>
                             <div>
-                                <h4 class="font-heading font-bold text-brand-navy">Menor Impacto Ambiental en Laderas</h4>
+                                <h4 class="font-heading font-bold text-slate-900">Menor Impacto Ambiental en Laderas</h4>
                                 <p class="text-slate-600 text-sm">Respeto absoluto por la topografía y vegetación nativa de la Ruta de las Cascadas y laderas volcánicas, sin alterar cauces ni estabilidad.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="bg-brand-navy p-8 sm:p-10 rounded-3xl text-white relative overflow-hidden shadow-2xl">
-                    <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-brand-primary/20 rounded-full blur-3xl"></div>
+                <div class="bg-slate-900 p-8 sm:p-10 rounded-3xl text-white relative overflow-hidden shadow-2xl">
+                    <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-blue-900/20 rounded-full blur-3xl"></div>
                     <h3 class="font-heading font-bold text-2xl mb-6 relative z-10">Diagnóstico Gratuito para tu Terreno en Baños</h3>
                     <p class="text-slate-300 text-sm mb-8 relative z-10">
                         ¿Tienes un terreno con pendiente en Ulba, Río Verde o el centro de Baños? Nuestro equipo técnico analiza la viabilidad y cimentación ideal sin costo.
                     </p>
                     <div class="space-y-4 relative z-10">
-                        <a href="/diagnostico-proyecto/" class="w-full bg-brand-accent hover:bg-brand-accentHover text-white py-4 rounded-xl font-bold text-center block shadow-lg transition-all">
+                        <a href="/diagnostico-proyecto/" class="w-full bg-amber-500 hover:bg-amber-600 text-white py-4 rounded-xl font-bold text-center block shadow-lg transition-all">
                             <i class="fa-solid fa-stethoscope mr-2"></i> Solicitar Diagnóstico de Proyecto
                         </a>
                         <a href="/zonas-de-cobertura" class="w-full bg-white/10 hover:bg-white/20 text-white py-4 rounded-xl font-semibold text-center block border border-white/20 transition-all">
@@ -473,11 +496,11 @@
     </section>
 
     <!-- SECTION: FAQ -->
-    <section class="py-20 bg-brand-light border-t border-slate-200">
+    <section class="py-20 bg-slate-50 border-t border-slate-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <span class="text-brand-primary font-semibold text-sm tracking-wider uppercase bg-brand-primary/10 px-3.5 py-1.5 rounded-full">Preguntas Frecuentes</span>
-                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy mt-4 mb-6">
+                <span class="text-blue-900 font-semibold text-sm tracking-wider uppercase bg-blue-900/10 px-3.5 py-1.5 rounded-full">Preguntas Frecuentes</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 mt-4 mb-6">
                     Resolvemos tus Dudas sobre Steel Framing en Baños
                 </h2>
                 <p class="text-slate-600">Todo lo que necesitas saber antes de construir tu proyecto en Tungurahua.</p>
@@ -485,8 +508,8 @@
 
             <div class="space-y-6">
                 <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Por qué el Steel Framing es ideal para laderas pronunciadas en Baños de Agua Santa?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-7">
@@ -495,8 +518,8 @@
                 </div>
 
                 <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Cómo resiste el acero galvanizado Z275 la humedad de ceja de montaña y vapores termales?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-7">
@@ -505,8 +528,8 @@
                 </div>
 
                 <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Cuáles son los precios oficiales por metro cuadrado para construir en Baños?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-7">
@@ -515,8 +538,8 @@
                 </div>
 
                 <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
-                    <h3 class="font-heading font-bold text-lg text-brand-navy mb-2 flex items-center gap-3">
-                        <i class="fa-solid fa-circle-question text-brand-accent"></i>
+                    <h3 class="font-heading font-bold text-lg text-slate-900 mb-2 flex items-center gap-3">
+                        <i class="fa-solid fa-circle-question text-amber-500"></i>
                         ¿Qué ventajas ofrece el sistema EIFS para hostales y cabañas boutique en Baños?
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed pl-7">
@@ -528,82 +551,84 @@
     </section>
 
     <!-- FOOTER (4 COLUMNS) -->
-    <footer class="bg-brand-navy text-slate-400 py-16 border-t border-slate-800">
+        <!-- Footer Estandarizado 4 Columnas -->
+    <footer class="bg-slate-950 text-slate-400 py-14 border-t border-slate-800 text-xs">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-                <!-- Col 1: Brand -->
-                <div class="space-y-4">
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-xl bg-brand-accent flex items-center justify-center text-white font-heading font-black text-xl shadow-md">
-                            H
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="font-heading font-extrabold text-lg text-white leading-none tracking-tight">HOMERS</span>
-                            <span class="text-xs font-semibold text-brand-accent tracking-widest uppercase mt-0.5">Constructora</span>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10">
+
+                <!-- Col 1: Empresa & Autoridad -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <img src="../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
+                        <div>
+                            <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
+                            <span class="text-[10px] text-slate-400 block">Divisi&oacute;n de Homers Constructora</span>
                         </div>
                     </div>
-                    <p class="text-sm leading-relaxed text-slate-400">
-                        Expertos en ingeniería y construcción sismorresistente en Steel Framing. Estructuras de acero galvanizado Z275 para laderas y proyectos turísticos de alta exigencia en Ecuador.
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Arq. Sergio Bravo &bull; Construcci&oacute;n sismorresistente con contrato de precio fijo y direcci&oacute;n t&eacute;cnica diaria. Proyectos llave en mano en Ecuador.
                     </p>
-                    <div class="pt-2">
-                        <span class="text-xs text-slate-300 font-semibold block mb-1">Director Técnico:</span>
-                        <span class="text-sm font-bold text-white">Arq. Sergio Bravo</span>
-                        
+                    <div class="space-y-1.5 text-xs text-slate-400 pt-1">
+                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garant&iacute;a Estructural 20 A&ntilde;os</p>
+                        <p class="flex items-center gap-2"><a href="tel:+593995099506" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-phone text-amber-400"></i> +593 99 509 9506</a></p>
+                        <p class="flex items-center gap-2"><a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope text-amber-400"></i> homersarquitectura@gmail.com</a></p>
                     </div>
                 </div>
 
-                <!-- Col 2: Quick Links -->
-                <div>
-                    <h4 class="font-heading font-bold text-white text-base mb-4 border-b border-slate-800 pb-2">Enlaces Rápidos</h4>
-                    <ul class="space-y-2.5 text-sm">
-                        <li><a href="https://steelframingec.com/" class="hover:text-brand-accent transition-colors">Inicio</a></li>
-                        <li><a href="/precio-m2/" class="hover:text-brand-accent transition-colors">Precios m² Oficiales</a></li>
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Zonas de Cobertura</a></li>
-                        <li><a href="/diagnostico-proyecto/" class="hover:text-brand-accent transition-colors">Diagnóstico de Proyectos</a></li>
+                <!-- Col 2: Servicios y Soluciones -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/construir-casa-ecuador/" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Casa Llave en Mano</a></li>
+                        <li><a href="/precio-m2/" class="hover:text-white transition">Calculadora de Precio por m&sup2;</a></li>
+                        <li><a href="/ampliacion-segundo-piso-ecuador/" class="hover:text-white transition">Ampliaci&oacute;n de Segundo Piso sobre Losa</a></li>
+                        <li><a href="/construir-casa-en-ecuador-desde-usa/" class="hover:text-white transition">Programa Construcci&oacute;n desde USA &#127482;&#127480;</a></li>
+                        <li><a href="/modelos-casas-steel-framing-ecuador/" class="hover:text-white transition">Cat&aacute;logo de Modelos y Dise&ntilde;os</a></li>
+                        <li><a href="/credito-hipotecario-biess-steel-framing/" class="hover:text-white transition">Cr&eacute;dito Hipotecario BIESS y Bancos</a></li>
                     </ul>
                 </div>
 
-                <!-- Col 3: Geo Pages / Regions -->
-                <div>
-                    <h4 class="font-heading font-bold text-white text-base mb-4 border-b border-slate-800 pb-2">Zonas Destacadas</h4>
-                    <ul class="space-y-2.5 text-sm">
-                        <li><a href="/steel-framing-nayon/" class="hover:text-brand-accent transition-colors">Steel Framing Nayón</a></li>
-                        <li><a href="/steel-framing-banos-agua-santa/" class="hover:text-brand-accent transition-colors text-brand-accent font-medium">Steel Framing Baños de Agua Santa</a></li>
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Quito, Cumbayá y Tumbaco</a></li>
-                        <li><a href="/zonas-de-cobertura" class="hover:text-brand-accent transition-colors">Sierra y Costa Ecuatoriana</a></li>
+                <!-- Col 3: GuÃ­as TÃ©cnicas y Normativa -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Gu&iacute;as T&eacute;cnicas y Normativa</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/que-es-steel-framing/" class="hover:text-amber-400 transition font-medium text-amber-400">&iquest;Qu&eacute; es Steel Framing? (Gu&iacute;a)</a></li>
+                        <li><a href="/steel-framing-vs-hormigon-bloque-ecuador/" class="hover:text-white transition">Steel Framing vs Hormig&oacute;n y Bloque</a></li>
+                        <li><a href="/steel-framing-ecuador/" class="hover:text-white transition">Gu&iacute;a T&eacute;cnica NEC Steel Framing</a></li>
+                        <li><a href="/construccion-en-seco-ecuador/" class="hover:text-white transition">Manual de Construcci&oacute;n en Seco</a></li>
+                        <li><a href="/permisos-construccion-steel-framing-ecuador/" class="hover:text-white transition">Permisos Municipales y Planos</a></li>
+                        <li><a href="/casas-prefabricadas-ecuador/" class="hover:text-white transition">Steel Framing vs Casas Prefabricadas</a></li>
+                        <li class="pt-1"><a href="/blog-y-recursos/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos T&eacute;cnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
                 </div>
 
-                <!-- Col 4: Contact -->
-                <div>
-                    <h4 class="font-heading font-bold text-white text-base mb-4 border-b border-slate-800 pb-2">Contacto Directo</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-phone text-brand-accent mt-1"></i>
-                            <a href="tel:+593995099506" class="hover:text-white transition-colors">+593 99 509 9506</a>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-envelope text-brand-accent mt-1"></i>
-                            <a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition-colors">homersarquitectura@gmail.com</a>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-location-dot text-brand-accent mt-1"></i>
-                            <span>Baños de Agua Santa & Quito, Ecuador</span>
-                        </li>
+                <!-- Col 4: Zonas de Cobertura en Ecuador -->
+                <div class="space-y-3">
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Zonas de Cobertura en Ecuador</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-amber-400 transition font-medium text-amber-400">Costos y referencias en Steel Framing</a></li>
+                        <li><a href="/steel-framing-quito-ecuador/" class="hover:text-white transition">Quito y Valles (Cumbay&aacute; / Puembo)</a></li>
+                        <li><a href="/steel-framing-guayaquil/" class="hover:text-white transition">Guayaquil y Samborond&oacute;n</a></li>
+                        <li><a href="/steel-framing-cuenca/" class="hover:text-white transition">Cuenca y Azuay</a></li>
+                        <li><a href="/steel-framing-manta/" class="hover:text-white transition">Manta y Costa Manabita</a></li>
+                        <li><a href="/steel-framing-loja/" class="hover:text-white transition">Loja y Sierra Sur</a></li>
+                        <li class="pt-1"><a href="/zonas-de-cobertura/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las 60 zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
-                    <div class="mt-6">
-                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20deseo%20informaci%C3%B3n%20sobre%20Steel%20Framing." target="_blank" rel="noopener" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 shadow-md transition-colors">
-                            <i class="fa-brands fa-whatsapp text-base"></i><span>Chat WhatsApp 24/7</span>
+                    <div class="pt-2">
+                        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 text-white font-bold hover:bg-emerald-500 transition text-xs gap-1.5 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
                         </a>
                     </div>
                 </div>
+
             </div>
 
-            <div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-                <p>&copy; 2026 Homers Constructora - Arq. Sergio Bravo. Todos los derechos reservados.</p>
-                <div class="flex gap-6">
-                    <a href="https://steelframingec.com/" class="hover:text-slate-400 transition-colors">Términos y Condiciones</a>
-                    <a href="https://steelframingec.com/" class="hover:text-slate-400 transition-colors">Políticas de Privacidad</a>
+            <div class="pt-8 border-t border-slate-900 text-center text-slate-400 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div>
+                    &copy; 2026 Homers Constructora Ecuador. Todos los derechos reservados.
+                </div>
+                <div class="text-[11px] text-slate-500">
+                    C&aacute;lculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC y perfiles de acero galvanizado estructural Z275.
                 </div>
             </div>
         </div>
@@ -611,7 +636,7 @@
 
     <!-- MOBILE MENU TOGGLE SCRIPT -->
     <script>
-        const btn = document.getElementById('menu-btn');
+        const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
 
         btn.addEventListener('click', () => {

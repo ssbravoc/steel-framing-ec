@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -35,40 +35,35 @@
   <!-- Favicon -->
   <link rel="icon" href="../img/homers-logo.png" type="image/png">
 
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
-  
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', 'sans-serif'],
-            heading: ['Montserrat', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              navy: '#0B192C',
-              dark: '#1E3E62',
-              primary: '#0056B3',
-              accent: '#FF6500',
-              accentHover: '#E05500',
-              light: '#F8FAFC',
-              slate: '#64748B'
+      <!-- Tailwind CSS (CDN para despliegue instantÃ¡neo en Cloudflare Pages) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            50: '#f8fafc',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        blue: {
+                            900: '#1e3a8a',
+                            950: '#0f1f4b',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
+                    }
+                }
             }
-          }
         }
-      }
-    }
-  </script>
+    </script>
 
   <!-- Schema.org Structured Data -->
   <script type="application/ld+json">
@@ -164,21 +159,21 @@
   }
   </script>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
   <!-- Top Announcement Bar -->
-  <div class="bg-brand-navy text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+  <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
       <div class="flex items-center space-x-2">
         <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
         <span><strong>Normativa Técnica Ecuatoriana NEC:</strong> Proyectos con cálculo sismorresistente certificado .</span>
       </div>
       <div class="flex items-center space-x-4">
-        <span><i class="fa-solid fa-location-dot text-brand-accent mr-1"></i> Quito · Cumbayá · Guayaquil · Manta · Cuenca</span>
+        <span><i class="fa-solid fa-location-dot text-amber-500 mr-1"></i> Quito · Cumbayá · Guayaquil · Manta · Cuenca</span>
         <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20le%20escribo%20desde%20la%20guia%20tecnica%20de%20Steel%20Framing%20Ecuador." target="_blank" class="text-amber-400 hover:text-amber-300 font-semibold transition">
           <i class="fa-brands fa-whatsapp mr-1"></i> +593 99 509 9506
         </a>
@@ -192,27 +187,27 @@
       <a href="/" class="flex items-center space-x-3 group">
         <img src="../img/homers-logo.png" alt="Homers Constructora - Steel Framing Ecuador" class="h-12 w-auto object-contain bg-white rounded-lg p-1" loading="lazy">
         <div>
-          <span class="font-heading font-extrabold text-2xl tracking-tight text-brand-navy group-hover:text-brand-accent transition duration-300 leading-none block">Steel Framing <span class="text-blue-900">EC</span></span>
+          <span class="font-heading font-extrabold text-2xl tracking-tight text-slate-900 group-hover:text-amber-500 transition duration-300 leading-none block">Steel Framing <span class="text-blue-900">EC</span></span>
           <span class="block text-[11px] tracking-tight text-slate-500 font-semibold">División de Homers Constructora • Arq. Sergio Bravo</span>
         </div>
       </a>
 
       <!-- Desktop Nav Links -->
       <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
-        <a href="/" class="hover:text-brand-primary transition">Inicio</a>
-        <a href="/precio-m2/" class="hover:text-brand-primary transition">Precio por m²</a>
-        <a href="/construccion-en-seco-ecuador/" class="hover:text-brand-primary transition">Construcción en Seco</a>
-        <a href="#sismico" class="hover:text-brand-primary transition text-brand-primary font-semibold">Respuesta Sísmica NEC</a>
-        <a href="#factor-z" class="hover:text-brand-primary transition">Factor Z por Ciudad</a>
-        <a href="#mecanismo" class="hover:text-brand-primary transition">Mecanismo Sismo-Dúctil</a>
-        <a href="#tramites" class="hover:text-brand-primary transition">Permisos Municipales</a>
-        <a href="#faq" class="hover:text-brand-primary transition">Preguntas Frecuentes</a>
+        <a href="/" class="hover:text-blue-900 transition">Inicio</a>
+        <a href="/precio-m2/" class="hover:text-blue-900 transition">Precio por m²</a>
+        <a href="/construccion-en-seco-ecuador/" class="hover:text-blue-900 transition">Construcción en Seco</a>
+        <a href="#sismico" class="hover:text-blue-900 transition text-blue-900 font-semibold">Respuesta Sísmica NEC</a>
+        <a href="#factor-z" class="hover:text-blue-900 transition">Factor Z por Ciudad</a>
+        <a href="#mecanismo" class="hover:text-blue-900 transition">Mecanismo Sismo-Dúctil</a>
+        <a href="#tramites" class="hover:text-blue-900 transition">Permisos Municipales</a>
+        <a href="#faq" class="hover:text-blue-900 transition">Preguntas Frecuentes</a>
         <a href="/construir-casa-ecuador/" class="text-amber-500 hover:text-amber-600 font-bold transition">🏡 Construir Mi Casa</a>
       </nav>
 
       <!-- Action Button -->
       <div class="flex items-center space-x-3">
-        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20quiero%20revisar%20la%20viabilidad%20estructural%20de%20mi%20proyecto%20en%20Steel%20Framing." target="_blank" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-brand-accent hover:bg-brand-accentHover shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5">
+        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio%20Bravo,%20quiero%20revisar%20la%20viabilidad%20estructural%20de%20mi%20proyecto%20en%20Steel%20Framing." target="_blank" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5">
           <i class="fa-brands fa-whatsapp text-sm mr-2"></i> Asesoría Técnica
         </a>
       </div>
@@ -222,14 +217,14 @@
   <!-- Breadcrumbs -->
   <div class="bg-slate-100 py-3 border-b border-slate-200 text-xs text-slate-600">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center space-x-2">
-      <a href="/" class="hover:text-brand-primary transition">Inicio</a>
+      <a href="/" class="hover:text-blue-900 transition">Inicio</a>
       <span class="text-slate-400">/</span>
-      <span class="text-brand-navy font-semibold">Steel Framing Ecuador (Guía Técnica y Norma Sísmica NEC)</span>
+      <span class="text-slate-900 font-semibold">Steel Framing Ecuador (Guía Técnica y Norma Sísmica NEC)</span>
     </div>
   </div>
 
   <!-- HERO SECTION: The Big Idea & Todd Brown Hook -->
-  <section class="relative bg-gradient-to-b from-slate-900 via-brand-navy to-slate-900 text-white pt-16 pb-24 overflow-hidden">
+  <section class="relative bg-gradient-to-b from-slate-900 via-slate-900 to-slate-900 text-white pt-16 pb-24 overflow-hidden">
     <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px]"></div>
     
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -279,7 +274,7 @@
             <i class="fa-brands fa-whatsapp text-lg mr-2 text-slate-900"></i> Consultar Viabilidad con Arq. Sergio Bravo
           </a>
           <a href="#sismico" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl font-heading font-semibold text-sm tracking-wider text-white bg-slate-800/80 hover:bg-slate-700 border border-slate-600 transition duration-300">
-            <i class="fa-solid fa-microscope mr-2 text-brand-accent"></i> Ver Análisis Sísmico Comparativo
+            <i class="fa-solid fa-microscope mr-2 text-amber-500"></i> Ver Análisis Sísmico Comparativo
           </a>
         </div>
 
@@ -308,10 +303,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
-        <span class="text-xs font-bold uppercase tracking-widest text-brand-primary bg-blue-50 py-1 px-3 rounded-full border border-blue-200">
+        <span class="text-xs font-bold uppercase tracking-widest text-blue-900 bg-blue-50 py-1 px-3 rounded-full border border-blue-200">
           La Verdad Oculta de la Ingeniería
         </span>
-        <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy">
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900">
           Por Qué la Casa "Pesada" es una Trampa Sísmica en Ecuador
         </h2>
         <p class="text-slate-600 text-base leading-relaxed">
@@ -349,7 +344,7 @@
                 <i class="fa-solid fa-triangle-exclamation"></i>
               </div>
               <div>
-                <strong class="text-brand-navy block text-base font-heading">El Peligro del Hormigón y Bloque Tradicional (1.000 - 1.200 kg/m²):</strong>
+                <strong class="text-slate-900 block text-base font-heading">El Peligro del Hormigón y Bloque Tradicional (1.000 - 1.200 kg/m²):</strong>
                 Una casa típica ecuatoriana de 120 m² de construcción tradicional pesa más de <strong>130 toneladas</strong>. Ante una aceleración sísmica severa de 0.50g, la estructura debe resistir más de <strong>65 toneladas de fuerza lateral cortante</strong>. Al ser un material rígido y frágil, si falla la adherencia mortero-bloque, se produce el colapso inmediato por aplastamiento.
               </div>
             </div>
@@ -359,7 +354,7 @@
                 <i class="fa-solid fa-check-double"></i>
               </div>
               <div>
-                <strong class="text-brand-navy block text-base font-heading">La Solución Racional del Steel Framing (45 - 65 kg/m²):</strong>
+                <strong class="text-slate-900 block text-base font-heading">La Solución Racional del Steel Framing (45 - 65 kg/m²):</strong>
                 Esa misma vivienda de 120 m² en Steel Framing pesa apenas <strong>7 a 9 toneladas en su envolvente y muros</strong> (un 85% a 90% menos de masa). La fuerza que sufre la estructura se reduce de 65 toneladas a menos de 4 toneladas. El acero galvanizado no colapsa frágilmente: se deforma elásticamente, disipa la energía sísmica y mantiene el habitáculo íntegro.
               </div>
             </div>
@@ -368,8 +363,8 @@
 
         <!-- Right: Visual Comparison Chart -->
         <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
-          <h3 class="font-heading font-bold text-xl text-brand-navy flex items-center">
-            <i class="fa-solid fa-chart-column text-brand-accent mr-3"></i> Comparativa de Carga e Inercia Sísmica (por m²)
+          <h3 class="font-heading font-bold text-xl text-slate-900 flex items-center">
+            <i class="fa-solid fa-chart-column text-amber-500 mr-3"></i> Comparativa de Carga e Inercia Sísmica (por m²)
           </h3>
 
           <!-- Bar 1: Hormigón / Bloque -->
@@ -421,7 +416,7 @@
         <span class="text-xs font-bold uppercase tracking-widest text-amber-600 bg-amber-100 py-1 px-3 rounded-full border border-amber-200">
           Zonificación Oficial NEC-SE-DS
         </span>
-        <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy">
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900">
           El Factor Z Sísmico en Ecuador: Por Qué Cada Cantón Exige su Propio Cálculo
         </h2>
         <p class="text-slate-600 text-base leading-relaxed">
@@ -434,7 +429,7 @@
         <div class="overflow-x-auto">
           <table class="w-full text-left border-collapse">
             <thead>
-              <tr class="bg-brand-navy text-white text-xs font-heading uppercase tracking-wider">
+              <tr class="bg-slate-900 text-white text-xs font-heading uppercase tracking-wider">
                 <th class="py-4 px-6 font-bold">Zona Sísmica NEC</th>
                 <th class="py-4 px-6 font-bold">Factor Z (Aceleración g)</th>
                 <th class="py-4 px-6 font-bold">Ciudades / Cantones Ecuatorianos</th>
@@ -520,14 +515,14 @@
       <!-- Legal Alert Box -->
       <div class="bg-white rounded-2xl border-l-4 border-amber-500 p-6 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div class="space-y-1">
-          <div class="font-heading font-bold text-brand-navy text-base flex items-center">
+          <div class="font-heading font-bold text-slate-900 text-base flex items-center">
             <i class="fa-solid fa-gavel text-amber-500 mr-2"></i> Advertencia Legal sobre Construcción en Manabí y la Costa Ecuatoriana (Z = 0.50g):
           </div>
           <p class="text-xs text-slate-600 max-w-4xl">
             Si algún constructor le ofrece hacer una casa en Manta, Crucita, San Vicente o Pedernales basándose en "tablas genéricas sin cálculo individual", está violando el <strong>Capítulo 6.8 de la NEC-SE-VIVIENDA</strong>. En zona Z = 0.50g, el municipio de Manabí rechaza permisos que no incluyan la memoria de cálculo individualizada. En Homers Constructora, cada casa se calcula individualmente con Arq. Sergio Bravo.
           </p>
         </div>
-        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20tengo%20un%20terreno%20en%20la%20Costa%20y%20quiero%20conocer%20el%20calculo%20sismico%20Z=0.50g." target="_blank" class="flex-shrink-0 inline-flex items-center px-4 py-2.5 rounded-xl bg-brand-navy text-white hover:bg-brand-primary text-xs font-bold transition">
+        <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20tengo%20un%20terreno%20en%20la%20Costa%20y%20quiero%20conocer%20el%20calculo%20sismico%20Z=0.50g." target="_blank" class="flex-shrink-0 inline-flex items-center px-4 py-2.5 rounded-xl bg-slate-900 text-white hover:bg-blue-900 text-xs font-bold transition">
           Revisar Mi Terreno <i class="fa-solid fa-arrow-right ml-2 text-amber-400"></i>
         </a>
       </div>
@@ -543,7 +538,7 @@
         <span class="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 py-1 px-3 rounded-full border border-emerald-200">
           El Mecanismo Único de Transformación
         </span>
-        <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy">
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900">
           El Sistema Sismo-Dúctil Homers Z275: Por Qué Nunca Colapsa ni se Oxida
         </h2>
         <p class="text-slate-600 text-base leading-relaxed">
@@ -554,30 +549,30 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         
         <!-- Paso 1 -->
-        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-brand-primary hover:shadow-lg transition duration-300 flex flex-col justify-between">
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-blue-900 hover:shadow-lg transition duration-300 flex flex-col justify-between">
           <div class="space-y-4">
-            <div class="w-12 h-12 rounded-xl bg-blue-100 text-brand-primary flex items-center justify-center text-xl font-black">
+            <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-900 flex items-center justify-center text-xl font-black">
               1
             </div>
-            <h3 class="font-heading font-bold text-lg text-brand-navy">
+            <h3 class="font-heading font-bold text-lg text-slate-900">
               Acero Estructural Z275 (NTE INEN 2526)
             </h3>
             <p class="text-xs text-slate-600 leading-relaxed">
               Utilizamos exclusivamente perfiles de acero rolado en frío con recubrimiento de <strong>275 g/m² de zinc puro</strong> (G90 / Z275). Esto garantiza más de 100 años de resistencia total contra la brisa marina corrosiva en Manta y la condensación térmica en la Sierra andina.
             </p>
           </div>
-          <div class="mt-4 pt-3 border-t border-slate-200 text-[11px] font-semibold text-brand-primary flex items-center">
+          <div class="mt-4 pt-3 border-t border-slate-200 text-[11px] font-semibold text-blue-900 flex items-center">
             <i class="fa-solid fa-check-circle mr-1.5 text-emerald-500"></i> Cero Corrosión Garantizada
           </div>
         </div>
 
         <!-- Paso 2 -->
-        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-brand-primary hover:shadow-lg transition duration-300 flex flex-col justify-between">
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-blue-900 hover:shadow-lg transition duration-300 flex flex-col justify-between">
           <div class="space-y-4">
             <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-xl font-black">
               2
             </div>
-            <h3 class="font-heading font-bold text-lg text-brand-navy">
+            <h3 class="font-heading font-bold text-lg text-slate-900">
               Cruces de San Andrés y Diafragmas
             </h3>
             <p class="text-xs text-slate-600 leading-relaxed">
@@ -590,12 +585,12 @@
         </div>
 
         <!-- Paso 3 -->
-        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-brand-primary hover:shadow-lg transition duration-300 flex flex-col justify-between">
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-blue-900 hover:shadow-lg transition duration-300 flex flex-col justify-between">
           <div class="space-y-4">
             <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center text-xl font-black">
               3
             </div>
-            <h3 class="font-heading font-bold text-lg text-brand-navy">
+            <h3 class="font-heading font-bold text-lg text-slate-900">
               Blindaje Higrotérmico EIFS Multicapa
             </h3>
             <p class="text-xs text-slate-600 leading-relaxed">
@@ -608,12 +603,12 @@
         </div>
 
         <!-- Paso 4 -->
-        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-brand-primary hover:shadow-lg transition duration-300 flex flex-col justify-between">
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-blue-900 hover:shadow-lg transition duration-300 flex flex-col justify-between">
           <div class="space-y-4">
             <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl font-black">
               4
             </div>
-            <h3 class="font-heading font-bold text-lg text-brand-navy">
+            <h3 class="font-heading font-bold text-lg text-slate-900">
               Anclaje Químico a Platea de Hormigón
             </h3>
             <p class="text-xs text-slate-600 leading-relaxed">
@@ -715,10 +710,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
-        <span class="text-xs font-bold uppercase tracking-widest text-brand-primary bg-blue-50 py-1 px-3 rounded-full border border-blue-200">
+        <span class="text-xs font-bold uppercase tracking-widest text-blue-900 bg-blue-50 py-1 px-3 rounded-full border border-blue-200">
           Trámites Sin Complicaciones
         </span>
-        <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy">
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900">
           Permisología Municipal en Ecuador: ¿Cómo se Aprueba un Proyecto de Steel Framing?
         </h2>
         <p class="text-slate-600 text-base leading-relaxed">
@@ -733,7 +728,7 @@
           <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl font-bold">
             <i class="fa-solid fa-landmark"></i>
           </div>
-          <h3 class="font-heading font-bold text-lg text-brand-navy">
+          <h3 class="font-heading font-bold text-lg text-slate-900">
             Quito: Licencia Metropolitana LMU-20
           </h3>
           <p class="text-xs text-slate-600 leading-relaxed">
@@ -751,7 +746,7 @@
           <div class="w-12 h-12 rounded-xl bg-sky-600 text-white flex items-center justify-center text-xl font-bold">
             <i class="fa-solid fa-city"></i>
           </div>
-          <h3 class="font-heading font-bold text-lg text-brand-navy">
+          <h3 class="font-heading font-bold text-lg text-slate-900">
             Guayaquil y Samborondón: Permiso DUME
           </h3>
           <p class="text-xs text-slate-600 leading-relaxed">
@@ -769,7 +764,7 @@
           <div class="w-12 h-12 rounded-xl bg-amber-600 text-white flex items-center justify-center text-xl font-bold">
             <i class="fa-solid fa-map-location-dot"></i>
           </div>
-          <h3 class="font-heading font-bold text-lg text-brand-navy">
+          <h3 class="font-heading font-bold text-lg text-slate-900">
             Cuenca, Manta y Resto del País
           </h3>
           <p class="text-xs text-slate-600 leading-relaxed">
@@ -795,7 +790,7 @@
         <span class="text-xs font-bold uppercase tracking-widest text-slate-600 bg-slate-200 py-1 px-3 rounded-full">
           Cuadro de Decisión para Propietarios
         </span>
-        <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy">
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900">
           Steel Framing vs. Hormigón y Bloque en Ecuador
         </h2>
         <p class="text-slate-600 text-base leading-relaxed">
@@ -807,7 +802,7 @@
         <div class="overflow-x-auto">
           <table class="w-full text-left border-collapse text-sm">
             <thead>
-              <tr class="bg-brand-navy text-white text-xs font-heading uppercase tracking-wider">
+              <tr class="bg-slate-900 text-white text-xs font-heading uppercase tracking-wider">
                 <th class="py-4 px-6">Parámetro Constructivo</th>
                 <th class="py-4 px-6 bg-blue-900/50">Steel Framing (Homers Constructora)</th>
                 <th class="py-4 px-6">Construcción Tradicional (Bloque y Hormigón)</th>
@@ -816,7 +811,7 @@
             <tbody class="divide-y divide-slate-100 text-slate-700">
               
               <tr class="hover:bg-slate-50 transition">
-                <td class="py-4 px-6 font-bold text-brand-navy">Tiempo de Construcción (150 m²)</td>
+                <td class="py-4 px-6 font-bold text-slate-900">Tiempo de Construcción (150 m²)</td>
                 <td class="py-4 px-6 font-semibold text-emerald-700 bg-emerald-50/40">
                   <i class="fa-solid fa-check text-emerald-500 mr-2"></i> 4 a 5 meses (llave en mano)
                 </td>
@@ -826,7 +821,7 @@
               </tr>
 
               <tr class="hover:bg-slate-50 transition">
-                <td class="py-4 px-6 font-bold text-brand-navy">Comportamiento Sísmico (Terremotos)</td>
+                <td class="py-4 px-6 font-bold text-slate-900">Comportamiento Sísmico (Terremotos)</td>
                 <td class="py-4 px-6 font-semibold text-emerald-700 bg-emerald-50/40">
                   <i class="fa-solid fa-shield text-emerald-500 mr-2"></i> Dúctil, disipa energía, no colapsa
                 </td>
@@ -836,7 +831,7 @@
               </tr>
 
               <tr class="hover:bg-slate-50 transition">
-                <td class="py-4 px-6 font-bold text-brand-navy">Desperdicio de Material en Obra</td>
+                <td class="py-4 px-6 font-bold text-slate-900">Desperdicio de Material en Obra</td>
                 <td class="py-4 px-6 font-semibold text-emerald-700 bg-emerald-50/40">
                   <i class="fa-solid fa-check text-emerald-500 mr-2"></i> Menor al 2% (diseño digital computarizado)
                 </td>
@@ -846,7 +841,7 @@
               </tr>
 
               <tr class="hover:bg-slate-50 transition">
-                <td class="py-4 px-6 font-bold text-brand-navy">Presupuesto y Certeza Financiera</td>
+                <td class="py-4 px-6 font-bold text-slate-900">Presupuesto y Certeza Financiera</td>
                 <td class="py-4 px-6 font-semibold text-emerald-700 bg-emerald-50/40">
                   <i class="fa-solid fa-lock text-emerald-500 mr-2"></i> Precio cerrado por contrato (sin sobrecostos)
                 </td>
@@ -856,7 +851,7 @@
               </tr>
 
               <tr class="hover:bg-slate-50 transition">
-                <td class="py-4 px-6 font-bold text-brand-navy">Aislamiento Térmico y Acústico</td>
+                <td class="py-4 px-6 font-bold text-slate-900">Aislamiento Térmico y Acústico</td>
                 <td class="py-4 px-6 font-semibold text-emerald-700 bg-emerald-50/40">
                   <i class="fa-solid fa-check text-emerald-500 mr-2"></i> Lana de vidrio + EPS continuo (cero puentes térmicos)
                 </td>
@@ -866,7 +861,7 @@
               </tr>
 
               <tr class="hover:bg-slate-50 transition">
-                <td class="py-4 px-6 font-bold text-brand-navy">Vida Útil Certificada</td>
+                <td class="py-4 px-6 font-bold text-slate-900">Vida Útil Certificada</td>
                 <td class="py-4 px-6 font-semibold text-emerald-700 bg-emerald-50/40">
                   <i class="fa-solid fa-check text-emerald-500 mr-2"></i> Más de 100 años (Acero Galvanizado Z275)
                 </td>
@@ -888,7 +883,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center mb-10">
-        <h3 class="font-heading font-extrabold text-2xl text-brand-navy">
+        <h3 class="font-heading font-extrabold text-2xl text-slate-900">
           Explore Más Recursos Técnicos de Homers Constructora
         </h3>
         <p class="text-sm text-slate-600 mt-2">Profundice en costos detallados y manuales de instalación en seco para Ecuador.</p>
@@ -897,12 +892,12 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
         
         <!-- Link 1: Precio por m2 -->
-        <a href="/precio-m2/" class="group p-6 rounded-2xl bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-brand-primary transition duration-300 flex items-start space-x-4 shadow-sm hover:shadow-md">
-          <div class="w-12 h-12 rounded-xl bg-brand-primary text-white flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-brand-accent transition">
+        <a href="/precio-m2/" class="group p-6 rounded-2xl bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-900 transition duration-300 flex items-start space-x-4 shadow-sm hover:shadow-md">
+          <div class="w-12 h-12 rounded-xl bg-blue-900 text-white flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-amber-500 transition">
             <i class="fa-solid fa-calculator"></i>
           </div>
           <div class="space-y-1">
-            <h4 class="font-heading font-bold text-brand-navy group-hover:text-brand-primary transition text-base">
+            <h4 class="font-heading font-bold text-slate-900 group-hover:text-blue-900 transition text-base">
               Precios del m² en Ecuador (2026) <i class="fa-solid fa-arrow-right text-xs ml-1 group-hover:translate-x-1 inline-block transition transform"></i>
             </h4>
             <p class="text-xs text-slate-600 leading-relaxed">
@@ -912,12 +907,12 @@
         </a>
 
         <!-- Link 2: Construcción en Seco -->
-        <a href="/construccion-en-seco-ecuador/" class="group p-6 rounded-2xl bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-brand-primary transition duration-300 flex items-start space-x-4 shadow-sm hover:shadow-md">
-          <div class="w-12 h-12 rounded-xl bg-brand-navy text-white flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-brand-accent transition">
+        <a href="/construccion-en-seco-ecuador/" class="group p-6 rounded-2xl bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-900 transition duration-300 flex items-start space-x-4 shadow-sm hover:shadow-md">
+          <div class="w-12 h-12 rounded-xl bg-slate-900 text-white flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-amber-500 transition">
             <i class="fa-solid fa-layer-group"></i>
           </div>
           <div class="space-y-1">
-            <h4 class="font-heading font-bold text-brand-navy group-hover:text-brand-primary transition text-base">
+            <h4 class="font-heading font-bold text-slate-900 group-hover:text-blue-900 transition text-base">
               Guía de Construcción en Seco <i class="fa-solid fa-arrow-right text-xs ml-1 group-hover:translate-x-1 inline-block transition transform"></i>
             </h4>
             <p class="text-xs text-slate-600 leading-relaxed">
@@ -936,10 +931,10 @@
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center space-y-4 mb-16">
-        <span class="text-xs font-bold uppercase tracking-widest text-brand-primary bg-blue-50 py-1 px-3 rounded-full border border-blue-200">
+        <span class="text-xs font-bold uppercase tracking-widest text-blue-900 bg-blue-50 py-1 px-3 rounded-full border border-blue-200">
           Respuestas de Ingeniería
         </span>
-        <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy">
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900">
           Preguntas Frecuentes sobre Steel Framing en Ecuador
         </h2>
         <p class="text-slate-600 text-sm">
@@ -951,8 +946,8 @@
         
         <!-- FAQ 1 -->
         <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-3">
-          <h3 class="font-heading font-bold text-base text-brand-navy flex items-center">
-            <i class="fa-solid fa-circle-question text-brand-accent mr-3"></i>
+          <h3 class="font-heading font-bold text-base text-slate-900 flex items-center">
+            <i class="fa-solid fa-circle-question text-amber-500 mr-3"></i>
             ¿El Steel Framing está regulado legalmente por la Norma Ecuatoriana de la Construcción (NEC)?
           </h3>
           <p class="text-sm text-slate-600 leading-relaxed pl-7">
@@ -962,8 +957,8 @@
 
         <!-- FAQ 2 -->
         <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-3">
-          <h3 class="font-heading font-bold text-base text-brand-navy flex items-center">
-            <i class="fa-solid fa-circle-question text-brand-accent mr-3"></i>
+          <h3 class="font-heading font-bold text-base text-slate-900 flex items-center">
+            <i class="fa-solid fa-circle-question text-amber-500 mr-3"></i>
             ¿Por qué el Steel Framing es más seguro que el bloque ante un sismo severo?
           </h3>
           <p class="text-sm text-slate-600 leading-relaxed pl-7">
@@ -973,8 +968,8 @@
 
         <!-- FAQ 3 -->
         <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-3">
-          <h3 class="font-heading font-bold text-base text-brand-navy flex items-center">
-            <i class="fa-solid fa-circle-question text-brand-accent mr-3"></i>
+          <h3 class="font-heading font-bold text-base text-slate-900 flex items-center">
+            <i class="fa-solid fa-circle-question text-amber-500 mr-3"></i>
             ¿Se oxidan los perfiles en la Costa ecuatoriana (Manta, Salinas, Guayaquil)?
           </h3>
           <p class="text-sm text-slate-600 leading-relaxed pl-7">
@@ -984,8 +979,8 @@
 
         <!-- FAQ 4 -->
         <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-3">
-          <h3 class="font-heading font-bold text-base text-brand-navy flex items-center">
-            <i class="fa-solid fa-circle-question text-brand-accent mr-3"></i>
+          <h3 class="font-heading font-bold text-base text-slate-900 flex items-center">
+            <i class="fa-solid fa-circle-question text-amber-500 mr-3"></i>
             ¿Se puede tramitar un crédito hipotecario del BIESS o banca privada para Steel Framing?
           </h3>
           <p class="text-sm text-slate-600 leading-relaxed pl-7">
@@ -995,8 +990,8 @@
 
         <!-- FAQ 5 -->
         <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-3">
-          <h3 class="font-heading font-bold text-base text-brand-navy flex items-center">
-            <i class="fa-solid fa-circle-question text-brand-accent mr-3"></i>
+          <h3 class="font-heading font-bold text-base text-slate-900 flex items-center">
+            <i class="fa-solid fa-circle-question text-amber-500 mr-3"></i>
             ¿Se siente frío o suena "a hueco" al golpear la pared?
           </h3>
           <p class="text-sm text-slate-600 leading-relaxed pl-7">
@@ -1010,8 +1005,8 @@
   </section>
 
   <!-- SECCIÓN 9: Autoridad y Asesoría Directa con el Arq. Sergio Bravo (Todd Brown CTA Final) -->
-  <section class="py-20 bg-brand-navy text-white relative overflow-hidden">
-    <div class="absolute -right-20 -bottom-20 w-96 h-96 bg-brand-accent/10 rounded-full blur-3xl pointer-events-none"></div>
+  <section class="py-20 bg-slate-900 text-white relative overflow-hidden">
+    <div class="absolute -right-20 -bottom-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="bg-slate-800/80 border border-slate-700 rounded-3xl p-8 sm:p-12 shadow-2xl flex flex-col md:flex-row items-center gap-8">

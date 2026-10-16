@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <!-- Google Tag Manager -->
@@ -36,25 +36,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Tailwind CSS CDN -->
+        <!-- Tailwind CSS (CDN para despliegue instantÃ¡neo en Cloudflare Pages) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        brand: {
-                            navy: '#0B192C',
-                            dark: '#1E3E62',
-                            primary: '#0056B3',
-                            accent: '#FF6500',
-                            accentHover: '#E05A00',
-                            light: '#F8FAFC'
-                        }
-                    },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif']
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            50: '#f8fafc',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        blue: {
+                            900: '#1e3a8a',
+                            950: '#0f1f4b',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
                     }
                 }
             }
@@ -161,40 +166,59 @@
     </script>
 </head>
 
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMF2MKZ3"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager -->
 
     <!-- Navbar Sticky -->
-    <header class="sticky top-0 z-50 bg-brand-navy/95 backdrop-blur-md border-b border-slate-800 text-white shadow-xl">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="https://steelframingec.com/" class="flex items-center space-x-3 group">
-                <img src="../../img/homers-logo.png" alt="Homers Constructora" class="h-11 w-auto object-contain bg-white rounded p-1 shadow-md group-hover:scale-105 transition">
-                <div class="flex flex-col">
-                    <span class="font-heading font-black text-lg tracking-tight text-white flex items-center gap-1.5">
-                        Steel Framing <span class="text-brand-accent">EC</span>
-                    </span>
-                    <span class="text-[10px] text-slate-300 font-medium tracking-wide uppercase">Homers Constructora • Arq. Sergio Bravo</span>
-                </div>
-            </a>
-
-            <!-- Navegación de Escritorio -->
-            <nav class="hidden lg:flex items-center space-x-7 text-xs font-semibold uppercase tracking-wider">
-                <a href="https://steelframingec.com/" class="hover:text-brand-accent transition">Inicio</a>
-                <a href="/construir-casa-ecuador/" class="hover:text-brand-accent transition">Llave en Mano</a>
-                <a href="/precio-m2/" class="hover:text-brand-accent transition">Precio m²</a>
-                <a href="/blog-y-recursos" class="text-brand-accent transition font-bold">Blog Técnico</a>
-                <a href="/zonas-de-cobertura" class="hover:text-brand-accent transition">Cobertura</a>
-            </nav>
-
-            <!-- CTA Acceso Rápido -->
-            <div class="hidden sm:flex items-center space-x-4">
-                <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20asesoria%20para%20un%20proyecto%20de%20Strip%20Mall%20en%20Steel%20Framing" target="_blank" rel="noopener noreferrer" class="bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider shadow-lg hover:shadow-brand-accent/30 transition flex items-center gap-2">
-                    <i class="fa-brands fa-whatsapp text-sm"></i> Cotizar Proyecto
+        <!-- Header / Navbar Canonica Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="/" class="flex items-center gap-3 group">
+                    <img src="../../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">Divisi&oacute;n de Homers Constructora &bull; Arq. Sergio Bravo</span>
+                    </div>
                 </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="/" class="hover:text-blue-900 transition">&larr; Inicio</a>
+                    <a href="/que-es-steel-framing/" class="hover:text-blue-900 transition">&iquest;Qu&eacute; es?</a>
+                    <a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-blue-900 transition">Precios m&sup2;</a>
+                    <a href="/blog-y-recursos/" class="text-amber-600 font-bold transition">Blog T&eacute;cnico</a>
+                    <a href="/zonas-de-cobertura/" class="hover:text-blue-900 transition">&#128205; Cobertura</a>
+                    <a href="/construir-casa-en-ecuador-desde-usa/" class="text-blue-900 font-bold hover:text-blue-950 transition">&#127482;&#127480; Migrantes</a>
+                    <a href="/construir-casa-ecuador/" class="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Casa</a>
+                </nav>
+
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20del%20blog%20de%20steelframingec.com%20y%20deseo%20cotizar%20un%20proyecto" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                    <button id="mobile-menu-btn" class="lg:hidden text-slate-700 hover:text-slate-900 p-2 focus:outline-none" aria-label="Abrir men&uacute;">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
             </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-xl px-4 pt-3 pb-6 space-y-2">
+            <a href="/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&larr; Inicio</a>
+            <a href="/que-es-steel-framing/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&iquest;Qu&eacute; es?</a>
+            <a href="/cuanto-cuesta-construir-en-ecuador/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">Precios m&sup2;</a>
+            <a href="/blog-y-recursos/" class="block py-2 text-sm font-bold text-amber-600">Blog T&eacute;cnico</a>
+            <a href="/zonas-de-cobertura/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&#128205; Zonas de Cobertura (60 Ciudades)</a>
+            <a href="/construir-casa-en-ecuador-desde-usa/" class="block py-2 text-sm font-bold text-blue-900">&#127482;&#127480; Programa para Migrantes</a>
+            <a href="/construir-casa-ecuador/" class="block py-2.5 text-center rounded-lg bg-amber-500 text-slate-950 font-extrabold text-xs">&#127969; Cotizar Casa Llave en Mano</a>
+            <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20del%20blog%20de%20steelframingec.com%20y%20deseo%20cotizar%20un%20proyecto" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-lg bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+            </a>
         </div>
     </header>
 
@@ -217,26 +241,58 @@
             <article class="lg:col-span-2 space-y-10 bg-white p-6 sm:p-10 rounded-3xl shadow-xl border border-slate-100">
 
                 <!-- Cabecera del Artículo -->
-                <header class="space-y-4 border-b border-slate-100 pb-8">
-                    <div class="flex flex-wrap items-center gap-3">
-                        <span class="bg-brand-navy text-white text-[11px] font-heading font-bold uppercase px-3 py-1 rounded-lg">Arquitectura Comercial</span>
-                        <span class="bg-amber-100 text-amber-800 text-[11px] font-heading font-bold uppercase px-3 py-1 rounded-lg">Fase 3 • Enjambre B2B</span>
-                        <span class="text-slate-500 text-xs flex items-center gap-1.5"><i class="fa-regular fa-calendar"></i> 10 de Octubre, 2026</span>
-                        <span class="text-slate-500 text-xs flex items-center gap-1.5"><i class="fa-regular fa-clock"></i> 9 min lectura</span>
+                    <!-- Header / Navbar Canonica Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="/" class="flex items-center gap-3 group">
+                    <img src="../../img/homers-logo.png" alt="Homers Constructora Steel Framing EC" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" loading="lazy">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight leading-none">Steel Framing <span class="text-blue-900">EC</span></span>
+                        <span class="text-[11px] text-slate-500 font-semibold tracking-wide">Divisi&oacute;n de Homers Constructora &bull; Arq. Sergio Bravo</span>
                     </div>
+                </a>
 
-                    <h1 class="font-heading font-black text-3xl sm:text-4xl text-slate-900 tracking-tight leading-tight">
-                        Centros Comerciales y Strip Malls en Steel Framing: Construcción Comercial Fast-Track y Máxima Rentabilidad Inmobiliaria
-                    </h1>
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                    <a href="/" class="hover:text-blue-900 transition">&larr; Inicio</a>
+                    <a href="/que-es-steel-framing/" class="hover:text-blue-900 transition">&iquest;Qu&eacute; es?</a>
+                    <a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-blue-900 transition">Precios m&sup2;</a>
+                    <a href="/blog-y-recursos/" class="text-amber-600 font-bold transition">Blog T&eacute;cnico</a>
+                    <a href="/zonas-de-cobertura/" class="hover:text-blue-900 transition">&#128205; Cobertura</a>
+                    <a href="/construir-casa-en-ecuador-desde-usa/" class="text-blue-900 font-bold hover:text-blue-950 transition">&#127482;&#127480; Migrantes</a>
+                    <a href="/construir-casa-ecuador/" class="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3.5 py-1.5 rounded-lg font-bold transition text-xs">&#127969; Cotizar Casa</a>
+                </nav>
 
-                    <p class="text-lg text-slate-600 leading-relaxed font-normal">
-                        El auge inmobiliario en las principales arterias viales y zonas de expansión comercial del Ecuador —como Cumbayá, Tumbaco, Vía a la Costa, Samborondón y Manta— demanda soluciones constructivas que eliminen la parálisis financiera de la obra tradicional y maximicen el retorno de inversión desde el primer día.
-                    </p>
-                </header>
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20del%20blog%20de%20steelframingec.com%20y%20deseo%20cotizar%20un%20proyecto" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-heading font-bold text-xs uppercase tracking-wider text-white bg-amber-500 hover:bg-amber-600 shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-0.5 gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio
+                    </a>
+                    <button id="mobile-menu-btn" class="lg:hidden text-slate-700 hover:text-slate-900 p-2 focus:outline-none" aria-label="Abrir men&uacute;">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-xl px-4 pt-3 pb-6 space-y-2">
+            <a href="/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&larr; Inicio</a>
+            <a href="/que-es-steel-framing/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&iquest;Qu&eacute; es?</a>
+            <a href="/cuanto-cuesta-construir-en-ecuador/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">Precios m&sup2;</a>
+            <a href="/blog-y-recursos/" class="block py-2 text-sm font-bold text-amber-600">Blog T&eacute;cnico</a>
+            <a href="/zonas-de-cobertura/" class="block py-2 text-sm font-semibold text-slate-700 hover:text-blue-900">&#128205; Zonas de Cobertura (60 Ciudades)</a>
+            <a href="/construir-casa-en-ecuador-desde-usa/" class="block py-2 text-sm font-bold text-blue-900">&#127482;&#127480; Programa para Migrantes</a>
+            <a href="/construir-casa-ecuador/" class="block py-2.5 text-center rounded-lg bg-amber-500 text-slate-950 font-extrabold text-xs">&#127969; Cotizar Casa Llave en Mano</a>
+            <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20vengo%20del%20blog%20de%20steelframingec.com%20y%20deseo%20cotizar%20un%20proyecto" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-lg bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Arq. Sergio Bravo
+            </a>
+        </div>
+    </header>
 
                 <!-- Autor Badge Compacto -->
                 <div class="flex items-center gap-4 bg-slate-50 p-4 rounded-2xl border border-slate-200">
-                    <div class="w-12 h-12 rounded-full bg-brand-navy text-white font-heading font-bold flex items-center justify-center text-lg shadow-md">
+                    <div class="w-12 h-12 rounded-full bg-slate-900 text-white font-heading font-bold flex items-center justify-center text-lg shadow-md">
                         SB
                     </div>
                     <div>
@@ -257,7 +313,7 @@
                 <div class="prose prose-slate max-w-none space-y-6 text-slate-700 leading-relaxed">
                     
                     <h2 class="font-heading font-bold text-2xl text-slate-900 pt-4 border-t border-slate-100 flex items-center gap-2">
-                        <i class="fa-solid fa-chart-line text-brand-accent text-xl"></i> El Fenómeno de los Strip Malls y el Impacto del Time-to-Market
+                        <i class="fa-solid fa-chart-line text-amber-500 text-xl"></i> El Fenómeno de los Strip Malls y el Impacto del Time-to-Market
                     </h2>
                     
                     <p>
@@ -278,7 +334,7 @@
                     </div>
 
                     <h2 class="font-heading font-bold text-2xl text-slate-900 pt-6 border-t border-slate-100 flex items-center gap-2">
-                        <i class="fa-solid fa-building text-brand-accent text-xl"></i> Flexibilidad Arquitectónica: Grandes Luces y Plantas Diáfanas
+                        <i class="fa-solid fa-building text-amber-500 text-xl"></i> Flexibilidad Arquitectónica: Grandes Luces y Plantas Diáfanas
                     </h2>
 
                     <p>
@@ -307,7 +363,7 @@
                     </ul>
 
                     <h2 class="font-heading font-bold text-2xl text-slate-900 pt-6 border-t border-slate-100 flex items-center gap-2">
-                        <i class="fa-solid fa-shield-halved text-brand-accent text-xl"></i> Ingeniería Sismorresistente bajo Norma NEC en Ecuador
+                        <i class="fa-solid fa-shield-halved text-amber-500 text-xl"></i> Ingeniería Sismorresistente bajo Norma NEC en Ecuador
                     </h2>
 
                     <p>
@@ -324,7 +380,7 @@
                         <div class="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm">
                             <table class="w-full text-left border-collapse text-xs">
                                 <thead>
-                                    <tr class="bg-brand-navy text-white font-heading">
+                                    <tr class="bg-slate-900 text-white font-heading">
                                         <th class="p-3.5">Modalidad de Ejecución</th>
                                         <th class="p-3.5">Rango de Inversión por m²</th>
                                         <th class="p-3.5">Plazo Estimado</th>
@@ -334,13 +390,13 @@
                                 <tbody class="divide-y divide-slate-200 bg-white">
                                     <tr class="hover:bg-slate-50 transition">
                                         <td class="p-3.5 font-semibold text-slate-900">Obra Semiacabada</td>
-                                        <td class="p-3.5 font-bold text-brand-primary">$360 – $380 / m²</td>
+                                        <td class="p-3.5 font-bold text-blue-900">$360 – $380 / m²</td>
                                         <td class="p-3.5 text-slate-600">45 a 60 días</td>
                                         <td class="p-3.5 text-slate-600">Estructura Z275, cerchas, cubierta, cerramientos exteriores y rigidización.</td>
                                     </tr>
                                     <tr class="hover:bg-slate-50 transition">
                                         <td class="p-3.5 font-semibold text-slate-900">Llave en Mano Comercial</td>
-                                        <td class="p-3.5 font-bold text-brand-accent">$480 – $550 / m²</td>
+                                        <td class="p-3.5 font-bold text-amber-500">$480 – $550 / m²</td>
                                         <td class="p-3.5 text-slate-600">75 a 90 días</td>
                                         <td class="p-3.5 text-slate-600">Proyecto integral: fundaciones, estructura, instalaciones eléctricas/sanitarias, EIFS y acabados de alta gama.</td>
                                     </tr>
@@ -350,7 +406,7 @@
                     </div>
 
                     <h2 class="font-heading font-bold text-2xl text-slate-900 pt-6 border-t border-slate-100 flex items-center gap-2">
-                        <i class="fa-solid fa-map-location-dot text-brand-accent text-xl"></i> Cobertura Estratégica en Ejes Comerciales del País
+                        <i class="fa-solid fa-map-location-dot text-amber-500 text-xl"></i> Cobertura Estratégica en Ejes Comerciales del País
                     </h2>
 
                     <p>
@@ -359,11 +415,11 @@
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
                         <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                            <h4 class="font-heading font-bold text-slate-900 text-sm mb-1"><i class="fa-solid fa-location-dot text-brand-accent mr-1"></i> Quito y Valles (Cumbayá / Tumbaco / Puembo)</h4>
+                            <h4 class="font-heading font-bold text-slate-900 text-sm mb-1"><i class="fa-solid fa-location-dot text-amber-500 mr-1"></i> Quito y Valles (Cumbayá / Tumbaco / Puembo)</h4>
                             <p class="text-xs text-slate-600">Plazas comerciales de conveniencia, centros médicos y strip malls en avenidas Interoceánica y Conquistadores.</p>
                         </div>
                         <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                            <h4 class="font-heading font-bold text-slate-900 text-sm mb-1"><i class="fa-solid fa-location-dot text-brand-accent mr-1"></i> Costa (Guayaquil / Samborondón / Manta)</h4>
+                            <h4 class="font-heading font-bold text-slate-900 text-sm mb-1"><i class="fa-solid fa-location-dot text-amber-500 mr-1"></i> Costa (Guayaquil / Samborondón / Manta)</h4>
                             <p class="text-xs text-slate-600">Polo gastronómico y comercial en Vía a Samborondón, Vía a la Costa y zonas de alta afluencia turística y portuaria.</p>
                         </div>
                     </div>
@@ -379,17 +435,17 @@
                     <h3 class="font-heading font-bold text-slate-900 text-xs uppercase tracking-wider">Recursos y Herramientas Relacionadas:</h3>
                     <ul class="space-y-2 text-xs font-semibold">
                         <li>
-                            <a href="/diagnostico-proyecto/" class="text-brand-primary hover:text-brand-accent transition flex items-center gap-2">
+                            <a href="/diagnostico-proyecto/" class="text-blue-900 hover:text-amber-500 transition flex items-center gap-2">
                                 <i class="fa-solid fa-arrow-right"></i> Solicita el Diagnóstico Técnico Especializado para tu Proyecto Comercial
                             </a>
                         </li>
                         <li>
-                            <a href="/precio-m2/" class="text-brand-primary hover:text-brand-accent transition flex items-center gap-2">
+                            <a href="/precio-m2/" class="text-blue-900 hover:text-amber-500 transition flex items-center gap-2">
                                 <i class="fa-solid fa-arrow-right"></i> Consulta la Calculadora Interactiva de Precio por m² en Ecuador
                             </a>
                         </li>
                         <li>
-                            <a href="/zonas-de-cobertura" class="text-brand-primary hover:text-brand-accent transition flex items-center gap-2">
+                            <a href="/zonas-de-cobertura" class="text-blue-900 hover:text-amber-500 transition flex items-center gap-2">
                                 <i class="fa-solid fa-arrow-right"></i> Revisa las Zonas de Cobertura y Brigadas en Quito, Guayaquil y Manta
                             </a>
                         </li>
@@ -424,10 +480,10 @@
             <aside class="space-y-8">
 
                 <!-- Widget de Contacto Directo / CTA -->
-                <div class="bg-gradient-to-br from-brand-navy to-slate-900 text-white p-6 rounded-3xl shadow-xl border border-slate-800 space-y-4">
+                <div class="bg-gradient-to-br from-slate-950 to-slate-900 text-white p-6 rounded-3xl shadow-xl border border-slate-800 space-y-4">
                     <div class="font-heading font-bold text-base text-white border-b border-slate-800 pb-3 flex items-center justify-between">
                         <span>Asesoría Comercial Directa</span>
-                        <i class="fa-solid fa-helmet-safety text-brand-accent"></i>
+                        <i class="fa-solid fa-helmet-safety text-amber-500"></i>
                     </div>
                     <p class="text-slate-300 text-xs leading-relaxed">
                         Cotiza la construcción de tu Strip Mall o local comercial fast-track con contratos de precio fijo y garantía estructural.
@@ -479,6 +535,7 @@
     </main>
 
     <!-- FOOTER ESTANDARIZADO 4 COLUMNAS -->
+        <!-- Footer Estandarizado 4 Columnas -->
     <footer class="bg-slate-950 text-slate-400 py-14 border-t border-slate-800 text-xs">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10">
@@ -489,14 +546,14 @@
                         <img src="../../img/homers-logo.png" alt="Homers Constructora" class="h-10 w-auto object-contain bg-white rounded p-1" loading="lazy">
                         <div>
                             <span class="font-heading font-black text-white text-base tracking-tight block">Steel Framing EC</span>
-                            <span class="text-[10px] text-slate-400 block">División de Homers Constructora</span>
+                            <span class="text-[10px] text-slate-400 block">Divisi&oacute;n de Homers Constructora</span>
                         </div>
                     </div>
                     <p class="text-slate-400 text-xs leading-relaxed">
-                        Arq. Sergio Bravo • Construcción sismorresistente con contrato de precio fijo y dirección técnica diaria. Proyectos llave en mano en Ecuador.
+                        Arq. Sergio Bravo &bull; Construcci&oacute;n sismorresistente con contrato de precio fijo y direcci&oacute;n t&eacute;cnica diaria. Proyectos llave en mano en Ecuador.
                     </p>
                     <div class="space-y-1.5 text-xs text-slate-400 pt-1">
-                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garantía Estructural 20 Años</p>
+                        <p class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> Garant&iacute;a Estructural 20 A&ntilde;os</p>
                         <p class="flex items-center gap-2"><a href="tel:+593995099506" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-phone text-amber-400"></i> +593 99 509 9506</a></p>
                         <p class="flex items-center gap-2"><a href="mailto:homersarquitectura@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope text-amber-400"></i> homersarquitectura@gmail.com</a></p>
                     </div>
@@ -507,25 +564,25 @@
                     <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Servicios y Soluciones</div>
                     <ul class="space-y-2 text-xs">
                         <li><a href="/construir-casa-ecuador/" class="hover:text-amber-400 transition font-semibold text-amber-500"><i class="fa-solid fa-house mr-1 text-amber-500"></i> Construir Casa Llave en Mano</a></li>
-                        <li><a href="/precio-m2/" class="hover:text-white transition">Calculadora de Precio por m²</a></li>
-                        <li><a href="/ampliacion-segundo-piso-ecuador/" class="hover:text-white transition">Ampliación de Segundo Piso sobre Losa</a></li>
-                        <li><a href="/construir-casa-en-ecuador-desde-usa/" class="hover:text-white transition">Programa Construcción desde USA 🇺🇸</a></li>
-                        <li><a href="/modelos-casas-steel-framing-ecuador/" class="hover:text-white transition">Catálogo de Modelos y Diseños</a></li>
-                        <li><a href="/credito-hipotecario-biess-steel-framing/" class="hover:text-white transition">Crédito Hipotecario BIESS y Bancos</a></li>
+                        <li><a href="/precio-m2/" class="hover:text-white transition">Calculadora de Precio por m&sup2;</a></li>
+                        <li><a href="/ampliacion-segundo-piso-ecuador/" class="hover:text-white transition">Ampliaci&oacute;n de Segundo Piso sobre Losa</a></li>
+                        <li><a href="/construir-casa-en-ecuador-desde-usa/" class="hover:text-white transition">Programa Construcci&oacute;n desde USA &#127482;&#127480;</a></li>
+                        <li><a href="/modelos-casas-steel-framing-ecuador/" class="hover:text-white transition">Cat&aacute;logo de Modelos y Dise&ntilde;os</a></li>
+                        <li><a href="/credito-hipotecario-biess-steel-framing/" class="hover:text-white transition">Cr&eacute;dito Hipotecario BIESS y Bancos</a></li>
                     </ul>
                 </div>
 
-                <!-- Col 3: Guías Técnicas y Normativa -->
+                <!-- Col 3: GuÃ­as TÃ©cnicas y Normativa -->
                 <div class="space-y-3">
-                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Guías Técnicas y Normativa</div>
+                    <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Gu&iacute;as T&eacute;cnicas y Normativa</div>
                     <ul class="space-y-2 text-xs">
-                        <li><a href="/que-es-steel-framing/" class="hover:text-amber-400 transition font-medium text-amber-400">¿Qué es Steel Framing? (Guía)</a></li>
-                        <li><a href="/steel-framing-vs-hormigon-bloque-ecuador/" class="hover:text-white transition">Steel Framing vs Hormigón y Bloque</a></li>
-                        <li><a href="/steel-framing-ecuador/" class="hover:text-white transition">Guía Técnica NEC Steel Framing</a></li>
-                        <li><a href="/construccion-en-seco-ecuador/" class="hover:text-white transition">Manual de Construcción en Seco</a></li>
+                        <li><a href="/que-es-steel-framing/" class="hover:text-amber-400 transition font-medium text-amber-400">&iquest;Qu&eacute; es Steel Framing? (Gu&iacute;a)</a></li>
+                        <li><a href="/steel-framing-vs-hormigon-bloque-ecuador/" class="hover:text-white transition">Steel Framing vs Hormig&oacute;n y Bloque</a></li>
+                        <li><a href="/steel-framing-ecuador/" class="hover:text-white transition">Gu&iacute;a T&eacute;cnica NEC Steel Framing</a></li>
+                        <li><a href="/construccion-en-seco-ecuador/" class="hover:text-white transition">Manual de Construcci&oacute;n en Seco</a></li>
                         <li><a href="/permisos-construccion-steel-framing-ecuador/" class="hover:text-white transition">Permisos Municipales y Planos</a></li>
                         <li><a href="/casas-prefabricadas-ecuador/" class="hover:text-white transition">Steel Framing vs Casas Prefabricadas</a></li>
-                        <li class="pt-1"><a href="/blog-y-recursos" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos Técnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                        <li class="pt-1"><a href="/blog-y-recursos/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Blog y Recursos T&eacute;cnicos <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
                 </div>
 
@@ -534,12 +591,12 @@
                     <div class="font-heading font-bold text-white text-xs uppercase tracking-wider border-b border-slate-800 pb-2">Zonas de Cobertura en Ecuador</div>
                     <ul class="space-y-2 text-xs">
                         <li><a href="/cuanto-cuesta-construir-en-ecuador/" class="hover:text-amber-400 transition font-medium text-amber-400">Costos y referencias en Steel Framing</a></li>
-                        <li><a href="/steel-framing-quito-ecuador/" class="hover:text-white transition">Quito y Valles (Cumbayá / Puembo)</a></li>
-                        <li><a href="/steel-framing-guayaquil/" class="hover:text-white transition">Guayaquil y Samborondón</a></li>
+                        <li><a href="/steel-framing-quito-ecuador/" class="hover:text-white transition">Quito y Valles (Cumbay&aacute; / Puembo)</a></li>
+                        <li><a href="/steel-framing-guayaquil/" class="hover:text-white transition">Guayaquil y Samborond&oacute;n</a></li>
                         <li><a href="/steel-framing-cuenca/" class="hover:text-white transition">Cuenca y Azuay</a></li>
                         <li><a href="/steel-framing-manta/" class="hover:text-white transition">Manta y Costa Manabita</a></li>
                         <li><a href="/steel-framing-loja/" class="hover:text-white transition">Loja y Sierra Sur</a></li>
-                        <li class="pt-1"><a href="/zonas-de-cobertura" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
+                        <li class="pt-1"><a href="/zonas-de-cobertura/" class="text-amber-400 hover:text-amber-300 font-bold transition flex items-center gap-1">Ver todas las 60 zonas de cobertura <i class="fa-solid fa-arrow-right text-[10px]"></i></a></li>
                     </ul>
                     <div class="pt-2">
                         <a href="https://wa.me/593995099506?text=Hola%20Arq.%20Sergio,%20quiero%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 text-white font-bold hover:bg-emerald-500 transition text-xs gap-1.5 shadow-sm">
@@ -555,7 +612,7 @@
                     &copy; 2026 Homers Constructora Ecuador. Todos los derechos reservados.
                 </div>
                 <div class="text-[11px] text-slate-500">
-                    Cálculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC y perfiles de acero galvanizado estructural Z275.
+                    C&aacute;lculo estructural sismorresistente bajo norma NEC-SE-DS / NEC-SE-AC y perfiles de acero galvanizado estructural Z275.
                 </div>
             </div>
         </div>
